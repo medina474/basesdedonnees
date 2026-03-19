@@ -14,10 +14,10 @@ create temporary table livraison_import (
   tournee_id    smallint
 );
 
-copy livraison_import from '/tmp/livraisons/livraisons-2023.csv' (format csv, header, encoding 'UTF8');
-copy livraison_import from '/tmp/livraisons/livraisons-2024.csv' (format csv, header, encoding 'UTF8');
-copy livraison_import from '/tmp/livraisons/livraisons-2025.csv' (format csv, header, encoding 'UTF8');
-copy livraison_import from '/tmp/livraisons/livraisons-2026.csv' (format csv, header, encoding 'UTF8');
+copy livraison_import from '/tmp/cocagne/livraisons/livraisons-2023.csv' (format csv, header, encoding 'UTF8');
+copy livraison_import from '/tmp/cocagne/livraisons/livraisons-2024.csv' (format csv, header, encoding 'UTF8');
+copy livraison_import from '/tmp/cocagne/livraisons/livraisons-2025.csv' (format csv, header, encoding 'UTF8');
+copy livraison_import from '/tmp/cocagne/livraisons/livraisons-2026.csv' (format csv, header, encoding 'UTF8');
 
 -- Corrections
 

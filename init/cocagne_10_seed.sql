@@ -5,10 +5,10 @@ create schema if not exists import authorization pg_database_owner;
 -- Données générales
 
 copy unite
-from '/tmp/commun/unite.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/commun/unite.csv' (format csv, header, encoding 'UTF8');
 
 copy banque
-from '/tmp/commun/banque.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/commun/banque.csv' (format csv, header, encoding 'UTF8');
 --
 
 insert into jardin (jardin,tva,contact,telephone,email,adresse,code_postal,ville,localisation) values
@@ -93,7 +93,7 @@ insert into fermeture (saison_id, semaine) values
   (2026,53);
 
 copy ferie (saison_id, ferie, jour)
-from '/tmp/commun/ferie.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/commun/ferie.csv' (format csv, header, encoding 'UTF8');
 
 -- Adhérents
 
@@ -107,7 +107,7 @@ select setval(pg_get_serial_sequence('profil', 'id'), max(id))
 from profil;
 
 copy mode_paiement(id,mode_paiement,nombre)
-from '/tmp/mode_paiement.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/mode_paiement.csv' (format csv, header, encoding 'UTF8');
 
 create table import.adherent
 (
@@ -130,7 +130,7 @@ create table import.adherent
 );
 
 copy import.adherent
-from '/tmp/adherents.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/adherents.csv' (format csv, header, encoding 'UTF8');
 
 insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville, compte_comptable, date_adhesion, date_sortie, mode_paiement_id, created_at)
   select id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville,
@@ -218,7 +218,7 @@ create table import.cotisation
 );
 
 copy import.cotisation
-from '/tmp/sage/cotisations.csv' (format csv, header, delimiter ";", encoding 'UTF8');
+from '/tmp/cocagne/sage/cotisations.csv' (format csv, header, delimiter ";", encoding 'UTF8');
 
 insert into adhesion (adherent_id, date_adhesion, saison_id, mode_paiement_id, numero, montant)
 select a.id, max(i.jour), extract(year from i.jour), a.mode_paiement_id,
@@ -232,13 +232,13 @@ having sum(montant) <> 0;
 -- Quid de l'historique des prix ?
 
 copy produit (id,produit,prix,marge,ordre,categorie,couleur,doublage_id)
-from '/tmp/produits.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/produits.csv' (format csv, header, encoding 'UTF8');
 
 select setval(pg_get_serial_sequence('produit', 'id'), max(id))
 from produit;
 
 copy panier (id,produit_id,panier,quantite,prix,domicile,actif)
-from '/tmp/paniers.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/paniers.csv' (format csv, header, encoding 'UTF8');
 
 select setval(pg_get_serial_sequence('panier', 'id'), max(id))
 from panier;
@@ -264,10 +264,10 @@ insert into calendrier (id,saison_id,calendrier) values
 select setval(pg_get_serial_sequence('calendrier', 'id'), max(id))
 from calendrier;
 
-copy planning (calendrier_id, jour) from '/tmp/planning/planning-2023.csv' (format csv, header, encoding 'UTF8');
-copy planning (calendrier_id, jour) from '/tmp/planning/planning-2024.csv' (format csv, header, encoding 'UTF8');
-copy planning (calendrier_id, jour) from '/tmp/planning/planning-2025.csv' (format csv, header, encoding 'UTF8');
-copy planning (calendrier_id, jour) from '/tmp/planning/planning-2026.csv' (format csv, header, encoding 'UTF8');
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2023.csv' (format csv, header, encoding 'UTF8');
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2024.csv' (format csv, header, encoding 'UTF8');
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2025.csv' (format csv, header, encoding 'UTF8');
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2026.csv' (format csv, header, encoding 'UTF8');
 
 insert into preparation (id, preparation, jour) values
   (1,'Mardi', 2),
@@ -334,10 +334,10 @@ select setval(pg_get_serial_sequence('tournee', 'id'), max(id))
 from tournee;
 
 copy point_distribution (tournee_id, depot_id, ordre)
-from '/tmp/point_distribution.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/point_distribution.csv' (format csv, header, encoding 'UTF8');
 
 copy itineraire (tournee_id, depot_id, adherent_id, ordre)
-from '/tmp/itineraire.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/itineraire.csv' (format csv, header, encoding 'UTF8');
 
 -- Abonnements
 
@@ -360,10 +360,10 @@ create table import.abonnement
   reste_prec       smallint
 );
 
-copy import.abonnement from '/tmp/abonnements/abonnements-2023.csv' (format csv, header, ENCODING 'UTF8');
-copy import.abonnement from '/tmp/abonnements/abonnements-2024.csv' (format csv, header, ENCODING 'UTF8');
-copy import.abonnement from '/tmp/abonnements/abonnements-2025.csv' (format csv, header, ENCODING 'UTF8');
-copy import.abonnement from '/tmp/abonnements/abonnements-2026.csv' (format csv, header, ENCODING 'UTF8');
+copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2023.csv' (format csv, header, ENCODING 'UTF8');
+copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2024.csv' (format csv, header, ENCODING 'UTF8');
+copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2025.csv' (format csv, header, ENCODING 'UTF8');
+copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2026.csv' (format csv, header, ENCODING 'UTF8');
 
 update import.abonnement set mode_paiement_id = null where mode_paiement_id = 0;
 
@@ -395,7 +395,7 @@ select setval(pg_get_serial_sequence('poste', 'id'), max(id))
 from poste;
 
 copy employe (id, prenom, nom, service, poste_id, actif)
-from '/tmp/employe.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/employe.csv' (format csv, header, encoding 'UTF8');
 
 select setval(pg_get_serial_sequence('employe', 'id'), max(id))
 from employe;
@@ -459,7 +459,7 @@ create table import.don
 );
 
 copy import.don
-from '/tmp/sage/dons.csv' (format csv, header, delimiter ";", encoding 'UTF8');
+from '/tmp/cocagne/sage/dons.csv' (format csv, header, delimiter ";", encoding 'UTF8');
 
 insert into don (adherent_id, montant, jour)
 select a.id, d.montant, d.jour from import.don d
@@ -481,7 +481,7 @@ create temporary table code_postal_temp (
 );
 
 copy code_postal_temp
-from '/tmp/commun/codepostal.csv' (format csv, header, QUOTE '"', ESCAPE '''', ENCODING 'UTF8');
+from '/tmp/cocagne/commun/codepostal.csv' (format csv, header, QUOTE '"', ESCAPE '''', ENCODING 'UTF8');
 
 insert into code_postal (code_insee, cp, ville, commune, libelle_acheminement, ligne5, coordonnees)
 select code_commune_INSEE, code_postal,
@@ -507,7 +507,7 @@ create table import.panier_commande
 );
 
 copy import.panier_commande
-from '/tmp/access/paniers_commandes.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/paniers_commandes.csv' (format csv, header, encoding 'UTF8');
 
 with import as
 (
@@ -572,7 +572,7 @@ create table import.panier_composition
 );
 
 copy import.panier_composition
-from '/tmp/access/paniers_compositions.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/paniers_compositions.csv' (format csv, header, encoding 'UTF8');
 
 insert into panier_composition (panier_commande_id, produit_id, qte, montant)
 select panier, code_veg, qte_panier_arrondie, prix_veg
@@ -596,7 +596,7 @@ set montant =
 -- --------------------------------------------------------------------------------
 
 copy etape
-from '/tmp/access/etapes.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/etapes.csv' (format csv, header, encoding 'UTF8');
 
 create table if not exists import.action
 (
@@ -611,7 +611,7 @@ create table if not exists import.action
 );
 
 copy import.action
-from '/tmp/access/actions.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/actions.csv' (format csv, header, encoding 'UTF8');
 
 insert into action
 select
@@ -650,7 +650,7 @@ create table import.fournisseur
 );
 
 copy import.fournisseur
-from '/tmp/access/JDC _ Fournisseur BD.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Fournisseur BD.csv' (format csv, header, encoding 'UTF8');
 
 insert into fournisseur
 select
@@ -674,7 +674,7 @@ select
  from import.fournisseur;
 
 copy "resistance"
-from '/tmp/resistance.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/resistance.csv' (format csv, header, encoding 'UTF8');
 
 
 -- Article
@@ -716,7 +716,7 @@ create table import.article
 );
 
 copy import.article
-from '/tmp/access/JDC _ Végétal BD.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Végétal BD.csv' (format csv, header, encoding 'UTF8');
 
 update import.article
 set fournisseur_id = 1
@@ -799,7 +799,7 @@ from import.article
 where fournisseur_id is not null and fournisseur_id <> 1;
 
 copy "article_produit"
-from '/tmp/access/JDC _ Végétal produit.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Végétal produit.csv' (format csv, header, encoding 'UTF8');
 --
 
 create table import.stock
@@ -824,7 +824,7 @@ create table import.stock
 );
 
 copy import.stock
-from '/tmp/access/JDC _ Stock.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Stock.csv' (format csv, header, encoding 'UTF8');
 
 update import.stock
 set fournisseur_id = 1
@@ -859,7 +859,7 @@ create table import.mouvement
 );
 
 copy import.mouvement
-from '/tmp/access/JDC _ Mouvement.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Mouvement.csv' (format csv, header, encoding 'UTF8');
 
 insert into mouvement (stock_id, jour, sens, qte)
 select id, jour,
@@ -891,7 +891,7 @@ create table import.plan_culture
 );
 
 copy import.plan_culture
-from '/tmp/access/JDC _ Plan de culture.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Plan de culture.csv' (format csv, header, encoding 'UTF8');
 
 insert into plan_culture ( id,
   article_id,
@@ -938,4 +938,4 @@ select
 from import.plan_culture;
 
 copy achat
-from '/tmp/access/JDC _ Achat.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Achat.csv' (format csv, header, encoding 'UTF8');

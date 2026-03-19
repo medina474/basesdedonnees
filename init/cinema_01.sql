@@ -43,7 +43,8 @@ create unique index pays_pk
 alter table pays
   add primary key using index pays_pk;
 
-\copy pays (code, pays, drapeau_unicode) from '/tmp/002-pays.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+copy pays (code, pays, drapeau_unicode)
+from '/tmp/cinema/002-pays.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
 
 create table langues (
   code3 char(3) not null,
@@ -63,19 +64,9 @@ create unique index langues_pk
 alter table langues
   add primary key using index langues_pk;
 
-\copy langues from '/tmp/003-langues.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+copy langues
+from '/tmp/cinema/003-langues.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
 
--- Role public
-create role role_web nologin;
-
--- PostgREST
-create role postgrest noinherit login password '9012';
-grant role_web to postgrest;
-
-grant usage on schema public to role_web;
-
-alter default privileges in schema public
-  grant select on tables to role_web;
 
 /*
 alter default privileges
@@ -83,6 +74,7 @@ alter default privileges
   in schema cinema
   grant insert, select, update, delete on tables to iutsd;
 */
+
 -- Personnes
 
 create table personnes (
@@ -931,7 +923,8 @@ create temporary table etablissement_tmp
   extra text
 );
 
-\copy etablissement_tmp from '/tmp/cnc-données-cartographie-2023.csv' delimiter ';' csv header quote '"' encoding 'utf8';
+copy etablissement_tmp
+from '/tmp/cinema/cnc-données-cartographie-2023.csv' delimiter ';' csv header quote '"' encoding 'utf8';
 
 insert into etablissements (etablissement_id, nom, voie, ville, ecrans, fauteuils, coordonnees)
   select nauto, nom, adresse, commune, écrans, fauteuils, st_makepoint(longitude, latitude)
@@ -941,28 +934,51 @@ drop table etablissement_tmp;
 
 --
 
-\copy genres from '/tmp/041-genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
-\copy series from '/tmp/041-series.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+copy genres
+from '/tmp/cinema/041-genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
-\copy films (film_id,titre,titre_original,annee,sortie,duree,serie_id, pays) from '/tmp/030-films.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+copy series
+from '/tmp/cinema/041-series.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
-\copy films_genres (film_id, genre_id) from '/tmp/041-films_genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
-\copy personnes (personne_id, nom, prenom, naissance, deces, nationalite, artiste, popularite) from '/tmp/010-personnes.csv' delimiter ',' csv header quote '"' encoding 'utf8';
-\copy societes from '/tmp/011-societes.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
-\copy equipes from '/tmp/031-equipes.csv' delimiter ',' csv header quote '"' encoding 'utf8';
-\copy productions (film_id, societe_id) from '/tmp/041-productions.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+copy films (film_id,titre,titre_original,annee,sortie,duree,serie_id, pays)
+from '/tmp/cinema/030-films.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
-\copy links_films from '/tmp/042-links_films.csv' (format csv, header, encoding 'utf8');
-\copy links_personnes from '/tmp/042-links_personnes.csv' (format csv, header, encoding 'utf8');
+copy films_genres (film_id, genre_id)
+from '/tmp/cinema/041-films_genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
-\copy salles (salle_id, etablissement_id, salle, sieges) from '/tmp/043-salles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
-\copy resumes (film_id, langue, resume) from '/tmp/044-resumes.csv' delimiter ',' csv header quote '"' escape '"' encoding 'utf8';
-\copy certifications (pays_code,ordre,certification,description) from '/tmp/046-certifications.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+copy personnes (personne_id, nom, prenom, naissance, deces, nationalite, artiste, popularite)
+from '/tmp/cinema/010-personnes.csv' delimiter ',' csv header quote '"' encoding 'utf8';
+
+copy societes
+from '/tmp/cinema/011-societes.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+
+copy equipes from '/tmp/cinema/031-equipes.csv' delimiter ',' csv header quote '"' encoding 'utf8';
+
+copy productions (film_id, societe_id)
+from '/tmp/cinema/041-productions.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+
+copy links_films
+from '/tmp/cinema/042-links_films.csv' (format csv, header, encoding 'utf8');
+
+copy links_personnes
+from '/tmp/cinema/042-links_personnes.csv' (format csv, header, encoding 'utf8');
+
+copy salles (salle_id, etablissement_id, salle, sieges)
+from '/tmp/cinema/043-salles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+
+copy resumes (film_id, langue, resume)
+from '/tmp/cinema/044-resumes.csv' delimiter ',' csv header quote '"' escape '"' encoding 'utf8';
+
+copy certifications (pays_code,ordre,certification,description)
+from '/tmp/cinema/046-certifications.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
 -- Mots clés
-\copy motscles (motcle_id,motcle) from '/tmp/030-motscles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
-\copy films_motscles (film_id,motcle_id) from '/tmp/030-films_motscles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+copy motscles (motcle_id,motcle)
+from '/tmp/cinema/030-motscles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+
+copy films_motscles (film_id,motcle_id)
+from '/tmp/cinema/030-films_motscles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
 -- Slogans
 create temporary table slogan_tmp
@@ -971,16 +987,19 @@ create temporary table slogan_tmp
   slogan text
 );
 
-\copy slogan_tmp from '/tmp/030-films_slogan.csv' delimiter ',' csv header quote '"' encoding 'utf8';
+copy slogan_tmp
+from '/tmp/cinema/030-films_slogan.csv' delimiter ',' csv header quote '"' encoding 'utf8';
 
 UPDATE films AS f
 SET slogan = t.slogan
 FROM slogan_tmp AS t
 WHERE f.film_id = t.film_id;
 
-\copy votes (film_id, votants, moyenne) from '/tmp/060-votes.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+copy votes (film_id, votants, moyenne)
+from '/tmp/cinema/060-votes.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
-\copy quizzes from '/tmp/070-quizzes.csv' delimiter ',' csv header quote '''' escape '\' encoding 'utf8';
+copy quizzes
+from '/tmp/cinema/070-quizzes.csv' delimiter ',' csv header quote '''' escape '\' encoding 'utf8';
 
 do $$
 begin
@@ -990,7 +1009,8 @@ begin
     , (FLOOR(random()*77)+1)
     , (date(now() + trunc(random()  * 14) * '1 day'::interval)+ '21hour'::interval));
   end loop;
-end; $$
+end;
+$$;
 
 -- https://stackoverflow.com/questions/12618232/copy-a-few-of-the-columns-of-a-csv-file-into-a-table
 

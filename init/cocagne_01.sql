@@ -105,7 +105,8 @@ create temporary table pays_import
   telephone smallint
 );
 
-copy pays_import from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
+copy pays_import
+from '/tmp/cocagne/commun/pays.csv' (format csv, header, encoding 'UTF8');
 
 insert into pays
 select code2, pays, communautaire, telephone

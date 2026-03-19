@@ -1,28 +1,12 @@
 \c cocagne
 
--- PostgREST
-
--- postgrest est le rôle (avec un mot de passe de login) utilisé par l'application pour se connecter à la base.
--- Il doit être configuré pour avoir un accès très limité.
--- Il s'agit d'un caméléon dont la tâche est de « devenir » un autre utilisateur pour servir des requêtes HTTP authentifiées.
-
-create role postgrest nosuperuser nocreatedb nocreaterole noinherit noreplication nobypassrls
-  login password '9012';
-
--- Roles sans mot de passe de login.
--- Il faut se connecter d'abord avec l'utilisateur postgrest.
--- Puis celui-ci usurpe une des identités suivantes suivant le role présent dans le JWT.
--- Lorsqu'une demande contient un JWT valide avec une revendication de rôle,
--- PostgREST passera au rôle de base de données avec ce nom pendant la durée de la demande HTTP.
--- SET LOCAL ROLE adherent;
-create role anonyme nologin;
+-- Rôles pour postgREST
 create role adherent nologin;
 create role salarie nologin;
 create role livreur nologin;
 create role comptable nologin;
 
 -- L'utilisateur postgrest peut se connecter en tant que ...
-grant anonyme to postgrest;
 grant adherent to postgrest;
 grant salarie to postgrest;
 grant livreur to postgrest;
@@ -32,8 +16,8 @@ grant comptable to postgrest;
 create schema api authorization pg_database_owner;
 
 -- Donner l'accès aux objets du schéma
-grant usage on schema api to anonyme;
-grant usage on schema extensions to anonyme;
+grant usage on schema api to guest;
+grant usage on schema extensions to guest;
 
 grant usage on schema api to livreur;
 grant usage on schema extensions to livreur;
@@ -45,7 +29,7 @@ create or replace view api.jardin with (security_invoker = true) as
   from jardin;
 
 grant select on api.jardin, public.jardin
-to anonyme;
+to guest;
 -- --------------------------------------------------------------------------------
 
 create or replace view api.saison with (security_invoker = true) as
@@ -53,43 +37,43 @@ create or replace view api.saison with (security_invoker = true) as
   from saison s;
 
 grant select on api.saison
-to anonyme, adherent, salarie, livreur, comptable;
+to guest, adherent, salarie, livreur, comptable;
 
 grant select on public.saison
-to anonyme, adherent, salarie, livreur, comptable;
+to guest, adherent, salarie, livreur, comptable;
 
 grant select on public.saison
-to anonyme;
+to guest;
 
 create or replace view api.ferie with (security_invoker = true) as
   select f.jour, f.saison_id, f.ferie
   from ferie f;
 
 grant select on api.ferie
-to anonyme, adherent, salarie, livreur, comptable;
+to guest, adherent, salarie, livreur, comptable;
 
 grant select on public.ferie
-to anonyme, adherent, salarie, livreur, comptable;
+to guest, adherent, salarie, livreur, comptable;
 
 create or replace view api.fermeture with (security_invoker = true) as
   select f.id, f.saison_id, f.semaine
   from fermeture f;
 
 grant select on api.fermeture
-to anonyme, adherent, salarie, livreur, comptable;
+to guest, adherent, salarie, livreur, comptable;
 
 grant select on public.fermeture
-to anonyme, adherent, salarie, livreur, comptable;
+to guest, adherent, salarie, livreur, comptable;
 
 create or replace view api.cotisation with (security_invoker = true) as
   select id, saison_id, profil_id, montant
   from cotisation;
 
 grant select on api.cotisation
-to anonyme;
+to guest;
 
 grant select on public.cotisation
-to anonyme;
+to guest;
 -- --------------------------------------------------------------------------------
 
 
@@ -102,10 +86,10 @@ create or replace view api.depot with (security_invoker = true) as
   from depot d;
 
 grant select on api.depot
-to anonyme, adherent, salarie, livreur, comptable;
+to guest, adherent, salarie, livreur, comptable;
 
 grant select on public.depot
-to anonyme, adherent, salarie, livreur, comptable;
+to guest, adherent, salarie, livreur, comptable;
 
 create or replace view api.adherent with (security_invoker = true) as
   select a.id, a.adherent, a.profil_id, a.depot_id, a.email, a.telephone,
@@ -120,10 +104,10 @@ to livreur, comptable;
 
 
 grant select on api.adherent
-to anonyme;
+to guest;
 
 grant select on public.adherent
-to anonyme;
+to guest;
 
 create or replace view api.adhesion with (security_invoker = true) as
   select a.id, a.adherent_id, a.date_adhesion, a.montant, a.saison_id
@@ -136,14 +120,14 @@ grant select on public.adhesion
 to comptable;
 
 grant select on public.adhesion, api.adhesion
-to anonyme;
+to guest;
 
 create or replace view api.tournee with (security_invoker = true) as
   select *
   from tournee;
 
 grant select on api.tournee, public.tournee
-to anonyme;
+to guest;
 
 
 create or replace view api.distribution with (security_invoker = true) as
@@ -151,10 +135,10 @@ create or replace view api.distribution with (security_invoker = true) as
   from distribution;
 
 grant select on api.distribution, public.distribution
-to anonyme;
+to guest;
 
 grant update (validated_at) on api.distribution, public.distribution
-to anonyme;
+to guest;
 
 CREATE OR REPLACE FUNCTION api.reset_distribution()
 RETURNS void
@@ -166,21 +150,21 @@ BEGIN
 END;
 $$;
 
-GRANT EXECUTE ON FUNCTION api.reset_distribution() TO anonyme;
+GRANT EXECUTE ON FUNCTION api.reset_distribution() to guest;
 
 create or replace view api.panier with (security_invoker = true) as
   select *
   from panier;
 
 grant select on api.panier, public.panier
-to anonyme;
+to guest;
 
 create or replace view api.produit with (security_invoker = true) as
   select *
   from produit;
 
 grant select on api.produit, public.produit
-to anonyme;
+to guest;
 
 
 create or replace view api.abonnement with (security_invoker = true) as
@@ -188,7 +172,7 @@ create or replace view api.abonnement with (security_invoker = true) as
   from abonnement;
 
 grant select on api.abonnement, public.abonnement
-to anonyme;
+to guest;
 
 
 create or replace view api.adhesion with (security_invoker = true) as
@@ -196,7 +180,7 @@ create or replace view api.adhesion with (security_invoker = true) as
   from adhesion;
 
 grant select on api.adhesion, public.adhesion
-to anonyme;
+to guest;
 
 
 create or replace view api.profil with (security_invoker = true) as
@@ -204,14 +188,14 @@ create or replace view api.profil with (security_invoker = true) as
   from profil;
 
 grant select on api.profil, public.profil
-to anonyme;
+to guest;
 
 create or replace view api.livraison with (security_invoker = true) as
   select *
   from livraison;
 
 grant select on api.livraison, public.livraison
-to anonyme;
+to guest;
 
 
 create or replace view api.mode_paiement with (security_invoker = true) as
@@ -219,7 +203,7 @@ create or replace view api.mode_paiement with (security_invoker = true) as
   from mode_paiement;
 
 grant select on api.mode_paiement, public.mode_paiement
-to anonyme;
+to guest;
 
 
 create or replace view api.planning with (security_invoker = true) as
@@ -227,7 +211,7 @@ create or replace view api.planning with (security_invoker = true) as
   from planning;
 
 grant select on api.planning, public.planning
-to anonyme;
+to guest;
 
 
 create or replace view api.preparation with (security_invoker = true) as
@@ -235,13 +219,13 @@ create or replace view api.preparation with (security_invoker = true) as
   from preparation;
 
 grant select on api.preparation, public.preparation
-to anonyme;
+to guest;
 
 grant select on api.preparation, public.preparation
-to anonyme;
+to guest;
 
 grant insert, update, delete on api.preparation, public.preparation
-to anonyme;
+to guest;
 -- --------------------------------------------------------------------------------
 
 create or replace view api.calendrier with (security_invoker = true) as
@@ -249,7 +233,7 @@ create or replace view api.calendrier with (security_invoker = true) as
   from calendrier;
 
 grant select on api.calendrier, public.calendrier
-to anonyme;
+to guest;
 
 -- --------------------------------------------------------------------------------
 
@@ -258,7 +242,7 @@ create or replace view api.itineraire with (security_invoker = true) as
   from itineraire;
 
 grant select on api.itineraire, public.itineraire
-to anonyme;
+to guest;
 -- --------------------------------------------------------------------------------
 
 create or replace view api.saisons
@@ -287,7 +271,7 @@ select
 from saison s;
 
 grant select on api.saisons
-to anonyme;
+to guest;
 
 create or replace view public.tournees
 as
@@ -330,12 +314,12 @@ from tournee t
 join calendrier c on c.id = t.calendrier_id;
 
 grant select on api.tournees
-to anonyme;
+to guest;
 
 -- --------------------------------------------------------------------------------
 
 security label for anon
-  on role anonyme is 'masked';
+  on role guest is 'masked';
 
 security label for anon
   on column api.adherent.email

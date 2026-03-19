@@ -1,0 +1,118 @@
+"N°Zone de stockage","Libellé stockage","Condition stockage","Catégorie stockage","Zone géographique","Zone géographique détail","Surface stockage","Actif stockage"
+1,"Non affecté",,,"Bâtiment principal",,,0
+2,"Frigo","Chambre froide","Vente","Magasin",,,1
+3,"Reefer","T°C extérieure","Divers","Bâtiment extérieur",,,0
+4,"O",,"Production agricole","Serre","Tunnel",0.02500000,1
+5,"N",,"Production agricole","Serre","Tunnel",0.02500000,1
+6,"M",,"Production agricole","Serre","Tunnel",0.02500000,1
+7,"L",,"Production agricole","Serre","Tunnel",0.02500000,1
+8,"K",,"Production agricole","Serre","Tunnel",0.02500000,1
+9,"J",,"Production agricole","Serre","Tunnel",0.02500000,1
+10,"I",,"Production agricole","Serre","Tunnel",0.02500000,1
+11,"H",,"Production agricole","Serre","Tunnel",0.02500000,1
+12,"G",,"Production agricole","Serre","Tunnel",0.02500000,1
+13,"F",,"Production agricole","Serre","Tunnel",0.02500000,1
+14,"E",,"Production agricole","Serre","Tunnel",0.02500000,1
+15,"A",,"Production agricole","Serre","Tunnel",0.02500000,1
+16,"Zone A",,"Production agricole","Extérieur","tritunnel",,1
+17,"Forçage endive",,"Production transformation","Hall technique","Salle beige",,1
+18,"Non affecté",,,"Bâtiment principal",,,0
+19,"4",,"Production","Bâtiment principal","Cave",,0
+20,"1",,"Divers","Bâtiment principal","Cave",,0
+21,"Stock produit phytosanitaire",,"Divers","Hall technique",,,1
+22,"3",,"Divers","Bâtiment principal","Cave",,0
+23,"Stock de semences","T°C ambiante","Stock végétaux","Hall technique","Bureau",,1
+24,"Stock des outils à main",,"Divers","Hall technique",,,1
+25,"Non affecté",,,"Bâtiment principal",,,0
+26,"Non affecté",,,"Bâtiment principal",,,0
+27,"Stock amendement organique",,"Divers","Hall technique",,,1
+28,"Non affecté",,,"Bâtiment principal",,,0
+29,"Stock tomate","T°C ambiante","Stock végétaux","Hall technique",,,1
+30,"Stock oignon, échalotte","T°C ambiante","Stock végétaux","Hall technique",,,1
+31,"Frigo semences","Chambre froide","Stock végétaux","Hall technique","Bureau",,1
+32,"Stock emballage (papier, plastique)","T°C ambiante","Divers","Hall technique",,,1
+33,"Stock jupe pour papier","T°C ambiante","Divers","Hall technique",,,1
+34,"Stock godet","T°C ambiante","Divers","Hall technique",,,1
+35,"Stock P17, fd Bio (rouleaux neufs)","T°C ambiante","Divers","Hall technique",,,1
+36,"Non affecté",,,"Bâtiment principal",,,0
+37,"Stock caisse adhérent","T°C ambiante","Divers","Hall technique",,,1
+38,"Stock caisse verte, grise, bleue vide","T°C ambiante","Divers","Hall technique",,,1
+39,"Stock gaz","T°C extérieure","Divers","Extérieur",,,0
+40,"pas affecté",,"Divers","Magasin",,,0
+41,"Hall de vente","T°C ambiante","Vente","Magasin",,,1
+42,"Réserve sec","T°C ambiante","Vente","Magasin",,,1
+43,"D",,"Production agricole","Serre","Tunnel",0.02500000,1
+44,"C",,"Production agricole","Serre","Tunnel",0.02500000,1
+45,"B",,"Production agricole","Serre","Tunnel",0.02500000,1
+46,"Calendula",,"Production agricole","Extérieur","Thaon-les-Vosges",0.60000000,1
+47,"Catherine",,"Production agricole","Extérieur","Thaon-les-Vosges",0.38000000,1
+48,"Scierie N°1",,"Production agricole","Extérieur","Thaon-les-Vosges",0.50000000,1
+49,"Ruer",,"Production agricole","Extérieur","Thaon-les-Vosges",0.01000000,1
+50,"Vallero",,"Production agricole","Extérieur","Thaon-les-Vosges",0.31000000,1
+51,"Bontemps",,"Production agricole","Extérieur","Thaon-les-Vosges",0.50000000,1
+52,"Terrel",,"Production agricole","Extérieur","Thaon-les-Vosges",0.60000000,1
+53,"Chavelot",,"Production agricole","Extérieur","Chavelot",0.49000000,1
+54,"Bessler Haut",,"Production agricole","Extérieur","Girmont",0.46000000,1
+55,"Bessler Bas",,"Production agricole","Extérieur","Girmont",0.24000000,1
+56,"Catherine bis",,"Production agricole","Extérieur","Thaon-les-Vosges",0.03000000,1
+57,"Jeuxey",,"Production agricole","Extérieur","Jeuxey",0.71000000,1
+58,"Deyvillers",,"Production agricole","Extérieur","Deyvillers",0.90000000,1
+59,"Razimont, code 1990",,"Production agricole","Extérieur","Epinal",1.00000000,1
+60,"Scierie N°2",,"Production agricole","Extérieur","Thaon-les-Vosges",0.60000000,1
+61,"Extérieur",,"Production agricole","Extérieur","tritunnel",,1
+62,"Petit tunnel chaud",,"Production agricole","Extérieur","tritunnel",,1
+63,"n°14",,"Production agricole","Serre","Chapelle",0.03830000,1
+64,"n°17",,"Production agricole","Serre","Chapelle",0.03830000,1
+65,"n°20",,"Production agricole","Serre","Chapelle",0.03830000,1
+66,"n°21",,"Production agricole","Serre","Chapelle",0.03830000,1
+67,"n°22",,"Production agricole","Serre","Chapelle",0.03830000,1
+68,"n°00",,"Production agricole","Serre","Chapelle",0.03830000,1
+69,"n°12",,"Production agricole","Serre","Chapelle",0.03830000,1
+70,"n°02",,"Production agricole","Serre","Chapelle",0.03830000,1
+71,"n°03",,"Production agricole","Serre","Chapelle",0.03830000,1
+72,"n°01",,"Production agricole","Serre","Chapelle",0.03830000,1
+73,"n°07",,"Production agricole","Serre","Chapelle",0.03830000,1
+74,"n°04",,"Production agricole","Serre","Chapelle",0.03830000,1
+75,"n°05",,"Production agricole","Serre","Chapelle",0.03830000,1
+76,"n°06",,"Production agricole","Serre","Chapelle",0.03830000,1
+77,"n°11",,"Production agricole","Serre","Chapelle",0.03830000,1
+78,"n°23",,"Production agricole","Serre","Chapelle",0.03830000,1
+79,"n°24",,"Production agricole","Serre","Chapelle",0.03830000,1
+80,"n°15",,"Production agricole","Serre","Chapelle",0.03830000,1
+81,"n°16",,"Production agricole","Serre","Chapelle",0.03830000,1
+82,"n°18",,"Production agricole","Serre","Chapelle",0.03830000,1
+83,"n°19",,"Production agricole","Serre","Chapelle",0.03830000,1
+84,"frigo vert","Chambre froide","Production stockage","Hall technique","frigo",,1
+85,"frigo rouge","Chambre froide","Production stockage","Hall technique","frigo",,1
+86,"frigo bleu","Chambre froide","Production stockage","Hall technique","frigo",,1
+87,"panier",,"Production transformation","Hall technique","Hall technique",,1
+88,,,,"Extérieur",,,0
+89,"n°13",,"Production agricole","Serre","Chapelle",0.03830000,1
+90,"panier",,"Production transformation","Hall technique","panier",,1
+91,"salle courge",,"Production stockage","Hall technique","salle blanche",,1
+92,"salle pleurote",,"Production agricole","Hall technique","salle grise",,1
+93,"salle shiitaké",,"Production agricole","Hall technique","salle jaune",,1
+94,"lavage",,"Production transformation","Hall technique","lavage",,1
+95,"Zone de tri",,"Production transformation","Hall technique","tri",,1
+96,"préparation 1",,"Production transformation","Hall technique","prépa 1",,1
+97,"préparation 2",,"Production transformation","Hall technique","prépa 2",,1
+98,"?",,"Production transformation","Hall technique",,,0
+99,,,,"Hall technique",,,0
+100,"labo","T°C ambiante","Production transformation","Hall technique","labo",,1
+101,,,,"Hall technique",,,1
+102,"n°08",,"Production agricole","Serre","Chapelle",0.03830000,1
+103,"n°09",,"Production agricole","Serre","Chapelle",0.03830000,1
+104,"n°10",,"Production agricole","Serre","Chapelle",0.03830000,1
+105,"Tournesol",,"Production agricole","Extérieur","Thaon-les-Vosges",0.60000000,1
+106,"Bleuet",,"Production agricole","Extérieur","Thaon-les-Vosges",0.90000000,1
+107,"Coquelicot",,"Production agricole","Extérieur","Thaon-les-Vosges",0.05000000,1
+108,"Table 1",,"Production agricole","Serre","Chapelle 0",0.00100000,1
+109,"Table 2",,"Production agricole","Serre","Chapelle 0",0.00100000,1
+110,"Table 3",,"Production agricole","Serre","Chapelle 0",0.00100000,1
+111,"Table 4",,"Production agricole","Serre","Chapelle 0",0.00100000,1
+112,"Table 5",,"Production agricole","Serre","Chapelle 0",0.00100000,1
+113,"Zone B",,"Production agricole","Extérieur","tritunnel",,1
+114,"Zone C",,"Production agricole","Extérieur","tritunnel",,1
+115,"Zone D",,"Production agricole","Extérieur","tritunnel",,1
+116,"Zone E",,"Production agricole","Extérieur","tritunnel",,1
+117,"Zone F",,"Production agricole","Extérieur","tritunnel",,1

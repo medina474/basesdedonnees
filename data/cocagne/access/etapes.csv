@@ -1,0 +1,12 @@
+id,etape,ordre
+1,Semence,1
+2,Préparation du sol,2
+3,Semis,3
+4,Plantation,5
+5,Récolte,7
+6,Stockage,8
+7,Vente,9
+8,Repiquage,11
+11,Elevage du plant,4
+12,Entretien culture,6
+13,Technique,10

@@ -1,0 +1,39 @@
+id,produit_id,panier,quantite,prix,domicile,actif
+1,1,Panier simple hebdomadaire,50,710.0,false,true
+2,1,Panier simple 15 jours,25,417.50,false,true
+3,2,Panier familial hebdomadaire,50,1220.0,false,true
+4,2,Panier familial 15 jours,25,675.0,false,true
+5,1,Panier simple à la carte,1,17.70,false,true
+6,2,Panier familial à la carte,1,28.0,false,true
+7,1,Panier solidaire,1,2.5,false,true
+8,3,Panier fruité 1,1,14.5,false,true
+9,4,Panier fruité 2,1,17.5,false,true
+10,5,Panier fruité 3,1,23.5,false,true
+11,6,Oeufs x6,1,3.15,false,true
+12,7,Panier fruité 4,1,25.0,false,true
+13,1,Panier simple hebdomadaire à domicile,50,925.0,true,true
+14,1,Panier simple 15 jours à domicile,25,515.0,true,true
+15,2,Panier familial hebdomadaire à domicile,50,1485.0,true,true
+16,2,Panier familial 15 jours à domicile,25,880.0,true,true
+17,1,Panier simple soutien x12,12,196.0,false,false
+18,1,Panier simple soutien x6,6,98.0,false,false
+19,2,Panier familial soutien x12,12,196.0,false,false
+20,2,Panier familial soutien x6,6,98.0,false,false
+21,8,Panier Mixte Petite Tribu,50,1450.0,false,true
+22,8,Panier Mixte Petite Tribu Domicile,50,1700.0,true,true
+23,8,Panier Mixte Petite Tribu 15,25,800.0,false,true
+24,8,Panier Mixte Petite Tribu 15 Domicile,25,900.0,true,true
+25,8,Panier Mixte Petite Tribu à la carte,1,33.0,false,true
+26,8,Panier Mixte Petite Tribu 15 Domicile,1,37.0,true,true
+27,9,Panier Mixte Grande Tribu,50,2450.0,false,true
+28,9,Panier Mixte Grande Tribu Domicile,50,2750.0,true,true
+29,9,Panier Mixte Grande Tribu 15,25,1300.0,false,true
+30,9,Panier Mixte Grande Tribu 15 Domicile,25,1500.0,true,true
+31,9,Panier Mixte Grande Tribu à la carte,1,53.0,false,true
+32,9,Panier Mixte Grande Tribu à la carte Domicile,1,61.0,true,true
+33,10,Panier Mixte Solo,50,950.0,false,true
+34,10,Panier Mixte Solo Domicile,50,1250.0,true,true
+35,10,Panier Mixte Solo 15,25,550.0,false,true
+36,10,Panier Mixte Solo 15 Domicile,25,675.0,true,true
+37,10,Panier Mixte Solo à la carte,1,23.0,false,true
+38,10,Panier Mixte Solo à la carte Domicile,1,28.0,true,true

@@ -1,0 +1,38 @@
+code,type,maladie,pathogene
+A,Anthracnose,Colletotrichum lagenarium,
+Aal,Champignon,Alternariose,Alternaria alternata f.sp.lycopersici
+As,Alternariose de la tomate,Alternaria solani,
+BER,Physiologie,Nécrose apicale,Blossom End Rot
+BI,Physiologie,Blotching,Blotching
+Cr,Physiologie,"Liège, fente",Cracking
+Fol,Champignon,Furiose vasculaire de la tomate,"Fusarium oxysporum f.sp. lycopersici [races 1, 2, 3]"
+Fom,Champignon,Fusarium oxysporum f.sp. melongenae,
+For,Champignon,Fusariose de la tomate (FORL),Fusarium oxysporum f.sp.radicis-lycopersici
+Lt,Champignon,Oïdium,Leveillula taurica (anamorph : Oidiopsis sicula)
+Ma,Nématode,Nématodes à galles,Meloidogyne arenaria
+Mi,Nématode,Nématodes à galles,Meloidogyne incognita
+Mj,Nématode,Nématodes à galles,Meloidogyne javanica
+On,Champignon,Oïdium,Oidium neolycopersicum
+Pf,Champignon,Cladosporiose,Passalora fulva
+Pi,Champignon,Mildiou de la tomate,Phytophthora infestans
+Pl,Champignon,Maladie des racines liégeuses,Pyrenochaeta lycopersici
+Pst,Bactérie,Moucheture bactérienne de la tomate,Pseudomonas syringae pv. tomato
+Rs,Bactérie,Flétrissement bactérien,Ralstonia solanacearum
+Sbl,Champignon,Stemphyliose,Stemphylium botryosum f.sp. lycopersici
+Si,Physiologie,Silvering,Silvering
+Sl,Champignon,Stemphyliose,Stemphylium lycopersici
+Ss,Champignon,Stemphyliose,Stemphylium solani
+TMV,Virus,Mosaïque du tabac,Tobacco mosaic virus tobamovirus
+TNSV,Virus,,Tomato Necrotic Spot Virus
+ToANV,Virus,,Tomato Apex Necrosis Virus
+ToBRF,Virus,Rugose brune de la tomate,Tomato brown rugose fruit tobamovirus
+ToMARV,Virus,Virus Marchitez,Tomato Marchitez Virus
+ToMV,Virus,Virus de la mosaïque de la tomate,Tomato Mosaic Virus
+ToTV,Virus,Virus torrado de la tomate,Tomato Torrado Virus
+TSWV,Virus,Maladie bronzée de la tomate,Tomato Spotted Wilt Virus
+TYLCV,Virus,Virus des feuilles jaunes en cuillère,Tomato Yellow Leaf Curl Virus
+TZSV,Virus,Virus Zonate de la tomate,Tomato Zonate Spot Virus
+Va,Champignon,Verticilliose,Verticillium albo-atrum
+Vd,Champignon,Verticilliose,Verticillium dahliae
+Xav,Bactérie,Galle bactérienne,Xanthomonas axonopodis pv. Vesicatoria
+Xcv,Bactérie,"Xanthomonas, Gale bactérienne",Xanthomonas campestris pv. vesicatoria

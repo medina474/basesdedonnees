@@ -1,0 +1,214 @@
+code2,code3,code_num,pays,drapeau_unicode,forme_longue,independant,intracommunautaire,telephone
+AF,AFG,004,Afghanistan,🇦🇫,Émirat islamique d'Afghanistan,1,0,93
+ZA,ZAF,710,Afrique du Sud,🇿🇦,République d'Afrique du Sud,1,0,27
+AL,ALB,008,Albanie,🇦🇱,République d'Albanie,1,0,355
+DZ,DZA,012,Algérie,🇩🇿,République algérienne démocratique et populaire,1,0,213
+DE,DEU,276,Allemagne,🇩🇪,République fédérale d’Allemagne,1,1,49
+AD,AND,020,Andorre,🇦🇩,Principauté d'Andorre,1,0,376
+AO,AGO,024,Angola,🇦🇴,République d'Angola,1,0,244
+AG,ATG,028,Antigua-et-Barbuda,🇦🇬,Antigua et Barbuda,1,0,1268
+SA,SAU,682,Arabie saoudite,🇸🇦,Royaume d'Arabie saoudite,1,0,966
+AR,ARG,032,Argentine,🇦🇷,République argentine,1,0,54
+AM,ARM,051,Arménie,🇦🇲,République d'Arménie,1,0,374
+AU,AUS,036,Australie,🇦🇺,Commonwealth d'Australie,1,0,61
+AT,AUT,040,Autriche,🇦🇹,République d'Autriche,1,1,43
+AZ,AZE,031,Azerbaïdjan,🇦🇿,République d'Azerbaïdjan,1,0,994
+BS,BHS,044,Bahamas,🇧🇸,Commonwealth des Bahamas,1,0,1242
+BH,BHR,048,Bahreïn,🇧🇭,Royaume de Bahreïn,1,0,973
+BD,BGD,050,Bangladesh,🇧🇩,République populaire du Bangladesh,1,0,880
+BB,BRB,052,Barbade,🇧🇧,Barbade,1,0,1246
+BE,BEL,056,Belgique,🇧🇪,Royaume de Belgique,1,1,32
+BZ,BLZ,084,Bélize,🇧🇿,Bélize,1,0,501
+BJ,BEN,204,Bénin,🇧🇯,République du Bénin,1,0,229
+BT,BTN,064,Bhoutan,🇧🇹,Royaume du Bhoutan,1,0,975
+BY,BLR,112,Biélorussie,🇧🇾,République du Bélarus,1,0,375
+MM,MMR,104,Myanmar,🇲🇲,République de l'union de Birmanie,1,0,95
+BO,BOL,068,Bolivie,🇧🇴,État plurinational de Bolivie,1,0,591
+BA,BIH,070,Bosnie-Herzégovine,🇧🇦,Bosnie et Herzégovine,1,0,387
+BW,BWA,072,Botswana,🇧🇼,République du Botswana,1,0,267
+BR,BRA,076,Brésil,🇧🇷,République fédérative du Brésil,1,0,55
+BN,BRN,096,Brunei,🇧🇳,Brunei Darussalam,1,0,673
+BG,BGR,100,Bulgarie,🇧🇬,République de Bulgarie,1,1,359
+BF,BFA,854,Burkina,🇧🇫,Burkina Faso,1,0,226
+BI,BDI,108,Burundi,🇧🇮,République du Burundi,1,0,257
+KH,KHM,116,Cambodge,🇰🇭,Royaume du Cambodge,1,0,855
+CM,CMR,120,Cameroun,🇨🇲,,1,0,237
+CA,CAN,124,Canada,🇨🇦,,1,0,1
+CV,CPV,132,Cap-Vert,🇨🇻,,1,0,238
+CF,CAF,140,Centrafrique,🇨🇫,République centrafricaine,1,0,236
+CL,CHL,152,Chili,🇨🇱,,1,0,56
+CN,CHN,156,Chine,🇨🇳,République populaire de Chine,1,0,86
+CY,CYP,196,Chypre,🇨🇾,,1,1,357
+CO,COL,170,Colombie,🇨🇴,,1,0,57
+KM,COM,174,Comores,🇰🇲,Union des Comores,1,0,269
+CG,COG,178,Congo,🇨🇬,République du Congo,1,0,242
+CD,COD,180,"Congo, République démocratique du",🇨🇩,,1,0,243
+KP,PRK,408,Corée du Nord,🇰🇵,République populaire démocratique de Corée,1,0,850
+KR,KOR,410,Corée du Sud,🇰🇷,République de Corée,1,0,82
+CR,CRI,188,Costa Rica,🇨🇷,,1,0,506
+CI,CIV,384,Côte d'Ivoire,🇨🇮,,1,0,225
+HR,HRV,191,Croatie,🇭🇷,République de Croatie,1,1,385
+CU,CUB,192,Cuba,🇨🇺,,1,0,53
+DK,DNK,208,Danemark,🇩🇰,Royaume de Danemark,1,1,45
+DJ,DJI,262,Djibouti,🇩🇯,,1,0,253
+DM,DMA,212,Dominique,🇩🇲,,1,0,1767
+EG,EGY,818,Égypte,🇪🇬,,1,0,20
+AE,ARE,784,Émirats arabes unis,🇦🇪,,1,0,971
+EC,ECU,218,Équateur,🇪🇨,,1,0,593
+ER,ERI,232,Érythrée,🇪🇷,,1,0,291
+ES,ESP,724,Espagne,🇪🇸,Royaume d'Espagne,1,1,34
+EE,EST,233,Estonie,🇪🇪,République d'Estonie,1,1,372
+US,USA,840,États-Unis,🇺🇸,États-Unis d’Amérique,1,0,1
+ET,ETH,231,Éthiopie,🇪🇹,,1,0,251
+FJ,FJI,242,Fidji,🇫🇯,,1,0,679
+FI,FIN,246,Finlande,🇫🇮,République de Finlande,1,1,358
+FR,FRA,250,France,🇫🇷,République française,1,1,33
+GA,GAB,266,Gabon,🇬🇦,,1,0,241
+GM,GMB,270,Gambie,🇬🇲,,1,0,220
+GE,GEO,268,Géorgie,🇬🇪,,1,0,995
+GH,GHA,288,Ghana,🇬🇭,,1,0,233
+GR,GRC,300,Grèce,🇬🇷,République hellénique,1,1,30
+GD,GRD,308,Grenade,🇬🇩,,1,0,1473
+GT,GTM,320,Guatémala,🇬🇹,,1,0,502
+GN,GIN,324,Guinée,🇬🇳,,1,0,224
+GQ,GNQ,226,Guinée équatoriale,🇬🇶,,1,0,240
+GW,GNB,624,Guinée-Bissau,🇬🇼,,1,0,245
+GY,GUY,328,Guyana,🇬🇾,,1,0,592
+HT,HTI,332,Haïti,🇭🇹,,1,0,509
+HN,HND,340,Honduras,🇭🇳,,1,0,504
+HU,HUN,348,Hongrie,🇭🇺,,1,1,36
+CK,COK,184,Îles Cook,🇨🇰,,1,0,682
+IN,IND,356,Inde,🇮🇳,,1,0,91
+ID,IDN,360,Indonésie,🇮🇩,,1,0,62
+IQ,IRQ,368,Irak,🇮🇶,,1,0,964
+IR,IRN,364,Iran,🇮🇷,République islamique d’Iran,1,0,98
+IE,IRL,372,Irlande,🇮🇪,République d'Irlande,1,1,353
+IS,ISL,352,Islande,🇮🇸,,1,0,354
+IL,ISR,376,Israël,🇮🇱,,1,0,972
+IT,ITA,380,Italie,🇮🇹,République italienne,1,1,39
+JM,JAM,388,Jamaïque,🇯🇲,,1,0,1876
+JP,JPN,392,Japon,🇯🇵,,1,0,81
+JO,JOR,400,Jordanie,🇯🇴,Royaume hachémite de Jordanie,1,0,962
+KZ,KAZ,398,Kazakhstan,🇰🇿,,1,0,997
+KE,KEN,404,Kenya,🇰🇪,,1,0,254
+KG,KGZ,417,Kirghizstan,🇰🇬,,1,0,996
+KI,KIR,296,Kiribati,🇰🇮,République des Kiribati,1,0,686
+KW,KWT,414,Koweït,🇰🇼,,1,0,965
+LA,LAO,418,Laos,🇱🇦,République démocratique populaire lao,1,0,856
+LS,LSO,426,Lesotho,🇱🇸,,1,0,266
+LV,LVA,428,Lettonie,🇱🇻,République de Lettonie,1,1,371
+LB,LBN,422,Liban,🇱🇧,République libanaise,1,0,961
+LR,LBR,430,Libéria,🇱🇷,,1,0,231
+LY,LBY,434,Libye,🇱🇾,,1,0,218
+LI,LIE,438,Liechtenstein,🇱🇮,Principauté du Liechtenstein,1,0,423
+LT,LTU,440,Lituanie,🇱🇹,République de Lituanie,1,1,370
+LU,LUX,442,Luxembourg,🇱🇺,Grand-Duché de Luxembourg,1,1,352
+MK,MKD,807,Macédoine du Nord,🇲🇰,,1,0,389
+MG,MDG,450,Madagascar,🇲🇬,,1,0,261
+MY,MYS,458,Malaisie,🇲🇾,,1,0,60
+MW,MWI,454,Malawi,🇲🇼,,1,0,265
+MV,MDV,462,Maldives,🇲🇻,,1,0,960
+ML,MLI,466,Mali,🇲🇱,,1,0,223
+MT,MLT,470,Malte,🇲🇹,,1,1,356
+MA,MAR,504,Maroc,🇲🇦,Royaume du Maroc,1,0,212
+MH,MHL,584,Marshall,🇲🇭,Îles Marshall,1,0,692
+MU,MUS,480,Maurice,🇲🇺,,1,0,230
+MR,MRT,478,Mauritanie,🇲🇷,,1,0,222
+MX,MEX,484,Mexique,🇲🇽,États-Unis mexicains,1,0,52
+FM,FSM,583,Micronésie,🇫🇲,États fédérés de Micronésie,1,0,691
+MD,MDA,498,Moldavie,🇲🇩,République de Moldova,1,0,373
+MC,MCO,492,Monaco,🇲🇨,Principauté de Monaco,1,1,377
+MN,MNG,496,Mongolie,🇲🇳,,1,0,976
+ME,MNE,499,Monténégro,🇲🇪,,1,0,382
+MZ,MOZ,508,Mozambique,🇲🇿,,1,0,258
+NA,NAM,516,Namibie,🇳🇦,,1,0,264
+NR,NRU,520,Nauru,🇳🇷,,1,0,674
+NP,NPL,524,Népal,🇳🇵,,1,0,977
+NI,NIC,558,Nicaragua,🇳🇮,,1,0,505
+NE,NER,562,Niger,🇳🇪,,1,0,227
+NG,NGA,566,Nigéria,🇳🇬,,1,0,234
+NU,NIU,570,Niue,🇳🇺,,1,0,683
+NO,NOR,578,Norvège,🇳🇴,Royaume de Norvège,1,0,47
+NZ,NZL,554,Nouvelle-Zélande,🇳🇿,,1,0,64
+OM,OMN,512,Oman,🇴🇲,Sultanat d'Oman,1,0,968
+UG,UGA,800,Ouganda,🇺🇬,,1,0,256
+UZ,UZB,860,Ouzbékistan,🇺🇿,,1,0,998
+PK,PAK,586,Pakistan,🇵🇰,,1,0,92
+PW,PLW,585,Palaos,🇵🇼,,1,0,680
+PS,PSE,275,Palestine,🇵🇸,,1,0,970
+PA,PAN,591,Panama,🇵🇦,,1,0,507
+PG,PNG,598,Papouasie-Nouvelle-Guinée,🇵🇬,,1,0,675
+PY,PRY,600,Paraguay,🇵🇾,,1,0,595
+NL,NLD,528,Pays-Bas,🇳🇱,Royaume des Pays-Bas,1,1,31
+PE,PER,604,Pérou,🇵🇪,,1,0,51
+PH,PHL,608,Philippines,🇵🇭,,1,0,63
+PL,POL,616,Pologne,🇵🇱,,1,1,48
+PT,PRT,620,Portugal,🇵🇹,,1,1,351
+QA,QAT,634,Qatar,🇶🇦,État du Qatar,1,0,974
+DO,DOM,214,République dominicaine,🇩🇴,,1,0,1809
+RO,ROU,642,Roumanie,🇷🇴,,1,1,40
+GB,GBR,826,Royaume-Uni,🇬🇧,Royaume-Uni de Grande-Bretagne et d’Irlande du Nord,1,0,44
+RU,RUS,643,Russie,🇷🇺,Fédération de Russie,1,0,7
+RW,RWA,646,Rwanda,🇷🇼,,1,0,250
+KN,KNA,659,Saint-Christophe-et-Niévès,🇰🇳,,1,0,1869
+LC,LCA,662,Sainte-Lucie,🇱🇨,,1,0,1758
+SM,SMR,674,Saint-Marin,🇸🇲,,1,0,378
+VC,VCT,670,Saint-Vincent-et-les-Grenadines,🇻🇨,,1,0,1784
+SB,SLB,090,Salomon,🇸🇧,Îles Salomon,1,0,677
+SV,SLV,222,Salvador,🇸🇻,,1,0,503
+WS,WSM,882,Samoa,🇼🇸,,1,0,685
+ST,STP,678,Sao Tomé-et-Principe,🇸🇹,,1,0,239
+SN,SEN,686,Sénégal,🇸🇳,,1,0,221
+RS,SRB,688,Serbie,🇷🇸,,1,0,381
+SC,SYC,690,Seychelles,🇸🇨,,1,0,248
+SL,SLE,694,Sierra Leone,🇸🇱,,1,0,232
+SG,SGP,702,Singapour,🇸🇬,,1,0,65
+SK,SVK,703,Slovaquie,🇸🇰,,1,1,421
+SI,SVN,705,Slovénie,🇸🇮,République de Slovénie,1,1,386
+SO,SOM,706,Somalie,🇸🇴,,1,0,252
+SD,SDN,729,Soudan,🇸🇩,,1,0,249
+SS,SSD,728,Soudan du Sud,🇸🇸,,1,0,211
+LK,LKA,144,Sri Lanka,🇱🇰,République socialiste démocratique du Sri Lanka,1,0,94
+SE,SWE,752,Suède,🇸🇪,Royaume de Suède,1,1,46
+CH,CHE,756,Suisse,🇨🇭,Confédération helvétique,1,0,41
+SR,SUR,740,Suriname,🇸🇷,,1,0,597
+SZ,SWZ,748,Eswatini,🇸🇿,Royaume d'Eswatini,1,0,268
+SY,SYR,760,Syrie,🇸🇾,République arabe syrienne,1,0,963
+TJ,TJK,762,Tadjikistan,🇹🇯,,1,0,992
+TZ,TZA,834,Tanzanie,🇹🇿,République-Unie de Tanzanie,1,0,255
+TD,TCD,148,Tchad,🇹🇩,,1,0,235
+CZ,CZE,203,Tchéquie,🇨🇿,République tchèque,1,1,420
+TH,THA,764,Thaïlande,🇹🇭,,1,0,66
+TL,TLS,626,Timor oriental,🇹🇱,,1,0,670
+TG,TGO,768,Togo,🇹🇬,,1,0,228
+TO,TON,776,Tonga,🇹🇴,,1,0,676
+TT,TTO,780,Trinité-et-Tobago,🇹🇹,,1,0,1868
+TN,TUN,788,Tunisie,🇹🇳,,1,0,216
+TM,TKM,795,Turkménistan,🇹🇲,,1,0,993
+TR,TUR,792,Turquie,🇹🇷,,1,0,90
+TV,TUV,798,Tuvalu,🇹🇻,,1,0,688
+UA,UKR,804,Ukraine,🇺🇦,,1,0,380
+UY,URY,858,Uruguay,🇺🇾,,1,0,598
+VU,VUT,548,Vanuatu,🇻🇺,,1,0,678
+VA,VAT,336,Vatican,🇻🇦,,1,0,379
+VE,VEN,862,Vénézuéla,🇻🇪,République bolivarienne du Venezuela,1,0,58
+VN,VNM,704,Vietnam,🇻🇳,,1,0,84
+YE,YEM,887,Yémen,🇾🇪,,1,0,967
+ZM,ZMB,894,Zambie,🇿🇲,,1,0,260
+ZW,ZWE,716,Zimbabwe,🇿🇼,,1,0,263
+TW,TWN,158,Taïwan,🇹🇼,,1,0,886
+GL,GRL,304,Groenland,🇬🇱,,1,0,299
+PR,PRI,630,Porto Rico,🇵🇷,,1,0,1787
+HK,HKG,344,Hong Kong,🇭🇰,,1,0,852
+BL,BLM,652,Saint-Barthélemy,🇧🇱,Collectivité d'outre-mer de Saint-Barthélemy,0,0,590
+YT,MYT,175,Mayotte,🇾🇹,Département et région d’outre-mer de Mayotte,0,0,262
+MQ,MQT,474,Martinique,🇲🇶,Collectivité territoriale unique de Martinique,0,0,596
+GP,GLP,312,Guadeloupe,🇬🇵,Département et région d'outre-mer de Guadeloupe,0,0,590
+RE,REU,638,La Réunion,🇷🇪,Collectivité départementale d'outre-mer de La Réunion,0,0,262
+PM,SPM,021,Saint-Pierre-et-Miquelon,🇵🇲,Collectivité d'outre-mer de Saint-Pierre-et-Miquelon,0,0,508
+GF,GUF,254,Guyane,🇬🇫,Collectivité territoriale unique de Guyane,0,0,594
+NC,NCL,540,Nouvelle-Calédonie,🇳🇨,Collectivité d’outre-mer de Nouvelle-Calédonie,0,0,687
+WF,WLF,876,Wallis-et-Futuna,🇼🇫,Collectivité d'outre-mer Wallis et Futuna,0,0,681
+PF,PYF,258,Polynésie française,🇵🇫,,0,0,689
+TF,ATF,260,Terres australes françaises,🇹🇫,,0,0,262
+MF,MAF,663,Saint-Martin,🇲🇫,Collectivité d'outre-mer de Saint-Martin,0,0,590

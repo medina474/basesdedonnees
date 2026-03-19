@@ -1,0 +1,11 @@
+id,produit,prix,marge,ordre,categorie,couleur,doublage
+1,Panier simple,14.20,40.0,1,Légumes,#d9d9d9,2
+2,Panier familial,24.40,40.0,2,Légumes,#f7c7ac,
+3,Panier fruité 1,14.50,80.0,6,Fruits,#ffff00,
+4,Panier fruité 2,17.50,80.0,7,Fruits,#ffc000,
+5,Panier fruité 3,23.50,80.0,8,Fruits,#6600ff,
+6,Oeufs x6,3.15,50.0,10,Oeufs,#ffffff,
+7,Panier fruité entreprise,25.00,80.0,9,Fruits,#d86dcd,
+8,Panier Mixte Grande Tribu,49.00,40.0,4,Mixtes,#3c7d22,
+9,Panier Mixte Petite Tribu,29.00,40.0,3,Mixtes,#00b0f0,
+10,Panier Mixte Solo,19.00,40.0,5,Mixtes,#c00000,

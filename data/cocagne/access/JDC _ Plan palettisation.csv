@@ -1,0 +1,41 @@
+1,"Palette caisse verte",2,30,6,5,,,
+2,"Palette caisse grise",3,30,6,5,,,
+3,"Palette caisse bleue",4,40,4,10,,,
+4,"Palette caisse rouge à plant",5,40,8,5,,,
+5,"Palette panier rouge",6,40,5,8,,,
+6,"Palette panier gris",7,40,5,8,,,
+7,"Pallox",1,1,1,1,80.00000000,,
+8,"Caisse plastique verte",2,30,5,6,,,
+9,"Caisse grise",3,1,1,1,,,
+10,"Caisse bleue",4,50,10,5,,,
+11,"Caisse rouge ADH",5,144,91,28,,"motte",2
+12,"Panier rouge",6,56,8,8,,,
+13,"Panier gris",7,56,8,8,,,
+14,"Carton",,,,,,,
+15,"Armoire semence",11,,,,,,
+16,"Tempo",4,21,7,3,,,
+17,"Caisse grise peu profonde",,1,1,1,,,
+18,"Pallox vert à semelles jaunes",,1,1,1,300.00000000,,
+19,"Terrine de semis sur table",,1,1,1,,"terrine",4
+20,"Caisse verte JDC",12,216,140,40,,"motte",1
+21,"Palette caisse verte à plant",12,24,8,3,,,
+22,"Alvéole 150",15,150,150,1,,"alvéole",6
+23,"Alvéole 240",16,240,240,1,,"alvéole",7
+24,"Pot",,,,,,,
+25,"Pack de 10",,,,,,,
+26,"Autoclave",20,12,10,1,,,
+27,"Palette caisse bois",18,35,7,5,,,
+28,"balle de mycellium",1,66,11,6,1000.00000000,,
+29,"Palette caisse orange",20,40,4,10,,,
+30,"Caisse orange",20,50,10,5,,,
+31,"barquette Epikouros",,1,1,1,,,
+32,"Caisse beige labo",2,,,,,,
+33,"Caisse rouge PRO",5,144,91,28,,"motte",3
+34,"Semis direct",25,,,,,"ml",8
+35,"Terrine de semis en caisse",12,1,1,1,,"terrine",5
+36,"Palette",,1,1,1,1000.00000000,,0
+37,"Rolls fruit",18,24,,,150.00000000,,0
+38,"Rolls Panier familial",6,24,,,150.00000000,,0
+39,"Rolls Panier simple",7,24,,,150.00000000,,0
+40,"Rolls Caisse bleue",4,28,,,150.00000000,,0
+41,"Plantation directe",25,,,,,"ml",8

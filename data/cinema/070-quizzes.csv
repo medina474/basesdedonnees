@@ -1,0 +1,80 @@
+quiz_id,quiz,questions
+1,'Quel est l’auteur du livre à l’origine de ce film ?','[{
+  "question": "Total Recall",
+  "reponse": "Philip K Dick",
+  "autres": ["Arthur C. Clarke", "Isaac Asimov", "K. W. Jeter"]
+},
+{
+  "question": "Blade Runner",
+  "reponse": "Philip K Dick",
+  "autres": ["Ray Bradbury", "Frank Herbert", "Aldous Huxley"]
+},
+{
+  "question": "Minority Report",
+  "reponse": "Philip K Dick",
+  "autres": ["George Orwell", "Michael Crichton", "Robert A. Heinlein"]
+},
+{
+  "question": "L’Agence",
+  "reponse": "Philip K Dick",
+  "autres": ["Stephen King", "Dan Brown", "John Grisham"]
+},
+{
+  "question": "Confessions d’un Barjo",
+  "reponse": "Philip K Dick",
+  "autres": ["Boris Vian", "Charles Bukowski", "Jack Kerouac"]
+},
+{
+  "question": "Planète hurlante",
+  "reponse": "Philip K Dick",
+  "autres": ["H.G. Wells", "Ray Bradbury", "Isaac Asimov"]
+}]'
+2,'Vampire... vous avez dit Vampire ?','[
+{
+  "question": "Quel est le nom du voisin de Charley Brewster dans le film Vampire, vous avez dit vampire",
+  "reponse": "Jerry Dandrige",
+  "autres": ["David Vincent", "Max Schreck", "Ed Thompson"]
+},
+{
+  "question": "Dans Dracula, où est interné le personnage de Renfield ?",
+  "reponse": "L’asile du Dr. Seward",
+  "autres": ["L’asile d’Arkham", "L’asile de Carfax", "L’asile du Dr Clemens"]
+},
+{
+  "question": "Dans Låt den rätte komma in, comment Eli communique-t-il avec Oskar ?",
+  "reponse": "par code morse",
+  "autres": ["par télépathie", "par écrit sur la fenêtre", "des mots glissés sous la porte"]
+},
+{
+  "question": "Quelle ville envahie par des vampires est issue d’un roman de Stephen King adapté plusieurs fois à l’écran ?",
+  "reponse": "Salem",
+  "autres": ["Simetierre", "Mystic Falls", "Forks"]
+},
+{
+  "question": "Dans quel film Will Smith incarne-t-il le dernier homme vivant dans un monde envahi par des vampires ?",
+  "reponse": "Je suis une légende",
+  "autres": ["Blade", "Hancock", "28 jours plus tard"]
+},
+{
+  "question": "Quelle nouvelle de vampire d’Alexis Tolstoï a été adaptée au cinéma par Adrien Beau en 2023 ?",
+  "reponse": "Le Vourdalak",
+  "autres": ["Carmilla", "Aelita", "Prince Serebrenni"]
+},
+{
+  "question": "Dans Le Bal des Vampires, comment le professeur Abronsius et Alfred tentent-ils d’échapper aux vampires",
+  "reponse": "En se déguisant en vampires",
+  "autres": ["En se cachant dans des cerceuils", "En se déguisant en moines", "En se cachant dans des paniers"]
+},
+{
+  "question": "Dans le film Entretien avec un vampire, le journaliste qui interviewe Louis est interprété par :",
+  "reponse": "Christian Slater",
+  "autres": ["Keanu Reeves", "River Phoenix", "Johnny Depp"]
+}
+]'
+3,'Sous marins','[
+{
+  "question": "",
+  "reponse": "",
+  "autres": ["", "", ""]
+}
+]'

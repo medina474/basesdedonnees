@@ -1,0 +1,44 @@
+name: pg
+
+services:
+  postgresql:
+    image: cocagne/pgsql:2026-02
+    environment:
+      POSTGRES_INITDB_ARGS: --locale-provider=icu --icu-locale=fr-FR
+      POSTGRES_USER: ${POSTGRES_USER:-iut}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-!ChangeMe!}
+    ports:
+      - 5432:5432
+    networks:
+      - pgsql_net
+    volumes:
+      - data:/var/lib/postgresql
+      - ./init:/docker-entrypoint-initdb.d
+      - ./data:/tmp
+
+  pgadmin:
+    image: dpage/pgadmin4:9.13
+    environment:
+      PGADMIN_DEFAULT_EMAIL: emmanuel.medina@univ-lorraine.fr
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-!ChangeMe!}
+      PGADMIN_DISABLE_POSTFIX: true
+      PGADMIN_REPLACE_SERVERS_ON_STARTUP: true
+      PGADMIN_CONFIG_SERVER_MODE: false
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: false
+    labels:
+      - caddy=pgadmin.localhost
+      - caddy.reverse_proxy={{upstreams 80}}
+      - caddy.tls=internal
+    networks:
+      - pgsql_net
+    volumes:
+      - ./pgadmin4-servers.json:/pgadmin4/servers.json
+      - admin:/var/lib/pgadmin
+
+networks:
+  pgsql_net:
+    external: true
+
+volumes:
+  data: {}
+  admin: {}

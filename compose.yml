@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_INITDB_ARGS: --locale-provider=icu --icu-locale=fr-FR
       POSTGRES_USER: ${POSTGRES_USER:-iut}
-      POSTGRES_PASSWORD: ${PGPASSWORD:-!ChangeMe!}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-ChangeMe}
     ports:
       - 5432:5432
     networks:
@@ -20,25 +20,43 @@ services:
     image: dpage/pgadmin4:9.13
     environment:
       PGADMIN_DEFAULT_EMAIL: emmanuel.medina@univ-lorraine.fr
-      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-!ChangeMe!}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-ChangeMe}
       PGADMIN_DISABLE_POSTFIX: true
-      PGADMIN_REPLACE_SERVERS_ON_STARTUP: true
-      PGADMIN_CONFIG_SERVER_MODE: false
-      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: false
+    configs:
+      - source: servers.json
+        target: /pgadmin4/servers.json
     labels:
       - caddy=pgadmin.localhost
       - caddy.reverse_proxy={{upstreams 80}}
       - caddy.tls=internal
     networks:
       - pgsql_net
+      - proxy_net
     volumes:
-      - ./pgadmin4-servers.json:/pgadmin4/servers.json
       - admin:/var/lib/pgadmin
 
 networks:
   pgsql_net:
     external: true
+  proxy_net:
+    external: true
 
 volumes:
   data: {}
   admin: {}
+
+configs:
+  servers.json:
+    content: |
+      {
+        "Servers": {
+          "1": {
+            "Group": "Servers",
+            "Name": "pg",
+            "Host": "postgresql",
+            "Port": 5432,
+            "MaintenanceDB": "${POSTGRES_USER:-iut}",
+            "Username": "${POSTGRES_USER:-iut}"
+          }
+        }
+      }

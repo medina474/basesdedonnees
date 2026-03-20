@@ -220,12 +220,9 @@ alter table films
 
 
 create table motscles (
-  motcle_id integer not null,
+  motcle_id integer primary key,
   motcle text not null
 );
-
-alter table motscles
-  add primary key (motcle_id);
 
 create table films_motscles (
   film_id int not null,

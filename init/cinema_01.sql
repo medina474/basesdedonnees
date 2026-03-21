@@ -196,7 +196,9 @@ create table films (
   duree integer,
   serie_id integer,
   slogan text,
-  pays text[]
+  pays text[],
+  created_at   timestamp(0) with time zone default current_timestamp not null,
+  updated_at   timestamp(0) with time zone default NULL::timestamp(0) with time zone
 );
 
 alter table films
@@ -205,11 +207,6 @@ alter table films
 
 alter table films
   add primary key (film_id);
-
-
-alter table films
-  add column created_at timestamp with time zone default now(),
-  add column updated_at timestamp with time zone;
 
 alter table films
   add foreign key (serie_id)

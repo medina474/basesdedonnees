@@ -1,4 +1,3 @@
-Base de données Jardins de Cocagne
 
 ```shell
 docker run --detach --name postgresql \
@@ -11,3 +10,7 @@ docker run --detach --name postgresql \
   -v "./data:/tmp" \
   cocagne/pgsql:2026-02
 ```
+
+## Conventions
+
+

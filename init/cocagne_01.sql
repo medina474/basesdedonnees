@@ -50,7 +50,7 @@ create extension if not exists btree_gist schema extensions;
 create extension if not exists anon schema extensions;
 -- Importe un jeu de données par defaut (iban, nom, ville, etc.).dans les tables du schéma anon.
 -- Ces valeurs seront ensuite utilisées lors du processus de pseudonymisation des données.
-select anon.init('/tmp/postgresql_anonymizer_data_fr_FR/');
+select anon.init('/tmp/cocagne/postgresql_anonymizer_data_fr_FR');
 select anon.version();
 
 create schema if not exists stats authorization pg_database_owner;

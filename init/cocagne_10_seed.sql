@@ -426,6 +426,8 @@ insert into famille values
 (22,'Verbenacees'),
 (23,'Indéterminée');
 
+select setval(pg_get_serial_sequence('famille', 'id'), max(id))
+from famille;
 
 insert into categorie values
 (2,'Achat légume/épicerie'),
@@ -442,6 +444,9 @@ insert into categorie values
 (15,'Fruit'),
 (16,'Mycélium'),
 (17,'Fleur');
+
+select setval(pg_get_serial_sequence('categorie', 'id'), max(id))
+from categorie;
 
 --
 

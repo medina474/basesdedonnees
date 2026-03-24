@@ -1009,6 +1009,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11827,Métal Hurlant,Heavy Metal,1981,1981-08-07,86,141086,{ca}
 11829,On continue à l'appeler Trinita,Continuavano a chiamarlo Trinità,1972,1972-03-15,109,583555,{it}
 11837,La folle escapade,Watership Down,1978,1978-10-14,88,,{gb}
+11842,Soleil Rouge,Soleil Rouge,,1971-09-15,,,
 11843,Le Retour de la Panthère rose,The Return of the Pink Panther,1975,1975-05-21,113,937,"{gb,us}"
 11850,L'Invasion des profanateurs,Invasion of the Body Snatchers,1978,1978-12-20,115,,{us}
 11851,"Presidio : Base militaire, San Francisco",The Presidio,1988,1988-06-10,95,,{us}
@@ -1272,6 +1273,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 20481,Cabal,Nightbreed,1990,1990-02-16,102,,{us}
 20681,Les Chiens de guerre,The Dogs of War,1980,1980-12-17,104,,{gb}
 20701,"Darkside, les contes de la nuit noire",Tales from the Darkside: The Movie,1990,1990-05-03,93,,{us}
+20721,Sale temps pour un flic,Code of Silence,,1985-05-03,,,
 20815,La Servante écarlate,The Handmaid's Tale,1990,1990-02-15,109,,"{de,us}"
 20858,8 millions de façons de mourir,8 Million Ways to Die,1986,1986-04-25,115,,{us}
 21219,Les Indomptés,Mobsters,1991,1991-07-26,104,,{us}
@@ -1509,6 +1511,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 39973,La Montagne du dieu cannibale,La montagna del dio cannibale,1978,1978-07-12,99,,{it}
 39978,Le Jumeau,Le Jumeau,1984,1984-10-10,108,,{fr}
 40047,Le Roman d'Elvis,Elvis,1979,1979-02-10,150,,{us}
+40054,Je suis timide mais je me soigne,Je suis timide... mais je me soigne,,1978-08-23,,,
 40055,Le Grand Pardon,,1982,1982-01-27,130,547875,{fr}
 40057,Le Grand Pardon II,Le Grand Pardon II,1992,1992-12-09,127,547875,{fr}
 40075,Ator l'invincible,Ator l'invincibile,1982,1982-10-07,98,48194,{it}
@@ -1524,6 +1527,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 41003,La Fièvre d'Aimer,White Palace,1990,1990-10-19,103,,{us}
 41263,La loi du campus,The Brotherhood of Justice,1986,1986-05-18,97,,{us}
 41402,Laisse-moi entrer,Let Me In,2010,2010-10-01,116,,"{gb,us}"
+41470,Tais-toi quand tu parles,Tais-toi quand tu parles,,1981-09-02,,,
 41589,La mère idéale,Trading Mom,1994,1994-03-04,82,,{us}
 41857,Bandolero!,,1968,1968-06-01,106,,{us}
 41946,Le Retour des Mousquetaires,The Return of the Musketeers,1989,1989-04-12,102,87631,"{fr,es,gb}"
@@ -1594,7 +1598,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 52657,American Warrior II: Le Chasseur,Avenging Force,1986,1986-12-31,100,,{us}
 52744,Falling in Love,,1984,1984-11-21,111,,{us}
 52868,House IV,,1992,1992-01-21,94,102782,{us}
+52877,"C'est pas moi, c'est lui","C'est pas moi, c'est lui",,1980-01-23,,,
 52998,El Dorado,El Dorado,1988,1988-04-20,149,,"{fr,it,es}"
+53009,Ils sont fous ces sorciers,Ils sont fous ces sorciers,,1978-06-28,,,
 53179,Le Maître d'école,,1981,1981-10-28,95,,{fr}
 53192,WrestleMania II,,1986,1986-04-07,181,,{us}
 53357,Descente aux enfers,Descente aux enfers,1986,1986-11-06,85,,{fr}
@@ -1746,6 +1752,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 111005,Tenue correcte exigée,Tenue correcte exigée,1997,1997-03-21,93,,{fr}
 111475,Atout cœur à Tokyo pour OSS 117,Atout cœur à Tokyo pour OSS 117,1966,1966-10-28,101,183680,"{fr,it}"
 111480,Furia à Bahia pour OSS 117,Furia à Bahia pour OSS 117,1965,1965-07-02,103,183680,"{fr,it}"
+114646,Les Ringards,Les Ringards,,1978-09-27,,,
 115082,Banco à Bangkok pour OSS 117,Banco à Bangkok pour OSS 117,1964,1964-06-12,118,183680,"{fr,it}"
 116215,Royce,,1994,1994-08-31,98,,"{gb,us}"
 119450,La Planète des singes : L'Affrontement,Dawn of the Planet of the Apes,2014,2014-07-08,131,173710,"{gb,us}"

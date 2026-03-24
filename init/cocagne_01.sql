@@ -1282,6 +1282,8 @@ create table resistance
 );
 
 revoke all on schema public from PUBLIC;
+
+grant usage on schema public to cocagne;
 grant select, insert, update, delete on all tables in schema public to cocagne;
 
 --

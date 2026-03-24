@@ -1,7 +1,3 @@
--- Désactive le masquage statique fourni par l'extension anon (PostgreSQL Anonymizer)
--- Le masquage statique réécrit de manière permanente les données.
-alter system set anon.static_masking to on;
-
 -- Crée une nouvelle base nommée cocagne.
 create database cocagne;
 
@@ -1286,6 +1282,7 @@ create table resistance
 );
 
 revoke all on schema public from PUBLIC;
+grant select, insert, update, delete on all tables in schema public to cocagne;
 
 --
 \connect postgres;

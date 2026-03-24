@@ -4,9 +4,7 @@
 -- Il doit être configuré pour avoir un accès très limité.
 -- Il s'agit d'un caméléon dont la tâche est de « devenir » un autre utilisateur pour servir des requêtes HTTP authentifiées.
 
-create role postgrest
-  nosuperuser nocreatedb nocreaterole noinherit noreplication nobypassrls
-  login password '9012';
+create role postgrest noinherit login password '9012';
 
 -- Roles sans mot de passe de login.
 -- Il faut se connecter d'abord avec l'utilisateur postgrest.
@@ -20,3 +18,13 @@ create role guest nologin;
 
 -- L'utilisateur postgrest peut se connecter en tant que ...
 grant guest to postgrest;
+
+-- Anonymizer
+
+-- Active le masquage statique fourni par l'extension anon (PostgreSQL Anonymizer)
+-- Le masquage statique réécrit de manière permanente les données.
+alter system set anon.static_masking to on;
+
+-- Roles
+create role cocagne noinherit login password '9845';
+create role adventureworks noinherit login password '9176';

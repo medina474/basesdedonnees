@@ -546,7 +546,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 8512,Le Diable en robe bleue,Devil in a Blue Dress,1995,1995-09-15,97,,{us}
 8536,Superman II,,1980,1980-12-04,127,8537,"{gb,us,ca}"
 8592,Dick Tracy,,1990,1990-04-05,101,,{us}
-8665,K-19,,2002,,128,,"{ca,de,gb,us}"
+8665,K-19,,,,128,,"{ca,de,gb,us}"
 8690,La Secte des cannibales,Mangiati vivi!,1980,1980-03-19,92,,{it}
 8692,Pulsions cannibales,Apocalypse Domani,1980,1980-08-04,91,,"{it,es,us,ca}"
 8736,Dikkenek,,2006,2006-06-21,84,,"{be,fr}"
@@ -590,7 +590,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 9272,Le Bon Fils,The Good Son,1993,1993-09-24,87,,{us}
 9273,Ace Ventura en Afrique,Ace Ventura: When Nature Calls,1995,1995-11-10,91,3167,{us}
 9277,L'Arnaque,The Sting,1973,1973-12-25,129,330605,{us}
-9278,Freejack,Freejack,,1992-01-17,,,
+9278,Freejack,Freejack,1992,1992-01-17,,,{us}
 9281,Witness,,1985,1985-02-08,112,,"{us,nl}"
 9292,"Hudson Hawk, Gentleman et Cambrioleur",Hudson Hawk,1991,1991-05-23,100,,{us}
 9312,Mortal Kombat,,1995,1995-08-18,102,9818,{us}
@@ -759,7 +759,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10331,La Nuit des morts-vivants,Night of the Living Dead,1968,1968-10-04,96,261590,{us}
 10333,Le Prince des marées,The Prince of Tides,1991,1991-12-25,132,,{us}
 10337,Bugsy,,1991,1991-12-10,134,,{us}
-10341,Jusqu'au bout du monde,Bis ans Ende der Welt,,1991-09-12,,,
+10341,Jusqu'au bout du monde,Bis ans Ende der Welt,1991,1991-09-12,,,"{de,au,fr}"
 10344,La Mouche 2,The Fly II,1989,1989-02-10,105,109609,"{ca,us}"
 10372,L'Aventure des Ewoks : La Bataille pour Endor,Ewoks: The Battle for Endor,1985,1985-11-24,94,133830,{us}
 10377,Mon cousin Vinny,My Cousin Vinny,1992,1992-03-13,120,,{us}
@@ -1009,7 +1009,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11827,Métal Hurlant,Heavy Metal,1981,1981-08-07,86,141086,{ca}
 11829,On continue à l'appeler Trinita,Continuavano a chiamarlo Trinità,1972,1972-03-15,109,583555,{it}
 11837,La folle escapade,Watership Down,1978,1978-10-14,88,,{gb}
-11842,Soleil Rouge,Soleil Rouge,,1971-09-15,,,
+11842,Soleil Rouge,Soleil Rouge,1971,1971-09-15,,,"{fr,it,es}"
 11843,Le Retour de la Panthère rose,The Return of the Pink Panther,1975,1975-05-21,113,937,"{gb,us}"
 11850,L'Invasion des profanateurs,Invasion of the Body Snatchers,1978,1978-12-20,115,,{us}
 11851,"Presidio : Base militaire, San Francisco",The Presidio,1988,1988-06-10,95,,{us}
@@ -1116,7 +1116,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 13155,"Oz, un monde extraordinaire",Return to Oz,1985,1985-06-21,113,,"{gb,us}"
 13189,A Christmas Carol,,1984,1984-10-09,101,,"{gb,us}"
 13192,Moonwalker,,1988,1988-10-29,93,,{us}
-13282,La Course à la mort de l’an 2000,Death Race 2000,,1975-04-30,,,
+13282,La Course à la mort de l’an 2000,Death Race 2000,1975,1975-04-30,,434533,{us}
 13310,Morse,Låt den rätte komma in,2009,2009-04-02,114,,"{fr,no,se}"
 13319,Tale of Vampires,Frostbiten,2006,2006-02-24,95,,"{ru,se}"
 13333,Le Jeu de la mort,死亡遊戲,1978,1978-03-23,96,1077146,"{us,hk}"
@@ -1273,11 +1273,11 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 20481,Cabal,Nightbreed,1990,1990-02-16,102,,{us}
 20681,Les Chiens de guerre,The Dogs of War,1980,1980-12-17,104,,{gb}
 20701,"Darkside, les contes de la nuit noire",Tales from the Darkside: The Movie,1990,1990-05-03,93,,{us}
-20721,Sale temps pour un flic,Code of Silence,,1985-05-03,,,
+20721,Sale temps pour un flic,Code of Silence,1985,1985-05-03,,,{us}
 20815,La Servante écarlate,The Handmaid's Tale,1990,1990-02-15,109,,"{de,us}"
 20858,8 millions de façons de mourir,8 Million Ways to Die,1986,1986-04-25,115,,{us}
 21219,Les Indomptés,Mobsters,1991,1991-07-26,104,,{us}
-21241,Cannonball,Cannonball,,1976-07-06,,,
+21241,Cannonball,Cannonball,1976,1976-07-06,,,"{us,hk}"
 21309,Le Fleuve de la mort,River's Edge,1986,1986-08-27,99,,{us}
 21332,À toute vitesse,Quicksilver,1986,1986-02-14,105,,{us}
 21352,"André, mon meilleur copain !",Andre,1994,1994-08-17,94,,{us}
@@ -1302,7 +1302,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 22240,Ripoux contre ripoux,Ripoux contre Ripoux,1990,1990-02-07,105,238448,{fr}
 22311,Une poignée de salopards,Quel maledetto treno blindato,1978,1978-02-08,98,,{it}
 22317,Jack l'Éclair,Lightning Jack,1994,1994-03-11,98,,"{au,us}"
-22501,Les maîtres du temps,Les maîtres du temps,,1982-03-24,,,
+22501,Les maîtres du temps,Les maîtres du temps,1982,1982-03-24,,,"{fr,de,hu,ch,gb}"
 22578,Dédales,Dédales,2003,2003-09-09,100,,"{be,fr}"
 22650,Mélodie en sous-sol,,1963,1963-03-19,117,,"{fr,it}"
 22826,Le Monstre,Il mostro,1994,1994-10-22,111,,"{it,fr}"
@@ -1320,7 +1320,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 24248,Barabbas,,1961,1961-12-23,145,,"{us,it}"
 24260,Inspecteur La Bavure,Inspecteur La Bavure,1980,1980-12-03,100,,{fr}
 24274,Réincarnations,Dead & Buried,1981,1981-05-29,94,,{us}
-24341,Dolls Les Poupées,Dolls,,1986-10-27,,,
+24341,Dolls Les Poupées,Dolls,1986,1986-10-27,,,"{it,us}"
 24583,Péril en la demeure,,1985,1985-02-13,100,,{fr}
 24679,Bird,,1988,1988-06-01,161,,{us}
 24742,Une amie qui vous veut du bien,Secret Admirer,1985,1985-06-14,90,,{us}
@@ -1512,7 +1512,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 39973,La Montagne du dieu cannibale,La montagna del dio cannibale,1978,1978-07-12,99,,{it}
 39978,Le Jumeau,Le Jumeau,1984,1984-10-10,108,,{fr}
 40047,Le Roman d'Elvis,Elvis,1979,1979-02-10,150,,{us}
-40054,Je suis timide mais je me soigne,Je suis timide... mais je me soigne,,1978-08-23,,,
+40054,Je suis timide mais je me soigne,Je suis timide... mais je me soigne,1978,1978-08-23,,,{fr}
 40055,Le Grand Pardon,,1982,1982-01-27,130,547875,{fr}
 40057,Le Grand Pardon II,Le Grand Pardon II,1992,1992-12-09,127,547875,{fr}
 40075,Ator l'invincible,Ator l'invincibile,1982,1982-10-07,98,48194,{it}
@@ -1528,7 +1528,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 41003,La Fièvre d'Aimer,White Palace,1990,1990-10-19,103,,{us}
 41263,La loi du campus,The Brotherhood of Justice,1986,1986-05-18,97,,{us}
 41402,Laisse-moi entrer,Let Me In,2010,2010-10-01,116,,"{gb,us}"
-41470,Tais-toi quand tu parles,Tais-toi quand tu parles,,1981-09-02,,,
+41470,Tais-toi quand tu parles,Tais-toi quand tu parles,1981,1981-09-02,,,"{fr,it}"
 41589,La mère idéale,Trading Mom,1994,1994-03-04,82,,{us}
 41857,Bandolero!,,1968,1968-06-01,106,,{us}
 41946,Le Retour des Mousquetaires,The Return of the Musketeers,1989,1989-04-12,102,87631,"{fr,es,gb}"
@@ -1569,7 +1569,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 46959,36.15 code Père Noël,,1990,1990-01-17,87,,{fr}
 47045,Touche pas à ma fille,She's Out of Control,1989,1989-04-14,94,,{us}
 47504,Little Odessa,,1994,1994-10-28,94,,{us}
-47942,Le Jour de la fin du monde,When Time Ran Out...,,1980-03-28,,,
+47942,Le Jour de la fin du monde,When Time Ran Out...,1980,1980-03-28,,,{us}
 47943,"Harry, un ami qui vous veut du bien","Harry, un ami qui vous veut du bien",2000,2000-08-15,117,,{fr}
 48377,Le Déménagement,Le Déménagement,1997,1997-02-02,90,,{fr}
 48457,Platoon Leader,,1988,1988-10-01,97,,{us}
@@ -1600,9 +1600,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 52657,American Warrior II: Le Chasseur,Avenging Force,1986,1986-12-31,100,,{us}
 52744,Falling in Love,,1984,1984-11-21,111,,{us}
 52868,House IV,,1992,1992-01-21,94,102782,{us}
-52877,"C'est pas moi, c'est lui","C'est pas moi, c'est lui",,1980-01-23,,,
+52877,"C'est pas moi, c'est lui","C'est pas moi, c'est lui",1980,1980-01-23,,,{fr}
 52998,El Dorado,El Dorado,1988,1988-04-20,149,,"{fr,it,es}"
-53009,Ils sont fous ces sorciers,Ils sont fous ces sorciers,,1978-06-28,,,
+53009,Ils sont fous ces sorciers,Ils sont fous ces sorciers,1978,1978-06-28,,,{fr}
 53179,Le Maître d'école,,1981,1981-10-28,95,,{fr}
 53192,WrestleMania II,,1986,1986-04-07,181,,{us}
 53357,Descente aux enfers,Descente aux enfers,1986,1986-11-06,85,,{fr}
@@ -1683,7 +1683,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 72664,Les Morfalous,,1984,1984-03-28,106,,{fr}
 72833,On peut toujours rêver,On peut toujours rêver,1991,1991-02-16,90,,{fr}
 73057,Quatre garçons pleins d'avenir,Quatre garçons pleins d'avenir,1997,1997-08-06,90,,{fr}
-73283,Transfer,Transfer,,2010-09-23,,,
+73283,Transfer,Transfer,2010,2010-09-23,,,{de}
 74080,Le Grand Embouteillage,L'ingorgo,1979,1979-01-12,107,,"{fr,de,it,es}"
 74747,La Malédiction Céleste,The Curse,1987,1987-09-11,92,744915,"{it,us}"
 74765,Le Grand Chef,Le Grand Chef,1959,1959-03-20,89,,"{fr,it}"
@@ -1754,7 +1754,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 111005,Tenue correcte exigée,Tenue correcte exigée,1997,1997-03-21,93,,{fr}
 111475,Atout cœur à Tokyo pour OSS 117,Atout cœur à Tokyo pour OSS 117,1966,1966-10-28,101,183680,"{fr,it}"
 111480,Furia à Bahia pour OSS 117,Furia à Bahia pour OSS 117,1965,1965-07-02,103,183680,"{fr,it}"
-114646,Les Ringards,Les Ringards,,1978-09-27,,,
+114646,Les Ringards,Les Ringards,1978,1978-09-27,,,{}
 115082,Banco à Bangkok pour OSS 117,Banco à Bangkok pour OSS 117,1964,1964-06-12,118,183680,"{fr,it}"
 116215,Royce,,1994,1994-08-31,98,,"{gb,us}"
 119450,La Planète des singes : L'Affrontement,Dawn of the Planet of the Apes,2014,2014-07-08,131,173710,"{gb,us}"
@@ -1832,7 +1832,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 302750,The Dolemite Explosion,The Dolemite Explosion,2002,2002-05-17,76,405256,{us}
 304322,"Debout les crabes, la mer monte !",,1983,1983-08-17,90,,{}
 315837,Ghost in the Shell,Ghost in the Shell,2017,2017-03-29,107,,"{cn,hk,in,us}"
-323373,Deathgasm,Deathgasm,,2015-08-28,,,
+323373,Deathgasm,Deathgasm,2015,2015-08-28,,1375932,{nz}
 335903,Gross Misconduct: The Life of Brian Spencer,,1993,1993-02-28,95,,{ca}
 335984,Blade Runner 2049,Blade Runner 2049,2017,2017-10-04,164,422837,"{ca,gb,us}"
 338703,Charité biz'ness,Charité biz'ness,1998,1998-08-26,85,,{fr}
@@ -1853,7 +1853,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 427809,L'émir préfère les blondes,L'émir préfère les blondes,1983,1983-05-01,90,,{fr}
 427910,Navy Seals : Les Meilleurs,Navy Seals,1990,1990-07-20,108,,{us}
 435126,Perfectos desconocidos,Perfectos desconocidos,2017,2017-12-01,99,,"{it,es}"
-438631,Dune : Première partie,Dune,,2021-09-15,,,
+438631,Dune : Première partie,Dune,2021,2021-09-15,,726871,{us}
 452604,The Canadian Conspiracy,"",1985,1985-01-01,70,,{}
 466420,Killers of the Flower Moon,Killers of the Flower Moon,2023,2023-10-18,206,,{us}
 467660,Paranoïa,Unsane,2018,2018-02-21,97,,{us}
@@ -1868,7 +1868,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 653346,La Planète des singes : Le Nouveau Royaume,Kingdom of the Planet of the Apes,2024,2024-05-08,145,173710,{us}
 657343,The Evil Inside Me,,1993,1993-01-01,90,,{us}
 675327,Shadow in the Cloud,Shadow in the Cloud,2020,2020-12-31,83,,"{nz,us}"
-693134,Dune : Deuxième partie,Dune: Part Two,,2024-02-27,,,
+693134,Dune : Deuxième partie,Dune: Part Two,2024,2024-02-27,,726871,{us}
 769714,Appearances,,1990,1990-06-17,95,,{us}
 792307,Pauvres créatures,Poor Things,2023,2023-12-07,142,,"{ie,gb,us}"
 945961,Alien: Romulus,Alien: Romulus,2024,2024-08-14,0,,{us}
@@ -1878,4 +1878,4 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 1076902,Kaamelott - Deuxième volet (deuxième partie),Kaamelott - Deuxième volet (deuxième partie),2026,2026-04-11,0,1076903,{fr}
 1112679,The Making of 'They Live',,1988,1988-01-01,9,,{us}
 1126692,Ni chaînes ni maîtres,Ni chaînes ni maîtres,2024,2024-09-18,0,,{fr}
-1170608,Dune : Troisième partie,Dune: Part Three,,2026-12-16,,,
+1170608,Dune : Troisième partie,Dune: Part Three,2026,2026-12-16,,726871,{us}

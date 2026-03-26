@@ -354,7 +354,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 3078,Byrne,David,1952-05-14,,cs,,0
 3083,Puzo,Mario,1920-10-15,1999-07-02,us,,0
 3085,Caan,James,1940-03-26,2022-07-06,us,,35.789
-3087,Duvall,Robert,1931-01-05,,us,,25.066
+3087,Duvall,Robert,1931-01-05,2026-02-15,us,,25.066
 3092,Keaton,Diane,1946-01-05,,us,,31.418
 3094,Shire,Talia,1946-04-25,,us,,30.319
 3098,Rota,Nino,1911-12-03,1979-04-10,it,,0
@@ -429,7 +429,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 4065,Zinnemann,Fred,1907-04-29,1997-03-14,,,0
 4078,Van Cleef,Lee,1925-01-09,1989-12-16,us,,45.751
 4082,Tiomkin,Dimitri,1894-05-10,1979-11-11,,,0
-4135,Redford,Robert,1936-08-18,,us,,50.612
+4135,Redford,Robert,1936-08-18,2025-09-16,us,,50.612
 4139,Skerritt,Tom,1933-08-25,,us,,75.746
 4140,Isham,Mark,1951-09-07,,us,,0
 4165,Wayne,John,1907-05-26,1979-06-11,us,,26.968
@@ -499,7 +499,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 5216,Van,Gus,1952-07-24,,us,,0
 5231,Petersen,Wolfgang,1941-03-14,2022-08-12,de,,21.15
 5236,Buchheim,Lothar-Günther,1918-02-06,2007-02-22,de,,0
-5240,Doldinger,Klaus,1936-05-12,,de,,0
+5240,Doldinger,Klaus,1936-05-12,2025-10-16,de,,0
 5260,Hopkins,Kenyon,1912-01-15,1983-04-07,,,0
 5281,Lee,Spike,1957-03-20,,us,,0
 5287,Blanchard,Terence,1962-03-13,,us,,0
@@ -556,7 +556,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 6448,Penn,Arthur,1922-09-27,2010-09-28,us,,0
 6449,Beatty,Warren,1937-03-30,,us,,16.499
 6450,Dunaway,Dorothy Faye,1941-01-14,,us,Faye Dunaway,36.551
-6459,Strouse,Charles,1928-06-07,,,,0
+6459,Strouse,Charles,1928-06-07,2025-05-15,,,0
 6469,Fogle,James,,,,,0
 6471,Burroughs,William S.,1914-02-05,1997-08-02,us,,0
 6482,Singleton,John,1968-01-06,2019-04-28,us,,0
@@ -577,7 +577,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 6720,Chen,Joan,1961-04-26,,cn,,18.439
 6721,Laurie,Piper,1932-01-22,2023-10-14,us,,31.917
 6728,Newman,David,1937-02-04,2003-06-27,us,,0
-6729,Benton,Robert,1932-09-29,,us,,0
+6729,Benton,Robert,1932-09-29,2025-05-11,us,,0
 6778,Guillermin,John,1925-11-11,2015-09-27,en,,0
 6780,McGee,Vonetta,1945-01-14,2010-07-09,us,,7.466
 6804,Greene,Graham,1952-06-22,,ca,,22.264
@@ -654,7 +654,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 7775,Sommers,Stephen,1962-03-20,,us,,0
 7794,Maynard,Joyce,,,,,0
 7795,Henry,Buck,1930-12-09,2020-01-08,us,,0
-7852,Lovell,Jim,1928-03-25,,us,,0
+7852,Lovell,Jim,1928-03-25,2025-08-07,us,,0
 7853,A. Grant,Rodney,1959-03-09,,us,,9.037
 7861,Kluger,Jeffrey,,,,,0
 7863,Cardinal,Tantoo,1950-07-20,,ca,,11.538
@@ -711,7 +711,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 8944,Curtis,Jamie Lee,1958-11-22,,us,,46.564
 8945,Kline,Kevin,1947-10-24,,us,,53.145
 8946,Aitken,Maria,1945-09-12,,ie,,6.422
-8947,Georgeson,Tom,1937-08-08,,en,,20.195
+8947,Georgeson,Tom,1937-08-08,2026-03-18,en,,20.195
 8949,Fonda,Peter,1940-02-23,2019-08-16,us,,24.581
 8965,Joffé,Roland,1945-11-17,,en,,0
 8966,Robinson,Bruce,1946-05-02,,en,,0
@@ -738,7 +738,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 9200,McNaughton,John,1950-01-13,,us,,0
 9202,Jones,Steven A.,,,,,0
 9204,Clinton,George S.,1947-06-17,,us,,0
-9217,Schifrin,Lalo,1932-06-21,,,,0
+9217,Schifrin,Lalo,1932-06-21,2025-06-26,,,0
 9245,Piovani,Nicola,1946-05-26,,it,,0
 9248,Ephron,Nora,1941-05-19,2012-06-26,us,,0
 9251,Shaiman,Marc,1959-10-22,,us,,0
@@ -821,7 +821,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 10557,Simon,Paul,1941-10-13,,us,,0
 10568,Weisberger,Lauren,1977-03-28,,us,,0
 10572,Shapiro,Theodore,1971-09-29,,us,,0
-10586,Lester,Richard,1932-01-19,,,,0
+10586,Lester,Richard,1932-01-19,2006-03-25,,,0
 10661,Jones,Grace,1948-05-19,,jm,,23.885
 10716,Burgon,Geoffrey,1941-07-15,2010-09-21,en,,0
 10723,Newell,Mike,1942-03-28,,en,,0
@@ -890,7 +890,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 11462,Sandweiss,Ellen,1958-12-30,,us,,9.244
 11464,Baker,Betsy,1955-05-08,,us,,19.739
 11468,LoDuca,Joseph,,,,,0
-11472,Winkler,Irwin,1931-05-28,,,,0
+11472,Winkler,Irwin,1931-05-25,,us,,0
 11505,Hughes,John,1950-02-18,2009-08-06,us,,0
 11510,Culkin,Macaulay,1980-08-26,,us,,21.202
 11514,O'Hara,Catherine,1954-03-04,,ca,,49.422
@@ -1111,7 +1111,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 16513,Avildsen,John Guilbert,1935-12-21,2017-06-16,us,John G. Avildsen,5.978
 16544,Kotcheff,Ted,1931-04-07,2025-04-10,ca,,15.671
 16566,Cosmatos,George P.,1941-01-04,2005-04-19,it,,5.313
-16589,MacDonald,Peter,1939-01-01,,en,,2.873
+16589,MacDonald,Peter,1939-06-20,,en,,2.873
 16590,Lettich,Sheldon,1951-01-14,,us,,7.161
 16619,Tureaud,Laurence,1952-05-21,,us,Mr. T,13.922
 16637,DiCola,Vince,,,,,0
@@ -1283,7 +1283,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 20849,Chatiliez,Étienne,1952-06-17,,fr,,0
 20851,Azéma,Sabine,1949-09-20,,fr,,11.051
 20852,Duc,Hélène,1917-03-22,2014-11-23,fr,,7.505
-20882,Massari,Lea,1933-06-30,,it,,13.813
+20882,Massari,Lea,1933-06-30,2025-06-23,it,,13.813
 20897,Broughton,Bruce,1945-03-08,,,,0
 20904,Hong,James,1929-02-22,,us,,87.678
 20923,Ferguson,Allyn,1924-10-18,2010-06-23,us,,0
@@ -1751,7 +1751,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 39881,Lafont,Pauline,1963-04-06,1988-08-11,fr,,0.2019
 39886,Cosne,Francis,1916-05-17,1984-12-13,fr,,0
 39889,Maillan,Jacqueline,1923-01-11,1992-05-12,fr,,3.069
-39948,Forsyth,Frederick,1938-08-25,,,,0
+39948,Forsyth,Frederick,1938-08-25,2025-06-09,en,,0
 39996,Lumet,Sidney,1924-06-25,2011-04-09,us,,0
 39998,McIntire,Tim,1944-07-19,1986-04-15,us,,0
 40007,Mackenzie,John,1932-08-16,2011-06-08,cs,,0
@@ -1896,7 +1896,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 52025,Rosenthal,Laurence,1926-11-04,,us,,0
 52029,Elliott,Jack,1927-08-06,2001-08-18,us,,0
 52092,Mainetti,Stefano,1957-08-08,,it,,0
-52094,Jameson,Jerry,1934-11-26,,,,0
+52094,Jameson,Jerry,1934-11-26,,us,,0
 52096,Hailey,Arthur,1920-04-05,2004-11-24,en,,0
 52123,Peterson,Vidal,1968-11-06,,us,,4.634
 52171,Schiffer,Michael,,,,,0
@@ -2211,7 +2211,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 66670,Dan George,Chief,1899-07-24,1981-09-23,ca,,4.564
 66715,Lawrence,Elliot,,,,,0
 66777,Fosse,Bob,1927-06-23,1987-09-23,us,,0
-66780,Kander,John,1927-03-18,,,,0
+66780,Kander,John,1927-03-18,,us,,0
 66788,Cronley,Jay,1943-11-09,2017-02-26,us,,0
 66806,Strieber,Whitley,,,,,0
 66812,Thomas,Craig,,,,,0

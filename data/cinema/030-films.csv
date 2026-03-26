@@ -812,7 +812,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10660,Milliardaire malgré lui,It Could Happen to You,1994,1994-07-29,101,,{us}
 10673,Wall Street,,1987,1987-12-10,122,52783,{us}
 10675,Frantic,Frantic,1988,1988-02-19,119,,"{us,fr}"
-10692,"Henry, portrait d'un serial killer",Henry: Portrait of a Serial Killer,1986,1986-09-24,82,143755,{us}
 10699,Héros malgré lui,Hero,1992,1992-10-02,119,,{us}
 10708,École paternelle,Daddy Day Care,2003,2003-05-09,92,228887,{us}
 10714,Le Livre de la Jungle,The Jungle Book,1994,1994-12-23,115,,{us}
@@ -1497,8 +1496,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 39263,La Momie sanglante,Blood from the Mummy's Tomb,1971,1971-06-16,94,138965,{gb}
 39382,Ivanhoe,,1982,1982-02-23,137,,{gb}
 39385,La Vérité si je mens !,La Vérité si je mens !,1997,1997-04-01,100,115840,{fr}
-39415,Loulou,,1980,1980-09-03,105,,{fr}
-39930,"Henry, portrait d'un serial killer 2","Henry: Portrait of a Serial Killer, Part 2",1998,1998-08-14,87,143755,{us}
 39973,La Montagne du dieu cannibale,La montagna del dio cannibale,1978,1978-07-12,99,,{it}
 39978,Le Jumeau,Le Jumeau,1984,1984-10-10,108,,{fr}
 40047,Le Roman d'Elvis,Elvis,1979,1979-02-10,150,,{us}

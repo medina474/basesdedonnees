@@ -4699,11 +4699,6 @@ film_id,personne_id,role,alias,ordre
 10675,2413,acteur,Wino,3
 10675,3556,réalisateur,,99
 10675,3556,scénariste,,99
-10692,9200,réalisateur,,99
-10692,9202,musique,,99
-10692,12132,acteur,Henry,0
-10692,1072476,musique,,99
-10692,1300920,musique,,99
 10699,1271,acteur,John Bubber,2
 10699,1528,musique,,99
 10699,3224,réalisateur,,99
@@ -8297,15 +8292,6 @@ film_id,personne_id,role,alias,ordre
 39385,146481,scénariste,,99
 39385,146484,scénariste,,99
 39385,230073,acteur,Rafi,6
-39415,16927,acteur,Loulou,1
-39415,16988,réalisateur,,99
-39415,16988,scénariste,,99
-39415,17882,acteur,Nelly,0
-39415,38901,acteur,André,2
-39930,61114,acteur,Cricket,2
-39930,223312,réalisateur,,99
-39930,223312,scénariste,,99
-39930,1072476,musique,,99
 39973,825,acteur,Professor Edward Foster,1
 39973,9871,acteur,Susan Stevenson,0
 39973,99194,acteur,Manolo,2

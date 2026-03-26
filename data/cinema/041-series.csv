@@ -30,7 +30,7 @@ franchise_id,franchise
 1570,Die Hard
 8819,Casper
 115142,Les Contes de la Crypte
-495527,Jumanji 
+495527,Jumanji
 9649,Mariachi
 9887,La Mutante
 120794,Batman
@@ -47,20 +47,20 @@ franchise_id,franchise
 8581,Freddy Krueger
 43072,The Mask
 85960,My Girl
-150156,City Slickers 
+150156,City Slickers
 96665,Dumb & Dumber
 8050,Highlander
 8580,Karaté Kid
 9338,Police Academy
 508334,Angels in the ...
-209739,MacGyver (Téléfilms)
+209739,MacGyver
 167985,Richie Rich
 97771,Les Indians
 170452,Timecop
 217704,Chroniques des Vampires
 351684,Les Pierrafeu
 115570,Star Trek : La nouvelle génération
-9436,The Crow 
+9436,The Crow
 37139,Y a-t-il Un Flic ?
 43064,Speed
 91945,American Ninja
@@ -73,11 +73,11 @@ franchise_id,franchise
 195441,Denis la Malice
 412680,Chasse à l'Homme
 52888,Les Visiteurs
-725681,American Civil War Collection
-1120657,Cliffhanger Collection
-751156,Hocus Pocus Collection
+725681,American Civil War
+1120657,Cliffhanger
+751156,Hocus Pocus
 625861,L'Impasse
-643572,Chained Heat Collection
+643572,Chained Heat
 87214,Le Gang Des Champions
 9521,Allô Maman
 126220,Waxwork
@@ -96,7 +96,7 @@ franchise_id,franchise
 52988,Hot Shots !
 171439,F/X : Effets spéciaux
 528,Terminator
-869156,The Rocketeer Collection
+869156,The Rocketeer
 9743,Hannibal Lecter
 168545,Vengeance Diabolique
 10457,Il était une fois en Chine
@@ -119,7 +119,7 @@ franchise_id,franchise
 9329,Young Guns
 118221,Week-end chez Bernie
 397842,Amityville
-534531,Prancer Collection
+534531,Prancer
 104833,Fletch
 105322,Kickboxer
 87631,Les Trois Mousquetaires (Richard Lester)
@@ -131,9 +131,9 @@ franchise_id,franchise
 5202,L'orchidée sauvage
 101688,L'Équipée du cannonball
 84,Indiana Jones
-91746,Bill & Ted's Most Excellent Collection
+91746,Bill & Ted's Most Excellent
 945,L'Arme fatale
-945475,Beetlejuice Collection
+945475,Beetlejuice
 124492,Les Douze Salopards
 5039,Rambo
 10456,L'Inspecteur Harry
@@ -230,25 +230,25 @@ franchise_id,franchise
 530064,Shining
 10964,Pied-plat
 159742,Commissaire Tanquerelle
-983340,The Jerk Collection
+983340,The Jerk
 124950,American Graffiti
 52835,Les Bronzés
 1077146,Le Jeu de la mort
 366826,Navarone
 33938,Airport
 267922,La colline a des yeux
-930413,The Goodbar Collection
+930413,The Goodbar
 93287,La 7ème Compagnie
 288280,Saturday Night Fever
 12087,La Coccinelle
 257053,Carrie
 351667,Un éléphant ça trompe énormément
-694606,Rocky Horror Collection
+694606,Rocky Horror
 452675,Cleopatra Jones
 359005,Jake Gittes
 105764,Le Grand Blond
-534652,Tommy Gibbs Collection
-1188146,Tom Sawyer/Huckleberry Finn Collection
+534652,Tommy Gibbs
+1188146,Tom Sawyer/Huckleberry Finn
 330605,L'Arnaque
 12263,L'Exorciste
 1709,La Planète des Singes Originale
@@ -257,7 +257,7 @@ franchise_id,franchise
 155474,French Connection
 583555,Trinita
 11875,Les Aventures de Fifi Brindacier
-956687,Easy Rider Collection
+956687,Easy Rider
 584320,Rooster Cogburn
 625812,Butch Cassidy et le Kid
 91813,Angélique
@@ -267,10 +267,10 @@ franchise_id,franchise
 103001,Fantômas
 690952,Les Oiseaux
 990446,La grande évasion
-105597,Les Trois Mousquetaires (Bernard Borderie)
+105597,Les Trois Mousquetaires
 110021,Les Sept Mercenaires
 422193,Le Blob
-512168,Maigret (Jean Gabin)
+512168,Maigret
 121938,Le Hobbit
 86029,Charlie et ses Drôles de Dames
 290973,Tigre et Dragon
@@ -278,15 +278,15 @@ franchise_id,franchise
 148517,Pagnol - Souvenirs d'enfance
 149191,Lady Snowblood
 11582,Don Camillo
-1222571,Manon des sources (Collection)
-156152,La trilogie marseillaise de Marcel Pagnol
+1222571,Manon des sources
+156152,La trilogie marseillaise
 328073,Traque sur Internet
 666934,Jet Set
 86110,Journal d'un dégonflé
 3963,Les Rivières Pourpres
 135416,Prometheus
 146136,L'Armure de Dieu
-183680,OSS 117 (Original) 
+183680,OSS 117
 378025,Le Tigre du Bengale
 9380,American Werewolf
 115225,Les Démons du maïs
@@ -295,14 +295,14 @@ franchise_id,franchise
 269098,Police Story
 1062948,Twister
 85890,Les Aventures de Flynn Carson
-535270,Mandingo Collection
+535270,Mandingo
 166698,Mondwest
 48194,Ator l'invincibile
 201930,Blacula
 405256,Dolemite
 115776,Robert Langdon
 340623,La Fissure
-937,La Panthère Rose (Original)
+937,La Panthère Rose
 491769,Mysterians
 9046,Histoires de fantômes chinois
 124935,Le Cobaye
@@ -312,8 +312,11 @@ franchise_id,franchise
 544508,Les magiciens du royaume perdu
 228887,École Paternelle
 842877,Le Continent des hommes-poissons
-1274215,Mr. Vampire Collection
+1274215,Mr. Vampire
 261590,Le Jour des Morts-Vivants
 732461,47 Ronin
 91588,OSS 117
 173710,La Planète des singes
+434533,La Course à la mort
+1375932,Deathgasm
+726871,Dune

@@ -962,7 +962,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11548,Miracle sur la 8ème rue,*batteries not included,1987,1987-12-18,106,,{us}
 11549,L'Invasion des profanateurs de sépultures,Invasion of the Body Snatchers,1956,1956-02-05,80,,{us}
 11557,St. Elmo's Fire,,1985,1985-06-28,110,,{us}
-11561,Woody et les robots,Sleeper,1973,1973-12-17,89,,{us}
 11564,Class 1984,Class of 1984,1982,1982-08-20,98,164397,{ca}
 11566,Président d’un Jour,Dave,1993,1993-05-07,125,,{us}
 11573,L'infaillible inspecteur Clouseau,Inspector Clouseau,1968,1968-07-19,96,937,{gb}
@@ -1114,8 +1113,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 13105,Mr. Mom - Profession père au foyer,Mr. Mom,1983,1983-07-22,91,,{us}
 13154,Dans les griffes du dragon rouge,Showdown in Little Tokyo,1991,1991-08-23,79,,{us}
 13155,"Oz, un monde extraordinaire",Return to Oz,1985,1985-06-21,113,,"{gb,us}"
-13189,A Christmas Carol,,1984,1984-10-09,101,,"{gb,us}"
-13192,Moonwalker,,1988,1988-10-29,93,,{us}
 13282,La Course à la mort de l’an 2000,Death Race 2000,1975,1975-04-30,80,434533,{us}
 13310,Morse,Låt den rätte komma in,2009,2009-04-02,114,,"{fr,no,se}"
 13319,Tale of Vampires,Frostbiten,2006,2006-02-24,95,,"{ru,se}"
@@ -1365,7 +1362,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 26672,Le voleur et le cordonnier,The Thief and the Cobbler,1993,1993-09-23,72,,"{ca,gb,us}"
 26789,Sans pitié,No Mercy,1986,1986-12-19,108,,{us}
 26978,Le Guerrier de l'espace : Aventures en zone interdite,Spacehunter: Adventures in the Forbidden Zone,1983,1983-05-20,90,,{us}
-26984,Babes in Toyland,,1986,1986-12-19,95,,"{de,us}"
 27085,Le 6e Continent,,,,90,211753,"{gb,us}"
 27214,Amityville III : Le démon,Amityville 3-D,1983,1983-11-18,93,397842,{us}
 27352,Portés disparus 3,Braddock: Missing in Action III,1988,1988-01-22,101,46512,{us}
@@ -1390,7 +1386,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 28370,Date With an Angel,,1987,1987-11-20,105,,{us}
 28569,La Fièvre dans le sang,Splendor in the Grass,1961,1961-10-10,120,,{us}
 28597,Junior le terrible 2,Problem Child 2,1991,1991-07-03,90,180854,{us}
-28601,Junior le terrible 3,Problem Child 3,1995,1995-05-13,87,180854,{us}
 28761,"Chasseur blanc, cœur noir","White Hunter, Black Heart",1990,1990-05-16,112,,{us}
 28762,Waxwork II : Perdu dans le temps,Waxwork II: Lost in Time,1992,1992-05-11,104,126220,{us}
 28794,La Maison près du cimetière,Quella villa accanto al cimitero,1981,1981-08-14,87,923500,{it}
@@ -1417,7 +1412,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 31357,Où sont les hommes ?,Waiting to Exhale,1995,1995-12-22,123,,{us}
 31417,Les Yeux sans visage,,1960,1960-01-11,88,,"{fr,it}"
 31503,My Boyfriend's Back,,1993,1993-08-06,85,,{us}
-31578,Petits cauchemars avant la nuit,Body Bags,1993,1993-08-08,91,,{us}
 31583,Kill me again,Kill Me Again,1989,1989-10-27,94,,{us}
 31586,L'irrésistible North,North,1994,1994-07-22,87,,{us}
 31602,La Poursuite impitoyable,The Chase,1966,1966-02-18,132,,{us}
@@ -1428,7 +1422,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 31646,Piranha 2 - Les Tueurs volants,Piranha II: The Spawning,1982,1982-08-14,84,212279,"{it,nl,us}"
 31701,Cop,Cop,1988,1988-02-05,110,,{us}
 31789,Pédale douce,Pédale douce,1996,1996-03-27,100,,{fr}
-31858,Made in Britain,,1982,1982-02-25,76,,{gb}
 31939,Another Country : Histoire d'une trahison,Another Country,1984,1984-06-01,87,,{gb}
 31947,King Kong II,King Kong Lives,1986,1986-12-16,105,135498,{us}
 31962,Une lueur dans la nuit,Shining Through,1992,1992-01-31,127,,"{gb,us}"
@@ -1455,7 +1448,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 34636,L'Histoire sans fin II :  Un nouveau chapitre,The NeverEnding Story II: The Next Chapter,1990,1990-10-25,90,91430,"{de,us}"
 34723,Les Aventures de Huckleberry Finn,The Adventures of Huck Finn,1993,1993-04-02,107,,{us}
 34814,Zombi 3,,1988,1988-06-01,95,133923,{it}
-35044,Full Body Massage,,1995,1995-11-05,93,,{us}
 35119,Un cri dans la nuit,Evil Angels,1988,1988-11-03,120,,"{au,us}"
 35371,Skate Gang,Thrashin',1986,1986-08-29,89,,{us}
 35552,Les Aventures extraordinaires d'Adèle Blanc-Sec,Les Aventures extraordinaires d'Adèle Blanc-Sec,2010,2010-04-09,107,,{fr}
@@ -1466,7 +1458,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 36324,Pouic-Pouic,,1963,1963-11-20,86,,{fr}
 36349,Sans issue,Black Moon Rising,1986,1986-01-10,100,,{us}
 36351,Light Sleeper,,1992,1992-08-21,103,,{us}
-36571,Les Douze Salopards 2 Nouvelle Mission,The Dirty Dozen: Next Mission,1985,1985-02-04,91,124492,{us}
 36573,Les Douze Salopards : Mission fatale,The Dirty Dozen: The Fatal Mission,1988,1988-11-10,94,124492,"{it,us,yu}"
 36576,L'Héritier de la Panthère Rose,Curse of the Pink Panther,1983,1983-08-12,109,937,{us}
 36593,Y a-t-il un flic pour sauver Hollywood ?,Naked Gun 33⅓: The Final Insult,1994,1994-03-18,82,37139,{us}
@@ -1491,7 +1482,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 37653,Les Trois Frères,Les Trois Frères,1995,1995-12-13,104,283733,{fr}
 37749,À la recherche de Mr. Goodbar,Looking for Mr. Goodbar,1977,1977-10-19,135,930413,{us}
 37753,Jeux d'adultes,Consenting Adults,1992,1992-10-16,99,,{us}
-37865,Enterré Vivant,Buried Alive,1990,1990-05-09,88,518611,{us}
 37991,Don Camillo en Russie,Il compagno Don Camillo,1965,1965-09-18,111,11582,"{fr,it}"
 38080,Le Juge et l'Assassin,,1976,1976-03-10,128,,{fr}
 38152,Du sang dans la poussière,The Spikes Gang,1974,1974-04-11,96,,{us}
@@ -1604,7 +1594,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 52998,El Dorado,El Dorado,1988,1988-04-20,149,,"{fr,it,es}"
 53009,Ils sont fous ces sorciers,Ils sont fous ces sorciers,1978,1978-06-28,92,,{fr}
 53179,Le Maître d'école,,1981,1981-10-28,95,,{fr}
-53192,WrestleMania II,,1986,1986-04-07,181,,{us}
 53357,Descente aux enfers,Descente aux enfers,1986,1986-11-06,85,,{fr}
 54160,Les Évadés de l'espace,宇宙からのメッセージ,1978,1978-04-29,105,,{jp}
 54471,Le Jaguar,Le Jaguar,1996,1996-10-09,100,,{fr}
@@ -1689,7 +1678,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 74765,Le Grand Chef,Le Grand Chef,1959,1959-03-20,89,,"{fr,it}"
 74767,Les Grandes gueules,,1965,1965-10-22,125,,"{fr,it}"
 74878,La Métamorphose des cloportes,La Métamorphose des cloportes,1965,1965-10-01,95,,"{fr,it}"
-75184,Birth of the Beatles,,1979,1979-11-23,104,,{us}
 76128,La Vie dissolue de Gérard Floque,,1987,1987-01-14,85,,{fr}
 76163,Expendables 2 : Unité spéciale,The Expendables 2,2012,2012-08-08,102,126125,"{bg,us}"
 76198,La Gifle,La Gifle,1974,1974-10-23,100,,"{it,fr}"
@@ -1709,12 +1697,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 80274,La Stratégie Ender,Ender's Game,2013,2013-10-24,114,,{us}
 80543,Sois belle et tais-toi,Sois belle et tais-toi,1958,1958-05-07,110,,{fr}
 80559,Delta Force Commando II: Priority Red One,Delta Force Commando II: Priority Red One,1990,1990-11-17,100,1054183,{it}
-80809,Perry Mason : Le retour de Perry Mason,Perry Mason Returns,1985,1985-12-01,95,977885,{us}
 81024,Les hommes préfèrent les grosses,Les hommes préfèrent les grosses,1981,1981-08-19,86,,{fr}
 81122,Twist Again à Moscou,,1986,1986-10-22,89,,{fr}
-81895,Le Trésor perdu de l'Atlantide,MacGyver: Lost Treasure of Atlantis,1994,1994-05-14,93,209739,{us}
 82175,L'Hôtel de la plage,,1978,1978-01-11,90,,{fr}
-82753,East of Ipswich,,1987,1987-02-01,72,,{gb}
 83105,La Race des Champions,The Boy in Blue,1986,1986-01-17,100,,{ca}
 83223,Les rats de Manhattan,Rats - Notte di terrore,1984,1984-12-05,97,,{it}
 83356,Orgie satanique,Devils of Darkness,1965,1965-05-01,88,,{gb}
@@ -1743,7 +1728,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 97105,Amblin',,1968,1968-12-18,26,,{us}
 100075,Les 2 papas et la maman,Les 2 papas et la maman,1996,1996-04-24,85,,{fr}
 101299,Hunger Games : L'Embrasement,The Hunger Games: Catching Fire,2013,2013-11-15,146,131635,{us}
-102494,To Save the Children,,1994,1994-04-05,90,,"{us,ca}"
 103029,Hercule et Sherlock,Hercule et Sherlock,1996,1996-12-04,95,,{fr}
 104499,Moi y'en a vouloir des sous,Moi y'en a vouloir des sous,1973,1973-02-01,110,,{fr}
 105596,Les Trois Mousquetaires (1ère époque) Les Ferrets de la Reine,,1961,1961-10-04,102,105597,"{fr,it}"
@@ -1775,7 +1759,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 134240,Le Léopard,Le Léopard,1984,1984-03-14,96,,{fr}
 138103,Expendables 3,The Expendables 3,2014,2014-08-07,126,126125,"{bg,fr,us}"
 138659,Les Braqueuses,Les Braqueuses,1994,1994-06-22,90,,{fr}
-139262,Patton : Né pour être soldat,The Last Days of Patton,1986,1986-12-15,146,609766,{us}
 139874,Elles n'oublient jamais,Elles n'oublient jamais,1994,1994-04-13,107,,{fr}
 148077,Lieksa!,Lieksa!,2007,2007-09-14,95,,{fi}
 150736,Recto/Verso,Recto/Verso,1999,1999-06-16,85,,{fr}
@@ -1787,7 +1770,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 160211,Citizen Steve,,1987,1987-01-01,24,,{us}
 160879,Zorn,,1994,1994-08-19,166,,"{fi,se,no}"
 161371,Par où t'es rentré ? On t'a pas vu sortir,Par où t'es rentré? On t'a pas vu sortir,1984,1984-11-18,90,,{}
-163766,Finish Line,,1989,1989-01-11,95,,{us}
 163879,OSS 117 se déchaîne,OSS 117 se déchaîne,1963,1963-06-18,110,183680,"{fr,it}"
 164126,Le Zèbre,Le Zèbre,1992,1992-06-16,95,,{fr}
 169009,Bridge to Terabithia,,1985,1985-02-04,60,,{ca}
@@ -1801,7 +1783,6 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 178297,Tête à claques,Tête à claques,1982,1982-02-17,92,,{}
 179538,Les Sorcières de Zugarramurdi,Las brujas de Zugarramurdi,2013,2013-09-20,112,,"{es,fr}"
 181886,Enemy,Enemy,2014,2014-03-14,91,,"{ca,fr,es}"
-183046,Surviving,,1985,1985-02-10,143,,{us}
 187856,Le Fou du labo 4,Le Fou du labo 4,1967,1967-11-29,90,,{fr}
 188987,Le caïd,Le caïd,1960,1960-05-31,92,,{fr}
 190417,Polar,Polar,1984,1984-03-21,97,,{fr}
@@ -1833,15 +1814,12 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 304322,"Debout les crabes, la mer monte !",,1983,1983-08-17,90,,{}
 315837,Ghost in the Shell,Ghost in the Shell,2017,2017-03-29,107,,"{cn,hk,in,us}"
 323373,Deathgasm,Deathgasm,2015,2015-08-28,86,1375932,{nz}
-335903,Gross Misconduct: The Life of Brian Spencer,,1993,1993-02-28,95,,{ca}
 335984,Blade Runner 2049,Blade Runner 2049,2017,2017-10-04,164,422837,"{ca,gb,us}"
 338703,Charité biz'ness,Charité biz'ness,1998,1998-08-26,85,,{fr}
 338730,Le Psychopathe,Mind Games,1989,1989-03-03,93,,{us}
 345666,Sam Raimi Early Shorts,,1985,1985-01-01,157,,{us}
 346672,Underworld : Blood Wars,Underworld: Blood Wars,2016,2016-11-24,93,2326,{us}
 356206,"Sauve-toi, Lola",,1986,1986-09-03,105,,"{ca,fr}"
-358828,Word of Honor,,1981,1981-01-06,96,,{us}
-359120,We Are the World: The Story Behind the Song,,1985,1985-01-28,52,,{us}
 368161,Strong Medicine,,1986,1986-01-01,0,,{}
 375262,La Favorite,The Favourite,2018,2018-11-23,120,,"{ie,gb,us}"
 385871,Passenger,パッセンジャー　過ぎ去りし日々,1987,1987-10-03,131,,{jp}
@@ -1862,14 +1840,11 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 517839,Border,Gräns,2018,2018-09-27,108,,"{dk,se}"
 571940,Bingo!,Bingo!,1998,1998-06-24,87,,{fr}
 577242,Kaamelott - Premier volet,Kaamelott - Premier volet,2021,2021-07-21,120,1076903,{fr}
-597697,Believe You Can... And You Can!,,1983,1983-04-21,30,,{us}
 604563,OSS 117 : Alerte rouge en Afrique noire,OSS 117 : Alerte rouge en Afrique noire,2021,2021-08-04,116,91588,{fr}
-634230,Bleacher Bums,,1979,1979-05-15,85,,{us}
 653346,La Planète des singes : Le Nouveau Royaume,Kingdom of the Planet of the Apes,2024,2024-05-08,145,173710,{us}
 657343,The Evil Inside Me,,1993,1993-01-01,90,,{us}
 675327,Shadow in the Cloud,Shadow in the Cloud,2020,2020-12-31,83,,"{nz,us}"
 693134,Dune : Deuxième partie,Dune: Part Two,2024,2024-02-27,165,726871,{us}
-769714,Appearances,,1990,1990-06-17,95,,{us}
 792307,Pauvres créatures,Poor Things,2023,2023-12-07,142,,"{ie,gb,us}"
 945961,Alien: Romulus,Alien: Romulus,2024,2024-08-14,0,,{us}
 958940,The Case of the Topanga Pearl,,1976,1976-01-01,6,,{}

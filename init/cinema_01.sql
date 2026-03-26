@@ -524,11 +524,11 @@ create index resume_film_fki
 
 alter table resumes
   add FOREIGN KEY (film_id)
-  REFERENCES films;
+  references films on delete cascade;
 
 alter table resumes
   add FOREIGN KEY (langue)
-  REFERENCES langues (code3);
+  references langues (code3);
 
 
 -- SELECT * from resume WHERE ts @@ to_tsquery('french', 'romancier');
@@ -566,7 +566,7 @@ create table films_certifications (
 
 alter table films_certifications
   add foreign key (film_id)
-    references films;
+    references films on delete cascade;
 
 alter table films_certifications
   add foreign key (pays_code, certification)
@@ -587,7 +587,8 @@ alter table votes
   using index votes_pkey;
 
 alter table votes
-  add foreign key (film_id) references films;
+  add foreign key (film_id)
+  references films on delete cascade;
 
 
 create table user_votes (

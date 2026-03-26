@@ -12,6 +12,8 @@ begin
   return next has_table( 'ferie' );
   return next has_table( 'adherent' );
   return next has_table( 'depot' );
+  return next has_table( 'panier' );
+  return next has_table( 'produit' );
 end;
 $function$;
 
@@ -25,14 +27,14 @@ begin
 
   -- cas valide : semaine 1
   return next lives_ok(
-    $$insert into fermeture (saison_id, semaine) values (2026, 1);$$,
-    'semaine 1 doit être acceptée'
+    $$insert into fermeture (saison_id, semaine) values (2026, 2);$$,
+    'semaine 2 doit être acceptée'
   );
 
   -- cas valide : semaine 52
   return next lives_ok(
-    $$insert into fermeture (saison_id, semaine) values (2026, 52);$$,
-    'semaine 52 doit être acceptée'
+    $$insert into fermeture (saison_id, semaine) values (2026, 48);$$,
+    'semaine 48 doit être acceptée'
   );
 
   -- cas invalide : semaine 60

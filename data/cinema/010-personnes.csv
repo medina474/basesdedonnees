@@ -30,7 +30,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 140,Liu,Lucy,1968-12-02,,us,,58.63
 147,Madsen,Michael,1957-09-25,,us,,41.772
 153,Newman,Thomas,1955-10-20,,us,,0
-154,Murch,Walter,1943-07-12,,,,0
+154,Murch,Walter,1943-07-12,,us,,0
 190,Eastwood,Clint,1930-05-31,,us,,81.059
 192,Freeman,Morgan,1937-06-01,,us,,58.228
 193,Hackman,Eugene Allen,1930-01-30,2025-02-17,us,Gene Hackman,26.747
@@ -44,7 +44,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 241,Clarke,Arthur C.,1917-12-16,2008-03-19,en,,0
 280,Gilliam,Terry,1940-11-22,,us,,0
 287,Pitt,Brad,1963-12-18,,us,,95.93
-309,Almodóvar,Pedro,1949-09-24,,es,,0
+309,Almodóvar,Pedro,1949-09-25,,es,,0
 323,Hanson,Curtis,1945-03-24,2016-09-20,us,,0
 348,Goldman,William,1931-08-12,2018-11-16,us,,0
 349,Glenn,Scott,1939-01-26,,us,,61.45
@@ -340,7 +340,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 2983,Strong,Mark,1963-08-05,,en,,34.69
 2987,Copeland,Stewart,1952-07-16,,us,,0
 2989,Price,Richard,1949-10-12,,us,,0
-3026,Reiner,Rob,1947-03-06,,us,,0
+3026,Reiner,Rob,1947-03-06,2025-12-14,us,,0
 3027,King,Stephen,1947-09-21,,us,,0
 3028,Evans,Bruce A.,1946-09-19,,us,,0
 3029,Gideon,Raynold,,,,,0
@@ -355,7 +355,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 3083,Puzo,Mario,1920-10-15,1999-07-02,us,,0
 3085,Caan,James,1940-03-26,2022-07-06,us,,35.789
 3087,Duvall,Robert,1931-01-05,2026-02-15,us,,25.066
-3092,Keaton,Diane,1946-01-05,,us,,31.418
+3092,Keaton,Diane,1946-01-05,2025-10-11,us,,31.418
 3094,Shire,Talia,1946-04-25,,us,,30.319
 3098,Rota,Nino,1911-12-03,1979-04-10,it,,0
 3110,Anders,Allison,1954-11-16,,us,,0
@@ -601,7 +601,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 7060,Freeman,Martin,1971-09-08,,en,,60.806
 7064,Kesey,Ken,1935-09-17,2001-11-10,us,,0
 7066,Nitzsche,Jack,1937-04-22,2000-08-25,us,,0
-7073,Berryman,Michael,1948-09-03,,us,,15.279
+7073,Berryman,Michael,1948-09-04,,us,,15.279
 7108,Pszoniak,Wojciech,1942-05-02,2020-10-19,pl,,1.64
 7130,Alexander,Scott,1963-06-16,,us,,0
 7131,Karaszewski,Larry,1961-11-20,,us,,0
@@ -992,7 +992,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 13488,Clifford,Graeme,,,au,,0
 13493,Chilvers,Colin,,2024-11-19,,,0
 13520,Sorkin,Aaron,1961-06-09,,us,,0
-13524,Guest,Christopher,1948-02-05,,,,0
+13524,Guest,Christopher,1948-02-05,,us,,0
 13526,Wyle,Noah,1971-06-04,,us,,11.167
 13548,Spader,James,1960-02-07,,us,,38.679
 13550,Koteas,Elias,1961-03-11,,ca,,26.194
@@ -1447,7 +1447,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 25852,Flaubert,Gustave,,,,,0
 25950,Rappeneau,Jean-Paul,1932-04-08,,fr,,0
 25958,Deschamps,Hubert,1923-09-13,1998-12-29,fr,,3.421
-26019,Musy,Jean,1947-12-18,,fr,,0
+26019,Musy,Jean,1947-12-18,2024-04-26,fr,,0
 26064,Goldsmith,Joel,1957-11-19,2012-04-29,us,,0
 26095,Patrick,John,1950-10-03,,us,,0
 26360,Rappeneau,Élisabeth,1940-01-19,2020-01-02,fr,,0
@@ -1595,7 +1595,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 32982,Austen,Jane,1775-12-16,1817-07-18,en,,0
 33008,Golan,Menahem,1929-05-31,2014-08-08,il,,5.178
 33045,Michael,J.,1954-07-17,,us,,0
-33094,Sherman,Gary,1945-01-01,,us,,0
+33094,Sherman,Gary,1945-08-28,,us,,0
 33161,Cluzet,François,1955-09-21,,fr,,14.436
 33216,Nascimbene,Mario,1913-11-28,2002-01-06,it,,0
 33279,Cannon,Danny,1968-01-01,,en,,0
@@ -1791,7 +1791,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 42113,King,Zalman,1942-05-23,2012-02-03,us,,0
 42117,Goldenberg,Simon,,,,,0
 42118,MacCormack,Geoff,,,,,0
-42171,Kaplan,Jonathan,1947-11-25,,fr,,0
+42171,Kaplan,Jonathan,1947-11-25,2025-08-01,fr,,0
 42199,Greene,Daniel,,,us,,7.449
 42319,Karbelnikoff,Michael,,,,,0
 42356,Van,Chris,1949-06-18,,us,,0
@@ -1883,7 +1883,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 51425,Tripp,Louis,1974-02-03,,ca,,4.346
 51516,Hilliard,Steven,1937-11-01,2018-06-27,ca,,0
 51572,Norris,Aaron,1951-11-23,,us,,0
-51576,Norris,Chuck,1940-03-10,,us,,39.845
+51576,Norris,Chuck,1940-03-10,2026-03-19,us,,39.845
 51586,Norris,Mike,1962-10-04,,us,,0
 51588,Kiner,Kevin,1958-09-03,,us,,0
 51627,Rickman,Thomas,,,,,0
@@ -1969,7 +1969,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 56055,Oliver,Deanna,1952-09-27,,,,0
 56106,Shyer,Charles,1941-10-11,2024-12-27,us,,0
 56141,Yeaworth,Irvin S.,1926-02-14,2004-07-19,de,,0
-56157,Turner,Terry,1949-11-30,,,,0
+56157,Turner,Terry,1947-12-11,,us,,0
 56186,Feldman,Randy,,,,,0
 56205,Egoyan,Atom,1960-07-19,,,,0
 56225,Van,Olivier,,,be,,0
@@ -2120,7 +2120,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 62055,Zweibel,Alan,1950-05-20,,,,0
 62272,Bassinson,Kevin,,,,,0
 62414,Biao,Yuen,1957-07-26,,hk,,12.574
-62419,Fung,Stanley,1945-06-01,,cn,,7.662
+62419,Fung,Stanley,1945-06-01,2025-10-31,cn,,7.662
 62423,Ching-Ying,Lam,1952-12-27,1997-11-08,hk,,10.872
 62433,Roques,Damien,,,,,0
 62461,Charlier,Jean-Michel,1924-10-30,1989-07-10,be,,0
@@ -2393,7 +2393,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 73936,Reid,Marc,,,,,0
 73949,Garrett,Snuff,1938-07-05,2015-12-16,us,,0
 74112,Onteniente,Fabien,1958-04-27,,fr,,0
-74113,Booz,Emanuel,1943-01-01,,fr,,0
+74113,Booz,Emanuel,1943-04-18,,fr,,0
 74114,Guillard,Philippe,1961-05-13,,fr,,0
 74382,Hedebrant,Kåre,1995-06-28,,se,,4.507
 74383,Leandersson,Lina,1995-09-27,,se,,5.106
@@ -2544,7 +2544,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 103393,Becker,Jacques,1906-09-15,1960-02-21,fr,,0
 103712,Rodgers,Mark,,,,,0
 103772,Griffe,Maurice,,,,,0
-104908,A.,Lloyd,1948-01-01,,,,0
+104908,A.,Lloyd,1948-09-06,,,,0
 106296,Le,Serge,,,,,0
 107274,Rich,Richard,1951-06-15,,,,0
 107275,Scott,Orson,1951-08-24,,,,0
@@ -2791,7 +2791,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 589521,Tornade,Pierre,1930-01-21,2012-03-07,fr,,5.831
 589662,Scott,Allan,1939-09-16,,cs,,0
 589675,Ciriaci,Pierluigi,,,it,,0.6
-589847,Cunningham,Beryl,1946-08-08,,,,4.831
+589847,Cunningham,Beryl,1946-08-08,2020-12-11,,,4.831
 589924,Asano,Yuko,1960-07-09,,jp,,8.816
 591883,Halligan,Dick,1943-08-29,2022-01-18,us,,0
 646849,Carew,Topper,,,,,0
@@ -3132,4 +3132,4 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 3997177,S.,Michele,,,,,0
 4061411,Thiandoum,Anna,,,fr,,0.001
 4069458,Baxter,Bill,,,,,0
-4111876,Menéndez,Ramón,1949-01-25,,,,0
+4111876,Menéndez,Ramón,1950-01-21,,,,0

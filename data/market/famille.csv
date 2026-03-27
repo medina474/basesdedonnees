@@ -1,0 +1,139 @@
+code,famille,code_parent,arborescence
+01,* Primeur,,Jardin.Primeur
+02,** Légumes,01,Jardin.Primeur.Legumes
+02RACINE,*** Racines & Tubercules,02,Jardin.Primeur.Legumes.Racine
+02BETT,Betterave,02RACINE,Jardin.Primeur.Legumes.Racine.Betterave
+02CARO,Carotte,02RACINE,Jardin.Primeur.Legumes.Racine.Carotte
+02PANA,Panais,02RACINE,Jardin.Primeur.Legumes.Racine.Panais
+02CELE,Céleri,02RACINE,Jardin.Primeur.Legumes.Racine.Celeri
+02NARU,Navet,02RACINE,Jardin.Primeur.Legumes.Racine.Navet
+02PATATE,Patate douce,02RACINE,Jardin.Primeur.Legumes.Racine.PatateDouce
+02POMM,Pomme de terre,02RACINE,Jardin.Primeur.Legumes.Racine.PommeDeTerre
+02RADI,Radis,02RACINE,Jardin.Primeur.Legumes.Racine.Radis
+02CUCURB,*** Cucurbitacées,02,Jardin.Primeur.Legumes.Cucurbitacees
+02COUR,Courgette,02CUCURB,Jardin.Primeur.Legumes.Cucurbitacees.Courgette
+02POTIR,Potiron,02CUCURB,Jardin.Primeur.Legumes.Cucurbitacees.Potiron
+02CONC,Concombre,02CUCURB,Jardin.Primeur.Legumes.Cucurbitacees.Concombre
+02LEGUM,*** Légumineuses,02,Jardin.Primeur.Legumes.Legumineuses
+02POIS,Pois,02LEGUM,Jardin.Primeur.Legumes.Legumineuses.Pois
+02HARI,Haricot,02LEGUM,Jardin.Primeur.Legumes.Legumineuses.Haricot
+02COMPOS,*** Produits composés,02,Jardin.Primeur.ProduitsComposes
+02COCKTAIL,Cocktail,02COMPOS,Jardin.Primeur.ProduitsComposes.Cocktail
+02MINEST,Minestrone,02COMPOS,Jardin.Primeur.ProduitsComposes.Minestrone
+02SACHET,Sachet,02COMPOS,Jardin.Primeur.ProduitsComposes.Sachet
+02AROMCOND,*** Assaisonnements,01,Jardin.Primeur.Assaisonnements
+02AROM,Aromates,02AROMCOND,Jardin.Primeur.Assaisonnements.Aromates
+02CONDIM,Condiments,02AROMCOND,Jardin.Primeur.Assaisonnements.Condiments
+02EPIC,Epices,02AROMCOND,Jardin.Primeur.Assaisonnements.Epices
+02FEUILLE,*** Feuilles et tiges,02,Jardin.Primeur.Legumes.Feuilles
+02BETTE,Bette,02FEUILLE,Jardin.Primeur.Legumes.Feuilles.Bette
+02EPIN,Epinard,02FEUILLE,Jardin.Primeur.Legumes.Feuilles.Epinard
+02SALA,Salade,02FEUILLE,Jardin.Primeur.Legumes.Feuilles.Salade
+02ARTICHAU,Artichaut,02FEUILLE,Jardin.Primeur.Legumes.Feuilles.Artichaut
+02FENO,Fenouil,02FEUILLE,Jardin.Primeur.Legumes.Feuilles.Fenouil
+02ASP,Asperge,02FEUILLE,Jardin.Primeur.Legumes.Feuilles.Asperge
+02POIR,Poireau,02FEUILLE,Jardin.Primeur.Legumes.Feuilles.Poireau
+02SOLAN,*** Solanacées,02,Jardin.Primeur.Legumes.Solanacees
+02AUBE,Aubergine,02SOLAN,Jardin.Primeur.Legumes.Solanacees.Aubergine
+02POIV,Poivron,02SOLAN,Jardin.Primeur.Legumes.Solanacees.Poivron
+02TOMA,Tomates,02SOLAN,Jardin.Primeur.Legumes.Solanacees.Tomates
+02CHAM,Champignons,02,Jardin.Primeur.Legumes.Champignon
+02CHOU,Chou,02,Jardin.Primeur.Legumes.Chou
+02MAIS,Maïs,02,Jardin.Primeur.Legumes.Mais
+03,** Fruits,01,Jardin.Primeur.Fruits
+03AGRUMES,*** Agrumes,03,Jardin.Primeur.Fruits.Agrumes
+03CITRON,Citron,03AGRUMES,Jardin.Primeur.Fruits.Agrumes.Citron
+03CLEMEN,Clémentine,03AGRUMES,Jardin.Primeur.Fruits.Agrumes.Clementine
+03ORANGE,Orange,03AGRUMES,Jardin.Primeur.Fruits.Agrumes.Orange
+03POMELOS,Pomelos,03AGRUMES,Jardin.Primeur.Fruits.Agrumes.Pomelos
+03MALOIDEES,*** Fruits à pépin,03,Jardin.Primeur.Fruits.Pepins
+03POIRE,Poire,03MALOIDEES,Jardin.Primeur.Fruits.Pepins.Poire
+03POMME,Pomme,03MALOIDEES,Jardin.Primeur.Fruits.Pepins.Pomme
+03BAIES,Baies,03,Jardin.Primeur.Fruits.Baies
+03CUCURB,*** Cucurbitacées,03,Jardin.Primeur.Fruits.Cucurbitacees
+03MELON,Melon,03CUCURB,Jardin.Primeur.Fruits.Cucurbitacees.Melon
+03PASTEQUE,Pastèque,03CUCURB,Jardin.Primeur.Fruits.Cucurbitacees.Pasteque
+03EXOTIQ,** Fruits exotiques,,Jardin.Primeur.Fruits.Exotiques
+03ANANAS,Ananas,03EXOTIQ,Jardin.Primeur.Fruits.Exotiques.Ananas
+03AVOCAT,Avocat,03EXOTIQ,Jardin.Primeur.Fruits.Exotiques.Avocat
+03CHERI,Chérimoya,03EXOTIQ,Jardin.Primeur.Fruits.Exotiques.Cherimoya
+03MANGUE,Mangue,03EXOTIQ,Jardin.Primeur.Fruits.Exotiques.Mangue
+03KIWI,Kiwi,03EXOTIQ,Jardin.Primeur.Fruits.Exotiques.Kiwi
+03ABRICOT,Abricot,03,Jardin.Primeur.Fruits.Abricot
+03BANA,Banane,03,Jardin.Primeur.Fruits.Exotiques.Banane
+03CERI,Cerise,03,Jardin.Primeur.Fruits.Cerise
+03FD,Paniers de fruits,03,Jardin.Primeur.Fruits.Paniers
+03FIGUE,Figue,03,Jardin.Primeur.Fruits.Figue
+03FRAISE,Fraise,03,Jardin.Primeur.Fruits.Fraise
+03FS,Fruits secs,03,Jardin.Primeur.Fruits.FruitsSecs
+03PECHE,Pêche,03,Jardin.Primeur.Fruits.Peche
+03PRUNE,Prune,03,Jardin.Primeur.Fruits.Prune
+03RAISIN,Raisin,03,Jardin.Primeur.Fruits.Raisin
+03RHUBARBE,Rhubarbe,03,Jardin.Primeur.Fruits.Rhubarbe
+04,* Épicerie,,Jardin.Epicerie
+04ACCJARD,Accessoires,04,Jardin.Epicerie.Accessoires
+04BOISSONS,** Boisson,04,Jardin.Epicerie.Boisson
+04JF,Jus de fruit,04BOISSONS,Jardin.Epicerie.Boisson.JusDeFruit
+04BIERE,Bière,04BOISSONS,Jardin.Epicerie.Boisson.Biere
+04TISANE,Tisane,04BOISSONS,Jardin.Epicerie.Boisson.Tisane
+04THE,Thé,04BOISSONS,Jardin.Epicerie.Boisson.The
+04CEREALE,Céréale,04,Jardin.Epicerie.Cereale
+04LGSEC,Légumes secs,04,Jardin.Epicerie.Sec
+04LENT,Lentille,04LGSEC,Jardin.Epicerie.Sec.Lentille
+04HAR,Haricot,04LGSEC,Jardin.Epicerie.Sec.Haricot
+04CONFISER,Confiserie,04,Jardin.Epicerie.Confiserie
+04EP,Condiments,04,Jardin.Epicerie.Condiments
+04FA,Farine,04,Jardin.Epicerie.Farine
+04GERME,Germe,04,Jardin.Epicerie.Germe
+04HU,Huile,04,Jardin.Epicerie.Huile
+04MI,Miel,04,Jardin.Epicerie.Miel
+04MOUT,Moutarde,04,Jardin.Epicerie.Moutarde
+04OE,Oeuf,04CREMERIE,Jardin.Epicerie.Cremerie.Oeuf
+04PA,Patisserie,04,Jardin.Epicerie.Patisserie
+04PATES,Pâte,04,Jardin.Epicerie.Pate
+04CREMERIE,** Crèmerie,04,Jardin.Epicerie.Cremerie
+04PL,Beurre,04CREMERIE,Jardin.Epicerie.Cremerie.Beurre
+04POIS,Poisson,04,Jardin.Epicerie.Poisson
+04RIZ,Riz,04,Jardin.Epicerie.Riz
+04SEL,Sel,04,Jardin.Epicerie.Sel
+04SUCRE,Sucre,04,Jardin.Epicerie.Sucre
+04TAPEN,Tapenade,04,Jardin.Epicerie.Tapenade
+04THON,Thon,04,Jardin.Epicerie.Thon
+04TOM,Tomate,04,Jardin.Epicerie.Tomate
+04VINAIGRE,Vinaigre,04,Jardin.Epicerie.Vinaigre
+04FROMAGE,Fromage,04CREMERIE,Jardin.Epicerie.Cremerie.Fromage
+04LAIT,Lait,04CREMERIE,Jardin.Epicerie.Cremerie.Lait
+04CHEVRE,Fromage de chèvre,04FROMAGE,Jardin.Epicerie.Cremerie.Fromage.Chevre
+05PLANT,* Plants Adhérent,,Jardin.Plants
+05SOLAN,Solanacées,05PLANT,Jardin.Plants.Solanacees
+05FEUILLE,Feuilles,05PLANT,Jardin.Plants.Feuilles
+05RACINE,Racines,05PLANT,Jardin.Plants.Racines
+05CHOU,Chou,05PLANT,Jardin.Plants.Chou
+05CONC,Concombre,05PLANT,Jardin.Plants.Concombre
+05CORN,Cornichon,05PLANT,Jardin.Plants.Cornichon
+05COUR,Courgette,05PLANT,Jardin.Plants.Courgette
+05FRAISIER,Fraisiers,05PLANT,Jardin.Plants.Fraisiers
+05HARI,Haricot,05PLANT,Jardin.Plants.Haricot
+05MAIS,Mais,05PLANT,Jardin.Plants.Mais
+05MELON,Melon,05PLANT,Jardin.Plants.Melon
+05OIGN,Oignon,05PLANT,Jardin.Plants.Oignon
+05PF,Plants de fleurs,05PLANT,Jardin.Plants.Fleurs
+05PHYSA,Physalis,05PLANT,Jardin.Plants.Physalis
+05PL,Plants Divers,05PLANT,Jardin.Plants.Divers
+05POIR,Poireau,05PLANT,Jardin.Plants.Poireau
+05POTI,Courge - Potiron,05PLANT,Jardin.Plants.Courge
+05RHUB,Rhubarbe,05PLANT,Jardin.Plants.Rhubarbe
+05SEME,Semence,05PLANT,Jardin.Plants.Semence
+05TOMA,Tomate,05PLANT,Jardin.Plants.Tomate
+06,** PRESTATIONS,,Jardin.Prestations
+06PE,Prestations environnements,06,Jardin.Prestations.Environnement
+05AROM,** PLANTS Aromates,05PLANT,Jardin.Plants.Aromates
+05AROMAB,Aromates  A - B,05AROM,Jardin.Plants.Aromates.AB
+05AROMCH,Aromates  C - H,05AROM,Jardin.Plants.Aromates.CH
+12,** Producteurs,,Jardin.Producteurs
+12ARTISMON,Artisans du Monde,12,Jardin.Producteurs.ArtisansDuMonde
+12ECOLONIE,Ecolonie,12,Jardin.Producteurs.Ecolonie
+12RELIONRO,Miel Relion-Roussel,12,Jardin.Producteurs.Relion
+12VACCEUX,Gaec du Vacceux,12,Jardin.Producteurs.Vacceux
+15TRANSLEG,Epicerie,12,Jardin.Producteurs.Epicerie
+DIVERS,LIVRE,12,Jardin.Livre

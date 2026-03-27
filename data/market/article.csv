@@ -1,0 +1,1100 @@
+code,article,famille_code,factpoids,unitevente,prix,suivistock
+ABRIBAR,Abricot Secs Barquette 500g,03FS,f,2,9.45,2
+ABRICO,Abricot pour Confiture,03ABRICOT,t,3,3.55,2
+ABRICON,Abricot du Roussillon,03ABRICOT,t,3,5.9,2
+ABRICOT_SEC_500GR,Abricots secs 500g barquette,03FS,f,1,6.5,2
+ABRISE,Abricot sec Turquie Vrac,03FS,t,3,13.95,2
+ABSINT,Absinthe Bio Plant,05AROM,f,2,2.3,0
+ACHE,Ache des montagnes plant,05AROM,f,2,2.3,0
+AGAR,Agar agar 2 sachets de 4g,04MOUT,f,1,1.7,2
+AGRIA,Agria 5kg,02POMM,f,2,1.5,0
+AIL,Ail Frais Vosges,02EPIC,t,3,11,0
+AILFRAIS,Ail noir Coffret 2 Piece Espagne,02EPIC,f,2,6.45,2
+AILKG,Ail blanc alsace,02EPIC,t,3,9.6,0
+AILOURS,Ail des ours plant,05AROM,f,2,2.3,0
+AILSCOT,Ail Violet Drôme Kg,02EPIC,t,3,11.9,2
+AILTRESSE,Ail Tresse France,02EPIC,f,2,11.5,0
+ALOE,Feuille d'aloé vera kg,02AROM,t,3,3.55,0
+AMANCAR,Amandes caramel bio 150g,04CONFISER,f,1,6.5,2
+AMANDE500,Amande sachet 500g,03FS,f,1,9.6,2
+AMASAC,Amandes sachet 500g,03FS,f,2,11.95,2
+AMAVRAC,Amandes vrac Italie,03FS,t,3,19.5,2
+ANAN,Ananas Costa Rica,03ANANAS,f,2,3.1,2
+ANANAS,Ananas cayenne togo Kg,03ANANAS,t,3,4.7,2
+ANANASECHE,Ananas séché 100g,12ARTISMON,f,2,3.9,0
+ANE,Aneth plant,05AROM,f,2,2.3,0
+ANETH,Aneth bouquet,02AROM,f,1,1.4,0
+ANGELIQUE,Angélique plant,05AROM,f,2,2.3,0
+ANISBREDELE,Anis bredele 100g,04CONFISER,f,2,4.1,2
+AROMA,Aromates Plants,05PL,f,2,2.2,0
+AROMAVRAC,Persil vrac,02AROM,t,3,14,0
+ARTI,Artichaut Plant,05PLANT,f,2,3,0
+ARTICH,Artichaut plant,05PL,f,2,2,0
+ARTICHAUT,Artichaut violet,02ARTICHAU,t,3,6.95,0
+ARTICHAUTJARD,Artichaut jardins,02ARTICHAU,t,3,5.05,0
+ARTICVI,coeur d'artichaut ita,04EP,f,2,5.9,0
+ASPBOTTE,Asperge Blanche Botte Fr 500g,02ASP,f,2,7.9,2
+ASPE,Asperge verte botte 250g,02ASP,f,2,3.7,0
+ASPERGE,Asperge blanc vrac Landes,02ASP,t,3,15.6,2
+ASPERGLANDES,Asperge Blanche vrac Alsace,02ASP,t,3,15.6,2
+ASSIETAPERO,Assiette apero,15TRANSLEG,f,1,6,0
+AUBER,Aubergine bio plant motte 8cm,05SOLAN,f,2,1.6,0
+AUBERG,Aubergine Jardins,02AUBE,t,3,3.5,0
+AUBERGINESCOT,Aubergine,02AUBE,t,3,4.7,2
+AUBRAC,Délices d'Aubrac,12,f,1,38.90,0
+AVOCAT,Avocat Kenya Kg,03AVOCAT,t,3,7.95,2
+AVOCATAFS,Avocat Hass Espagne Kg,03AVOCAT,t,3,7.5,2
+AVOCATHASS,Avocat  fuerte Espagne Pièce,03AVOCAT,f,2,1.75,2
+AVOKG,Avocat hass mini Espagne kg,03AVOCAT,t,3,7.5,2
+AVOMINI,Avocat Mexique KG,03AVOCAT,t,3,7.65,2
+BALCHA,Balle Champignon,02CHAM,f,2,12,0
+BANANE,Banane,03BANA,t,3,2.45,2
+BANDECL,Banane PROMO,03BANA,t,3,1.5,2
+BARCOC,Barquette Cocktail,02SACHET,f,2,2,0
+BASC,Basilic citron Bio Plant,05AROM,f,2,2.3,0
+BASI,Basilic vert Bio Plant,05AROM,f,2,2.3,0
+BASIBOTTE,Basilic Botte,02AROM,f,1,1.4,0
+BASICAN,Basilic cannelle Bio Plant,05AROM,f,2,2.3,0
+BASILI,Basilic vrac,02AROM,t,3,40,0
+BASP,Basilic pourpre Bio Plant,05AROM,f,2,2.3,0
+BASTHAI,Basilic Thaï Bio Plant,05AROM,f,2,2.3,0
+BATA,Batavia Verte Abris Bio Plant,05FEUILLE,f,2,1.3,0
+BATAR,Batavia rouge Bio Plant,05FEUILLE,f,2,1.3,0
+BATAV,Batavia verte Bio Plant,05FEUILLE,f,2,1.3,0
+BATAVI,Feuille de Chêne/Batavia/laitue,02SALA,f,2,1.4,0
+BEORAN,Betterave jaune,02BETT,t,3,2.2,0
+BETCUI,Betterave cuite,02BETT,t,3,3.5,0
+BETT,Bette Poirée bio plant,05FEUILLE,f,2,1.5,0
+BETTBT,Betterave rouge Botte,02BETT,f,2,2.1,0
+BETTE,Bette,02FEUILLE,t,3,3.6,0
+BETTER,Betterave rouge,02BETT,t,3,2,0
+BETTR,Betterave rouge bio plant,05RACINE,f,2,1.5,0
+BEURRE,Beurre Marcel petite 250g,04PL,f,1,3.75,2
+BEURREBARATDEMISEL,Beurre de Baratte Demi-sel 250 gr,04PL,f,2,4,2
+BEURREBARATNAT,Beurre de Baratte Doux Tante Héléne 250 gr,04PL,f,2,3.45,0
+BEURREIS,Beurre Isigny 200g,04PL,f,2,2.9,2
+BEURREROUS,Beurre Roussey 250g,04PL,f,2,3.6,0
+BIEAMBKLINTZ,Bière klinz ambrée 50cl,04BIERE,f,1,3.55,2
+BIEAMBREE33,Bière luette ambrée 33cl,04BIERE,f,2,2.9,2
+BIEAMBREE75,Bière luette ambrée 75cl,04BIERE,f,2,6,2
+BIEBLANCHEKLINT,Bière klinz blanche 50cl,04BIERE,f,2,3.55,2
+BIEBLONDE75,Bière luette blonde 75cl,04BIERE,f,2,6,2
+BIEBLONDKLINT,Bière klinz blonde 50cl,04BIERE,f,1,3.55,2
+BIEBRUNEKLINTZ,Bière klinz brune 50cl,04BIERE,f,2,3.55,2
+BIERBLONDE33,Bière luette blonde 33cl,04BIERE,f,1,2.9,2
+BIERBRUNE33,Bière luette brune 33cl,04BIERE,f,1,2.9,0
+BIERBRUNE75,Bière luette brune 75cl,04BIERE,f,1,6,0
+BIERECHAAMB,Bière chaouette ambrée 33cl,04BIERE,f,1,2.5,2
+BIERECHAAMB75,Bière chaouette ambrée 75cl,04BIERE,f,1,4.9,2
+BIERECHABLAN,Bière chaouette blanche 33cl,04BIERE,f,1,2.5,2
+BIERECHABLAN75,Bière chaouette blanche 75cl,04BIERE,f,1,4.9,2
+BIERECHABLO,Bière chaouette blonde 33cl,04BIERE,f,1,2.5,2
+BIERECHABLON75,Bière chaouette blonde 75cl,04BIERE,f,1,4.9,2
+BIERECHAPRIN,Bière Chaouette Pirntemps 33 cl,04BIERE,f,1,2.5,2
+BIERECHAPRIN75,Bière Chaouette Printemps 75 cl,04BIERE,f,1,4.9,2
+BLAPOI,Blanc de Poireaux,02POIR,t,3,5,0
+BOCAUXVIDES,Bocaux Vides,15TRANSLEG,f,1,2,0
+BOITE_6_OEUFS,Boîte de 6 oeufs gros,04OE,f,2,2.05,2
+BOITECHOCO,Boite choco 330g -50%,04CONFISER,f,2,9.5,2
+BONITEPASAIA,Bonite Pasaia pruneaux et olives vertes 85g,04POIS,f,1,3.75,0
+BONITEZURIGORRI,Bonite Zuri Gorri poivrons rouges 85g,04POIS,f,1,3.75,0
+BOUFLEURSJARDINS,Bouquet de  Fleurs,05PF,f,2,5,0
+BOUILLONLEG,Bouillon de Légumes 100g,04MOUT,f,1,4,0
+BOUILLONLEGUMES,Bouillon de Légumes 125 gr,04MOUT,f,1,5.4,2
+BOULGOURVRAC,Boulgour Vrac,04CEREALE,t,3,3.8,2
+BOUQUETGARNI,Bouquet garni,02AROM,f,2,1.75,0
+BOUR,Bourrache plant,05AROM,f,2,2.3,0
+BQCRUD,Crudités en barquette,02MINEST,f,2,3.5,0
+BREBISFRESSIOT,Brebis Fressiot,04CREMERIE,t,3,30,0
+BREBISPETITFRAIS,Brebis Petit Frais,04CREMERIE,f,1,3.1,0
+BREBISYAOURT,Brebis Yaourt 32 cl,04CREMERIE,f,1,3.5,0
+BRIE,Brie à la coupe,04FROMAGE,t,3,17.9,2
+BRIEMEAUX,Brie Meaux AOP,04FROMAGE,t,3,30.6,2
+BRIOCH,Brioche nature 350 g,04PA,f,2,4,2
+BRIONA,Brioche nature 500 g,04PA,f,2,4.5,2
+BRIORA,Brioche raisins,04PA,f,2,5,2
+BRIOSU,Brioche au sucre 350g,04PA,f,2,5,2
+BRISCHOCOALLYOU,chocolat all you need,12ARTISMON,f,2,4.95,0
+BRISCHOCOLAIT,chocolat lait brisures,12ARTISMON,f,2,4.95,0
+BUCHEVR,Buche de chèvre du Mont,04FROMAGE,f,2,5.1,2
+BURATA,Burata de vache,04FROMAGE,f,2,2.8,2
+CACAOMAIGRE,Cacao maigre poudre 125 gr,12ARTISMON,f,2,2.9,0
+CACOLO,Carotte Botte Multicolore Jardins,02CARO,f,2,2.5,0
+CAFEETHIOPIE,Boite Café bio Ethiopie 250g,12ARTISMON,f,2,7.9,0
+CAFEGR1K,Café Pérou grains 1kg,12ARTISMON,f,2,16,0
+CAFEMCONGO,Café Congo corsé moulu 250g,12ARTISMON,f,2,4.8,0
+CAFEMDECA,Café décaféiné moulu équilibré 250g,12ARTISMON,f,2,5.2,0
+CAFEMETHIOP,Café Ethiopie doux moulu 250g,12ARTISMON,f,2,5.5,0
+CAFEMEXIQ,Café Mexique 250g,12ARTISMON,f,2,4.65,0
+CAFEMEXIQUE,Boite café bio Mexique 250g,12ARTISMON,f,2,5.9,0
+CAFEMMANOUBE,Café Doux arabica moulu 250g,12ARTISMON,f,2,4.1,0
+CAFEMPEROU,Café Pérou moulu 250g,12ARTISMON,f,2,4.45,0
+CAFEPEROU,Boite Café bio Pérou 250g,12ARTISMON,f,1,5.9,0
+CALICETRICOLORE,Pâtes Calice tricolore au blé dur 250g,04PATES,f,1,2.3,2
+CAMEMBERT,Camembert Normandie 250g,04FROMAGE,f,2,5.5,2
+CAMOM,Camomille romaine plant,05AROM,f,2,2.3,0
+CANCOIL,Cancoillotte 200g,04FROMAGE,f,2,3.8,2
+CANNELLEMOULUE,Cannelle moulue 30g,12ARTISMON,f,2,3.4,0
+CANNELLEPOUDRE,cannelle poudre 70 gr,04MOUT,f,1,2.5,0
+CANNELLETUYARCADIE,Cannelle tuyaux Arcadie Vrac,04MOUT,t,3,47,0
+CANTAL,Cantal entre deux /kg,04FROMAGE,t,3,19.6,2
+CARBTTE,Carotte botte Jardins,02CARO,f,2,2.3,0
+CARCADE,Carcadé Kenya 50g,12ARTISMON,f,2,3.3,0
+CARDON,Cardon France,02EPIN,f,2,4.4,0
+CARORAP,Carottes rapées,15TRANSLEG,t,3,10,0
+CARORONDEL,Carotte rondelle,15TRANSLEG,t,3,10,0
+CAROT1,Carotte sachet 1kg,02CARO,t,3,1,0
+CAROT10KG,Carottes sac de 10 kg,02CARO,f,2,18,0
+CAROT2,Carotte sachet,02CARO,t,3,1.5,0
+CAROTNOUV,Carotte jardins kg,02CARO,t,3,2.5,0
+CAROTPAN,Carottes en panier,02CARO,f,2,3.5,0
+CAROTROU,Carotte Muliticolore Jardins,02CARO,t,3,2.7,0
+CAROTT,Carotte,02CARO,t,3,2,0
+CAROUBE,Caroube,03FS,t,3,4.7,2
+CARPOURPRE,Carotte Pourpre Variété Ancienne,02CARO,t,3,3,0
+CARRECARAMEL,Carrés caramel 100g,12ARTISMON,f,2,4.95,0
+CARREVOS,Carré des Vosges 240g,04FROMAGE,f,2,5.45,2
+CASSIS,Cassis Alsace 250g,03BAIES,f,2,4.55,2
+CEDRAT,Cédrat Corse Kg,03CITRON,t,3,6.15,0
+CELE,Céleri rave Jardins kg,02CELE,t,3,2.45,0
+CELEBR,Céleri branche France,02CELE,t,3,3.9,0
+CELERBR,Céleri branche Espagne,02CELE,t,3,2.7,0
+CELERI,Céleri rave Bio Plant,05RACINE,f,2,1.5,0
+CEPESVOSGES,Cépes des Vosges Non BIO,02CHAM,t,3,6,0
+CERAVE,Céléri rave Branche Nouveau,02CELE,t,3,2.7,0
+CERBAR,Cerise Burlat Barquette 250g,03CERI,f,2,1.95,0
+CERF,Cerfeuil bouquet,02AROM,f,2,1.4,0
+CERFEU,Cerfeuil Bio Plant,05AROM,f,2,2.3,0
+CERISE,Cerise France  Kg,03CERI,t,3,10.6,2
+CERISEEDELFINGEN,Cerises Edelfingen France,03CERI,t,3,9.7,0
+CERNOIX,Cerneaux Noix France kg,03FS,t,3,27.8,2
+CHAMPP,Champignons PC crème,02CHAM,t,3,8.7,0
+CHARLO,Charlotte,02POMM,t,3,1.5,0
+CHBL,Blanc bio plant,05CHOU,f,2,2.5,0
+CHBLAN,Chou blanc,02CHOU,t,3,2.4,0
+CHBLANC,Chou blanc Hollande,02CHOU,t,3,2,2
+CHBR,Brocoli  bio plant,05CHOU,f,2,2.5,0
+CHBROBRET,Chou brocolis,02CHOU,t,3,4.3,2
+CHBRU,Bruxelles bio plant,05CHOU,f,2,2.5,0
+CHBRUX,Chou Bruxelles,02CHOU,t,3,7.05,0
+CHCHIN,Chou chinois,02CHOU,t,3,3.95,0
+CHERI,Chérimoya,03CHERI,f,2,2.1,2
+CHERIMOYA,Cherimoya,03CHERI,f,2,2.45,0
+CHEVRE,Chèvre frais Bergenbach pièce,04CHEVRE,f,2,2.9,2
+CHEVREBUCHE,Chèvre buche du Mont,04CHEVRE,f,2,4.7,2
+CHEVREDEMISEC,Chèvre en pack du Mont,04CHEVRE,f,2,4.9,2
+CHEVREFRAIAFF,Chèvre demi Sec,04CHEVRE,f,1,2.95,0
+CHEVREFRAISAILOURS,Chèvre frais AIL OURS pièce,04CHEVRE,f,2,2.95,0
+CHEVREFRAISHERBITA,Chèvre frais HERBES ITALIE pièce,04CHEVRE,f,1,2.95,0
+CHEVREFRAISNAT,Chèvre frais NATURE pièce,04CHEVRE,f,2,2.65,0
+CHEVREFRAISPIQU,Chèvre frais HERBES PIQUANTES pièce,04CHEVRE,f,2,2.95,0
+CHEVREFRAISPOIVRE,Chèvre frais POIVRE pièce,04CHEVRE,f,2,2.95,0
+CHEVRETOME,Tome de chèvre Bergenbach,04CHEVRE,t,3,29.9,2
+CHFL,Fleur bio plant,05CHOU,f,2,2.5,0
+CHFLBL,Chou fleur KG Jardins,02CHOU,t,3,5.1,0
+CHFLER,Fleuron,02CHOU,f,1,6,0
+CHFLEU,Chou fleur,02CHOU,f,2,2.9,0
+CHFLVI,Chou fleur violet,02CHOU,t,3,4.2,0
+CHFLVIO,Chou-Fleur Violet pièce,02CHOU,f,2,0.9,0
+CHIOGG,Chioggia,02SALA,t,3,6,0
+CHIPSLEG,Chips de légumes 75g,04CONFISER,f,2,2.95,2
+CHISCA,Scarole,02SALA,t,3,5.5,0
+CHKA,Kale Bio Plant,05CHOU,f,2,2.5,0
+CHMI,Milan bio plant,05CHOU,f,2,2.5,0
+CHMIL,Chou Milan Plant,05CHOU,f,2,0.4,0
+CHMILA,Chou Milan jardins,02CHOU,t,3,3.5,0
+CHOCFIN,Chocolats fins 200g,12ARTISMON,f,2,10.9,0
+CHOCLAITPRAL,Choco lait noisettes 32% cacao,12ARTISMON,f,2,3.3,0
+CHOCNOIMASCOBA,Choco noir sucre complet 58% 100g,12ARTISMON,f,2,2.4,0
+CHOCNOIR85,Choco noir intense 85% 100g,12ARTISMON,f,2,3.1,0
+CHOCNOIRAM,Chocolat noir amandes 58% 100g,12ARTISMON,f,2,2.7,0
+CHOCNOIRFRAMB,Chocolat Noir 80% Framboise Myrtilles,12ARTISMON,f,2,3.3,0
+CHOCNOIROR,Choco noir orange 58% 100g,12ARTISMON,f,2,2.3,0
+CHOCNOIRPEP,Choco noir pepites 70% 100g,12ARTISMON,f,2,2.6,0
+CHOCNOIRSEL,Choco noir fleur de sel 70%,12ARTISMON,f,2,3.1,0
+CHOCO,Chocolat lait 32%,12ARTISMON,f,2,2.6,0
+CHOCOCAF,Choco noir café 60% 100gr,12ARTISMON,f,2,3.1,0
+CHOCODESSERT,Choco noir dessert Pat 58 %,12ARTISMON,f,2,3.9,0
+CHOCOFLSEL,Chocolat fleur de sel 70%,12ARTISMON,f,2,3.1,0
+CHOCOLAITINT,Choco lait intense 42%,12ARTISMON,f,2,3.1,0
+CHOCOPRALINE100G,Choco Lait Praliné 33%  100 gr,12ARTISMON,f,2,3.3,0
+CHOCPRALINCOCO,Chocolat praliné coco,12ARTISMON,f,2,4.95,0
+CHOCVEGNOIS,Choco vegan noisettes 43%  100g,12ARTISMON,f,2,3.3,0
+CHOPACHOI,Chou pack choi,02CHOU,t,3,5,0
+CHOROM,Chou wok,02CHOU,t,3,8,0
+CHOUBR,Brocolis jardins,02CHOU,t,3,3.7,0
+CHOUBRAPE,Chou blanc rapé,15TRANSLEG,t,3,10,0
+CHOUC1,Chou sachet 1,02CHOU,t,3,3,0
+CHOUCHI,Chinois bio plant,05CHOU,f,2,2.5,0
+CHOUCR,Choucroute,02CHOU,t,3,3.8,0
+CHOUFRISE,Chou frisé,02CHOU,f,2,3.2,0
+CHOUKAL,Chou Kale Jardins,02CHOU,t,3,4.9,0
+CHOUNBIO,Chou à Choucroute,02CHOU,t,3,2,0
+CHOUPOI,Pointu bio plant,05CHOU,f,1,2.5,0
+CHOURA,Chou rave au Kg,02CHOU,t,3,3.5,0
+CHOURAV,Rave violet F1 bio plant,05CHOU,f,2,2.5,0
+CHOUROMANESCO,Chou romanesco,02CHOU,f,2,3.5,0
+CHOUROUJARD,Chou Rouge Jardins,02CHOU,t,3,3.25,0
+CHOURRAP,Chou rouge rapé,15TRANSLEG,t,3,10,0
+CHOURUT,Choucroute de Rutabaga,02CHOU,t,3,3.95,0
+CHPOIN,chou pointu,02CHOU,t,3,3.25,0
+CHRA,Rave vert F1 bio plant,05CHOU,f,2,2.5,0
+CHRAVE,Chou rave à la pièce,02CHOU,f,2,1.2,0
+CHRISTOPHINE,Christophine Kg,02COUR,t,3,5.55,0
+CHRO,Rouge bio plant,05CHOU,f,2,2.5,0
+CHROUG,Chou rouge jardins,02CHOU,t,3,2.6,0
+CHROUGE,Chou rouge,02CHOU,t,3,3.95,2
+CIBO,Ciboulette Bio Plant,05AROM,f,2,2.3,0
+CIBOUL,Ciboulette,02AROM,f,2,1.33,0
+CIMA,Cima Di Rapa,02EPIN,t,3,6,0
+CITDEM,Citron bergamote Italie,03CITRON,t,3,5.15,2
+CITITAL,Citron Sicile Italie,03CITRON,t,3,3.55,2
+CITRBE,Citron fino Espagne,03CITRON,t,3,4.9,2
+CITRDECL,Citron lime Mexique,03CITRON,t,3,5.7,2
+CITRESP,Citron Espagne,03CITRON,t,3,3.6,2
+CITROESP,citron Espagne,03CITRON,t,3,3.45,2
+CITRON,Citron Vert Colombie,03CITRON,t,3,7.95,2
+CITRONDEC,Citron limette de Tahiti,03CITRON,t,3,6.1,2
+CITRONNEL,Citronnelle Madagascar Bio Plant,05AROM,f,2,2.3,0
+CITRSI,Citron  Espagne,03CITRON,t,3,3.6,2
+CLAYTO,Claytone,02SALA,t,3,8,0
+CLEAZA,Clémentine france,03CLEMEN,t,3,6.95,2
+CLECAL,Clémentine Espagne,03CLEMEN,t,3,3.45,2
+CLECOR,Clémentine Corse,03CLEMEN,t,3,6.95,2
+CLEMPROMO,Clémentine Italie,03CLEMEN,t,3,3.75,2
+COING,Coing Espagne,03,t,3,3.95,2
+COMTE,Comté Marcel Petite,04FROMAGE,t,3,21,2
+COMTECOMT,Comté kg,04FROMAGE,t,3,23.1,2
+CONC,Concombre bio plant motte 8 cm,05PLANT,f,2,1.5,0
+CONCHIGLIONI,Pâtes Conchiglioni 250g,04PATES,f,1,2.15,2
+CONCOK,Concombre noa FR,02CONC,t,3,4.5,0
+CONCOM,Concombre  Noa Jardins,02CONC,t,3,3.5,0
+CONCOMSCOT,Concombre long  FR,02CONC,f,2,1.9,0
+CONFITUREC,Confiture en pot 370g,12,f,1,5,0
+CONSOUDE,Consoude officinale Bio Plant,05AROM,f,2,2.3,0
+COOKIEEPEAUTRE300,Cookies Epeautre 300 gr,04PA,f,1,6.7,0
+CORI,Coriandre Bio Plant,05AROM,f,2,2.3,0
+CORIAND,Coriande bouquet,02AROM,f,1,1.4,0
+CORIANDRADESCOT,Coriandrade 100g,04MOUT,f,1,4.3,0
+CORIANDREGRARCADIE,Coriandre Graines Arcadie 50 gr,04MOUT,f,1,2,0
+CORN,Cornichon bio plant motte 8 cm,05PLANT,f,2,1.5,0
+CORNICH,Cornichon aigre doux 370ml,04EP,f,2,3.4,2
+CORNICH670,Cornichon aigre doux 670 g,04EP,f,1,4.2,2
+CORNICHONJARDINS,Cornichons Jardins,02CONC,t,3,6,0
+COUR,Verte Longue Bio Plant,05COUR,f,2,1.5,0
+COURG,Jaune Longue Bio Plant,05COUR,f,2,1.5,0
+COURGDEC,Courge découpée en morceaux en sachet,15TRANSLEG,t,3,8,0
+COURGE,Courges variées,02POTIR,t,3,2.8,0
+COURGEMUSCADE,Courge Muscade France,02POTIR,t,3,2.9,0
+COURGMINI,Courgette mini,02COUR,t,3,3,0
+COURGR,Courgette ronde Jardins,02COUR,t,3,3.5,0
+COURGRO,Courgettes Grosses,02COUR,t,3,0.8,0
+COURGSCOT,Courgette,02COUR,t,3,4.15,0
+COURGSPAGSCOT,Courge Spaghetti,02POTIR,f,2,2.75,0
+COURGT,Courgette jardins,02COUR,t,3,2.5,0
+COURON,Jaune Ronde Bio Plant,05COUR,f,2,1.5,0
+COUSCOUS_BLANC,Couscous blanc 500g,04RIZ,f,1,2.6,2
+COUSCOUS_DEMIC,Couscous 1/2 complet 500g,04RIZ,f,1,2.85,2
+COUSCOUS500,Couscous  1/2 500 gr,04RIZ,f,1,2.8,2
+COUSCOUSVRAC,Couscous Vrac,04CEREALE,t,3,4.85,2
+CRAKYTOMATE,Crakys tomate 90g,04CONFISER,f,2,3.8,2
+CRANBER,Cranberries bq 200g Canada,03BAIES,f,1,3.5,2
+CREMANT,Crémant rose d'Alsace,04BOISSONS,f,1,9.95,2
+CREMDUR,Crème  fraiche BioGam 20cl,04PL,f,2,2.55,2
+CREME,Crème fraîche Isigny 20cl,04PL,f,2,2.35,2
+CREMECRUE,Crème Crue 25 cl,04PL,f,2,2.8,2
+CREMFLUI,Crème fluide 50cl,04PL,f,2,4.8,2
+CRESSO,Cresson fontaine,02AROM,f,2,1.4,0
+CROTTINSEC,Crottin de Chèvre Sec,04FROMAGE,f,2,2,2
+CUMIN,Cumin des prés Bio Plant,05AROM,f,2,2.3,0
+CUR30,Curcuma 30g,12ARTISMON,f,2,2.7,0
+CURCU,Curcuma kg,02EPIC,t,3,7.9,2
+CURCUMAARCADIE,Curcuma Arcadie 70 gr,04MOUT,f,1,3,0
+CURRY,Curry fort 30g,12ARTISMON,f,2,2.4,0
+CURRYARCADIE,Curry Arcadie 70 gr,04MOUT,f,1,3.1,0
+DATMEDJOOL,Datte medjool kg,03FS,t,3,18,2
+DATSACHTU,Dattes sachet Tunisie,03FS,f,1,2.95,2
+DATSTA,Dattes fraiches Iran 250g,03FS,f,2,3.4,2
+DATTES,Dattes branchées Tunisie,03FS,t,3,8.9,2
+DELICEOURFENUGREC,Délice ourche FENUGREC kg,12ECOLONIE,t,3,20.8,0
+DELICEOURHERB,Délice ourche HERBE ITALIE Kg,12ECOLONIE,t,3,20.8,0
+DELICEOURHERBPROVE,Délice ourche HERBE PROVENCE kg,12ECOLONIE,t,3,20.8,0
+DELICEOURNAT,Délice ourche NATURE kg,12ECOLONIE,t,3,23,0
+DELICEOURORTIE,Délice ourche ORTIE Kg,12ECOLONIE,t,3,20.8,0
+DESIRE,Désirée,02POMM,t,3,1.5,0
+DOUCHOCCAFE,Douceur choco café 100g,12ARTISMON,f,2,3.6,0
+DOUCHOCONOIX,Douceur choco noix Amazonie 100g,12ARTISMON,f,2,3.9,0
+ECHABOTTE,Echalote alsace,02EPIC,t,3,6,0
+ECHALION,Echalion bio plant,05OIGN,f,2,1.5,0
+ECHALO,Echalote jardins,02EPIC,t,3,5.1,0
+ECORCITRON,Ecorce Citron confit sucre,04SUCRE,t,3,39.3,0
+EMMENTCOUPE,Emmental à la coupe,04FROMAGE,t,3,19.95,2
+ENDIFEUI,Endives jardins,02SALA,t,3,6.5,0
+ENDIVE,Endive France,02SALA,t,3,7.5,0
+ENGRAIN,Engrain (petit épautre) Bel air 500 g,04CEREALE,f,1,3.15,2
+EPIJEUN,Jeune pousse Epinard,02EPIN,t,3,12,0
+EPINAR,Epinard,02EPIN,t,3,4.9,0
+EPINARDPLANT,Epinard Bio Plant,05FEUILLE,f,1,1.5,0
+EPINARDSCOT,Epinard,02EPIN,t,3,5.4,0
+EPIPOU,Epinard rouge,02EPIN,t,3,6.5,0
+EPIVINCHAU,Epices pour vin chaud,12ARTISMON,f,2,7.1,0
+ESTR,Estragon Bio Plant,05AROM,f,2,2.3,0
+ESTRMEX,Estragon du Mexique Bio Plant,05AROM,f,2,2.3,0
+FAR110,Farine Thabas blé T110 5kg,04FA,f,2,9.5,2
+FAR1102.5KG,Farine Thabas blé T110 2.5kg,04FA,f,1,4.8,2
+FAR25KG,Farine blé T80 25kg,04FA,f,2,34,2
+FARALSACET1101KG,Farine Forstfeld T110 1kg,04FA,f,1,2.3,2
+FARALSACET651KG,Farine Forstfeld T65 1kg,04FA,f,1,2.3,2
+FARALSACET801KG,Farine Forstfeld T80 1kg,04FA,f,1,2.3,2
+FARB65,Farine Thabas blé T65 5kg,04FA,f,2,10,2
+FARB8025,Farine Thabas blé T80 2.5 kg,04FA,f,1,5.2,2
+FAREPE,Farine Epeautre 5 kg,04FA,f,2,11.5,2
+FAREPE25,Farine Thabas épeautre T110 2.5kg,04FA,f,1,7.85,2
+FAREPEAUTCLAIR,Farine epeautre claire 1kg,04FA,f,1,4.1,2
+FARINBLESEMICOMPL1,Farine blé semi complète 1kg,04FA,f,1,2.5,0
+FARINBLESEMICOMPL2,Farine blé semi complète 2kg,04FA,f,1,4.4,0
+FARINEBL1,Farine blé blanche 1kg,04FA,f,1,2.7,0
+FARINEBL2,Farine blé blanche 2kg,04FA,f,1,4.8,0
+FARINEPEAUTSC,Farine Epeautre semi complète 1kg,04FA,f,1,4.1,0
+FARINSARAZ,Farine Sarrazin  1kg,04FA,f,1,4.2,0
+FARNOIS,Farine Bel air noisette 150g,04FA,f,2,3.15,2
+FARPETP,Farine Forstfeld épeautre bise 1kg,04FA,f,2,3.95,2
+FARPTEPE,Farine Thabas petit ép T110 2.5 kg,04FA,f,1,11,2
+FARSEI,Farine de seigle T110 5kg,04FA,f,2,7.5,2
+FART65,Farine Thabas blé T65 2.5 kg,04FA,f,2,5.2,2
+FART80,Farine Thabas blé T80 5 kg,04FA,f,2,9.5,2
+FECHEN,Feuille de chêne,02SALA,f,2,1,0
+FENOU,Fenouil France,02FENO,t,3,4.3,2
+FENOUI,Fenouil jardins,02FENO,t,3,3.5,0
+FENOUIL,Fenouil Bio Plant,05PLANT,f,2,1.5,0
+FENOUILSCOT,Fenouil,02FENO,t,3,4.6,0
+FERRYGAETAN,Ventes FERRY Gaétan,12,f,1,22.50,0
+FETABREBIS,Fiesta brebis,04CREMERIE,t,3,26,0
+FETAGR,Feta Grecque saumur 1 kg,04FROMAGE,f,1,17.6,0
+FETAGRPO,Feta Gréce portion 180g,04FROMAGE,f,1,3.8,0
+FEUI,FDC Verte Bio Plant,05FEUILLE,f,2,1.3,0
+FEUILR,FDC Rouge Bio Plant,05FEUILLE,f,2,1.3,0
+FEVE,Fève jardins,02POIS,t,3,2.95,0
+FIG500,Figues séchées zagros 250g Iran,03FS,f,2,5,2
+FIG500PROT,Figues proboten 500 g Turquie,03FS,f,1,9.55,2
+FIGBLAN,Figue violette France,03FIGUE,t,3,13.95,2
+FIGESS,Figue natural Turquie vrac,03FS,t,3,15.5,2
+FIGLOAF,Figue longue d'aout France,03FIGUE,t,3,13.05,2
+FIGUE,Figue noire France,03FIGUE,t,3,13.4,2
+FIGUEBAR,Figue de Barbarie Italie kg,03EXOTIQ,t,3,5.3,2
+FIGUES,Figue blanche France,03FIGUE,t,3,12.45,2
+FILETANCHOISHUILE,Filet d'Anchois à l'huile d'olive 40g,04POIS,f,1,8.45,0
+FILETTHON140,Filet de Thon Germon à l'huile d'olive 140g,04POIS,f,1,5.35,0
+FILETTHON380,Filet de Thon Germon à l'huile d'olive 380g,04POIS,f,1,9.75,0
+FLAGEOLVRAC,Flageolet vrac FR,04CEREALE,t,3,8.6,2
+FLAGEOVERT,Flageolets Vert au naturel 280g,04HAR,f,1,3.95,0
+FLAGSEC,Flageolets secs 500g,04HAR,f,1,5.1,2
+FLEURCHOU,Fleurettes Chou fleur,02CHOU,t,3,4.5,0
+FLEURCO,Fleur de courgette,02COUR,f,1,2,0
+FLEURCOUR,Courgette Mini Fleur,02COUR,f,2,0.3,0
+FLEURSEL,Fleur de sel sachet 500g,04SEL,f,2,10.6,2
+FRAIEGA,Fraise Jardins 500 gr non Bio *,03FRAISE,f,1,4.9,2
+FRAIJA,Fraise Jardins bq  non Bio *,03FRAISE,t,3,10,0
+FRAISE,Fraise Alsace 250g,03FRAISE,f,2,4.1,2
+FRAISEGUARIG250G,Fraise pour confiture non Bio,03FRAISE,t,3,5,2
+FRAISEJARDIN,Fraise Jardins Kg - non Bio *,03FRAISE,t,3,12,0
+FRAISEPL/1,Fraisier  non AB * plant à l'unité,05FRAISIER,f,2,1.5,0
+FRAISEPLANT,Fraisier non AB * - plant par 10,05FRAISIER,f,2,11,0
+FRAM,Framboise Alsace barquette 250g,03BAIES,f,2,5.1,0
+FRDUDEC,Fruit Déclassé,03,t,3,1,0
+FRENETTE33,Frênette 33cl,04BOISSONS,f,2,2.6,2
+FRENETTE75,Frênette 75cl,04BOISSONS,f,2,4.9,2
+FRISCA,Frisée/Scarole,02SALA,f,2,2.1,0
+FRISEE,Salade Frisée/Scarole,02SALA,f,2,1.5,0
+FROMBERTSCHWI,Fromage le Bertschwiller 250g,04FROMAGE,f,2,6.85,2
+FROMBLANBAT,Fromage blanc battu 1/2écrémé 500g,04FROMAGE,f,1,2.65,2
+FROMBLANCFAIS,Faisselle From Blanc1/2écrémé 500g,04FROMAGE,f,1,2.75,2
+FROMCHEVR,Chèvre frais Bergenbach,04FROMAGE,f,2,2.95,2
+FROMLEGOURN,Fromage le gournay 160g,04FROMAGE,f,2,4.95,2
+FRUIDRAGON,Fruits du dragon Eq,03CHERI,f,1,5.6,0
+FRUITDRAGON,Fruit du dragon 100g,12ARTISMON,f,2,4.9,0
+FRUPAS,Fruit Passion,03CHERI,t,3,19.95,2
+GALETTE,Galette,04PA,f,2,9.5,2
+GALFR,Galette Frangipane,04PA,f,2,12,2
+GALPOM,Galette Pomme,04PA,f,2,11,2
+GARAM,Garam Masala 30g,12ARTISMON,f,2,2.7,0
+GENIEVREARCADIE,Genièvre Baies Arcadie 70 gr,04MOUT,f,1,2.5,0
+GERMEALFAALFA,Germline Alfalfa 150gr,04GERME,f,2,4.4,2
+GERMECRESSON,Germline Cresson 150gr,04GERME,f,2,6.8,2
+GERMERADFENOUIL,Germline Radis Fenouil150gr,04GERME,f,2,6.8,2
+GERMETREFLERAD,Germline Trèfle Radis 150gr,04GERME,f,2,6.8,2
+GINGEM,Gingembre Pérou kg,02EPIC,t,3,9.4,0
+GINGERMOULU,Gingembre Moulu 30 gr,12ARTISMON,f,2,2.5,0
+GODART,Motte Artichaut,05FEUILLE,f,2,0.92,0
+GRAI,Graines jachère fleurie,05SEME,f,2,2,0
+GRAICOU,Graine courge Bel air 250 g,03FS,f,1,4.55,2
+GRAINCOURGES,Graines de courge Vrac,03FS,t,3,16.1,2
+GRAINE_COURGE,Graines de courge caramel 135 g,04CONFISER,f,1,5.9,2
+GRAINE_LIN,Graine lin Bel Air 250 gr,03FS,f,1,3.6,2
+GRENAD,Grenade Espagne,03,t,3,3.5,2
+GROS,Groseille Non Bio barq.250g,03BAIES,f,2,2,0
+GROS_SEL_VRAC,GROS SEL VRAC,02EPIC,f,2,2.3,0
+GROSEILLE,Groseille Non Bio,03BAIES,t,3,7.8,0
+GUIMAUV,Guimauve officinale Bio Plant,05AROM,f,2,2.3,0
+HABEUR,Haricot beurre,02HARI,t,3,7.5,0
+HACOCO,Haricot coco,02HARI,t,3,4,0
+HARCUIS,Haricots blancs 520g cuisinés,04HAR,f,1,5.5,2
+HARCUIS28,Haricots blancs 280g cuisinés,04HAR,f,1,3.95,2
+HARI,Haricot vert Bio Plant,05HARI,f,2,4.5,0
+HARIBLA,Haricots blancs secs 500g,04HAR,f,1,4.95,2
+HARICO,Haricot vert Plant sachet 200g,05HARI,f,2,5,0
+HARICOBLANVRAC,Haricots blancs vrac,04CEREALE,t,3,7.7,0
+HARINOIR,Haricots noirs secs 500g,04HAR,f,1,4.95,2
+HARIROU,Haricots rouges secs 500g,04HAR,f,2,4.95,2
+HARISSA,Harissa Deméter,04MOUT,f,2,2.8,2
+HARPLA,Haricot plat,02HARI,t,3,4.9,0
+HARROUVRAC,Haricots rouges vrac,04CEREALE,t,3,9.9,0
+HAVERT,Haricot vert Jardins,02HARI,t,3,6.9,0
+HERBECURRY,Herbe à Curry Plant,05AROM,f,2,2.3,0
+HERBEPROVARCADIE,Herbe de provence Arcadie Vrac,04MOUT,t,3,29,0
+HERBEPROVEARCADIE,Herbes provence Arcadie 30 g,04MOUT,f,1,1.7,0
+HOUMOUS,Houmous,04TAPEN,f,1,4.1,2
+HUCAME,Huile Cameline 250ml,04HU,f,2,7.7,2
+HUCOLZ,Huile colza au citron 75 cl,04HU,f,2,8.2,2
+HUI3L,Huile de tournesol 3L,04HU,f,2,13.2,2
+HUIEPI,Huile olive Epikourous 1L,04HU,f,2,12.9,2
+HUIKALA,Huile Kalamata 1 litre,04HU,f,2,13.1,2
+HUIKALGREC,Huile d'olive grecque kalamata 1L,04HU,f,2,13.1,2
+HUILCHAN,Huile chanvre 250ml,04HU,f,2,7.7,2
+HUILCOUR,Huile de courge 250ml,04HU,f,2,11,2
+HUILECALABRE,Huile d'olive Calabre 1 L,04HU,f,2,14.15,2
+HUILECOCO,Huile coco vierge 200ml,12ARTISMON,f,2,4.6,0
+HUILECOLZA,Huile Colza 75cl,04HU,f,2,6.95,2
+HUILECOLZAPO,Huile Colza 5L,04HU,f,2,26.15,2
+HUILEGR,Huile Colza grillé 500 ML,04HU,f,2,6.3,2
+HUILEOLIVE1LITRE,Huile Olive 1 litre Tunisie,04HU,f,2,7.6,2
+HUILNOIS,Huile noisette 250ml,04HU,f,2,12.65,2
+HUILNOIX,Huile de noix 50cl,04HU,f,2,16.55,2
+HUIOLIVE75,Huile d'Olive 75cl,04HU,f,2,13.1,2
+HUIOLIVFRUI,Huile d'olive Epikouros 75cl,04HU,f,2,10.2,2
+HUITOUR,Huile de tournesol 75cl,04HU,f,2,5.8,2
+HUOILIVE,Huile olive Epikouros 5L,04HU,f,2,53.05,2
+HUTOUR,Huile de tournesol 1L Chassagne,04HU,f,2,5.95,2
+HYDROMEL,Hydromel,12RELIONRO,f,2,12.2,0
+HYSOP,Hysope Bio Plant,05AROM,f,2,2.3,0
+ICEBERG,Salade Iceberg,02SALA,f,2,1.2,0
+JUPOM1,Jus de pommes 1 L non AB *,04JF,f,2,2.3,2
+JUPOM2,Jus de Pommes 6L non AB*,04JF,f,2,2.1,2
+JUSCHOU,Jus de choucroute 0.75 cl,04JF,f,1,2.9,0
+JUSFRUIT,Jus de poire 1l,04JF,f,2,4.4,0
+JUSORAGBIB,Jus d'orange bib 3L,04JF,f,1,12.9,2
+JUSORANGE,Jus d'orange coteaux 75cl,04JF,f,1,4.35,2
+JUSRAISINRG,Jus de raisin rouge frugibio 1L,04JF,f,1,3.7,2
+JUTOM,Jus de tomate 25cl,15TRANSLEG,f,1,2.2,0
+JUTOM7,Jus de tomate 75cl,15TRANSLEG,f,1,3.95,0
+KAKI,Kaki Espagne,03EXOTIQ,t,3,4,2
+KIWI,Kiwi Italie Vrac kg,03KIWI,t,3,4,2
+KIWIITA,Kiwi rouge Italie Piece,03KIWI,f,2,1.05,2
+KIWIPI,Kiwi vrac Italie Piece,03KIWI,f,2,0.6,2
+KIWL,Kiwi Alimea France,03KIWI,t,3,5.35,2
+KOMBUCHA_CARDAMOME,Kombucha Cardamome,04BOISSONS,f,1,2.35,0
+KOMBUCHA_GINGEMBRE,Kombucha Gingembre,04BOISSONS,f,1,2.35,0
+KOMBUCHA_MALVA,Kombucha Malva,04BOISSONS,f,1,2.35,0
+KUMQUAT,Kumquat Esp kg,03AGRUMES,t,3,5.8,2
+LAITBREBIS75,Lait de Brebis 75 cl,04LAIT,f,2,4,2
+LAITCHEVRE75,Lait de Chèvre 75 cl,04LAIT,f,2,3.1,2
+LAITCOCO,Lait coco 400ml,12ARTISMON,f,2,3.5,0
+LAITCRU,Lait cru 1L,04LAIT,f,1,1.4,0
+LAURIERSA,Laurier sauce Bio Plant,05AROM,f,2,2.3,0
+LAVAND,Lavande grosso Bio Plant,05AROM,f,2,2.3,0
+LEGPRTCUI,Légumes prêts à cuisiner,15TRANSLEG,t,3,10,0
+LEGRAP,Légumes rapés sous vide,15TRANSLEG,t,3,9,0
+LEGRAPB,Légumes rapés barquette 250g,15TRANSLEG,f,2,2.25,0
+LENTBELUGA,lentille beluga 500 g,04LENT,f,1,3.45,2
+LENTIL,Lentillons 500 g,04LENT,f,2,3.15,2
+LENTILLEBELUGAKG,Lentilles Beluga Kg,04CEREALE,t,3,4.5,0
+LENTILLECORAIL,Lentille Corail Vrac,04CEREALE,t,3,4.5,2
+LENTILVERT,Lentilles vertes 1kg,04LENT,f,1,5.5,0
+LENTILVERTE,Lentilles vertes 500 gr,04LENT,f,1,3.3,2
+LENTKG,Lentilles Vrac,04LENT,t,3,4.2,0
+LENTVERT5,Lentilles vertes 500g,04LENT,f,1,3,0
+LEVURE,Saf-Levure Boite 125g,04MOUT,f,1,1.7,2
+LIN,Lin brun kg,04CEREALE,t,3,3.8,2
+LITCHI,Litchi Madagascar,03EXOTIQ,t,3,12.45,2
+LIVE,Livèche Plant,05AROM,f,2,2,0
+LIVR1,Livre Guide des Jardins de Cocagne,DIVERS,f,2,15,2
+LIVR2,Agenda Jardins de Cocagne,DIVERS,f,2,12,0
+MAC050,Accacia 500g,12RELIONRO,f,2,9.2,2
+MAC100,Accacia 1kg,12RELIONRO,f,2,16.2,2
+MACHE,Mâche,02SALA,t,3,13.5,0
+MADEL,Madeleines Sachet 150g,04PA,f,2,4,2
+MAIS,Maïs cru,02,f,2,1,0
+MAISPLANT,Mais doux Bio Plant,05PLANT,f,2,2.5,0
+MANDAR,Mandarine,03AGRUMES,t,3,2.7,2
+MANGAMELIE,Mangue Espagne Pièce,03MANGUE,f,2,2.95,2
+MANGUE,Mangue kent Pérou,03MANGUE,t,3,8.7,2
+MANGUESECH,Mangue séchée 100g,12ARTISMON,f,2,3.3,0
+MANICOTTI,Pâtes Manicotti au blé dur 250g,04PATES,f,1,2.15,2
+MANKENT,Mangue ataulfo Equateur,03MANGUE,t,3,11.9,2
+MANON,Manon,02POMM,t,3,1.5,0
+MAQCITRBASIL,Maquereaux citron basilic 130g,04POIS,f,1,3.6,2
+MAQUEREAU,Maquereaux au naturel 113g,04POIS,f,2,3.4,2
+MAQUEREAUHO,Maquereaux huile d'olive 118g,04POIS,f,1,3.4,2
+MAQUEREAUSM,Maquereaux moutarde 113g,04POIS,f,1,3.4,2
+MAQVINBLANC,Maquereaux au vin blanc,04POIS,f,1,3.1,2
+MARACU,Maracuja Ouganda,03CHERI,t,3,19.5,2
+MARJO,Marjolaine Plant,05AROM,f,2,2.3,0
+MARJOL,Marjolaine Bio Plant,05AROMCH,f,2,2.3,0
+MARRON,Marron d'Ardèche,03FS,t,3,9.05,2
+MARRONENTIERVAP,Marron entier Cuit Vapeur 200g,03FS,f,1,4.2,2
+MARRONPRECUIT,Marron pré-cuit France,03FS,f,2,4,2
+MASCARPONE,Mascarpone Italie,04FROMAGE,f,2,3.95,2
+MATE,Maté Brésil 100g,12ARTISMON,f,2,3.7,0
+MCR050,Crémeux 500g,12RELIONRO,f,2,6.8,2
+MCR100,Crémeux 1kg,12RELIONRO,f,2,11.8,2
+MELANGE,Mélange Fleurs semences,05SEME,f,1,2,0
+MELCHAMPI,Mélange champignons,02CHAM,t,3,7,0
+MELFRUISEC,Melange pom poir mang bana,03FS,t,3,25,2
+MELGATEAU,Melange gateau 30g,12ARTISMON,f,2,2.4,0
+MELISSE,Mélisse Bio Plant,05AROMCH,f,2,2.3,0
+MELOGAL,Melon Galia Espagne,03MELON,t,3,2.9,2
+MELON,Melon Charentais France,03MELON,t,3,3.5,2
+MELONCAN,Melon Cantaloup Italie kg,03MELON,t,3,2.5,2
+MELONG,Melon Canari Espagne kg,03MELON,t,3,3.3,2
+MELONJARDIN,Melon des Jardins,03MELON,f,1,2.9,0
+MELONPO,Melon Porto France,03MELON,t,3,2.9,2
+MELPLT,Melon Bio Plant,05MELON,f,2,2.2,0
+MELWOKEPIC,Mélange wok épicé,15TRANSLEG,t,3,14,0
+MELWOKNAT,Mélange wok nature,15TRANSLEG,t,3,12,0
+MEMA,Menthe marocaine Bio Plant,05AROMCH,f,2,2.3,0
+MENCH,Menthe chocolat Plant,05AROMCH,f,2,2.3,0
+MENMA,Plant Menthe Pomme,11MENTHE,f,2,2,0
+MENSPI,Menthe spicata Plant,05AROM,f,2,2,0
+MENTHE,Menthe,02AROM,f,2,1.2,0
+MENTORA,Menthe orange Bio Plant,05AROMCH,f,2,2.3,0
+MENTPOM,Menthe pomme Bio Plant,05AROMCH,f,2,2.3,0
+MEPO,Menthe poivrée Plant,05AROMCH,f,2,2.3,0
+MERI,Meringue sachet,04PA,f,2,1.2,2
+MESCLU,Mesclun de chou asiatique,02SALA,t,3,13,0
+MESCLUN,Mesclun,02SALA,t,3,5,0
+MESJEU,Mesclun Jeunes Pousses,02SALA,t,3,13,0
+MICREMFARD500,Miel Crémeux Jardins 500g,04MI,f,1,6.2,2
+MICREMJARD250,Miel Crémeux Jardins 250g,04MI,f,1,3.2,2
+MIE4COF,Coffret  Miel 4x250,04MI,f,1,13,2
+MIECOF,Miel coffret dégustation,04MI,f,2,14.3,2
+MIELJARDINS,Miel toutes fleurs Jardins 250g,04MI,f,1,3.2,2
+MIELTTFJAR,Miel toutes fleurs Jardins 500g,04MI,f,1,6.2,2
+MIRABE,Mirabelles pour CONFITURE Vosges,03PRUNE,t,3,2.7,2
+MIRABIO,Mirabelles Alsace Lorraine  kg,03PRUNE,t,3,5.4,2
+MMO050,Miel de Montagne 500g,04MI,f,2,9.2,2
+MMO100,Miel de Montagne 1kg,04MI,f,2,16.2,2
+MORBIER,Morbier comtois,04FROMAGE,t,3,17.9,2
+MORBIERCHAUX,Morbier de la chaux,04FROMAGE,t,3,21.3,2
+MOULAGCOEUR,Moulage petit coeur 50g,04CONFISER,f,2,2.95,2
+MOUTAANCIENNE,Moutarde ancienne 200 ml,04MOUT,f,1,3.4,0
+MOUTAFORTE,Moutarde forte 200 ml,04MOUT,f,1,3,0
+MOUTARD,Moutarde nature 120 ml,04MOUT,f,2,1.2,2
+MOUTARDENAT,Moutarde Nature 200 ml,04MOUT,f,1,3,0
+MOZZA,Mozzarella bufflonne,04FROMAGE,f,2,3.1,2
+MOZZALV,Mozzarella lait de vache,04FROMAGE,f,2,1.9,2
+MOZZAR,Mozzarella Bufflonne,04FROMAGE,f,2,3.1,2
+MRO050,Miel de Ronce 500g,04MI,f,2,10.2,2
+MSA050,Miel Sapin 500g,04MI,f,2,11.8,2
+MSA100,Miel Sapin 1kg,04MI,f,2,21.4,2
+MTF050,Miel Toutes fleurs 500g,04MI,f,2,6.5,2
+MTF100,Miel Toutes fleurs 1kg,04MI,f,2,10.7,2
+MTI050,Miel Tilleul 500g,04MI,f,2,9.2,2
+MTI100,Miel Tilleul 1kg,04MI,f,2,16.2,2
+MUESLI5CEREALES,Muesli 5 céréales 500g,04CONFISER,f,2,2.95,0
+MUNSTER,Munster déméter alsace petit modèle,04FROMAGE,t,3,15.2,2
+MUNSTERBLAN,Munster blanc,04FROMAGE,t,3,14.9,0
+MUNSTFERCUMIN,Munster fermier au cumin,04FROMAGE,t,3,16.05,2
+MUNSTFERM,Munster fermier,04FROMAGE,t,3,15.5,2
+MURESBLANCHES,Mûres Blanches ( Ecocert),03FS,f,2,4,2
+MYRTILLE,Myrtille Bleuet des Vosges,03BAIES,t,3,15.95,2
+NARCISSEBOUQUET,Narcisse Bouquet,05PF,f,2,5,0
+NAV,Navet Jaune,02NARU,t,3,2.8,0
+NAVET,Navet kg Jardins,02NARU,t,3,2.4,0
+NAVETBOTTE,Navet botte,02NARU,f,2,1.8,0
+NAVETROUGE,Navet Rouge,02NARU,t,3,3,0
+NAVPLANT,Navet botte Bio Plant,05RACINE,f,2,1.3,0
+NECTAB,Nectarine Blanche,03PECHE,t,3,8.65,2
+NECTABJ,Nectarine,03PECHE,t,3,6.7,2
+NECTAR,Nectarine Jaune/blanche France,03PECHE,t,3,8.65,2
+NECTCAME7,Nectar de camerise 75cl,04JF,f,1,3.5,0
+NECTMIRA,Nectar de mirabelles 75cl,04JF,f,1,3.5,0
+NECTMIRA2,Nectar de mirabelles 25cl,04JF,f,1,2.56,0
+NECTRHUB2,Nectar de rhubarbe 25cl,04JF,f,1,2.7,0
+NECTRHUB7,Nectar de rhubarbe 75cl,04JF,f,1,3.5,2
+NEFLE,Nèfle Espagne,03,t,3,7.7,2
+NEM4,Nems au kg,15TRANSLEG,t,3,25,0
+NEM8,Nems par 8,15TRANSLEG,f,1,10,0
+NICOLA,Nicolas,02POMM,t,3,1.5,0
+NOICOCO,Noix de Coco Ivoire,03FS,f,2,1.8,2
+NOIPECAN,Noix de pecan,03FS,t,3,18.9,2
+NOISCOQ,Noisette coque Corse,03FS,t,3,8.9,2
+NOISET,Cacahuète kg,03FS,t,3,7.15,2
+NOISSA,Noisettes décortiquées,03FS,t,3,19,2
+NOIX,Noix d'Alsace,03FS,t,3,7.35,2
+NOIXAL,Noix de Grenoble,03FS,t,3,9.15,2
+NOIXCA,Noix de Cajou,03FS,t,3,20.9,2
+NOIXCOCORAP,Noix coco rapée 100g,12ARTISMON,f,2,2.7,0
+NOUGAT,Nougat fermier 100g,04CONFISER,f,2,5.95,2
+OCADUPEROU,Oca du Pérou,02PANA,t,3,9.15,0
+OEIL,Oeillet d'Inde Bio Plant,05PF,f,2,2.2,0
+OEUF06,Oeufs Boîte 6,04OE,f,2,2.05,2
+OEUFPE06,Oeufs (Boîte 6 petits),04OE,f,2,1.5,2
+OEUFS12,Oeufs (Boîte 6 moyens),04OE,f,2,1.9,2
+OEUFS6,Boîte 6 moyens,04OE,f,1,2,2
+OIBLAN,Oignon blanc kg,02EPIC,t,3,3.5,0
+OIBLBT,Oignon jaune botte,02EPIC,f,2,2,0
+OIBOTTR,Oignon jaune Botte,02EPIC,f,2,2.3,0
+OIGBL,Oignon blanc Bio Plant,05OIGN,f,2,1.5,0
+OIGNONAL,Oignon rouge,02EPIC,t,3,2.5,2
+OIGSIM,Oignon de simiane,02EPIC,t,3,2.8,0
+OIJAUN,Oignon jaune kg,02EPIC,t,3,2.35,0
+OIROUG,Oignon rouge kg,02EPIC,t,3,2.95,0
+OLIVAMAND,Olive verte amande 200g,02CONDIM,f,1,3.8,0
+OLIVTN,Olive verte avec noyau 200g,02CONDIM,f,1,3,2
+OLNOA/N,Olive Noire 200 grs,02CONDIM,f,2,3,0
+OLNYON,Olive noire sachet 250g,02CONDIM,f,2,6.3,2
+OLVEAI,Olive Verte Ail 200 grs,02CONDIM,f,2,3.8,0
+OLVECI,Olive Verte Citron 200 grs,02CONDIM,f,2,3.8,0
+OLVEPO,Olive verte poivron 200 grs,02CONDIM,f,2,3.8,0
+OLVERA/N,Olive verte dénoyautée 200 grs,02CONDIM,f,2,3,0
+ORACALA,Orange Ovalie  Italie,03ORANGE,t,3,2.6,2
+ORAITA,Orange  Washington Italie kg,03ORANGE,t,3,2.8,2
+ORANAM,Orange amère Espagne,03ORANGE,t,3,3,2
+ORANES,Orange Sicile Italie,03ORANGE,t,3,2.8,2
+ORANGE,Orange Espagne,03ORANGE,t,3,2.2,2
+ORANMORO,Orange sanguine moro Italie,03ORANGE,t,3,3.25,2
+ORANSA,Orange Espagne,03ORANGE,t,3,2.9,2
+ORANWAS,Orange Afrique Sud,03ORANGE,t,3,4.95,2
+ORAOVALI,Orange Valancia Italie,03ORANGE,t,3,2,2
+ORASALA,Orange à jus kg Espagne,03ORANGE,t,3,2.2,2
+ORIG,Origan Plant,05AROM,f,2,2,0
+ORIGA,Origan Bio Plant,05AROMCH,f,2,2.3,0
+ORIGAN,Origan vulgaire Plant,05AROM,f,2,2,0
+ORMALTA,Orange maltaise tarocco Italie,03ORANGE,t,3,2.8,2
+ORTILLETTE33,Ortillette 33cl,04BOISSONS,f,2,2.6,2
+ORTILLETTE75,Ortillette 75cl,04BOISSONS,f,2,4.9,2
+OSEILLE,Oseille Bio Plant,05AROMCH,f,2,2.3,0
+OSEILPOU,Oseille pourpre Bio Plant,05AROMCH,f,2,2.3,0
+OSTARA,pomme ostara,02POMM,t,3,1.5,0
+P4GR05,Pain  4 graines 500 g,04PA,f,2,3.1,2
+PAINB,Pain blé moulé 750g,04PA,f,2,2.9,2
+PAINBLE,Pain soldé,04PA,f,2,1,2
+PAINBLECOMPLET500,Complet Blé 500g,04PA,f,1,3.5,0
+PAINBLEDEMICOM500,Semi-complet  Blé 500g,04PA,f,2,3.3,0
+PAINBLEMULTIGR500,Multi-graines 500g,04PA,f,1,4.5,0
+PAINBLENOIX500,Noix 500g,04PA,f,1,4.8,0
+PAINBLERAISIN500,Raisins  Pain 500g,04PA,f,1,4.5,0
+PAINEP,Pain de vieilles variétés 500g,04PA,f,2,2.9,2
+PAINEPEAUTRE500,Epeautre 500g,04PA,f,1,4.8,0
+PAINEPICE,Pain d'épices nature fermier 350g,04PA,f,1,7.9,2
+PAINEPICECHOCO,Pain d'épices chocolat orange 350g,04PA,f,1,8.4,2
+PAINEPICENAT,Pain d'épice nature,12ARTISMON,f,2,5.6,0
+PAINFLEURSCHATAIGN,Pain Fleurs Châtaigne Ss gluten 300g,04PA,f,1,7.35,2
+PAINFLEURSMULTICER,Pain Fleurs Multicéréales Ss gluten 150g,04PA,f,1,3.15,2
+PAINFLEURSSANSSEL,Pain Fleurs Ss Sel Ss Gluten 150g,04PA,f,1,3,2
+PAINMI,Pain de mie 500 g,04PA,f,2,3.6,2
+PAINNOIX,Pain aux noix 500g,04PA,f,1,3.1,2
+PAINOI,Pain aux graines courge 500g,04PA,f,2,3.1,2
+PAINPETEPEAUTRE500,Petit Epeautre 500g,04PA,f,1,6.2,0
+PAINS,Salade Pain de sucre kg,02SALA,t,3,3.5,0
+PAINSARRASINRIZ400,Sarrasin Riz 400g,04PA,f,1,4.6,0
+PAINSEIGLE500,Seigle 500g,04PA,f,1,3.9,0
+PAIRAI,Pain aux raisins 500g,04PA,f,2,3.1,2
+PAMAN,Poudre d'amande vrac,03FS,t,3,18.3,2
+PANAIS,Panais Jardins,02PANA,t,3,3.3,0
+PANAISF,Panais France,02PANA,t,3,3.5,0
+PANFRSECS,Panier Fruits secs,03FS,f,2,14,0
+PANIERGARNIGM,Panier Cadeau Garni Grand Modèle,04ACCJARD,f,1,25,0
+PANIERGARNIPM,Panier Garni Cadeau Petit Modèle,04ACCJARD,f,1,20,0
+PANIRCHEVHERB,Panir de chèvre HERBES piece,12ECOLONIE,f,2,3.8,0
+PANIRCHEVNAT,Panir de chèvre NATURE Pièce,12ECOLONIE,f,2,3.7,0
+PAPRIKAARCADIE,Paprika doux Arcadie 70 gr,04MOUT,f,1,4.5,0
+PAPYE,Papaye Cameroun,03CHERI,t,3,6.2,0
+PARMESANSCOT,Parmesan Reggiano kg,04FROMAGE,t,3,38.52,2
+PASTEQ,Pastèque  mini espagne kg,03PASTEQUE,t,3,1.9,2
+PASTEQJAR,Pastèque jardins,03PASTEQUE,t,3,2.5,0
+PASTJAUES,Pastéque jaune Espagne,03PASTEQUE,t,3,2.15,2
+PASTPLA,Pastèque Bio Plant,05MELON,f,2,2.2,0
+PASUCR,Pain de sucre poids,02SALA,t,3,5,0
+PATATE,Patate Douce Espagne kg,02PATATE,t,3,4.2,2
+PATDOUJA,Patate douce Jardins,02PATATE,t,3,4.9,0
+PATE,Bel Air Tortilles 300 g,04PATES,f,1,2.9,2
+PATEC,Bel air Coquilles 300g,04PATES,f,1,2.9,2
+PATECURRY,Pâte pour Curry,04TAPEN,f,1,4.2,2
+PATEF,Bel air Farelles 300g,04PATES,f,1,2.9,2
+PATEFUSILLI,Pate fusilli sicile 500g,04PATES,f,2,2.3,2
+PATEMACHERONI,Pate macheroni sicile 500g,04PATES,f,2,2.3,2
+PATESPAG,Pate spaghetti sicile 500g,04PATES,f,2,2.3,2
+PATESS,Bel air Souplettes 300g,04PATES,f,1,2.9,2
+PATETAGLIATELLE,Pate tagliatelle sicile 500g,04PATES,f,2,2.3,2
+PATETANDOORI,Pâte pour Tandoori,04TAPEN,f,1,4.2,2
+PATEVEGET,"Paté végétal indien, mexicain",04TAPEN,f,1,4.1,2
+PATEVEGETESCA,Paté végétal escalivade,04TAPEN,f,1,4.1,2
+PATEVRAC,Pates vrac,04CEREALE,t,3,4.2,2
+PATI,Patisson Bio Plant,05POTI,f,2,1.5,0
+PATISSON,Patisson,02POTIR,t,3,2,0
+PAVOT,Pavot au kg vrac,04CEREALE,t,3,10.5,2
+PBLE05,Pain au blé semi-complet 500 g,04PA,f,2,2.1,2
+PBLE10,Pain au blé semi-complet 1Kg,04PA,f,2,3.8,2
+PBLEMOULE,Pain blé moulé 500g,04PA,f,1,2.2,2
+PDT10KG,Pomme de terre primeur Anais alsace,02POMM,t,3,3.1,0
+PDTALSACE,Pomme de Terre Charlotte France,02POMM,t,3,2.9,0
+PDTKG,Pomme de terre primeur charlotte FRa,02POMM,t,3,4.4,0
+PDTNKGJAR,Pomme de terre Jardins,02POMM,t,3,2.6,0
+PDTPRAL,Pdt primeur avanti alsace,02POMM,t,3,3.2,2
+PDTPRI,Pomme de terre avanti alsace,02POMM,t,3,4.4,2
+PDTRAT,Pomme de Terre Ratte Alsace,02POMM,t,3,4.95,0
+PECHE,Pêche,03PECHE,t,3,5.95,2
+PECHE_JAUNE,Peche jaune,03PECHE,t,3,7,0
+PECHESBARQUETTE,Barquette de pêches,03PECHE,f,1,2.9,2
+PECHJ,Pêche plate france,03PECHE,t,3,7.75,2
+PECHJA,Pêche de vigne,03PECHE,t,3,6.7,2
+PECPLA,Pêche Sanguine,03PECHE,t,3,7.55,2
+PEFR,Persil frisé Bio Plant,05AROMCH,f,2,2.3,0
+PEPE05,Epeautre 500 g,04PA,f,2,3.2,2
+PEPL,Persil plat Bio Plant,05AROMCH,f,2,2.3,0
+PEPOIS,Petit pois Jardins,02POIS,t,3,8,0
+PERSIL,Persil vrac,02AROM,t,3,28,0
+PERSILFR,Persil Bouquet,02AROM,f,2,1,2
+PERSILJARD,Persil bouquet jardins,02AROM,f,1,1.4,0
+PERSILSCOT,Persil frisé,02AROM,f,2,1.65,0
+PETEPEA,Farine Bel air petit épeautre 750g,04FA,f,1,4,2
+PETITE,Petit Epeautre 500g,04PA,f,2,3.15,2
+PETPOM,Jus pétillant de pomme 27.5cl,04JF,f,1,2.5,0
+PETRHUB,Jus pétillant de rhubarbe 27.5cl,04JF,f,1,2.5,2
+PHYSABQ,Physalis Jardins,03CHERI,t,3,11,2
+PHYSALIS,Physalis Bio Plant,05PLANT,f,2,2.3,0
+PIGNON,Pignons de Pin Espagne,03FS,f,1,17.3,2
+PIMENT,Piment Bio Plant,05SOLAN,f,2,1.5,0
+PIMPREN,Pimprenelle Bio Plant,05AROMCH,f,2,2.3,0
+PISSEN,Pissenlit,02SALA,t,3,18,0
+PISTA,Pistache déc.vrac Italie,03FS,t,3,63,2
+PISTA250,Pistache décortiquée 250 grs,03FS,f,2,14.55,2
+PL2,Plant divers à 1.50,05PL,f,2,1.5,0
+PL3,Plant divers à 2.20,05PL,f,2,2.2,0
+PLANTARO,Plantes aromatiques en bouquet,02AROM,f,1,1.4,0
+PLDIVE,Plants Divers,05PL,f,2,1,0
+PLEUBA,Pleurote Barquette non Bio*,02CHAM,f,2,2,0
+PLEUREXTERIEUR,Pleurote Ecoter bio,02CHAM,t,3,13.7,0
+PLEURO,Shitaké non Bio *,02CHAM,t,3,12,0
+PLEUROTEVRAC,Pleurotes non AB*,02CHAM,t,3,10,0
+PLIN05,Pain au lin 500 g,04PA,f,2,2.7,2
+POELASIAT,Poelée asiatique,15TRANSLEG,t,3,5.2,0
+POICAS,Pois cassés Bel air 500 g,04HAR,f,1,2.2,2
+POICASS,Pois cassés bio,04HAR,f,2,3,0
+POICHI,Pois chiches secs 500g,04HAR,f,1,2.95,2
+POICON,Poires Conférence,03POIRE,t,3,3.65,2
+POICRO,Pois Croquant Jardins,02POIS,t,3,8,0
+POIGUY,Poire Guyot Alex Pack WV Conf,03POIRE,t,3,3.8,2
+POIHA,Poire Harrow,03POIRE,t,3,3.65,2
+POIHE,Poire Kaiser Alexander Italie,03POIRE,t,3,4.2,2
+POIPASS,Poire Passe Crassane France,03POIRE,t,3,5.1,2
+POIPLA,Poireaux plants x25,05POIR,f,2,4,0
+POIRAB,Poires packam France,03POIRE,t,3,3.7,2
+POIRALFRA,Poire packam France,03POIRE,t,3,3.7,2
+POIRAUT,Poireau bio plant x30,05POIR,f,2,4.5,0
+POIRCO,Poires Conférence Italie,03POIRE,t,3,3.9,2
+POIRDUCHESSE,Poire comice France,03POIRE,t,3,3.35,2
+POIRE,Poires William Verte,03POIRE,t,3,3.8,2
+POIRE_FRANCE,Poire Comice Hollande,03POIRE,t,3,4.4,2
+POIREA,Poireau,02POIR,t,3,3.65,0
+POIRESHARROW,Poires Harrow Sweet,03POIRE,t,3,3.7,2
+POIRESVOSGES,Poires des Vosges,03POIRE,t,3,3.7,2
+POIREWILLIAM,Poire William Rouge,03POIRE,t,3,4.15,2
+POIRPROMO,Poire pour confiture,03POIRE,t,3,2.8,2
+POIRROKSO,Poires Roksolana,03POIRE,t,3,3.25,2
+POIRSTGERMAINE,Poire Ste Germaine France,03POIRE,t,3,3.65,2
+POIRWI,Poire pour confiture,03POIRE,t,3,2.8,2
+POIRWIRO,Poire giffard,03POIRE,t,3,3.3,2
+POISCASVRAC,Pois cassés vrac FR,04CEREALE,t,3,4.5,2
+POISCHICHVRAC,Pois chiches vrac FR,04CEREALE,t,3,4.6,2
+POISECOS,Petit pois écossé,02POIS,t,3,8,0
+POISTB,Poires St Benoit la Chipotte,03POIRE,t,3,1.8,2
+POIV,Pinokkio corne Bio Plant,05SOLAN,f,2,1.6,0
+POIVGOUR,Poivron gourmet Bio Plant,05SOLAN,f,2,1.5,0
+POIVLILO,Poivron lilo Bio Plant,05SOLAN,f,2,1.5,0
+POIVREGRARCADIE,Poivre grain Arcadie Vrac,04MOUT,t,3,39,0
+POIVRO,Poivron jardins,02POIV,t,3,4.2,0
+POIVRON,Poivron cocktail,02POIV,t,3,5.3,0
+POIVRONROU,Poivron rouge espagne,02POIV,t,3,5.6,0
+POL025,Pollen 250 g,12RELIONRO,f,2,11.2,2
+POL050,Pollen 500 g,12RELIONRO,f,2,20.4,2
+POLENTAVRAC,Polenta 500 grs,04RIZ,f,1,1.5,2
+POMANG,Pois mangetout Jardins,02POIS,t,3,12,0
+POMBOS,Pommes Canada Jardins,03POMME,t,3,2.9,2
+POMBRA,Pommes Braeburn,03POMME,t,3,2.7,2
+POMCAN,Pommes Canada grise,03POMME,t,3,2.7,2
+POMCOM,Pomme à compote,03POMME,t,3,2.5,2
+POMCOX,Pomme Cox Orange,03POMME,t,3,2.7,2
+POMEES,Pomelos Espagne+Italie,03POMELOS,f,3,4.3,4
+POMEITA,Pomelos rose Esp Talie,03POMELOS,t,3,4.3,2
+POMELC,Pomélos Esp,03POMELOS,t,3,4.3,2
+POMELO,Pomélos ESP,03POMELOS,t,3,2.5,2
+POMELS,Pommes Elstar,03POMME,t,3,2.7,2
+POMFLO,Pommes non AB Florent,03POMME,t,3,2,2
+POMFUJ,Pommes Fudji,03POMME,t,3,2.7,2
+POMGOL,Pommes Golden,03POMME,t,3,2.7,2
+POMGOLD,Pomme,03POMME,t,3,3.4,2
+POMGRA,Pommes Granny Smith,03POMME,t,3,2.7,2
+POMIDA,Pommes Idared,03POMME,f,1,2.7,2
+POMJCOM,Pomme compote,03POMME,t,3,2,0
+POMJONA,Pommes Jonagold,03POMME,t,3,2.7,2
+POMMESECHE,Pomme séchée sachet 100g,03FS,f,2,3.1,2
+POMMIR,Pomme Saison 2019,03POMME,t,3,3.55,0
+POMPIER,Pomme petit calibre PIERROT,03POMME,t,3,1.9,2
+POMPIN,Pommes Pinova,03POMME,t,3,2.7,2
+POMRAV,Pommes non traitées Ravenel,03POMME,t,3,1.5,2
+POMROY,Pommes Royal Gala,03POMME,t,3,3.3,2
+POMSAC,Pomme sachet 2kg,03POMME,f,2,4.95,2
+POMSAN,Pommes Santana,03POMME,t,3,2.7,2
+POMTOP,Pommes Topaze,03POMME,t,3,2.7,2
+POMU,Musquée de Provence bio plant,05POTI,f,2,1.5,0
+POTA,Pot au feu sachet,15TRANSLEG,t,3,3,0
+POTAUFEU,Pot au feu 1.5 kg,02SACHET,f,2,3.1,0
+POTERR,Pomme de terre Hol,02POMM,t,3,2.6,0
+POTIBUTTER,Butternut bio plant motte 8 cm,05POTI,f,2,1.5,0
+POTIMA,Potimarron,02POTIR,t,3,2,2
+POTIMAORANGE,Potimarron orange Holl,02POTIR,t,3,3.5,0
+POTIMARRON,Potimarron Jardins,02POTIR,t,3,2.9,0
+POTIRO,Rouge vif d'Etampes bio plant,05POTI,f,2,1.5,0
+POTIRON,Potiron,02POTIR,t,3,2.5,0
+POTIRONROE,Potiron jardins,02POTIR,t,3,2.8,0
+POTISPAG,Spaghetti bio plant,05POTI,f,2,1.5,0
+POUC,Uchiki Bio Plant,05POTI,f,2,1.5,0
+POUDRELEVER,Poudre à Lever Sachet 2x7g,04MOUT,f,1,0.45,0
+POURPI,Roquette sauvage <france<,02SALA,t,3,13.45,0
+POURPIER,Pourpier,02SALA,t,3,5,0
+PPIMENT,Piment de Cayenne,02POIV,t,3,12,0
+PRESTENVIRONEMENT,Prestations Environnement,06,f,1,6.5,0
+PRUNDENOY,Pruneaux dénoyautés sachet 250g,03FS,f,2,5.3,2
+PRUNE,Reine-claude France,03PRUNE,t,3,6.75,2
+PRUNE_ROUGE_FRANCE,Prunes katinka France,03PRUNE,t,3,4.4,2
+PRUNEAUX,Pruneaux gros sachet 500g,03FS,f,2,7.6,2
+PRUNEJAUNE,Prunes rouge France,03PRUNE,t,3,5.1,2
+PRUNESBLEU,Prune Helena Alsace,03PRUNE,t,3,3.95,2
+PRUNESTAN,Prune Katinka France,03PRUNE,t,3,4.95,2
+PRUNESVIOLFLORENT,Prunes Violettes non AB Florent,03PRUNE,t,3,2,2
+PRUSAU,Prune jaune,03PRUNE,t,3,4.9,2
+PRUVRAC,Pruneaux vrac kg,03FS,t,3,15.9,2
+PSES05,Pain Mélilot 500 g,04PA,f,2,2.7,2
+PTOU05,Pain au tournesol 500 g,04PA,f,2,2.7,2
+PTSE05,PainTourte au seigle 500 g,04PA,f,2,2.7,2
+PTSEKG,Pain Tourte de seigle kg,04PA,f,2,5,2
+QUETFR,Quetsche  Alsace,03PRUNE,t,3,3.95,2
+QUETSC,Questche Allemagne,03PRUNE,t,3,4,2
+QUETSCHE_ALLEMAGN,Quetsche France,03PRUNE,t,3,4.5,2
+QUINOABLAN,Quinoa real blanc 500g,12ARTISMON,f,2,4.8,0
+QUINOABOLIVIE,Quinoa Bolivie Vrac,04CEREALE,t,3,6.95,2
+QUINOALANDESVRAC,Graines de quinoa des landes Vrac,04CEREALE,t,3,11.65,2
+QUINOAROUGE,Quinoa real rouge 500 gr,12ARTISMON,f,2,5.8,0
+QUINOATRIO,Quinoa trio real 500g,12ARTISMON,f,2,5.3,0
+RABLAN,Radis Asiatique Jardins,02RADI,t,3,3.2,0
+RACLETTE,Raclette des alpages,04FROMAGE,t,3,17.8,2
+RAIBLA,Raisin Muscat noir Alsace,03RAISIN,t,3,7.1,2
+RAIBLEU,Raisin Muscat Bleu Alsace,03RAISIN,t,3,6,2
+RAICHAS,Raisin blanc Chasselas France,03RAISIN,t,3,6.75,2
+RAICHRO,Raisin rosé Chasselas France,03RAISIN,t,3,6.7,2
+RAICLA,Raisin blanc vittoria italie,03RAISIN,t,3,4.3,2
+RAIDANFR,Raisin blanc Danlas France,03RAISIN,t,3,6,2
+RAIFO,Raifort Bio Plant,05AROMCH,f,2,2.3,0
+RAIITA,raisin exalta sans pépins France,03RAISIN,t,3,6.95,2
+RAILAV,Raisin Lavallée Noir,03RAISIN,t,3,6.2,2
+RAILIV,Raisin muscat noir,03RAISIN,t,3,7.3,2
+RAIMUS,Raisin Noir Lival France,03RAISIN,t,3,5.65,2
+RAIMUSCATBLANC,Raisin Muscat blanc France,03RAISIN,t,3,5.75,2
+RAINAP,Raisin Noir Napoléon Espagne,03RAISIN,t,3,6.2,2
+RAINOIR,Raisin noir Lavallée et Cardinal France,03RAISIN,t,3,6,2
+RAIORA,Raisin italia Sicile,03RAISIN,t,3,5.1,2
+RAIRIB,Raisin italia Salamita,03RAISIN,t,3,4.4,2
+RAIROU,Raisin noir Napoléon Esp,03RAISIN,t,3,6,2
+RAISEC,Raisins Secs Turquie 500g,03FS,f,2,4.6,2
+RAISIN,Raisin blanc ora,03RAISIN,t,3,6.2,2
+RAISIN_GLOBAL,Raisin France Lavallée/Ribol/Dattal/Cardinal,03RAISIN,t,3,5.75,2
+RAISJ,RAISIN DES JARDINS,03RAISIN,t,3,5,0
+RAISRI,Raisin Italia Blanc Italie,03RAISIN,t,3,4.2,2
+RAISVR,Raisins Secs Turquie vrac,03FS,t,3,6.9,2
+RANOIR,Radis noir Jardins,02RADI,t,3,3.2,0
+RAPA,Rapa Di Cima,02SALA,f,2,1,0
+RAROSE,Radis au kg,02RADI,t,3,4,0
+RATATOUIL620,Ratatouille Jardins 620 g,15TRANSLEG,f,1,6.1,0
+RAVEBOTTE,Chou rave botte,02CHOU,f,2,1.2,0
+RAVERT,Radis Rose Botte,02RADI,f,2,1.2,0
+REBLOCHON,Reblochon petit AOC Savoie,04FROMAGE,f,1,6.95,2
+RHUB,Rhubarbe Plant,05PLANT,f,2,2.3,0
+RHUBAR,Rhubarbe Jardins,03RHUBARBE,t,3,4.5,0
+RHUBARBE,Rhubarbe demeter Allemagne,03RHUBARBE,t,3,5.4,0
+RIESLINGM,Vin Riesling Muller,04BOISSONS,f,1,7.95,2
+RIZBASM,Riz basmatti 500g,12ARTISMON,f,2,3.4,0
+RIZBLANVRAC,Riz long / rond semi complet vrac,04CEREALE,t,3,3.8,0
+RIZDEMIL,Riz rond semi complet vrac,04CEREALE,f,1,3.8,2
+RIZLON,Riz long blanc thai vrac,04CEREALE,t,3,4.5,2
+RIZTHAIJASMB,Riz thai jasmin blanc 500g,12ARTISMON,f,2,3.05,0
+RIZTHAIJASMC,Riz thai jasmin complet 500g,12ARTISMON,f,2,2.75,0
+RIZTRIOCAMARGUE,Riz Trio Camargue Vrac,04CEREALE,t,3,6.7,2
+ROMA,Romarin Bio Plant,05AROMCH,f,2,2.3,0
+ROOIBOS,Rooibos afrique super fruit 80g,12ARTISMON,f,2,6.4,0
+ROQU,Roquette poids,02SALA,t,3,6,0
+ROQUE,Roquette sauvage Plant,05AROM,f,2,2,0
+ROQUEFORT,Roquefort papillon,04FROMAGE,f,2,3.95,2
+ROQUEPL,Roquette Bio Plant,05AROMCH,f,2,2.3,0
+ROQUET,Roquette,02SALA,t,3,12,0
+ROULEAUPRINTEMPS,Rouleau de Printemps Kg,15TRANSLEG,t,3,20,0
+RUTABA,Rutabaga Jardins,02NARU,t,3,2.6,0
+RUTANEGOCE,Rutabaga France kg,02NARU,t,3,2.2,0
+SABL,Sablés sachet,04PA,f,2,4,2
+SABLE,Sablés Assortiment,04PA,f,2,5,2
+SABLECITRON,Sable citron,12ARTISMON,f,2,2.5,0
+SABLEEPEAUTRE,Sablé épeautre cacao,12ARTISMON,f,2,2.5,0
+SABLENOIXCOCO,Sablé noix coco,12ARTISMON,f,2,2.5,0
+SACFRUI,Panier Fruité 1,03FD,f,2,10.45,0
+SACFRUIT,Panier Fruité 2,03FD,f,2,13.55,0
+SACFRUIT1,Panier Fruité 3,03FD,f,2,17.7,0
+SACFRUIT2,Panier Fruité 4,03FD,f,2,20.85,0
+SACHET,Sachet Macédoine,02SACHET,f,2,2.6,0
+SACHETCRU,Sachet Crudités,02SACHET,t,3,10,0
+SACHS,Sachet Jardinière,02SACHET,t,3,2.8,0
+SACHSOU,Sachet Légumes mesclum,02SACHET,t,3,5.5,0
+SACTISSUGM,Sac tissu gm,04ACCJARD,f,1,1,0
+SACTISSULOTP,Sacs PM Tissu /5,04ACCJARD,f,1,2.3,0
+SACTISSUPM,Sac tissu pm,04ACCJARD,f,1,0.5,0
+SAINTMARCELIN,Saint marcelin 80g,04FROMAGE,f,2,2.95,2
+SALAD2,Salade Jardins,02SALA,f,2,1.5,0
+SALADE,Batavia,02SALA,f,2,1.75,0
+SALAKG,Salade kg,02SALA,t,3,6,0
+SALASCOT,Pourpier alsace,02SALA,t,3,14.9,2
+SALBATAVERT,Batavia verte,02SALA,f,1,1.2,0
+SALBATAVROUGE,Batavia rouge,02SALA,f,1,1.2,0
+SALFEUILCHENROUGE,Feuille de chêne rouge,02SALA,f,1,1.2,0
+SALFEUILCHENVERT,Feuille de chêne verte,02SALA,f,1,1.2,0
+SALIERE,Salière 125g fleur de sel,04SEL,f,2,4.9,2
+SARDHO,Sardine à l'huile d'olive 135g,04POIS,f,1,4.3,0
+SARDINE,Sardine à l'huile d'olive 135g,04POIS,f,2,3.55,2
+SARDINECITR,Sardine huile d'olive citron 135g,04POIS,f,1,3.55,2
+SARDINECITRON,Sardines à l'huile et citron 220g,04POIS,f,1,7.95,0
+SARDINEHUILEOLIV,Sardines à l'huile d'olives 220g,04POIS,f,1,7.95,0
+SARDINEPIMENTESP,Sardines à l'huile d'olive et piment d'espelette 220g AOP,04POIS,f,1,7.95,0
+SARHOC,Sardine à l'huile d'olive citron 135g,04POIS,f,1,3.55,0
+SARIE,Sariette vivace Bio Plant,05AROMCH,f,2,2.3,0
+SAUG,Sauge officinale Plant,05AROMCH,f,2,2.3,0
+SAUGANA,Sauge ananas Bio Plant,05AROMCH,f,2,2.3,0
+SAUGE,Sauge bouquet,02AROM,f,2,1.4,0
+SAUPOU,Sauge Pourpre Plant,05AROM,f,2,2,0
+SCAFRI,Scarole Frisée,02SALA,f,2,1.5,0
+SCAROL,Scarole,02SALA,f,2,2.4,0
+SCORSACHET400G,Scorsonnères sous vide 400g,02PANA,f,2,2.5,0
+SCORSO,Salsifis Hollande,02PANA,t,3,3.45,0
+SEL,Gros Sel 1 kg,04SEL,f,2,2.5,2
+SELCAM,Sel à la cameline 80 gr,04SEL,f,1,4.95,2
+SELFIN,Salière sel fin de Guérande 250g,04SEL,f,2,2.75,2
+SELFIN500,Sel fin sachet 500 g,04SEL,f,2,2.9,2
+SEMHARICOT,Haricot vert semence,05SEME,t,3,30,0
+SEVE,Sève de Bouleau litre,04,f,2,11,2
+SHIDEC,Shitake déclassé non AB*,02CHAM,t,3,6,0
+SHIVR,Shitaké EcoTer,02CHAM,t,3,15.5,0
+SIROPS,Sirops Jardins de Cocagne,04JF,f,2,6.5,0
+SNACKY,Concombre Snacky,02CONC,t,3,6,0
+SOJADEFRUIT,Sojade Fruit 400 g,04PL,f,2,3.5,2
+SOUPEBOCAL375,Bocal Soupe 375 cl,15TRANSLEG,f,1,1.9,0
+SOUPELEGUMES,Soupe de Légumes  Bio 1 litre,15TRANSLEG,f,1,4.95,0
+SPAGQUINOA,Spaghetti quinoa 500g,12ARTISMON,f,2,3.5,0
+SPIRALONI,Spiraloni au blé dur 250 g,04PATES,f,1,2.15,2
+STEVIA,Aromatique PROMO,05AROM,f,2,1.8,0
+SUCRAMERI,Sucre de Canne 1kg,04SUCRE,f,2,3.8,2
+SUCRCAN,Sucre de canne vrac,04SUCRE,t,3,3,0
+SUCRE,Sucre de Canne 5kg,04SUCRE,f,2,16.25,0
+SUCRPANE,Sucre panela 1kg,04SUCRE,f,2,11.4,2
+SUCRPANEL5,Sucre panela 500g,04SUCRE,f,2,6.15,2
+TAPENADENOIR,Tapenade noire à la grecque 212ml,04TAPEN,f,2,4.2,2
+TAPENADEVERT,Tapenade verte à la grecque 212ml,04TAPEN,f,2,4.2,2
+TARTEFRUIT,Tarte Fruits Entière,15TRANSLEG,f,2,16,0
+TARTEFRUITPART,Tarte Fruits Part,15TRANSLEG,f,2,3,0
+TARTELEGUME,Tarte Légumes Entière,15TRANSLEG,f,1,16,0
+TARTELEGUMEPART,Tarte Légumes Part,15TRANSLEG,f,2,3,0
+TENDORIARCADIE,Tendori Arcadie 70 g,04MOUT,f,1,3.4,0
+THEBLANC,Thé blanc zen,04THE,f,2,5.3,0
+THENOIRASSAM,Thé noir assam 100g,04THE,f,2,4.5,0
+THENOIRCHAI,Thé noir chai curcuma 90g,04THE,f,2,5.9,0
+THENOIRDJAER,Thé noir darjeeling 100g,04THE,f,2,5.2,0
+THENOIRINFCEYL,Thé noir infusettes Ceylan,04THE,f,2,4,0
+THENOIRINFLAOS,Thé noir infusettes Laos,04THE,f,2,5.5,0
+THENOIRINFOOLONG,Thé infusettes Oolong Laos,04THE,f,2,5.5,0
+THENOIRNOELT,Thé noir de Noel tube,04THE,f,2,7.9,0
+THENOIROOLONGSHAN,Thé Oolong Laos 80 gr,04THE,f,2,4.6,0
+THEVERTCOCOCIT,Thé vert coco citron 70g,04THE,f,2,5.5,0
+THEVERTEARLGREY,Thé vert earl grey 90g,04THE,f,2,6.6,0
+THEVERTINFLAOS,Thé vert Shan infusettes Laos,04THE,f,2,4.9,0
+THEVERTJASMIN,Thé vert jasmin,04THE,f,2,7.2,0
+THEVERTNOEL,Thé vert de Noel 100g,04THE,f,2,6.3,0
+THEVERTSENCHA,Thé vert sencha chine 90g,04THE,f,2,5.1,0
+THEVERTVITALIT,Thé vert vitalité 80g,04THE,f,2,6.4,0
+THON,Thon au naturel 400g,04THON,f,2,8.95,2
+THONAT,Thon au naturel 160g,04THON,f,1,4.05,2
+THONHUI,Thon huile olive 160g,04THON,f,1,6.2,2
+THY,Thym bouquet,02AROM,f,2,1.4,0
+THYM,Thym commun Bio Plant,05AROMCH,f,2,2.3,0
+THYMCI,Thym citron Bio Plant,05AROMCH,f,2,2.3,0
+THYMCIT,Thym citron panaché Bio Plant,05AROMCH,f,2,2.3,0
+THYMOR,Thym Orange Plant,05AROM,f,2,2,0
+THYMORANGE,Thym orange Bio Plant,05AROMCH,f,2,2.3,0
+THYMVU,Thym vulgaris gold Plant,05AROM,f,2,2,0
+TISANEVERVEINE,Tisane Verveine sachet,04TISANE,f,1,4.5,0
+TOAN,Ananas Bio Plant,05TOMA,f,2,1.6,0
+TOAND,Andine Cornue Bio Plant,05TOMA,f,2,1.6,0
+TOCE,Cerise Bio Plant,05TOMA,f,2,1.6,0
+TOCERI,Tomate cerise Jardins,02TOMA,t,3,6.2,0
+TOFLEU,Coeur de boeuf Fleurette Bio Plant,05TOMA,f,2,1.6,0
+TOMACONF,Tomate ronde Jardins,02TOMA,t,3,3.05,0
+TOMAGP,Tomate Ronde Cagette,02TOMA,f,2,10,0
+TOMAPP,Tomate petit panier,02TOMA,f,2,6.5,0
+TOMAR,Marmande Bio Plant,05TOMA,f,2,1.6,0
+TOMAT5KG,Tomate cagette 5kg,02TOMA,f,1,8,0
+TOMATSECHE,Tomate séchée à l'huile de tournesol 260ml,04,f,2,4.8,2
+TOMBS,Buffalosteak Bio Plant,05TOMA,f,2,1.6,0
+TOMCERBAR,Tomate cerise barquette 300 gr,02TOMA,f,1,3,0
+TOMCOU,Tomate coulis,02TOMA,t,3,1.8,0
+TOME,Tomate mélange x6 Plant,05TOMA,f,2,6.6,0
+TOMEBREBIS,Tomme de brebis,04FROMAGE,t,3,32,0
+TOMEPIER,Tomme de Pierre Percée,04FROMAGE,t,3,21,0
+TOMETTE,Tome de Pierre Percée,04FROMAGE,t,3,21,2
+TOMGRAP,Tomate Cocktail Jardins,02TOMA,t,3,2.8,0
+TOMGRAPCERISEKG,Tomate cerise grappe,02TOMA,t,3,4.4,2
+TOMMEBREBISLAGASSE,Tomme Brebis Lagasse Kg,04FROMAGE,t,3,31.9,2
+TOMMECHEVRE,Tomme de chèvre jefou,04CHEVRE,t,3,29.8,2
+TOMPIERAIL,Tomme pierre percée ail des ours,04FROMAGE,t,3,22.9,2
+TOMPIERNOIS,Tomme Pierre Percée noisettes,04FROMAGE,t,3,22.5,2
+TOMREBEL,Tomate rebellion,05TOMA,f,2,3.5,0
+TOMSAUC,Tomate purée de tomates 360 gr,15TRANSLEG,f,1,3,0
+TOMSECH,Tomates séchées bocal 100g,02CONDIM,f,2,3,2
+TOMVER,Tomate ancienne Jardins,02TOMA,t,3,4.1,0
+TOMVOSAROM,Tomme des Vosges  ail/cum/ortie/serpolet,12VACCEUX,t,3,16.05,2
+TOMVOSG,Tomme des Vosges,12VACCEUX,t,3,15.5,2
+TONOIRE,Noire de Crimée Bio Plant,05TOMA,f,2,1.6,0
+TOPA,Ronde Paola Bio Plant,05TOMA,f,2,1.6,0
+TOPINA,Topinambour kg,02RACINE,t,3,4.4,0
+TOROND,Tomate ronde provence,02TOMA,t,3,3.8,0
+TOROSE,Rose de Berne Bio Plant,05TOMA,f,2,1.6,0
+TOTR,Cerise Trilly Bio Plant,05TOMA,f,2,1.6,0
+TOTRIL,Tomate ancienne,02TOMA,t,3,6.2,0
+TOZEB,Green Zebra Bio Plant,05TOMA,f,2,1.6,0
+TROISBAIESARCADIE,Trois Baies Arcadie 70 gr,04MOUT,f,1,7.5,0
+TRUFPRALIN,Truffes pralinées 100g,12ARTISMON,f,2,4.95,0
+TULIPEBOUQUET,Tulipe en bouquet,05PL,f,2,5,0
+VALERIANE,Valériane officinale Bio Plant,05AROMCH,f,2,2.3,0
+VEGANSPRITCOCO,Vegan spritz coco choco ss gluten,04CONFISER,f,2,3.95,2
+VENTRECHETHONHUILE,Ventreche de Thon Albacore à l'huile d'olive 210g,04POIS,f,1,9.9,0
+VERV,Verveine Citronnelle Plant,05AROMCH,f,2,2.3,0
+VINABAL,Vinaigre Balsamique 250 ml,04VINAIGRE,f,2,4.3,2
+VINAFLOMIEL,Vinaigre floramiel 25cl,04VINAIGRE,f,2,4.5,2
+VINAIGCIDRECOT,Vinaigre de cidre coteaux 75cl,04VINAIGRE,f,2,3.25,2
+VINAIGVIN,Vinaigre de vin rouge 50cl,04VINAIGRE,f,2,3.1,2
+VINAMI,Vinaigre de Miel 50 cl,12RELIONRO,f,1,5.1,2
+VINBALS,Vinaigre Balsamique 500 ml,04VINAIGRE,f,2,5.35,2
+VINCIDRE,Vinaigre de Cidre 1L,04VINAIGRE,f,2,3.8,2
+VINSTJOSEPH,Vin St Joseph,04BOISSONS,f,1,12.95,2
+VRACLEGAJUS,Filet de légumes à jus,02MINEST,t,3,2.5,0
+VRACMINESTRONE,Barquette de légumes pot au feu,02MINEST,f,2,5,0
+YAOUFAMI,Yaourt familial 500g,04CREMERIE,f,1,2.5,0
+YAOUFRUI,Yaourt fruits lot de 6,04CREMERIE,f,1,4,0
+YAOUFRUI4,Yaourt fruits lot de 4,04CREMERIE,f,1,2.78,0
+YAOUFRUIP,Yaourt fruits unité,04CREMERIE,f,1,0.7,0
+YAOUNAT,Yaourt nature unité,04CREMERIE,f,1,0.63,0

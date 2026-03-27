@@ -28,3 +28,4 @@ alter system set anon.static_masking to on;
 -- Roles
 create role cocagne noinherit login password '9845';
 create role adventureworks noinherit login password '9176';
+create role market noinherit login password '9637';

@@ -402,6 +402,7 @@ from employe;
 
 --
 insert into famille values
+(0,'Indéterminée'),
 (1,'Apiacées/Ombellifères'),
 (2,'Labiées/Labiacées'),
 (3,'Asteracées/Composées'),
@@ -472,7 +473,8 @@ join adherent a on a.compte_comptable = d.compta order by jour asc;
 
 
 -- Code Postal
--- ville = libelle ou ligne5
+
+select 'Codes postaux ---------------------';
 
 create temporary table code_postal_temp (
   code_commune_INSEE text,
@@ -486,16 +488,34 @@ create temporary table code_postal_temp (
 );
 
 copy code_postal_temp
-from '/tmp/cocagne/commun/codepostal.csv' (format csv, header, QUOTE '"', ESCAPE '''', ENCODING 'UTF8');
+from '/tmp/base-officielle-codes-postaux.csv' (format csv, header, encoding 'UTF8');
 
-insert into code_postal (code_insee, cp, ville, commune, libelle_acheminement, ligne5, coordonnees)
+insert into code_postal (code_insee, cp, commune, acheminement, ligne5, coordonnees)
 select code_commune_INSEE, code_postal,
-  case when ligne5 is not null then ligne5
-       else libelle
-  end,
-  nom_commune, libelle, ligne5,
-  'POINT('||longitude||' '||latitude||')'
+  nom_commune,
+  case when libelle <> nom_commune then libelle else null end, ligne5,
+  ST_SetSRID('POINT('||longitude||' '||latitude||')', 4326)
 from code_postal_temp;
+
+-- Contours
+--  ST_SetSRID(ST_GeomFromGeoJSON(contour), 4326)
+
+create table import.code_postal (
+  code_commune_INSEE text,
+  nom_commune text,
+  code_postal text,
+  libelle text,
+  ligne5 text,
+  contour text
+);
+
+copy import.code_postal
+from '/tmp/019HexaSmal-full.csv' (format csv, header, encoding 'UTF8');
+
+insert into code_postal_contour
+select code_postal, st_union(ST_SetSRID(ST_GeomFromGeoJSON(contour), 4326))
+  from import.code_postal
+  group by code_postal;
 
 -- Commandes de panier
 -- --------------------------------------------------------------------------------

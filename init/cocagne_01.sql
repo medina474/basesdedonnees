@@ -13,7 +13,7 @@ alter database cocagne set session_preload_libraries to 'anon';
 -- Recharger la configuration pour valider les mises à jour du paramètre session_preload_libraries.
 select pg_reload_conf();
 
-\pset tuples_only off
+\pset tuples_only on
 
 -- Active le masquage dynamique transparent pour cette base.
 -- Le masquage dynamique :
@@ -125,14 +125,15 @@ create table code_postal (
   cp           text,
   commune      text,
   acheminement text,
-  ligne5       text,
-  coordonnees  geometry(point, 4326) default null::geometry,
-  contours     geometry(multipolygon, 4326) default null::geometry
+  ligne5       text
+  --coordonnees  geometry(point, 4326) default null::geometry
 );
 
+/*
 create index code_postal_coordonnees_idx
   on code_postal
   using gist (coordonnees);
+*/
 
 create index
   on code_postal
@@ -150,6 +151,73 @@ create table code_postal_contour (
 create index code_postal_contour_idx
   on code_postal_contour
   using gist (contours);
+
+create table academie (
+  code text,
+  region text
+);
+
+create table region (
+  code text primary key,
+  region text
+);
+
+create table departement (
+  code text,
+  departement text
+);
+
+create table canton (
+  code text,
+  canton text
+);
+
+create table epci (
+  code text primary key,
+  epci text
+);
+
+create table commune (
+  id integer primary key,
+  code_insee text,
+  nom_standard text,           -- La Chapelle-du-Châtelard
+  nom_sans_pronom text,        -- Chapelle-du-Châtelard
+  nom_a text,nom_de text,      -- à Chapelle-du-Châtelard
+  nom_sans_accent text,        -- la-chapelle-du-chatelard
+  nom_standard_majuscule text, -- LA CHAPELLE-DU-CHÂTELARD
+  typecom text,                -- toujours COM
+  typecom_texte text,          -- toujours commune
+  region text,                 -- code région
+  dep_code text,               -- code département
+  canton_code text,            -- code canton
+  epci_code text,              -- communauté de commune
+  academie_code text,          -- code académie
+  code_postal text,
+  codes_postaux text,
+  zone_emploi text,
+  code_insee_centre_zone_emploi text,
+  code_unite_urbaine text,
+  nom_unite_urbaine text,
+  taille_unite_urbaine smallint,
+  type_commune_unite_urbaine text,
+  statut_commune_unite_urbaine text, -- I B C H
+  population decimal(10,2),
+  superficie_hectare decimal(10,2),
+  superficie_km2 decimal(10,2),
+  densite decimal(8, 2),
+  altitude_moyenne decimal(8,2),
+  altitude_minimale decimal(8,2),
+  altitude_maximale decimal(8,2),
+  mairie geometry(point, 4326) default null::geometry,
+  centre geometry(point, 4326) default null::geometry,
+  grille_densite smallint,
+  grille_densite_texte text,
+  niveau_equipements_services smallint,
+  niveau_equipements_services_texte text,
+  gentile text,
+  url_wikipedia text,
+  url_villedereve text
+);
 
 -- Jardin
 -- --------------------------------------------------------------------------------

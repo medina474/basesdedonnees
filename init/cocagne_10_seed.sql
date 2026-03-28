@@ -1,5 +1,7 @@
 \c cocagne;
 
+\pset tuples_only on
+
 create schema if not exists import authorization pg_database_owner;
 
 -- Données générales
@@ -243,6 +245,8 @@ from '/tmp/cocagne/paniers.csv' (format csv, header, encoding 'UTF8');
 select setval(pg_get_serial_sequence('panier', 'id'), max(id))
 from panier;
 
+select 'Tournées ---------------------';
+
 insert into calendrier (id,saison_id,calendrier) values
   (1,2023,'Livraisons du mardi'),
   (2,2023,'Livraisons du mercredi'),
@@ -340,6 +344,8 @@ copy itineraire (tournee_id, depot_id, adherent_id, ordre)
 from '/tmp/cocagne/itineraire.csv' (format csv, header, encoding 'UTF8');
 
 -- Abonnements
+
+select 'Abonnements ---------------------';
 
 create table import.abonnement
 (
@@ -471,6 +477,18 @@ insert into don (adherent_id, montant, jour)
 select a.id, d.montant, d.jour from import.don d
 join adherent a on a.compte_comptable = d.compta order by jour asc;
 
+-- Géo
+
+select 'Codes officiels géographiques ---------------------';
+
+create temporary table region_temp
+(REG text, CHEFLIEU text, TNCC text, NCC text, NCCENR text, LIBELLE text);
+
+copy region_temp
+from '/tmp/code_officiel_geographique/v_region_2025.csv' (format csv, header, encoding 'UTF8');
+
+insert into region
+select distinct reg, libelle from region_temp order by reg;
 
 -- Code Postal
 
@@ -490,11 +508,12 @@ create temporary table code_postal_temp (
 copy code_postal_temp
 from '/tmp/base-officielle-codes-postaux.csv' (format csv, header, encoding 'UTF8');
 
-insert into code_postal (code_insee, cp, commune, acheminement, ligne5, coordonnees)
+insert into code_postal (code_insee, cp, commune, acheminement, ligne5)
 select code_commune_INSEE, code_postal,
   nom_commune,
-  case when libelle <> nom_commune then libelle else null end, ligne5,
-  ST_SetSRID('POINT('||longitude||' '||latitude||')', 4326)
+  case when libelle <> nom_commune then libelle else null end,
+  ligne5
+--  ST_SetSRID('POINT('||longitude||' '||latitude||')', 4326)
 from code_postal_temp;
 
 -- Contours
@@ -517,8 +536,117 @@ select code_postal, st_union(ST_SetSRID(ST_GeomFromGeoJSON(contour), 4326))
   from import.code_postal
   group by code_postal;
 
+
+create temporary table commune_temp (
+  id integer,
+  code_insee text,
+  nom_standard text,           -- La Chapelle-du-Châtelard
+  nom_sans_pronom text,        -- Chapelle-du-Châtelard
+  nom_a text,nom_de text,      -- à Chapelle-du-Châtelard
+  nom_sans_accent text,        -- la-chapelle-du-chatelard
+  nom_standard_majuscule text, -- LA CHAPELLE-DU-CHÂTELARD
+  typecom text,                -- toujours COM
+  typecom_texte text,          -- toujours commune
+  reg_code text,                -- code région
+  reg_nom text,
+  dep_code text,               -- code département
+  dep_nom text,
+  canton_code text,            -- code canton
+  canton_nom text,
+  epci_code text,              -- communauté de commune
+  epci_nom text,
+  academie_code text,          -- code académie
+  academie_nom text,
+  code_postal text,
+  codes_postaux text,
+  zone_emploi text,
+  code_insee_centre_zone_emploi text,
+  code_unite_urbaine text,
+  nom_unite_urbaine text,
+  taille_unite_urbaine decimal(6, 2),
+  type_commune_unite_urbaine text,
+  statut_commune_unite_urbaine text, -- I B C H
+  population decimal(10,2),
+  superficie_hectare decimal(10,2),
+  superficie_km2 decimal(10,2),
+  densite decimal(8,2),
+  altitude_moyenne decimal(8,2),
+  altitude_minimale decimal(8,2),
+  altitude_maximale decimal(8,2),
+  latitude_mairie decimal(8,6),
+  longitude_mairie decimal(8,6),
+  latitude_centre decimal(8,6),
+  longitude_centre decimal(8,6),
+  grille_densite smallint,
+  grille_densite_texte text,
+  niveau_equipements_services decimal(6, 2),
+  niveau_equipements_services_texte text,
+  gentile text,
+  url_wikipedia text,
+  url_villedereve text
+);
+
+copy commune_temp
+from '/tmp/communes-france-2025.csv' (format csv, header, encoding 'UTF8');
+
+insert into academie
+select distinct academie_code, academie_nom from commune_temp order by academie_code;
+
+insert into departement
+select distinct dep_code, dep_nom from commune_temp order by dep_code;
+
+insert into canton
+select distinct canton_code, canton_code from commune_temp order by canton_code;
+
+insert into epci
+select distinct epci_code, epci_code from commune_temp order by epci_code;
+
+insert into commune
+select id,
+  code_insee,
+  nom_standard,
+  nom_sans_pronom,
+  nom_a ,nom_de,
+  nom_sans_accent,
+  nom_standard_majuscule,
+  typecom,
+  typecom_texte,
+  LPAD(reg_code, 2, '0'),
+  dep_code,
+  canton_code,
+  epci_code,
+  academie_code,
+  code_postal,
+  codes_postaux,
+  zone_emploi,
+  code_insee_centre_zone_emploi,
+  code_unite_urbaine,
+  nom_unite_urbaine,
+  taille_unite_urbaine,
+  type_commune_unite_urbaine,
+  statut_commune_unite_urbaine,
+  population,
+  superficie_hectare,
+  superficie_hectare / 100,
+  population / superficie_hectare * 100,
+  altitude_moyenne,
+  altitude_minimale,
+  altitude_maximale,
+  'SRID=4326;POINT(' || longitude_mairie || ' ' || latitude_mairie || ')',
+  'SRID=4326;POINT(' || longitude_centre || ' ' || latitude_centre || ')',
+  grille_densite,
+  grille_densite_texte,
+  niveau_equipements_services::smallint,
+  niveau_equipements_services_texte,
+  gentile,
+  url_wikipedia,
+  url_villedereve
+from commune_temp;
+
 -- Commandes de panier
 -- --------------------------------------------------------------------------------
+
+select 'Paniers ---------------------';
 
 create table import.panier_commande
 (

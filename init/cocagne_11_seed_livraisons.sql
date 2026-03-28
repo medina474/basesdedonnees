@@ -1,5 +1,9 @@
 \c cocagne;
 
+\pset tuples_only on
+
+select 'Livraisons ---------------------';
+
 create temporary table livraison_import (
   livraison_id  bigint,
   abonnement_id bigint,
@@ -39,6 +43,8 @@ update livraison_import set jour = jour + interval '-1 day' where jour in ('2024
 update livraison_import set depot_id = 1 where adherent_id = 259018;
 
 delete from livraison_import where abonnement_id = 27791;
+
+\pset tuples_only off
 
 -- 1. Les livraisons sans tournées correspondantes
 select i.livraison_id, abonnement_id, annee

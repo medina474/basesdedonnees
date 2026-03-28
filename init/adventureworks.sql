@@ -3306,10 +3306,6 @@ CREATE SCHEMA sa
   CREATE VIEW s AS SELECT businessentityid AS id, * FROM sales.store
 ;
 
-\pset tuples_only off
-
-
-
 -- 805 rows in BusinessEntity but not in Person
 -- SELECT be.businessentityid FROM person.businessentity AS be LEFT OUTER JOIN person.person AS p ON be.businessentityid = p.businessentityid WHERE p.businessentityid IS NULL;
 

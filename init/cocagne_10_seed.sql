@@ -485,10 +485,23 @@ create temporary table region_temp
 (REG text, CHEFLIEU text, TNCC text, NCC text, NCCENR text, LIBELLE text);
 
 copy region_temp
-from '/tmp/code_officiel_geographique/v_region_2025.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/code_officiel_geographique/v_region_2026.csv' (format csv, header, encoding 'UTF8');
 
 insert into region
-select distinct reg, libelle from region_temp order by reg;
+select REG, LIBELLE, TNCC, CHEFLIEU from region_temp order by reg;
+
+drop table region_temp;
+
+create temporary table departement_temp
+(DEP text, REG text, CHEFLIEU text, TNCC text, NCC text, NCCENR text, LIBELLE text);
+
+copy departement_temp
+from '/tmp/code_officiel_geographique/v_departement_2026.csv' (format csv, header, encoding 'UTF8');
+
+insert into departement
+select DEP, REG, LIBELLE, TNCC, CHEFLIEU from departement_temp order by reg;
+
+drop table departement_temp;
 
 -- Code Postal
 
@@ -592,14 +605,11 @@ from '/tmp/communes-france-2025.csv' (format csv, header, encoding 'UTF8');
 insert into academie
 select distinct academie_code, academie_nom from commune_temp order by academie_code;
 
-insert into departement
-select distinct dep_code, dep_nom from commune_temp order by dep_code;
-
 insert into canton
 select distinct canton_code, canton_code from commune_temp order by canton_code;
 
 insert into epci
-select distinct epci_code, epci_code from commune_temp order by epci_code;
+select distinct epci_code, epci_nom from commune_temp order by epci_code;
 
 insert into commune
 select id,
@@ -638,9 +648,7 @@ select id,
   grille_densite_texte,
   niveau_equipements_services::smallint,
   niveau_equipements_services_texte,
-  gentile,
-  url_wikipedia,
-  url_villedereve
+  gentile
 from commune_temp;
 
 -- Commandes de panier

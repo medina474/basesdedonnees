@@ -1749,6 +1749,7 @@ film_id,personne_id,role,alias,ordre
 1621,776,acteur,Billy Ray Valentine,1
 1621,4610,réalisateur,,99
 1621,7182,musique,,99
+1621,7908,acteur,Corrupt Cop,7
 1621,8944,acteur,Ophelia,7
 1632,193,acteur,Anderson,0
 1632,3910,acteur,Mrs. Pell,2
@@ -2149,6 +2150,8 @@ film_id,personne_id,role,alias,ordre
 2323,11805,acteur,Archie Graham,7
 2323,15152,acteur,Terrence Mann,3
 2323,23968,réalisateur,,99
+2362,14528,acteur,The Gunslinger,0
+2362,24318,acteur,Peter Martin,1
 2436,418,acteur,Kongo Shuko,2
 2436,18702,acteur,Jimmy Lee,0
 2436,22636,réalisateur,,99
@@ -3474,6 +3477,9 @@ film_id,personne_id,role,alias,ordre
 9277,4135,acteur,Johnny Hooker,1
 9277,9577,réalisateur,,99
 9277,12920,scénariste,,99
+9278,783,acteur,Mark Michelette,4
+9278,2880,acteur,Alex Furlong,0
+9278,4173,acteur,Ian McCandless,3
 9281,3,acteur,Det. Capt. John Book,0
 9281,110,acteur,Moses Hochleitner,0
 9281,2047,acteur,McFee,6
@@ -4389,6 +4395,9 @@ film_id,personne_id,role,alias,ordre
 10337,3266,acteur,George Raft,5
 10337,6449,acteur,Ben 'Bugsy' Siegel,0
 10337,8246,réalisateur,,99
+10341,2201,acteur,Henry Farber,3
+10341,4783,acteur,Eugene Fitzpatrick,2
+10341,30641,acteur,Raymond Monnet,9
 10344,7036,acteur,Martin Brundle,0
 10344,64875,réalisateur,,99
 10372,11065,acteur,Noa,0
@@ -5718,6 +5727,9 @@ film_id,personne_id,role,alias,ordre
 11837,70665,roman,,99
 11837,70667,musique,,99
 11837,1035385,scénariste,,99
+11842,4960,acteur,Link,0
+11842,9871,acteur,Cristina,1
+11842,15135,acteur,Gauche,3
 11843,12446,acteur,Inspector Clouseau,0
 11850,648,réalisateur,,99
 11850,1749,acteur,Dr. David Kibner,2
@@ -5813,6 +5825,7 @@ film_id,personne_id,role,alias,ordre
 11899,15110,acteur,Customer in Pete's,0
 11899,55983,acteur,Kermit the Frog / Rowlf / Dr. Teeth / Waldorf / Swedish Chef / Ernie / Granny / Horse & Carriage Rider / Link Hogthrob / The Newsman (voice),0
 11899,69343,musique,,99
+11901,190,acteur,The Stranger,0
 11904,8246,réalisateur,,99
 11904,20897,musique,,99
 11904,31921,acteur,Elizabeth Hardy,2
@@ -5845,6 +5858,7 @@ film_id,personne_id,role,alias,ordre
 11915,39143,acteur,Gaston Tricard,4
 11915,39145,acteur,Schwester Clotilde,7
 11915,70937,réalisateur,,99
+11916,190,acteur,Hogan,1
 11932,7906,acteur,Tiffany Valentine,0
 11932,17268,réalisateur,,99
 11932,25541,acteur,Jade Kincaid,2
@@ -6313,6 +6327,7 @@ film_id,personne_id,role,alias,ordre
 13155,6721,acteur,Aunt Em,3
 13155,8422,musique,,99
 13155,31921,acteur,Mombi II,0
+13282,16483,acteur,Machine Gun Joe Viterbo,2
 13310,74382,acteur,Oskar,0
 13310,74383,acteur,Eli,1
 13310,74396,réalisateur,,99
@@ -7122,6 +7137,7 @@ film_id,personne_id,role,alias,ordre
 20701,552620,musique,,99
 20701,568289,musique,,99
 20701,978297,musique,,99
+20721,51576,acteur,Eddie Cusack,0
 20815,3087,acteur,Commander,5
 20815,6450,acteur,Serena Joy,1
 20815,10249,réalisateur,,99
@@ -7140,6 +7156,7 @@ film_id,personne_id,role,alias,ordre
 21219,6684,acteur,Mara Motes,4
 21219,18352,acteur,Meyer Lansky,3
 21219,42319,réalisateur,,99
+21241,8555,acteur,Terry McMillan,8
 21309,2308,musique,,99
 21309,2778,acteur,Feck,5
 21309,6384,acteur,Matt,1
@@ -7391,6 +7408,7 @@ film_id,personne_id,role,alias,ordre
 24825,57665,réalisateur,,99
 24825,136989,scénariste,,99
 24825,591883,musique,,99
+24831,34597,acteur,Dr. Robert Hoak,2
 24873,4960,acteur,Paul Kersey,0
 24873,10212,acteur,The Cuban,8
 24873,18355,acteur,Hermosa,6
@@ -8307,6 +8325,11 @@ film_id,personne_id,role,alias,ordre
 40047,21454,scénariste,,99
 40047,33322,acteur,Bonnie,6
 40047,65681,musique,,99
+40054,19647,acteur,Le garagiste,7
+40054,21236,acteur,Aldo Ferrari,1
+40054,24501,acteur,Pierre Renaud,0
+40054,34584,acteur,Mr. Henri,2
+40054,35887,acteur,La camionneuse,4
 40055,1352,acteur,Le commissaire Duché,1
 40055,1973,acteur,Pascal Villars,2
 40055,1977,acteur,Le Sacristain,10
@@ -8392,6 +8415,8 @@ film_id,personne_id,role,alias,ordre
 41402,56734,acteur,Abby,1
 41402,74397,roman,,99
 41402,113505,acteur,Owen,0
+41470,21236,acteur,Giacomo / James Bond / James (espion français),0
+41470,126585,acteur,Ahmed,2
 41589,5606,acteur,Mommy / Mama / Mom / Natasha,0
 41589,34612,acteur,Elizabeth Martin,1
 41589,1065210,réalisateur,,99
@@ -8603,6 +8628,9 @@ film_id,personne_id,role,alias,ordre
 47504,20561,réalisateur,,99
 47504,20561,scénariste,,99
 47504,91147,musique,,99
+47942,3636,acteur,Hank Anderson,0
+47942,8252,acteur,Shelby Gilmore,2
+47942,18643,acteur,Bob Spangler,3
 47943,16972,acteur,Harry,1
 47943,18175,réalisateur,,99
 47943,18175,scénariste,,99
@@ -8711,6 +8739,7 @@ film_id,personne_id,role,alias,ordre
 51196,21177,acteur,Gilles Favier,3
 51196,24464,acteur,Régis Montdor,5
 51196,28781,acteur,Gérard Bréha,4
+51196,45447,acteur,Castol,9
 51196,64913,acteur,Corine Bréha,2
 51196,109516,acteur,Marie-Ange de la Baume,1
 51257,1972,acteur,Un flic,7
@@ -8790,10 +8819,17 @@ film_id,personne_id,role,alias,ordre
 52868,8538,réalisateur,,99
 52868,20953,musique,,99
 52868,45415,acteur,Roger Cobb,1
+52877,21236,acteur,Aldo Barazzutti,1
+52877,24501,acteur,Pierre Renard,0
+52877,138814,acteur,Valérie,2
 52998,2192,acteur,Ursúa,1
 52998,96369,réalisateur,,99
 52998,96369,scénariste,,99
 52998,1143464,musique,,99
+53009,11192,acteur,Henri Berger,1
+53009,11216,acteur,Stumpf-Bachelier,2
+53009,35887,acteur,Thérèse Picard,4
+53009,37457,acteur,Julien Picard,0
 53179,11214,acteur,Gérard Barbier,0
 53179,20718,réalisateur,,99
 53179,20718,scénariste,,99
@@ -9643,6 +9679,11 @@ film_id,personne_id,role,alias,ordre
 111480,19646,acteur,Anna-Maria Sulza,1
 111480,24363,acteur,Hubert Bonnisseur de la Bath,0
 111480,24478,acteur,Leandro,2
+114646,7277,acteur,Commissaire Garmiche,4
+114646,11216,acteur,"Jeannot Bidart, dit ""La presse""",2
+114646,21236,acteur,"Aldo Rimoldi, dit ""La classe""",1
+114646,25181,acteur,"Albina, la directrice du cours de danse",8
+114646,39646,acteur,Annie Garmiche,0
 115082,14246,acteur,Dr. Sinn,2
 115082,91638,acteur,Hubert Bonisseur de La Bath / OSS 117 / Tony Burt,0
 116215,8399,acteur,Kupchak,10
@@ -10074,6 +10115,7 @@ film_id,personne_id,role,alias,ordre
 401306,91484,scénariste,,99
 401306,589521,acteur,Capitaine Dumont,3
 401306,1488428,musique,,99
+401544,56890,acteur,Chairman,1
 406298,18176,réalisateur,,99
 406298,1370967,acteur,Tom,1
 419430,206919,acteur,Chris Washington,0
@@ -10092,6 +10134,7 @@ film_id,personne_id,role,alias,ordre
 435126,57865,réalisateur,,99
 435126,87015,acteur,Alfonso,1
 435126,110116,acteur,Blanca,4
+438631,16851,acteur,Gurney Halleck,6
 452604,7633,acteur,"",16
 452604,8858,acteur,"",0
 452604,20011,acteur,"",6
@@ -10148,6 +10191,8 @@ film_id,personne_id,role,alias,ordre
 675327,1123897,réalisateur,,99
 675327,1123897,scénariste,,99
 675327,1375901,musique,,99
+693134,4690,acteur,Emperor,8
+693134,16851,acteur,Gurney Halleck,4
 792307,5293,acteur,Godwin Baxter,2
 792307,54693,acteur,Bella Baxter,0
 945961,1428070,acteur,Kay,3
@@ -10186,3 +10231,4 @@ film_id,personne_id,role,alias,ordre
 1126692,1196376,acteur,Massamba,0
 1126692,1348474,acteur,Madame La Victoire,2
 1126692,4061411,acteur,Mati,1
+1170608,11288,acteur,Scytale,5

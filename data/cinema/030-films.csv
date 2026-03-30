@@ -351,7 +351,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 2321,Veuve mais pas trop,Married to the Mob,1988,1988-08-19,105,,{us}
 2322,Les Experts,Sneakers,1992,1992-09-09,125,,{us}
 2323,Jusqu'au bout du rêve,Field of Dreams,1989,1989-04-21,102,,{us}
-2362,Mondwest,Westworld,,1973-08-15,,,
+2362,Mondwest,Westworld,1973,1973-08-15,88,166698,{us}
 2436,Double Dragon,,1994,1994-11-04,86,,{us}
 2453,Harley Davidson et l'homme aux santiags,Harley Davidson and the Marlboro Man,1991,1991-08-23,95,,{us}
 2457,Les Enfants du Paradis,,1945,1945-03-15,205,,{fr}
@@ -965,7 +965,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11564,Class 1984,Class of 1984,1982,1982-08-20,98,164397,{ca}
 11566,Président d’un Jour,Dave,1993,1993-05-07,125,,{us}
 11573,L'infaillible inspecteur Clouseau,Inspector Clouseau,1968,1968-07-19,96,937,{gb}
-11577,Pat Garrett et Billy le Kid,Pat Garrett & Billy the Kid,,1973-05-23,,,
+11577,Pat Garrett et Billy le Kid,Pat Garrett & Billy the Kid,1973,1973-05-23,122,,{us}
 11578,Le Retour de Don Camillo,Le Retour de Don Camillo,1953,1953-06-05,105,11582,"{fr,it}"
 11579,La Grande Bagarre de Don Camillo,Don Camillo e l'onorevole Peppone,1955,1955-09-29,97,11582,{it}
 11580,Don Camillo monseigneur,Don Camillo monsignore... ma non troppo,1961,1961-10-07,115,11582,{it}
@@ -1028,15 +1028,15 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11893,Runaway Train,Runaway Train,1985,1985-11-15,110,,{us}
 11896,Balance maman hors du train,Throw Momma from the Train,1988,1988-06-22,88,,{us}
 11899,Les Muppets à Manhattan,The Muppets Take Manhattan,1984,1984-06-27,94,,{us}
-11901,L'Homme des hautes plaines,High Plains Drifter,,1973-04-19,,,
+11901,L'Homme des hautes plaines,High Plains Drifter,1973,1973-04-19,102,,{us}
 11904,Le secret de la pyramide,Young Sherlock Holmes,1985,1985-03-26,104,,{us}
 11913,Le Gendarme en balade,,1970,1970-10-28,101,10517,{fr}
 11914,Sur un arbre perché,Sur Un Arbre Perché,1971,1971-04-12,90,,{fr}
 11915,Le Gendarme et les Gendarmettes,,1982,1982-10-03,100,10517,{fr}
-11916,Sierra torride,Two Mules for Sister Sara,,1970-03-02,,,
+11916,Sierra torride,Two Mules for Sister Sara,1970,1970-03-02,114,,{us}
 11932,La Fiancée de Chucky,Bride of Chucky,1998,1998-10-16,88,10455,{us}
 11934,Le grand saut,The Hudsucker Proxy,1994,1994-03-11,111,,"{gb,us}"
-11943,Jeremiah Johnson,,1972,1972-09-10,102,,{us}
+11943,Jeremiah Johnson,,1972,1972-09-10,106,,{us}
 11948,Furyo,戦場のメリークリスマス,1983,1983-05-28,124,,"{jp,nz,gb}"
 11950,L'Équipée du Cannonball 2,Cannonball Run II,1984,1984-06-29,90,101688,"{us,hk}"
 11955,Aigle de fer II,Iron Eagle II,1989,1989-02-15,105,123251,"{ca,il}"
@@ -1329,7 +1329,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 24803,Julie & Julia,Julie & Julia,2009,2009-08-06,123,,{us}
 24808,La Foire des ténèbres,Something Wicked This Way Comes,1983,1983-04-29,95,,{us}
 24825,La Fureur du Juste,The Octagon,1980,1980-08-14,104,,{us}
-24831,Piranhas,Piranha,,1978-08-03,,,
+24831,Piranhas,Piranha,1978,1978-08-03,94,212279,{us}
 24873,Le justicier de New York,Death Wish 3,1985,1985-11-01,94,14377,{us}
 24929,Le retour des morts vivants II,Return of the Living Dead: Part II,1988,1988-05-04,89,101471,{us}
 24951,Jessie et le petit renne du Père Noël,Prancer,1989,1989-11-17,99,534531,"{ca,us}"
@@ -1828,7 +1828,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 396535,Dernier train pour Busan,부산행,2016,2016-07-20,118,619537,{kr}
 399579,Alita : Battle Angel,Alita: Battle Angel,2019,2019-01-31,122,,{us}
 401306,On a retrouvé la 7ème compagnie,On a retrouvé la 7ème compagnie,1975,1975-12-10,80,93287,{fr}
-401544,La course à la mort de l'an 2050,Death Race 2050,,2017-01-17,,,
+401544,La course à la mort de l'an 2050,Death Race 2050,2017,2017-01-17,89,434533,{us}
 406298,Dans la forêt,Dans la forêt,2016,2016-10-05,103,,"{fr,se}"
 419430,Get Out,Get Out,2017,2017-02-24,104,,{us}
 427809,L'émir préfère les blondes,L'émir préfère les blondes,1983,1983-05-01,90,,{fr}
@@ -1848,13 +1848,13 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 657343,The Evil Inside Me,,1993,1993-01-01,90,,{us}
 675327,Shadow in the Cloud,Shadow in the Cloud,2020,2020-12-31,83,,"{nz,us}"
 693134,Dune : Deuxième partie,Dune: Part Two,2024,2024-02-27,165,726871,{us}
-792307,Pauvres créatures,Poor Things,2023,2023-12-07,142,,"{ie,gb,us}"
-945961,Alien: Romulus,Alien: Romulus,2024,2024-08-14,0,,{us}
+792307,Pauvres créatures,Poor Things,2023,2023-12-07,141,,"{ie,gb,us}"
+945961,Alien: Romulus,Alien: Romulus,2024,2024-08-14,119,1434946,{us}
 958940,The Case of the Topanga Pearl,,1976,1976-01-01,6,,{}
 1034751,Vampiras: The Brides,Vampiras: The Brides,2024,2024-02-07,90,,"{es,us}"
-1076897,Kaamelott - Deuxième volet (première partie),Kaamelott - Deuxième volet (première partie),2025,2025-12-10,0,1076903,{fr}
+1076897,Kaamelott - Deuxième volet (première partie),Kaamelott - Deuxième volet (première partie),2025,2025-12-10,139,1076903,{fr}
 1076902,Kaamelott - Deuxième volet (deuxième partie),Kaamelott - Deuxième volet (deuxième partie),2026,2026-04-11,0,1076903,{fr}
 1112679,The Making of 'They Live',,1988,1988-01-01,9,,{us}
-1126692,Ni chaînes ni maîtres,Ni chaînes ni maîtres,2024,2024-09-18,0,,{fr}
+1126692,Ni chaînes ni maîtres,Ni chaînes ni maîtres,2024,2024-09-18,97,,{fr}
 1170608,Dune : Troisième partie,Dune: Part Three,2026,2026-12-16,0,726871,{us}
-1177529,Deathgasm 2: Goremageddon,Deathgasm 2: Goremageddon,,2025-09-21,,,
+1177529,Deathgasm 2: Goremageddon,Deathgasm 2: Goremageddon,2025,2025-09-21,102,1375932,"{nz,ca}"

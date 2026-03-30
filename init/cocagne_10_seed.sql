@@ -477,32 +477,6 @@ insert into don (adherent_id, montant, jour)
 select a.id, d.montant, d.jour from import.don d
 join adherent a on a.compte_comptable = d.compta order by jour asc;
 
--- Géo
-
-select 'Codes officiels géographiques ---------------------';
-
-create temporary table region_temp
-(REG text, CHEFLIEU text, TNCC text, NCC text, NCCENR text, LIBELLE text);
-
-copy region_temp
-from '/tmp/code_officiel_geographique/v_region_2026.csv' (format csv, header, encoding 'UTF8');
-
-insert into region
-select REG, LIBELLE, TNCC, CHEFLIEU from region_temp order by reg;
-
-drop table region_temp;
-
-create temporary table departement_temp
-(DEP text, REG text, CHEFLIEU text, TNCC text, NCC text, NCCENR text, LIBELLE text);
-
-copy departement_temp
-from '/tmp/code_officiel_geographique/v_departement_2026.csv' (format csv, header, encoding 'UTF8');
-
-insert into departement
-select DEP, REG, LIBELLE, TNCC, CHEFLIEU from departement_temp order by reg;
-
-drop table departement_temp;
-
 -- Code Postal
 
 select 'Codes postaux ---------------------';
@@ -609,7 +583,7 @@ insert into canton
 select distinct canton_code, canton_code from commune_temp order by canton_code;
 
 insert into epci
-select distinct epci_code, epci_nom from commune_temp order by epci_code;
+select distinct epci_code, epci_nom from commune_temp where epci_code is not null order by epci_code;
 
 insert into commune
 select id,

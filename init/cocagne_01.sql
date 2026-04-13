@@ -1,4 +1,6 @@
-drop database if exists cocagne with force;
+\pset tuples_only on
+
+drop database if exists cocagne with (force);
 
 -- Crée une nouvelle base nommée cocagne.
 create database cocagne;
@@ -15,25 +17,12 @@ alter database cocagne set session_preload_libraries to 'anon';
 -- Recharger la configuration pour valider les mises à jour du paramètre session_preload_libraries.
 select pg_reload_conf();
 
-\pset tuples_only on
-
 -- Active le masquage dynamique transparent pour cette base.
 -- Le masquage dynamique :
 --   ne modifie pas physiquement les données
 --   intercepte les requêtes SELECT
 --   applique des règles de masquage selon les privilèges
 alter database cocagne set anon.transparent_dynamic_masking to true;
-
--- Lister les propriétés de la base de données cocagne.
-select
-  d.datname, r.rolname,
-  split_part(cfg, '=', 1) as parameter,
-  split_part(cfg, '=', 2) as value
-from pg_db_role_setting s
-join pg_database d on d.oid = s.setdatabase
-left join pg_roles r on r.oid = s.setrole
-cross join lateral unnest(s.setconfig) as cfg
-where d.datname = 'cocagne';
 
 \c cocagne;
 
@@ -69,6 +58,9 @@ create table if not exists banque
   code_postal text,
   ville       text
 );
+
+copy banque
+from '/tmp/cocagne/commun/banque.csv' (format csv, header, encoding 'UTF8');
 
 create table if not exists pays
 (
@@ -511,6 +503,7 @@ create table if not exists panier
   prix         numeric(8, 2) not null,
   domicile     boolean not null default false,
   actif        boolean not null default true,
+  code         text,
   created_at   timestamp(0) with time zone default current_timestamp not null,
   updated_at   timestamp(0) with time zone default NULL::timestamp(0) with time zone
 );
@@ -1405,8 +1398,6 @@ create table resistance
   pathogene   text
 );
 
-\dt (public).*
-
 revoke all on schema public from PUBLIC;
 
 grant usage on schema public to cocagne;
@@ -1414,13 +1405,28 @@ grant select, insert, update, delete on all tables in schema public to cocagne;
 
 --
 
+\pset tuples_only on
+select 'Propriétés de la base ------------------------------------------';
 \pset tuples_only off
+select
+  d.datname, r.rolname,
+  split_part(cfg, '=', 1) as parameter,
+  split_part(cfg, '=', 2) as value
+from pg_db_role_setting s
+join pg_database d on d.oid = s.setdatabase
+left join pg_roles r on r.oid = s.setrole
+cross join lateral unnest(s.setconfig) as cfg
+where d.datname = 'cocagne';
 
-select 'Extensions installées ---------------------';
+\pset tuples_only on
+select 'Extensions installées ------------------------------------------';
+\pset tuples_only off
 select extname, extversion
   from pg_extension;
 
-select 'Liste des schémas -------------------------';
+\pset tuples_only on
+select 'Liste des schémas ----------------------------------------------';
+\pset tuples_only off
 select
   n.nspname as schema,
   r.rolname as owner
@@ -1430,6 +1436,7 @@ where nspname not like 'pg_%'
   and nspname <> 'information_schema'
 order by n.nspname;
 
+--select tablename, tableowner from pg_catalog.pg_tables where schemaname in ( 'public' );
 --
 \connect postgres;
 
@@ -1437,5 +1444,5 @@ select pg_terminate_backend(pg_stat_activity.pid)
   from pg_stat_activity
   where pg_stat_activity.datname = 'cocagne' and pid <> pg_backend_pid();
 
-drop database if exists cocagne_test with force;
+drop database if exists cocagne_test with (force);
 create database cocagne_test template cocagne;

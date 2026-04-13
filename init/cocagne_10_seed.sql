@@ -9,8 +9,6 @@ create schema if not exists import authorization pg_database_owner;
 copy unite
 from '/tmp/cocagne/commun/unite.csv' (format csv, header, encoding 'UTF8');
 
-copy banque
-from '/tmp/cocagne/commun/banque.csv' (format csv, header, encoding 'UTF8');
 --
 
 insert into jardin (jardin,tva,contact,telephone,email,adresse,code_postal,ville,localisation) values
@@ -150,31 +148,31 @@ from adherent;
 
 insert into cotisation (saison_id, profil_id, montant, code) values
   (2020,1,30.0,'ACOT'),
-  (2020,2,0.0,),
+  (2020,2,0.0,null),
   (2020,3,30.0,'ACOTPRO'),
   (2020,4,30.0,'ACOTSO'),
   (2021,1,30.0,'ACOT'),
-  (2021,2,0.0,),
+  (2021,2,0.0,null),
   (2021,3,30.0,'ACOTPRO'),
   (2021,4,30.0,'ACOTSO'),
   (2022,1,30.0,'ACOT'),
-  (2022,2,0.0,),
+  (2022,2,0.0,null),
   (2022,3,30.0,'ACOTPRO'),
   (2022,4,30.0,'ACOTSO'),
   (2023,1,30.0,'ACOT'),
-  (2023,2,0.0,),
+  (2023,2,0.0,null),
   (2023,3,30.0,'ACOTPRO'),
   (2023,4,30.0,'ACOTSO'),
   (2024,1,5.0,'ACOT'),
-  (2024,2,0.0,),
+  (2024,2,0.0,null),
   (2024,3,5.0,'ACOTPRO'),
   (2024,4,5.0,'ACOTSO'),
   (2025,1,5.0,'ACOT'),
-  (2025,2,0.0,),
+  (2025,2,0.0,null),
   (2025,3,5.0,'ACOTPRO'),
   (2025,4,5.0,'ACOTSO'),
   (2026,1,5.0,'ACOT'),
-  (2026,2,0.0,),
+  (2026,2,0.0,null),
   (2026,3,5.0,'ACOTPRO'),
   (2026,4,5.0,'ACOTSO');
 
@@ -239,7 +237,7 @@ from '/tmp/cocagne/produits.csv' (format csv, header, encoding 'UTF8');
 select setval(pg_get_serial_sequence('produit', 'id'), max(id))
 from produit;
 
-copy panier (id,produit_id,panier,quantite,prix,domicile,actif)
+copy panier (id,produit_id,panier,quantite,prix,domicile,actif,code)
 from '/tmp/cocagne/paniers.csv' (format csv, header, encoding 'UTF8');
 
 select setval(pg_get_serial_sequence('panier', 'id'), max(id))

@@ -1,3 +1,7 @@
+\pset tuples_only on
+
+drop database if exists cocagne with (force);
+
 -- Crée une nouvelle base nommée cinema.
 create database cinema;
 
@@ -13,10 +17,6 @@ create schema extensions authorization pg_database_owner;
 create extension postgis schema extensions;
 
 create extension fuzzystrmatch schema extensions;
-
--- Extensions installées
-select extname, extversion
-  from pg_extension;
 
 -- Données générales
 -- --------------------------------------------------------------------------------
@@ -1010,3 +1010,7 @@ refresh materialized view acteurs;
 -- grant select on all tables in schema public to role_web;
 
 -- https://www.graphile.org/postgraphile/security/
+
+-- Extensions installées
+select extname, extversion
+  from pg_extension;

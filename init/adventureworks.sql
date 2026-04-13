@@ -47,12 +47,14 @@
 --   FROM pg_stat_activity
 --   WHERE pid <> pg_backend_pid() AND datname='Adventureworks';
 
--- Crée une nouvelle base nommée cinema.
+\pset tuples_only on
+
+drop database if exists adventureworks with (force);
+
+-- Crée une nouvelle base nommée adventureworks.
 create database adventureworks;
 
 \c adventureworks;
-
-\pset tuples_only on
 
 -- Support to auto-generate UUIDs (aka GUIDs)
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
@@ -180,35 +182,35 @@ CREATE SCHEMA Person
 COMMENT ON SCHEMA Person IS 'Contains objects related to names and addresses of customers, vendors, and employees';
 
 SELECT 'Copying data into Person.BusinessEntity';
-\copy Person.BusinessEntity FROM './tmp/adventureworks/BusinessEntity.csv' DELIMITER E'\t' CSV;
+\copy Person.BusinessEntity FROM '/tmp/adventureworks/BusinessEntity.csv' DELIMITER E'\t' CSV;
 
 SELECT 'Copying data into Person.Person';
-\copy Person.Person FROM './tmp/adventureworks/Person.csv' DELIMITER E'\t' CSV;
+\copy Person.Person FROM '/tmp/adventureworks/Person.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Person.StateProvince';
-\copy Person.StateProvince FROM './tmp/adventureworks/StateProvince.csv' DELIMITER E'\t' CSV;
+\copy Person.StateProvince FROM '/tmp/adventureworks/StateProvince.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Person.Address';
-\copy Person.Address FROM './tmp/adventureworks/Address.csv' DELIMITER E'\t' CSV ENCODING 'latin1';
+\copy Person.Address FROM '/tmp/adventureworks/Address.csv' DELIMITER E'\t' CSV ENCODING 'latin1';
 SELECT 'Copying data into Person.AddressType';
-\copy Person.AddressType FROM './tmp/adventureworks/AddressType.csv' DELIMITER E'\t' CSV;
+\copy Person.AddressType FROM '/tmp/adventureworks/AddressType.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Person.BusinessEntityAddress';
-\copy Person.BusinessEntityAddress FROM './tmp/adventureworks/BusinessEntityAddress.csv' DELIMITER E'\t' CSV;
+\copy Person.BusinessEntityAddress FROM '/tmp/adventureworks/BusinessEntityAddress.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Person.ContactType';
-\copy Person.ContactType FROM './tmp/adventureworks/ContactType.csv' DELIMITER E'\t' CSV;
+\copy Person.ContactType FROM '/tmp/adventureworks/ContactType.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Person.BusinessEntityContact';
-\copy Person.BusinessEntityContact FROM './tmp/adventureworks/BusinessEntityContact.csv' DELIMITER E'\t' CSV;
+\copy Person.BusinessEntityContact FROM '/tmp/adventureworks/BusinessEntityContact.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Person.EmailAddress';
-\copy Person.EmailAddress FROM './tmp/adventureworks/EmailAddress.csv' DELIMITER E'\t' CSV;
+\copy Person.EmailAddress FROM '/tmp/adventureworks/EmailAddress.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Person.Password';
-\copy Person.Password FROM './tmp/adventureworks/Password.csv' DELIMITER E'\t' CSV;
+\copy Person.Password FROM '/tmp/adventureworks/Password.csv' DELIMITER E'\t' CSV;
 
 SELECT 'Copying data into Person.PhoneNumberType';
-\copy Person.PhoneNumberType FROM './tmp/adventureworks/PhoneNumberType.csv' DELIMITER E'\t' CSV;
+\copy Person.PhoneNumberType FROM '/tmp/adventureworks/PhoneNumberType.csv' DELIMITER E'\t' CSV;
 
 SELECT 'Copying data into Person.PersonPhone';
-\copy Person.PersonPhone FROM './tmp/adventureworks/PersonPhone.csv' DELIMITER E'\t' CSV;
+\copy Person.PersonPhone FROM '/tmp/adventureworks/PersonPhone.csv' DELIMITER E'\t' CSV;
 
 SELECT 'Copying data into Person.CountryRegion';
-\copy Person.CountryRegion FROM './tmp/adventureworks/CountryRegion.csv' DELIMITER E'\t' CSV;
+\copy Person.CountryRegion FROM '/tmp/adventureworks/CountryRegion.csv' DELIMITER E'\t' CSV;
 
 
 CREATE SCHEMA HumanResources
@@ -277,17 +279,17 @@ CREATE SCHEMA HumanResources
 COMMENT ON SCHEMA HumanResources IS 'Contains objects related to employees and departments.';
 
 SELECT 'Copying data into HumanResources.Department';
-\copy HumanResources.Department FROM './tmp/adventureworks/Department.csv' DELIMITER E'\t' CSV;
+\copy HumanResources.Department FROM '/tmp/adventureworks/Department.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into HumanResources.Employee';
-\copy HumanResources.Employee FROM './tmp/adventureworks/Employee.csv' DELIMITER E'\t' CSV;
+\copy HumanResources.Employee FROM '/tmp/adventureworks/Employee.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into HumanResources.EmployeeDepartmentHistory';
-\copy HumanResources.EmployeeDepartmentHistory FROM './tmp/adventureworks/EmployeeDepartmentHistory.csv' DELIMITER E'\t' CSV;
+\copy HumanResources.EmployeeDepartmentHistory FROM '/tmp/adventureworks/EmployeeDepartmentHistory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into HumanResources.EmployeePayHistory';
-\copy HumanResources.EmployeePayHistory FROM './tmp/adventureworks/EmployeePayHistory.csv' DELIMITER E'\t' CSV;
+\copy HumanResources.EmployeePayHistory FROM '/tmp/adventureworks/EmployeePayHistory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into HumanResources.JobCandidate';
-\copy HumanResources.JobCandidate FROM './tmp/adventureworks/JobCandidate.csv' DELIMITER E'\t' CSV ENCODING 'latin1';
+\copy HumanResources.JobCandidate FROM '/tmp/adventureworks/JobCandidate.csv' DELIMITER E'\t' CSV ENCODING 'latin1';
 SELECT 'Copying data into HumanResources.Shift';
-\copy HumanResources.Shift FROM './tmp/adventureworks/Shift.csv' DELIMITER E'\t' CSV;
+\copy HumanResources.Shift FROM '/tmp/adventureworks/Shift.csv' DELIMITER E'\t' CSV;
 
 -- Calculated column that needed to be there just for the CSV import
 ALTER TABLE HumanResources.Employee DROP COLUMN OrganizationLevel;
@@ -636,41 +638,41 @@ CREATE SCHEMA Production
 COMMENT ON SCHEMA Production IS 'Contains objects related to products, inventory, and manufacturing.';
 
 SELECT 'Copying data into Production.BillOfMaterials';
-\copy Production.BillOfMaterials FROM './tmp/adventureworks/BillOfMaterials.csv' DELIMITER E'\t' CSV;
+\copy Production.BillOfMaterials FROM '/tmp/adventureworks/BillOfMaterials.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.Culture';
-\copy Production.Culture FROM './tmp/adventureworks/Culture.csv' DELIMITER E'\t' CSV;
+\copy Production.Culture FROM '/tmp/adventureworks/Culture.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.Document';
-\copy Production.Document FROM './tmp/adventureworks/Document.csv' DELIMITER E'\t' CSV;
+\copy Production.Document FROM '/tmp/adventureworks/Document.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductCategory';
-\copy Production.ProductCategory FROM './tmp/adventureworks/ProductCategory.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductCategory FROM '/tmp/adventureworks/ProductCategory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductSubcategory';
-\copy Production.ProductSubcategory FROM './tmp/adventureworks/ProductSubcategory.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductSubcategory FROM '/tmp/adventureworks/ProductSubcategory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductModel';
-\copy Production.ProductModel FROM './tmp/adventureworks/ProductModel.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductModel FROM '/tmp/adventureworks/ProductModel.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.Product';
-\copy Production.Product FROM './tmp/adventureworks/Product.csv' DELIMITER E'\t' CSV;
+\copy Production.Product FROM '/tmp/adventureworks/Product.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductCostHistory';
-\copy Production.ProductCostHistory FROM './tmp/adventureworks/ProductCostHistory.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductCostHistory FROM '/tmp/adventureworks/ProductCostHistory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductDescription';
-\copy Production.ProductDescription FROM './tmp/adventureworks/ProductDescription.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductDescription FROM '/tmp/adventureworks/ProductDescription.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductDocument';
-\copy Production.ProductDocument FROM './tmp/adventureworks/ProductDocument.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductDocument FROM '/tmp/adventureworks/ProductDocument.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.Location';
-\copy Production.Location FROM './tmp/adventureworks/Location.csv' DELIMITER E'\t' CSV;
+\copy Production.Location FROM '/tmp/adventureworks/Location.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductInventory';
-\copy Production.ProductInventory FROM './tmp/adventureworks/ProductInventory.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductInventory FROM '/tmp/adventureworks/ProductInventory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductListPriceHistory';
-\copy Production.ProductListPriceHistory FROM './tmp/adventureworks/ProductListPriceHistory.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductListPriceHistory FROM '/tmp/adventureworks/ProductListPriceHistory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.Illustration';
-\copy Production.Illustration FROM './tmp/adventureworks/Illustration.csv' DELIMITER E'\t' CSV;
+\copy Production.Illustration FROM '/tmp/adventureworks/Illustration.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductModelIllustration';
-\copy Production.ProductModelIllustration FROM './tmp/adventureworks/ProductModelIllustration.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductModelIllustration FROM '/tmp/adventureworks/ProductModelIllustration.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductModelProductDescriptionCulture';
-\copy Production.ProductModelProductDescriptionCulture FROM './tmp/adventureworks/ProductModelProductDescriptionCulture.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductModelProductDescriptionCulture FROM '/tmp/adventureworks/ProductModelProductDescriptionCulture.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductPhoto';
-\copy Production.ProductPhoto FROM './tmp/adventureworks/ProductPhoto.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductPhoto FROM '/tmp/adventureworks/ProductPhoto.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.ProductProductPhoto';
-\copy Production.ProductProductPhoto FROM './tmp/adventureworks/ProductProductPhoto.csv' DELIMITER E'\t' CSV;
+\copy Production.ProductProductPhoto FROM '/tmp/adventureworks/ProductProductPhoto.csv' DELIMITER E'\t' CSV;
 
 -- This doesn't work:
 -- SELECT 'Copying data into Production.ProductReview';
@@ -717,17 +719,17 @@ we think that after a test drive you''l find the quality and performance above a
 any level of experience. It''s a huge step in the right direction for female cyclists and well worth your consideration and hard-earned money.', '2013-11-15 00:00:00');
 
 SELECT 'Copying data into Production.ScrapReason';
-\copy Production.ScrapReason FROM './tmp/adventureworks/ScrapReason.csv' DELIMITER E'\t' CSV;
+\copy Production.ScrapReason FROM '/tmp/adventureworks/ScrapReason.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.TransactionHistory';
-\copy Production.TransactionHistory FROM './tmp/adventureworks/TransactionHistory.csv' DELIMITER E'\t' CSV;
+\copy Production.TransactionHistory FROM '/tmp/adventureworks/TransactionHistory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.TransactionHistoryArchive';
-\copy Production.TransactionHistoryArchive FROM './tmp/adventureworks/TransactionHistoryArchive.csv' DELIMITER E'\t' CSV;
+\copy Production.TransactionHistoryArchive FROM '/tmp/adventureworks/TransactionHistoryArchive.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.UnitMeasure';
-\copy Production.UnitMeasure FROM './tmp/adventureworks/UnitMeasure.csv' DELIMITER E'\t' CSV;
+\copy Production.UnitMeasure FROM '/tmp/adventureworks/UnitMeasure.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.WorkOrder';
-\copy Production.WorkOrder FROM './tmp/adventureworks/WorkOrder.csv' DELIMITER E'\t' CSV;
+\copy Production.WorkOrder FROM '/tmp/adventureworks/WorkOrder.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Production.WorkOrderRouting';
-\copy Production.WorkOrderRouting FROM './tmp/adventureworks/WorkOrderRouting.csv' DELIMITER E'\t' CSV;
+\copy Production.WorkOrderRouting FROM '/tmp/adventureworks/WorkOrderRouting.csv' DELIMITER E'\t' CSV;
 
 -- Calculated columns that needed to be there just for the CSV import
 ALTER TABLE Production.WorkOrder DROP COLUMN StockedQty;
@@ -3311,4 +3313,10 @@ CREATE SCHEMA sa
 
 -- All the tables in Adventureworks:
 -- (Did you know that \dt can filter schema and table names using RegEx?)
-\dt (humanresources|person|production|purchasing|sales).*
+--\dt (humanresources|person|production|purchasing|sales).*
+
+\dt humanresources.*
+\dt person.*
+\dt production.*
+\dt purchasing.*
+\dt sales.*

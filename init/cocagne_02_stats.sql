@@ -24,12 +24,7 @@ comment on view stats.nb_adherents_profil_actifs
 
 -- Dépôts
 
-create or replace view stats.nb_depot with (security_invoker=on) as
-select count(d.*) as nb_depots
-  from depot d;
 
-comment on view stats.nb_depot
-  is 'Nombre total de dépôts';
 
 -- Abonnements
 
@@ -60,14 +55,7 @@ join produit pp on pp.id = p.produit_id
 comment on view stats.nb_abonnements_produit
   is 'Nombre total d''abonnements par saisons et par produits.';
 
--- Adhésions
 
-create or replace view stats.nb_adhesions with (security_invoker=on) as
-select saison_id, count(*), sum(montant) from adhesion
-group by saison_id;
-
-comment on view stats.nb_adhesions
-  is 'Total des adhésions par saisons.';
 
 -- Calendrier
 

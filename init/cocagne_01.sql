@@ -31,7 +31,8 @@ alter database cocagne set anon.transparent_dynamic_masking to true;
 create schema extensions authorization pg_database_owner;
 
 -- Extension spatiale qui ajoute des types géométriques, index spatiaux et fonctions géographiques.
-create extension if not exists postgis schema extensions;
+-- Ne pas placer l'extension dans un schéma séparé car l'ORM Doctrine ne retouve pas les fonctions
+create extension if not exists postgis;
 
 -- Extension qui fournit des opérateurs B-tree compatibles avec les index complexes GiST
 create extension if not exists btree_gist schema extensions;
@@ -270,7 +271,7 @@ create table if not exists jardin
   updated_at   timestamp(0) with time zone default NULL::timestamp(0) with time zone
 );
 
--- Dépôts
+select 'Dépôts ---------------------------------------------------------------';
 
 create table if not exists depot
 (
@@ -301,7 +302,14 @@ create table armoire
   code         text
 );
 
--- Saisons
+create or replace view stats.nb_depot with (security_invoker=on) as
+select count(d.*) as nb_depots
+  from depot d;
+
+comment on view stats.nb_depot
+  is 'Nombre total de dépôts';
+
+select 'Saisons ---------------------------------------------------------------';
 
 create table if not exists saison
 (
@@ -460,7 +468,7 @@ create table if not exists cotisation
 
 comment on table cotisation is 'Montant de la cotisation par saison et par profil';
 
--- Adhesion
+select 'Adhésions ----------------------------------------------';
 
 create table if not exists adhesion
 (
@@ -474,6 +482,16 @@ create table if not exists adhesion
   created_at    timestamp(0) with time zone default current_timestamp not null,
   constraint adhesion_unique unique (adherent_id, saison_id)
 );
+
+
+create or replace view stats.nb_adhesions with (security_invoker=on) as
+select s.id, s.saison, count(*), sum(montant) 
+from adhesion a
+join saison s on s.id = a.saison_id
+group by s.id;
+
+comment on view stats.nb_adhesions
+  is 'Total des adhésions par saisons.';
 
 -- Produit / Panier
 

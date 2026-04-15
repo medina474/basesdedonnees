@@ -43,8 +43,27 @@ create unique index pays_pk
 alter table pays
   add primary key using index pays_pk;
 
-copy pays (code, pays, drapeau_unicode)
-from '/tmp/cinema/002-pays.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+create temporary table pays_import
+(
+  code2 text,
+  code3 text,
+  code_num text,
+  pays text,
+  drapeau_unicode text,
+  forme_longue text,
+  independant boolean,
+  communautaire boolean,
+  telephone smallint
+);
+
+copy pays_import
+from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
+
+insert into pays
+select lower(code2), pays, drapeau_unicode
+from pays_import;
+
+--
 
 create table langues (
   code3 char(3) not null,

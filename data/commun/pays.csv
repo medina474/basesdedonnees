@@ -32,14 +32,14 @@ BG,BGR,100,Bulgarie,🇧🇬,République de Bulgarie,1,1,359
 BF,BFA,854,Burkina,🇧🇫,Burkina Faso,1,0,226
 BI,BDI,108,Burundi,🇧🇮,République du Burundi,1,0,257
 KH,KHM,116,Cambodge,🇰🇭,Royaume du Cambodge,1,0,855
-CM,CMR,120,Cameroun,🇨🇲,,1,0,237
+CM,CMR,120,Cameroun,🇨🇲,République du Cameroun,1,0,237
 CA,CAN,124,Canada,🇨🇦,,1,0,1
-CV,CPV,132,Cap-Vert,🇨🇻,,1,0,238
+CV,CPV,132,Cap-Vert,🇨🇻,République du Cap-Vert,1,0,238
 CF,CAF,140,Centrafrique,🇨🇫,République centrafricaine,1,0,236
-CL,CHL,152,Chili,🇨🇱,,1,0,56
+CL,CHL,152,Chili,🇨🇱,République du Chili,1,0,56
 CN,CHN,156,Chine,🇨🇳,République populaire de Chine,1,0,86
-CY,CYP,196,Chypre,🇨🇾,,1,1,357
-CO,COL,170,Colombie,🇨🇴,,1,0,57
+CY,CYP,196,Chypre,🇨🇾,République de Chypre,1,1,357
+CO,COL,170,Colombie,🇨🇴,République de Colombie,1,0,57
 KM,COM,174,Comores,🇰🇲,Union des Comores,1,0,269
 CG,COG,178,Congo,🇨🇬,République du Congo,1,0,242
 CD,COD,180,"Congo, République démocratique du",🇨🇩,,1,0,243
@@ -59,7 +59,7 @@ ER,ERI,232,Érythrée,🇪🇷,,1,0,291
 ES,ESP,724,Espagne,🇪🇸,Royaume d'Espagne,1,1,34
 EE,EST,233,Estonie,🇪🇪,République d'Estonie,1,1,372
 US,USA,840,États-Unis,🇺🇸,États-Unis d’Amérique,1,0,1
-ET,ETH,231,Éthiopie,🇪🇹,,1,0,251
+ET,ETH,231,Éthiopie,🇪🇹,République démocratique fédérale d’Éthiopie,1,0,251
 FJ,FJI,242,Fidji,🇫🇯,,1,0,679
 FI,FIN,246,Finlande,🇫🇮,République de Finlande,1,1,358
 FR,FRA,250,France,🇫🇷,République française,1,1,33
@@ -95,7 +95,7 @@ KG,KGZ,417,Kirghizstan,🇰🇬,,1,0,996
 KI,KIR,296,Kiribati,🇰🇮,République des Kiribati,1,0,686
 KW,KWT,414,Koweït,🇰🇼,,1,0,965
 LA,LAO,418,Laos,🇱🇦,République démocratique populaire lao,1,0,856
-LS,LSO,426,Lesotho,🇱🇸,,1,0,266
+LS,LSO,426,Lesotho,🇱🇸,Royaume du Lesotho,1,0,266
 LV,LVA,428,Lettonie,🇱🇻,République de Lettonie,1,1,371
 LB,LBN,422,Liban,🇱🇧,République libanaise,1,0,961
 LR,LBR,430,Libéria,🇱🇷,,1,0,231
@@ -109,10 +109,10 @@ MY,MYS,458,Malaisie,🇲🇾,,1,0,60
 MW,MWI,454,Malawi,🇲🇼,,1,0,265
 MV,MDV,462,Maldives,🇲🇻,,1,0,960
 ML,MLI,466,Mali,🇲🇱,,1,0,223
-MT,MLT,470,Malte,🇲🇹,,1,1,356
+MT,MLT,470,Malte,🇲🇹,République de Malte,1,1,356
 MA,MAR,504,Maroc,🇲🇦,Royaume du Maroc,1,0,212
 MH,MHL,584,Marshall,🇲🇭,Îles Marshall,1,0,692
-MU,MUS,480,Maurice,🇲🇺,,1,0,230
+MU,MUS,480,Maurice,🇲🇺,République de Maurice,1,0,230
 MR,MRT,478,Mauritanie,🇲🇷,,1,0,222
 MX,MEX,484,Mexique,🇲🇽,États-Unis mexicains,1,0,52
 FM,FSM,583,Micronésie,🇫🇲,États fédérés de Micronésie,1,0,691
@@ -126,7 +126,7 @@ NR,NRU,520,Nauru,🇳🇷,,1,0,674
 NP,NPL,524,Népal,🇳🇵,,1,0,977
 NI,NIC,558,Nicaragua,🇳🇮,,1,0,505
 NE,NER,562,Niger,🇳🇪,,1,0,227
-NG,NGA,566,Nigéria,🇳🇬,,1,0,234
+NG,NGA,566,Nigéria,🇳🇬,République fédérale du Nigéria,1,0,234
 NU,NIU,570,Niue,🇳🇺,,1,0,683
 NO,NOR,578,Norvège,🇳🇴,Royaume de Norvège,1,0,47
 NZ,NZL,554,Nouvelle-Zélande,🇳🇿,,1,0,64
@@ -134,8 +134,8 @@ OM,OMN,512,Oman,🇴🇲,Sultanat d'Oman,1,0,968
 UG,UGA,800,Ouganda,🇺🇬,,1,0,256
 UZ,UZB,860,Ouzbékistan,🇺🇿,,1,0,998
 PK,PAK,586,Pakistan,🇵🇰,,1,0,92
-PW,PLW,585,Palaos,🇵🇼,,1,0,680
-PS,PSE,275,Palestine,🇵🇸,,1,0,970
+PW,PLW,585,Palaos,🇵🇼,République des Palaos,1,0,680
+PS,PSE,275,Palestine,🇵🇸,État de Palestine,1,0,970
 PA,PAN,591,Panama,🇵🇦,,1,0,507
 PG,PNG,598,Papouasie-Nouvelle-Guinée,🇵🇬,,1,0,675
 PY,PRY,600,Paraguay,🇵🇾,,1,0,595
@@ -190,7 +190,7 @@ TV,TUV,798,Tuvalu,🇹🇻,,1,0,688
 UA,UKR,804,Ukraine,🇺🇦,,1,0,380
 UY,URY,858,Uruguay,🇺🇾,,1,0,598
 VU,VUT,548,Vanuatu,🇻🇺,,1,0,678
-VA,VAT,336,Vatican,🇻🇦,,1,0,379
+VA,VAT,336,Vatican,🇻🇦,Saint-Siège,1,0,379
 VE,VEN,862,Vénézuéla,🇻🇪,République bolivarienne du Venezuela,1,0,58
 VN,VNM,704,Vietnam,🇻🇳,,1,0,84
 YE,YEM,887,Yémen,🇾🇪,,1,0,967

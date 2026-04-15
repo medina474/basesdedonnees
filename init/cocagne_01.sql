@@ -49,6 +49,8 @@ create schema if not exists tests authorization pg_database_owner;
 -- Données générales
 -- --------------------------------------------------------------------------------
 
+select 'Banques -------------------------------------------';
+
 create table if not exists banque
 (
   swift       text primary key,
@@ -61,9 +63,16 @@ create table if not exists banque
 copy banque
 from '/tmp/cocagne/commun/banque.csv' (format csv, header, encoding 'UTF8');
 
+create table if not exists devise
+(
+  code text primary key,
+  devise text
+);
+
 create table if not exists pays
 (
   code text primary key,
+  drapeau_unicode text,
   pays text,
   communautaire boolean  not null default false,
   telephone smallint
@@ -83,10 +92,10 @@ create temporary table pays_import
 );
 
 copy pays_import
-from '/tmp/cocagne/commun/pays.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
 
 insert into pays
-select code2, pays, communautaire, telephone
+select code2, drapeau_unicode, pays, communautaire, telephone
 from pays_import
 where independant is true;
 
@@ -123,6 +132,7 @@ create table region (
   code text primary key,
   region text,
   tncc smallint references tncc,
+  cheflieu_code text,
   cheflieu text
 );
 
@@ -132,7 +142,7 @@ create temporary table region_temp
 copy region_temp
 from '/tmp/code_officiel_geographique/v_region_2026.csv' (format csv, header, encoding 'UTF8');
 
-insert into region
+insert into region (code, region, tncc, cheflieu_code)
 select REG, LIBELLE, TNCC, CHEFLIEU from region_temp order by reg;
 
 drop table region_temp;
@@ -144,6 +154,7 @@ create table departement (
   region_code text,
   departement text,
   tncc smallint references tncc,
+  cheflieu_code text,
   cheflieu text
 );
 
@@ -153,7 +164,7 @@ create temporary table departement_temp
 copy departement_temp
 from '/tmp/code_officiel_geographique/v_departement_2026.csv' (format csv, header, encoding 'UTF8');
 
-insert into departement
+insert into departement (code, region_code, departement, tncc, cheflieu_code)
 select DEP, REG, LIBELLE, TNCC, CHEFLIEU from departement_temp order by reg;
 
 drop table departement_temp;
@@ -248,6 +259,107 @@ create table commune (
   gentile text
 );
 
+create temporary table commune_temp (
+  id integer,
+  code_insee text,
+  nom_standard text,           -- La Chapelle-du-Châtelard
+  nom_sans_pronom text,        -- Chapelle-du-Châtelard
+  nom_a text,nom_de text,      -- à Chapelle-du-Châtelard
+  nom_sans_accent text,        -- la-chapelle-du-chatelard
+  nom_standard_majuscule text, -- LA CHAPELLE-DU-CHÂTELARD
+  typecom text,                -- toujours COM
+  typecom_texte text,          -- toujours commune
+  reg_code text,                -- code région
+  reg_nom text,
+  dep_code text,               -- code département
+  dep_nom text,
+  canton_code text,            -- code canton
+  canton_nom text,
+  epci_code text,              -- communauté de commune
+  epci_nom text,
+  academie_code text,          -- code académie
+  academie_nom text,
+  code_postal text,
+  codes_postaux text,
+  zone_emploi text,
+  code_insee_centre_zone_emploi text,
+  code_unite_urbaine text,
+  nom_unite_urbaine text,
+  taille_unite_urbaine decimal(6, 2),
+  type_commune_unite_urbaine text,
+  statut_commune_unite_urbaine text, -- I B C H
+  population decimal(10,2),
+  superficie_hectare decimal(10,2),
+  superficie_km2 decimal(10,2),
+  densite decimal(8,2),
+  altitude_moyenne decimal(8,2),
+  altitude_minimale decimal(8,2),
+  altitude_maximale decimal(8,2),
+  latitude_mairie decimal(8,6),
+  longitude_mairie decimal(8,6),
+  latitude_centre decimal(8,6),
+  longitude_centre decimal(8,6),
+  grille_densite smallint,
+  grille_densite_texte text,
+  niveau_equipements_services decimal(6, 2),
+  niveau_equipements_services_texte text,
+  gentile text,
+  url_wikipedia text,
+  url_villedereve text
+);
+
+copy commune_temp
+from '/tmp/communes-france-2025.csv' (format csv, header, encoding 'UTF8');
+
+insert into academie
+select distinct academie_code, academie_nom from commune_temp order by academie_code;
+
+insert into canton
+select distinct canton_code, canton_code from commune_temp order by canton_code;
+
+insert into epci
+select distinct epci_code, epci_nom from commune_temp where epci_code is not null order by epci_code;
+
+insert into commune
+select id,
+  code_insee,
+  nom_standard,
+  nom_sans_pronom,
+  nom_a ,nom_de,
+  nom_sans_accent,
+  nom_standard_majuscule,
+  typecom,
+  typecom_texte,
+  LPAD(reg_code, 2, '0'),
+  dep_code,
+  canton_code,
+  epci_code,
+  academie_code,
+  code_postal,
+  codes_postaux,
+  zone_emploi,
+  code_insee_centre_zone_emploi,
+  code_unite_urbaine,
+  nom_unite_urbaine,
+  taille_unite_urbaine,
+  type_commune_unite_urbaine,
+  statut_commune_unite_urbaine,
+  population,
+  superficie_hectare,
+  superficie_hectare / 100,
+  population / superficie_hectare * 100,
+  altitude_moyenne,
+  altitude_minimale,
+  altitude_maximale,
+  'SRID=4326;POINT(' || longitude_mairie || ' ' || latitude_mairie || ')',
+  'SRID=4326;POINT(' || longitude_centre || ' ' || latitude_centre || ')',
+  grille_densite,
+  grille_densite_texte,
+  niveau_equipements_services::smallint,
+  niveau_equipements_services_texte,
+  gentile
+from commune_temp;
+
 -- Jardin
 -- --------------------------------------------------------------------------------
 
@@ -271,7 +383,6 @@ create table if not exists jardin
 
 grant usage on sequence public.jardin_id_seq to cocagne;
 
--- Dépôts
 select 'Dépôts ---------------------------------------------------------------';
 
 create table if not exists depot
@@ -305,6 +416,8 @@ create table armoire
   code         text
 );
 
+grant usage on sequence public.armoire_id_seq to cocagne;
+
 create or replace view stats.nb_depot with (security_invoker=on) as
 select count(d.*) as nb_depots
   from depot d;
@@ -313,9 +426,6 @@ comment on view stats.nb_depot
   is 'Nombre total de dépôts';
 
 select 'Saisons ---------------------------------------------------------------';
-grant usage on sequence public.armoire_id_seq to cocagne;
-
--- Saisons
 
 create table if not exists saison
 (
@@ -506,7 +616,7 @@ create table if not exists adhesion
 grant usage on sequence public.adhesion_id_seq to cocagne;
 
 create or replace view stats.nb_adhesions with (security_invoker=on) as
-select s.id, s.saison, count(*), sum(montant) 
+select s.id, s.saison, count(*), sum(montant)
 from adhesion a
 join saison s on s.id = a.saison_id
 group by s.id;
@@ -1521,4 +1631,3 @@ select pg_terminate_backend(pg_stat_activity.pid)
 
 drop database if exists cocagne_test with (force);
 create database cocagne_test template cocagne;
-

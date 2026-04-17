@@ -1,4 +1,5 @@
 \c cinema;
+\pset tuples_only on
 
 select 'Copying data into votes';
 copy votes (film_id, votants, moyenne)

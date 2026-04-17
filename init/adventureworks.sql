@@ -52,7 +52,7 @@
 drop database if exists adventureworks with (force);
 
 -- Crée une nouvelle base nommée adventureworks.
-create database adventureworks;
+create database adventureworks owner adventureworks;
 
 \c adventureworks;
 

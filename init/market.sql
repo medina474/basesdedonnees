@@ -1,5 +1,9 @@
+\pset tuples_only on
+
+drop database if exists market with (force);
+
 -- Crée une nouvelle base nommée market.
-create database market;
+create database market owner market;
 
 \c market;
 

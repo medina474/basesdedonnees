@@ -1,9 +1,9 @@
 \pset tuples_only on
 
-drop database if exists cocagne with (force);
+drop database if exists cinema with (force);
 
 -- Crée une nouvelle base nommée cinema.
-create database cinema;
+create database cinema owner cinema;
 
 -- Contrôle l’ordre de résolution des schémas.
 alter database cinema set search_path = public,extensions;
@@ -53,6 +53,7 @@ create temporary table pays_import
   forme_longue text,
   independant boolean,
   communautaire boolean,
+  sepa boolean,
   telephone smallint
 );
 
@@ -469,7 +470,7 @@ add foreign key (site_id)
   references sites
   on delete cascade;
 
-create table if not exists salles (
+create table salles (
   salle_id integer not null,
   etablissement_id integer not null,
   salle text not null,
@@ -486,7 +487,7 @@ alter table salles
 
 -- seances
 
-create table if not exists seances (
+create table seances (
   seance_id int not null,
   film_id int not null,
   salle_id int not null,
@@ -1029,6 +1030,13 @@ refresh materialized view acteurs;
 -- grant select on all tables in schema public to role_web;
 
 -- https://www.graphile.org/postgraphile/security/
+
+-- PostgREST
+
+grant usage on schema public to guest;
+
+grant select on all tables in schema public
+to guest;
 
 -- Extensions installées
 select extname, extversion

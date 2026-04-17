@@ -1,4 +1,8 @@
-create database musique;
+\pset tuples_only on
+
+drop database if exists musique with (force);
+
+create database musique owner musique;
 
 \c musique;
 

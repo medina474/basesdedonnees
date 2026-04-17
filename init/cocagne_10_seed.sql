@@ -597,9 +597,9 @@ create table import.panier_composition
   code_veg bigint,
   lib_veg text,
   lib_veg_MAJ text,
-  prix_veg decimal,
-  qte_panier decimal,
-  qte_panier_arrondie decimal
+  prix_veg decimal(8,2),
+  qte_panier decimal(8,2),
+  qte_panier_arrondie decimal(8,2)
 );
 
 copy import.panier_composition
@@ -629,7 +629,7 @@ set montant =
 copy etape
 from '/tmp/cocagne/access/etapes.csv' (format csv, header, encoding 'UTF8');
 
-create table if not exists import.action
+create table import.action
 (
   id            bigint,
   action        text,
@@ -814,12 +814,12 @@ select id,
   tarif_1_fourni,
   tarif_2_fourni,
   tva_fourn,
-  pays.code,
+  country.code,
   bio,
   vente_veg,
   date_maj
 from import.article
-left join pays on pays.pays = import.article.origine;
+left join country on country.country = import.article.origine;
 
 select setval(pg_get_serial_sequence('article', 'id'), max(id))
 from article;

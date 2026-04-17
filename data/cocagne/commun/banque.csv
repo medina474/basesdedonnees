@@ -1,73 +1,73 @@
-swift,banque,bic,agence,domiciliation
-AGRIFRPP802,Crédit Agricole,10206,Nord-Est,25 rue Libergier 51088 Reims
-AGRIFRPP810,Crédit Agricole,11006,Champagne Bourgogne,269 faubourg Croncels 10000 Troyes
-AGRIFRPP825,Crédit Agricole,12506,Franche-Comté,11 avenue Élisée-Cusenier 25000 Besançon
-AGRIFRPP861,Crédit Agricole,16106,Lorraine,56-58 avenue André Malraux 57000 Metz
-AGRIFRPP867,Crédit Agricole,16706,Nord de France,10 avenue Foch 59020 Lille
-AGRIFRPP868,Crédit Agricole,16806,Centre France,1 avenue de la Libération 63045 Clermont-Ferrand
-AGRIFRPP872,Crédit Agricole,17206,Alsace Vosges,1 allée des Marquises 67000 Strasbourg
-AGRIFRPP878,Crédit Agricole,17806,Centre-Est,1 rue Pierre de Truchis de Lays 69410 Champagne-au-Mont-d'Or
-AGRIFRPP879,Crédit Agricole,17906,Anjou et Maine,77 avenue Olivier Messiaen 72000 Le Mans
-AGRIFRPP881,Crédit Agricole,18106,CA des Savoie,4 avenue du Pré Felin 74940 Annecy
-AGRIFRPP887,Crédit Agricole,18706,Brie Picardie,500 rue Saint-Fuscien 80090 Amiens
-BNPAFRPPEPL,BNP Paribas,30004,Épinal,16 boulevard des Italiens 75009 Paris
-BNPAFRPPIFE,BNP Paribas,30004,Île de France Est,Paris
-BNPAFRPPMTZ,BNP Paribas,30004,Metz,5 avenue Robert Schuman 57000 Metz
-BNPAFRPPNCY,BNP Paribas,30004,Nancy,8 rue Saint Jean 54000 Nancy
-BNPAFRPPPLZ,BNP Paribas,30004,Élysée Haussmann Entreprises,8-12 rue Sainte Cécile 75000 Paris
-BNPAFRPPTAS,BNP Paribas,30004,Lyon,37 rue Victor Hugo 69000 Lyon
-BNPAFRPPXXX,BNP Paribas,30004,Paris,16 boulevard des Italiens 75009 Paris
-BOUSFRPPBDF,Boursorama,40618,Boursorama,44 rue Traversière 92100 Boulogne Billancourt
-CCBPFRPPBDX,Banque Populaire,10907,Aquitaine Centre Atlantique,10 quai de Queyries 33072 Bordeaux
-CCBPFRPPDJN,Banque Populaire,10807,Bourgogne Franche-Comté,14 boulevard de la Tremouille 21008 Dijon
-CCBPFRPPLIL,Banque Populaire,13507,Nord,17 rue d'Arras 59000 Lille
-CCBPFRPPLYO,Banque Populaire,13907,Loire et Lyonnais,Lyon
-CCBPFRPPMAR,Banque Populaire,16607,Méditéranée,457 promenade des Anglais 06000 Nice
-CCBPFRPPMTZ,Banque Populaire,14707,Alsace Lorraine Champagne,3 rue François de Curel 57021 Metz
-CCBPFRPPMTG,Banque Populaire,10207,Rives de Paris,31 bd Edgar Quinet 75000 Paris
-CCBPFRPPNAN,Banque Populaire,13807,Grand Ouest,15 boulevard de la Boutiere cs 2685 35768 Rennes
-CCBPFRPPNCE,Banque Populaire,15607,Côte d'Azur,457 promenade desAanglais 06000 Nice
-CCBPFRPPPPG,Banque Populaire,16607,Sud,av de Baixas espace Pyrène 66240 Saint Estève
-CCBPFRPPSTR,Banque Populaire,17607,Alsace,5-7 rue du 22 novembre 67001 Strasbourg
-CCBPFRPPTLS,Banque Populaire,17807,Occitane,33-43 avenue Georges Pompidou 31135 Balma
-CCBPFRPPVER,Banque Populaire,18707,Val de France,9 avenue Newton 78180 Montigny-le-Bretonneux
-CCFRFRPP,HSBC Continental Europe,30056,,48-52 rue Saint Jean 54000 Nancy
-CEPAFRPP131,Caisse d'Épargne,11315,CEPAC,Place Estragin Pastre 13006 Marseille
-CEPAFRPP142,Caisse d'Épargne,11425,Côte de Nacre,151 rue d'Uelzen Bois-Guillaume
-CEPAFRPP213,Caisse d'Épargne,12135,Bourgogne Franche-Comté,1 rond point de la nation 21005 Dijon
-CEPAFRPP313,Caisse d'Épargne,13135,Midi-Pyrénées,42 rue du Languedoc 31002 Toulouse
-CEPAFRPP333,Caisse d'Épargne,13335,Aquitaine Poitou Charente,
-CEPAFRPP348,Caisse d'Épargne,13485,Languedoc Roussillon,254 rue Ichel Teule 34000 Montpellier
-CEPAFRPP382,Caisse d'Épargne,13825,Rhône Alpes,tour incity 116 cours Lafayette 69003 Lyon
-CEPAFRPP426,Caisse d'Épargne,14265,Loire Drome Ardèche,
-CEPAFRPP444,Caisse d'Épargne,14445,Bretagne-Pays de Loire,
-CEPAFRPP450,Caisse d'Épargne,14505,Loire Centre,4 rue des Hotelleries 45005 Orleans
-CEPAFRPP513,Caisse d'Épargne,15135,Grand Est Europe,1 avenue du Rhin 67000 Strasbourg
-CEPAFRPP627,Caisse d'Épargne,16275,Hauts de France,135 pont de Flandres 59777 Lille
-CEPAFRPP751,Caisse d'Épargne,17515,Île-de-France,19 rue du Louvre 75001 Paris
-CEPAFRPP871,Caisse d'Épargne,18715,Auvergne et Limousin,
-CMCIFR2A,Crédit Mutuel,10278,CCM Centre Est Europe,4 rue Fredéric-Guillaume Raiffeisen 4 67000 Strasbourg
-PSSTFRPPAJA,La Banque Postale,20041,Centre Financier d'Ajaccio,22 avenue colonel Colonna d'Ornano 20900 Ajaccio
-PSSTFRPPBOR,La Banque Postale,20041,Centre Financier de Bordeaux,52 rue Georges Bonnac 33900 Bordeaux
-PSSTFRPPCHA,La Banque Postale,20041,Centre Financier de Châlons,5 rue Cosme Clause 51900 Châlons-en-Champagne
-PSSTFRPPCLE,La Banque Postale,20041,Centre Financier de Clermont Ferrand,17 rue du marechal de Lattre de Tassigny 63900 Clermont-Ferrand
-PSSTFRPPDIJ,La Banque Postale,20041,Centre Financier de Dijon,Place du 1er Mai 21900 Dijon
-PSSTFRPPGRE,La Banque Postale,20041,Centre Financier de Grenoble,11 boulevard du marechal Lyautey 38900 Grenoble
-PSSTFRPPLIL,La Banque Postale,20041,Centre Financier de Lille,3-5 rue Paul Duez 59900 Lille
-PSSTFRPPLIM,La Banque Postale,20041,Centre Financier de Limoges,5 rue de la céramique 87900 Limoges
-PSSTFRPPLYO,La Banque Postale,20041,Centre Financier de Lyon,8 rue Félix Brun 69900 Lyon
-PSSTFRPPMAR,La Banque Postale,20041,Centre Financier de Marseille,5 rue Mathieu Stilatti 13900 Marseille
-PSSTFRPPMON,La Banque Postale,20041,Centre Financier de Montpellier,1 rue Catalan 34900 Montpellier
-PSSTFRPPNCY,La Banque Postale,20041,Centre Financier de Nancy,53 rue des Jardiniers 54900 Nancy
-PSSTFRPPNTE,La Banque Postale,20041,Centre Financier de Nantes,4 rue du président Herriot 44900 Nantes
-PSSTFRPPPAR,La Banque Postale,20041,Centre Financier de Paris,11 rue Bourseul 75900 Paris
-PSSTFRPPREN,La Banque Postale,20041,Centre Financier de Rennes,9 rue Vanneau 35900 Rennes
-PSSTFRPPROU,La Banque Postale,20041,Centre Financier de Rouen,1 rue Albert Glatigny 76900 Rouen
-PSSTFRPPSCE,La Banque Postale,20041,Centre Financier Orléans-la-Source,1 rue Édouard Branly 45900 La Source
-PSSTFRPPSTR,La Banque Postale,20041,Centre Financier de Strasbourg,5 rue des Clarisses 67900 Strasbourg
-PSSTFRPPTOU,La Banque Postale,20041,Centre Financier de Toulouse,7 rue Palaprat 31900 Toulouse
-PSSTFRPPBTE,La Banque Postale,20041,Centre Financier de Basse-Terre,Jarry
-PSSTFRPPFDF,La Banque Postale,20041,Centre Financier de Fort-de-France,Fort-de-France
-PSSTFRPPSDR,La Banque Postale,20041,Centre Financier de Saint-Denis,Saint-Denis
-PSSTFRPPCAY,La Banque Postale,20041,Centre Financier de Cayenne,11 rue des lucioles Cayenne
-SOGEFRPP,Société Générale,30003,Société Générale,17 cours Valmy 92972 Puteaux
+id,swift,banque,bic,agence,domiciliation
+1,AGRIFRPP802,Crédit Agricole,10206,Nord-Est,25 rue Libergier 51088 Reims
+2,AGRIFRPP810,Crédit Agricole,11006,Champagne Bourgogne,269 faubourg Croncels 10000 Troyes
+3,AGRIFRPP825,Crédit Agricole,12506,Franche-Comté,11 avenue Élisée-Cusenier 25000 Besançon
+4,AGRIFRPP861,Crédit Agricole,16106,Lorraine,56-58 avenue André Malraux 57000 Metz
+5,AGRIFRPP867,Crédit Agricole,16706,Nord de France,10 avenue Foch 59020 Lille
+6,AGRIFRPP868,Crédit Agricole,16806,Centre France,1 avenue de la Libération 63045 Clermont-Ferrand
+7,AGRIFRPP872,Crédit Agricole,17206,Alsace Vosges,1 allée des Marquises 67000 Strasbourg
+8,AGRIFRPP878,Crédit Agricole,17806,Centre-Est,1 rue Pierre de Truchis de Lays 69410 Champagne-au-Mont-d'Or
+9,AGRIFRPP879,Crédit Agricole,17906,Anjou et Maine,77 avenue Olivier Messiaen 72000 Le Mans
+10,AGRIFRPP881,Crédit Agricole,18106,CA des Savoie,4 avenue du Pré Felin 74940 Annecy
+11,AGRIFRPP887,Crédit Agricole,18706,Brie Picardie,500 rue Saint-Fuscien 80090 Amiens
+12,BNPAFRPPEPL,BNP Paribas,30004,Épinal,16 boulevard des Italiens 75009 Paris
+13,BNPAFRPPIFE,BNP Paribas,30004,Île de France Est,Paris
+14,BNPAFRPPMTZ,BNP Paribas,30004,Metz,5 avenue Robert Schuman 57000 Metz
+15,BNPAFRPPNCY,BNP Paribas,30004,Nancy,8 rue Saint Jean 54000 Nancy
+16,BNPAFRPPPLZ,BNP Paribas,30004,Élysée Haussmann Entreprises,8-12 rue Sainte Cécile 75000 Paris
+17,BNPAFRPPTAS,BNP Paribas,30004,Lyon,37 rue Victor Hugo 69000 Lyon
+18,BNPAFRPPXXX,BNP Paribas,30004,Paris,16 boulevard des Italiens 75009 Paris
+19,BOUSFRPPBDF,Boursorama,40618,Boursorama,44 rue Traversière 92100 Boulogne Billancourt
+20,CCBPFRPPBDX,Banque Populaire,10907,Aquitaine Centre Atlantique,10 quai de Queyries 33072 Bordeaux
+21,CCBPFRPPDJN,Banque Populaire,10807,Bourgogne Franche-Comté,14 boulevard de la Tremouille 21008 Dijon
+22,CCBPFRPPLIL,Banque Populaire,13507,Nord,17 rue d'Arras 59000 Lille
+23,CCBPFRPPLYO,Banque Populaire,13907,Loire et Lyonnais,Lyon
+24,CCBPFRPPMAR,Banque Populaire,16607,Méditéranée,457 promenade des Anglais 06000 Nice
+25,CCBPFRPPMTZ,Banque Populaire,14707,Alsace Lorraine Champagne,3 rue François de Curel 57021 Metz
+26,CCBPFRPPMTG,Banque Populaire,10207,Rives de Paris,31 bd Edgar Quinet 75000 Paris
+27,CCBPFRPPNAN,Banque Populaire,13807,Grand Ouest,15 boulevard de la Boutiere cs 2685 35768 Rennes
+28,CCBPFRPPNCE,Banque Populaire,15607,Côte d'Azur,457 promenade desAanglais 06000 Nice
+29,CCBPFRPPPPG,Banque Populaire,16607,Sud,av de Baixas espace Pyrène 66240 Saint Estève
+30,CCBPFRPPSTR,Banque Populaire,17607,Alsace,5-7 rue du 22 novembre 67001 Strasbourg
+31,CCBPFRPPTLS,Banque Populaire,17807,Occitane,33-43 avenue Georges Pompidou 31135 Balma
+32,CCBPFRPPVER,Banque Populaire,18707,Val de France,9 avenue Newton 78180 Montigny-le-Bretonneux
+33,CCFRFRPP,HSBC Continental Europe,30056,,48-52 rue Saint Jean 54000 Nancy
+34,CEPAFRPP131,Caisse d'Épargne,11315,CEPAC,Place Estragin Pastre 13006 Marseille
+35,CEPAFRPP142,Caisse d'Épargne,11425,Côte de Nacre,151 rue d'Uelzen Bois-Guillaume
+36,CEPAFRPP213,Caisse d'Épargne,12135,Bourgogne Franche-Comté,1 rond point de la nation 21005 Dijon
+37,CEPAFRPP313,Caisse d'Épargne,13135,Midi-Pyrénées,42 rue du Languedoc 31002 Toulouse
+38,CEPAFRPP333,Caisse d'Épargne,13335,Aquitaine Poitou Charente,
+39,CEPAFRPP348,Caisse d'Épargne,13485,Languedoc Roussillon,254 rue Ichel Teule 34000 Montpellier
+40,CEPAFRPP382,Caisse d'Épargne,13825,Rhône Alpes,tour incity 116 cours Lafayette 69003 Lyon
+41,CEPAFRPP426,Caisse d'Épargne,14265,Loire Drome Ardèche,
+42,CEPAFRPP444,Caisse d'Épargne,14445,Bretagne-Pays de Loire,
+43,CEPAFRPP450,Caisse d'Épargne,14505,Loire Centre,4 rue des Hotelleries 45005 Orleans
+44,CEPAFRPP513,Caisse d'Épargne,15135,Grand Est Europe,1 avenue du Rhin 67000 Strasbourg
+45,CEPAFRPP627,Caisse d'Épargne,16275,Hauts de France,135 pont de Flandres 59777 Lille
+46,CEPAFRPP751,Caisse d'Épargne,17515,Île-de-France,19 rue du Louvre 75001 Paris
+47,CEPAFRPP871,Caisse d'Épargne,18715,Auvergne et Limousin,
+48,CMCIFR2A,Crédit Mutuel,10278,CCM Centre Est Europe,4 rue Fredéric-Guillaume Raiffeisen 4 67000 Strasbourg
+49,PSSTFRPPAJA,La Banque Postale,20041,Centre Financier d'Ajaccio,22 avenue colonel Colonna d'Ornano 20900 Ajaccio
+50,PSSTFRPPBOR,La Banque Postale,20041,Centre Financier de Bordeaux,52 rue Georges Bonnac 33900 Bordeaux
+51,PSSTFRPPCHA,La Banque Postale,20041,Centre Financier de Châlons,5 rue Cosme Clause 51900 Châlons-en-Champagne
+52,PSSTFRPPCLE,La Banque Postale,20041,Centre Financier de Clermont Ferrand,17 rue du marechal de Lattre de Tassigny 63900 Clermont-Ferrand
+53,PSSTFRPPDIJ,La Banque Postale,20041,Centre Financier de Dijon,Place du 1er Mai 21900 Dijon
+54,PSSTFRPPGRE,La Banque Postale,20041,Centre Financier de Grenoble,11 boulevard du marechal Lyautey 38900 Grenoble
+55,PSSTFRPPLIL,La Banque Postale,20041,Centre Financier de Lille,3-5 rue Paul Duez 59900 Lille
+56,PSSTFRPPLIM,La Banque Postale,20041,Centre Financier de Limoges,5 rue de la céramique 87900 Limoges
+57,PSSTFRPPLYO,La Banque Postale,20041,Centre Financier de Lyon,8 rue Félix Brun 69900 Lyon
+58,PSSTFRPPMAR,La Banque Postale,20041,Centre Financier de Marseille,5 rue Mathieu Stilatti 13900 Marseille
+59,PSSTFRPPMON,La Banque Postale,20041,Centre Financier de Montpellier,1 rue Catalan 34900 Montpellier
+60,PSSTFRPPNCY,La Banque Postale,20041,Centre Financier de Nancy,53 rue des Jardiniers 54900 Nancy
+61,PSSTFRPPNTE,La Banque Postale,20041,Centre Financier de Nantes,4 rue du président Herriot 44900 Nantes
+62,PSSTFRPPPAR,La Banque Postale,20041,Centre Financier de Paris,11 rue Bourseul 75900 Paris
+63,PSSTFRPPREN,La Banque Postale,20041,Centre Financier de Rennes,9 rue Vanneau 35900 Rennes
+64,PSSTFRPPROU,La Banque Postale,20041,Centre Financier de Rouen,1 rue Albert Glatigny 76900 Rouen
+65,PSSTFRPPSCE,La Banque Postale,20041,Centre Financier Orléans-la-Source,1 rue Édouard Branly 45900 La Source
+66,PSSTFRPPSTR,La Banque Postale,20041,Centre Financier de Strasbourg,5 rue des Clarisses 67900 Strasbourg
+67,PSSTFRPPTOU,La Banque Postale,20041,Centre Financier de Toulouse,7 rue Palaprat 31900 Toulouse
+68,PSSTFRPPBTE,La Banque Postale,20041,Centre Financier de Basse-Terre,Jarry
+69,PSSTFRPPFDF,La Banque Postale,20041,Centre Financier de Fort-de-France,Fort-de-France
+70,PSSTFRPPSDR,La Banque Postale,20041,Centre Financier de Saint-Denis,Saint-Denis
+71,PSSTFRPPCAY,La Banque Postale,20041,Centre Financier de Cayenne,11 rue des lucioles Cayenne
+72,SOGEFRPP,Société Générale,30003,Société Générale,17 cours Valmy 92972 Puteaux

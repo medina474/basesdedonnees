@@ -514,7 +514,7 @@ create table import.code_postal (
 );
 
 copy import.code_postal
-from '/tmp/019HexaSmal-full.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/datanova/019HexaSmal-full.csv' (format csv, header, encoding 'UTF8');
 
 insert into code_postal_contour
 select code_postal, st_union(ST_SetSRID(ST_GeomFromGeoJSON(contour), 4326))

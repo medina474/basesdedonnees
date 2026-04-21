@@ -89,6 +89,7 @@ create table country
 (
   code text primary key,
   country text not null,
+  tncc smallint,
   flag text,
   long text,
   intracommunity boolean not null default false,
@@ -102,6 +103,7 @@ create temporary table pays_import
   code3 text,
   code_num text,
   pays text,
+  tncc smallint,
   drapeau_unicode text,
   forme_longue text,
   independant boolean,
@@ -114,7 +116,7 @@ copy pays_import
 from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
 
 insert into country
-select code2, pays, drapeau_unicode, forme_longue, communautaire, sepa, telephone
+select code2, pays, tncc, drapeau_unicode, forme_longue, communautaire, sepa, telephone
 from pays_import
 where independant is true;
 

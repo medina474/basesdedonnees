@@ -49,6 +49,7 @@ create temporary table pays_import
   code3 text,
   code_num text,
   pays text,
+  tncc smallint,
   drapeau_unicode text,
   forme_longue text,
   independant boolean,

@@ -198,11 +198,11 @@ grant select on api.livraison, public.livraison
 to guest;
 
 
-create or replace view api.mode_paiement with (security_invoker = true) as
+create or replace view api.moyen_paiement with (security_invoker = true) as
   select *
-  from mode_paiement;
+  from moyen_paiement;
 
-grant select on api.mode_paiement, public.mode_paiement
+grant select on api.moyen_paiement, public.moyen_paiement
 to guest;
 
 

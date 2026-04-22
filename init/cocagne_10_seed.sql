@@ -106,8 +106,8 @@ insert into profil (id, profil) values
 select setval(pg_get_serial_sequence('profil', 'id'), max(id))
 from profil;
 
-copy mode_paiement(id,mode_paiement,nombre)
-from '/tmp/cocagne/mode_paiement.csv' (format csv, header, encoding 'UTF8');
+copy moyen_paiement(id,moyen_paiement,nombre)
+from '/tmp/cocagne/moyen_paiement.csv' (format csv, header, encoding 'UTF8');
 
 create table import.adherent
 (
@@ -124,7 +124,7 @@ create table import.adherent
   code_postal   text,
   ville         text,
   date_adhesion date,
-  mode_paiement_id bigint,
+  moyen_paiement_id bigint,
   cotisation    text,
   compta        text
 );
@@ -132,12 +132,12 @@ create table import.adherent
 copy import.adherent
 from '/tmp/cocagne/adherents.csv' (format csv, header, encoding 'UTF8');
 
-insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville, compte_comptable, date_adhesion, date_sortie, mode_paiement_id, created_at)
+insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville, compte_comptable, date_adhesion, date_sortie, moyen_paiement_id, created_at)
   select id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville,
       compta,
       case when date_adhesion is null then created_at::date else date_adhesion end,
       date_sortie,
-      mode_paiement_id,
+      moyen_paiement_id,
       created_at
   from import.adherent;
 
@@ -176,8 +176,8 @@ insert into cotisation (saison_id, profil_id, montant, code) values
   (2026,3,5.0,'ACOTPRO'),
   (2026,4,5.0,'ACOTSO');
 
-update adherent set mode_paiement_id = 48
-where mode_paiement_id is null and date_adhesion < '2026-12-15' and (date_sortie > '2023-01-06' or date_sortie is null);
+update adherent set moyen_paiement_id = 48
+where moyen_paiement_id is null and date_adhesion < '2026-12-15' and (date_sortie > '2023-01-06' or date_sortie is null);
 
 --select a.id, a.adherent, date_sortie, created_at
 --from adherent a, lateral adherer(a.id, 2023)
@@ -202,7 +202,7 @@ where mode_paiement_id is null and date_adhesion < '2026-12-15' and (date_sortie
 --  and saison_id = 2026
 --  and i.cotisation is not null;
 
---update adhesion set mode_paiement_id = null
+--update adhesion set moyen_paiement_id = null
 --  where saison_id = 2026 and numero is null and montant = 0;
 
 create table import.cotisation
@@ -220,12 +220,12 @@ create table import.cotisation
 copy import.cotisation
 from '/tmp/cocagne/sage/cotisations.csv' (format csv, header, delimiter ";", encoding 'UTF8');
 
-insert into adhesion (adherent_id, date_adhesion, saison_id, mode_paiement_id, numero, montant)
-select a.id, max(i.jour), extract(year from i.jour), a.mode_paiement_id,
+insert into adhesion (adherent_id, date_adhesion, saison_id, moyen_paiement_id, numero, montant)
+select a.id, max(i.jour), extract(year from i.jour), a.moyen_paiement_id,
   max(i.facture) as numero, sum(i.montant) as montant
 from import.cotisation i
 join adherent a on a.compte_comptable = i.compta
-group by a.id, i.compta, extract(year from i.jour), a.mode_paiement_id
+group by a.id, i.compta, extract(year from i.jour), a.moyen_paiement_id
 having sum(montant) <> 0;
 
 -- produit
@@ -353,7 +353,7 @@ create table import.abonnement
   date_debut       date,
   nombre           smallint,
   montant          numeric(8, 2),
-  mode_paiement_id bigint,
+  moyen_paiement_id bigint,
   saison_id        bigint,
   qte              smallint,
   mois_depart      smallint,
@@ -369,7 +369,7 @@ copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2024.csv' (for
 copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2025.csv' (format csv, header, ENCODING 'UTF8');
 copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2026.csv' (format csv, header, ENCODING 'UTF8');
 
-update import.abonnement set mode_paiement_id = null where mode_paiement_id = 0;
+update import.abonnement set moyen_paiement_id = null where moyen_paiement_id = 0;
 
 insert into abonnement
 select id,
@@ -378,7 +378,7 @@ select id,
   date_debut,
   nombre,
   montant,
-  mode_paiement_id,
+  moyen_paiement_id,
   saison_id from import.abonnement;
 
 --

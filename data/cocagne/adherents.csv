@@ -1,4 +1,4 @@
-id,adherent,profil_id,depot_id,domicile,email,telephone,created_at,date_sortie,adresse,code_postal,ville,date_sortie,mode_paiement,cotisation,compte_comptable
+id,adherent,profil_id,depot_id,domicile,email,telephone,created_at,date_sortie,adresse,code_postal,ville,date_sortie,moyen_paiement,cotisation,compte_comptable
 1,Cyril Wagner,1,,0,,03********,2008-12-11T15:53:00,2021-12-21,1 Grande Rue,88150,THAON-LES-VOSGES,2001-07-01,,,MOMONDO01
 2,Kévin Fievet,1,,0,,09********,2008-12-11T15:53:00,2012-03-28,2 Grande Rue,88190,GOLBEY,,,,POIRIDE01
 3,Coline Maury,1,,0,,03********,2008-12-11T15:53:00,2011-12-22,3 Grande Rue,88150,THAON-LES-VOSGES,2000-09-01,,,RENAUJE01

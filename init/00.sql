@@ -31,5 +31,6 @@ create role adventureworks noinherit login password '9176';
 create role market noinherit login password '9637';
 create role cinema noinherit login password '9084';
 create role musique noinherit login password '9671';
+create role transport noinherit login password '9512';
 
 select * from pg_user;

@@ -85,11 +85,40 @@ create table devise
   devise text
 );
 
+create table unite
+(
+  code text primary key,
+  unite text
+);
+
+comment on table unite is 'Recommendation no. 20 – Codes for Units of Measure Used in International Trade. https://unece.org/trade/uncefact/cl-recommendations';
+
+select 'Codes officiels géographiques ---------------------';
+
+create table tncc (
+  id smallint primary key,
+  article text,
+  charniere text
+);
+
+insert into tncc values
+(0,'', 'de'),
+(1,'', 'd'''),
+(2,'le','du'),
+(3,'la','de la'),
+(4,'les','des'),
+(5,'l''','de l'''),
+(6,'aux','des'),
+(7,'las','de las'),
+(8,'los','de los');
+
+-- Pays
+
 create table country
 (
   code text primary key,
   country text not null,
-  tncc smallint,
+  tncc_id smallint references tncc,
   flag text,
   long text,
   intracommunity boolean not null default false,
@@ -120,32 +149,6 @@ select code2, pays, tncc, drapeau_unicode, forme_longue, communautaire, sepa, te
 from pays_import
 where independant is true;
 
-create table unite
-(
-  code text primary key,
-  unite text
-);
-
-comment on table unite is 'Recommendation no. 20 – Codes for Units of Measure Used in International Trade. https://unece.org/trade/uncefact/cl-recommendations';
-
-select 'Codes officiels géographiques ---------------------';
-
-create table tncc (
-  code smallint primary key,
-  article text,
-  charniere text
-);
-
-insert into tncc values
-(0,'', 'de'),
-(1,'', 'd'''),
-(2,'le','du'),
-(3,'la','de la'),
-(4,'les','des'),
-(5,'l''','de l'''),
-(6,'aux','des'),
-(7,'las','de las'),
-(8,'los','de los');
 
 -- Régions
 

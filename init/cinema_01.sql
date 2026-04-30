@@ -1035,6 +1035,7 @@ refresh materialized view acteurs;
 -- PostgREST
 
 grant usage on schema public to guest;
+grant usage on schema extensions to guest;
 
 grant select on all tables in schema public
 to guest;

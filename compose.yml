@@ -17,7 +17,7 @@ services:
       - ./data:/tmp
 
   pgadmin:
-    image: dpage/pgadmin4:9.13
+    image: dpage/pgadmin4:9.14
     environment:
       PGADMIN_DEFAULT_EMAIL: emmanuel.medina@univ-lorraine.fr
       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-ChangeMe}

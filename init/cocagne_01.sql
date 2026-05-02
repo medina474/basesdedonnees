@@ -102,15 +102,15 @@ create table tncc (
 );
 
 insert into tncc values
-(0,'', 'de'),
+(0,'', 'de '),
 (1,'', 'd'''),
-(2,'le','du'),
-(3,'la','de la'),
-(4,'les','des'),
+(2,'le ','du '),
+(3,'la ','de la '),
+(4,'les ','des '),
 (5,'l''','de l'''),
-(6,'aux','des'),
-(7,'las','de las'),
-(8,'los','de los');
+(6,'aux ','des '),
+(7,'las ','de las '),
+(8,'los ','de los ');
 
 -- Pays
 
@@ -383,6 +383,26 @@ select id,
   niveau_equipements_services_texte,
   gentile
 from commune_temp;
+
+create table langue
+(
+  code text primary key,
+  langue text not null,
+  francais text not null,
+  ltr boolean
+);
+
+insert into langue values
+('fra', 'Français', 'Français', true),
+('eng', 'English', 'Anglais', true),
+('deu', 'Deutsch', 'Allemand', true),
+('spa', 'Español', 'Espagnol', true),
+('por', 'Português', ' Portugais', true),
+('ita', 'Italiano', 'Italien', true),
+('nld', 'Nederlands', 'Néerlandais', true),
+('swe', 'Svenska', 'Suédois', true),
+('dan', 'Dansk', 'Danois', true),
+('ltz','Luxembourgeois','Lëtzebuergesch', true);
 
 -- Jardin
 -- --------------------------------------------------------------------------------

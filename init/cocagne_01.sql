@@ -1072,7 +1072,7 @@ create table abonnement
   date_debut       date          not null,
   nombre           smallint      not null,
   montant          numeric(8, 2) not null,
-  moyen_paiement_id bigint        null references moyen_paiement,
+  condition_paiement_id bigint        null references condition_paiement,
   saison_id        bigint        null references saison,
   created_at timestamp(0) with time zone default current_timestamp not null,
   updated_at timestamp(0) with time zone default NULL::timestamp(0) with time zone

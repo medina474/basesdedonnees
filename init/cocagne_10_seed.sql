@@ -106,8 +106,11 @@ insert into profil (id, profil) values
 select setval(pg_get_serial_sequence('profil', 'id'), max(id))
 from profil;
 
-copy moyen_paiement(id,moyen_paiement,nombre)
+copy moyen_paiement(id,moyen_paiement,actif)
 from '/tmp/cocagne/moyen_paiement.csv' (format csv, header, encoding 'UTF8');
+
+copy condition_paiement(id,moyen_paiement_id,nombre,condition_paiement)
+from '/tmp/cocagne/condition_paiement.csv' (format csv, header, encoding 'UTF8');
 
 create table import.adherent
 (
@@ -131,6 +134,17 @@ create table import.adherent
 
 copy import.adherent
 from '/tmp/cocagne/adherents.csv' (format csv, header, encoding 'UTF8');
+
+update import.adherent
+set moyen_paiement_id =
+  case moyen_paiement_id
+    when 47 then 5
+    when 48 then 2
+    when 49 then 1
+    when 50 then 3
+    when 51 then 4
+  end
+where moyen_paiement_id in (47, 48, 49, 50, 51);
 
 insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville, compte_comptable, date_adhesion, date_sortie, moyen_paiement_id, created_at)
   select id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville,
@@ -176,7 +190,8 @@ insert into cotisation (saison_id, profil_id, montant, code) values
   (2026,3,5.0,'ACOTPRO'),
   (2026,4,5.0,'ACOTSO');
 
-update adherent set moyen_paiement_id = 48
+-- Chèque
+update adherent set moyen_paiement_id = 2
 where moyen_paiement_id is null and date_adhesion < '2026-12-15' and (date_sortie > '2023-01-06' or date_sortie is null);
 
 --select a.id, a.adherent, date_sortie, created_at
@@ -369,7 +384,63 @@ copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2024.csv' (for
 copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2025.csv' (format csv, header, ENCODING 'UTF8');
 copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2026.csv' (format csv, header, ENCODING 'UTF8');
 
-update import.abonnement set moyen_paiement_id = null where moyen_paiement_id = 0;
+update import.abonnement
+  set moyen_paiement_id = null
+  where moyen_paiement_id = 0;
+
+update import.abonnement
+  set moyen_paiement_id =
+  case moyen_paiement_id
+  when 1 then 1
+  when 2 then 1
+  when 4 then 1
+  when 5 then 5
+  when 6 then 1
+  when 7 then 1
+  when 8 then 1
+  when 9 then 1
+  when 10 then 1
+  when 11 then 1
+  when 12 then 1
+  when 13 then 1
+  when 14 then 1
+  when 15 then 1
+  when 17 then 1
+  when 18 then 6
+  when 20 then 7
+  when 21 then 1
+  when 22 then 1
+  when 23 then 1
+  when 24 then 1
+  when 25 then 12
+  when 26 then 12
+  when 27 then 12
+  when 28 then 12
+  when 29 then 12
+  when 30 then 12
+  when 31 then 12
+  when 32 then 12
+  when 33 then 12
+  when 34 then 12
+  when 35 then 11
+  when 36 then 11
+  when 37 then 12
+  when 38 then 12
+  when 39 then 12
+  when 40 then 9
+  when 41 then 12
+  when 43 then 11
+  when 44 then 16
+  when 55 then 15
+  when 56 then 13
+  when 57 then 16
+  when 61 then 16
+  when 62 then 16
+  when 64 then 16
+  when 65 then 16
+  when 66 then 16
+  when 67 then 16
+  end;
 
 insert into abonnement
 select id,

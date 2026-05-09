@@ -580,7 +580,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 6729,Benton,Robert,1932-09-29,2025-05-11,us,,0
 6778,Guillermin,John,1925-11-11,2015-09-27,en,,0
 6780,McGee,Vonetta,1945-01-14,2010-07-09,us,,7.466
-6804,Greene,Graham,1952-06-22,,ca,,22.264
+6804,Greene,Graham,1952-06-22,2025-09-01,ca,,22.264
 6807,Rockwell,Sam,1968-11-05,,us,,16.552
 6818,Herzog,Werner,1942-09-05,,de,,0
 6837,Matthau,Walter,1920-10-01,2000-07-01,us,,2.744
@@ -893,7 +893,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 11472,Winkler,Irwin,1931-05-25,,us,,0
 11505,Hughes,John,1950-02-18,2009-08-06,us,,0
 11510,Culkin,Macaulay,1980-08-26,,us,,21.202
-11514,O'Hara,Catherine,1954-03-04,,ca,,49.422
+11514,O'Hara,Catherine,1954-03-04,2026-01-30,ca,,49.422
 11555,Kosma,Joseph,1905-10-22,1969-08-07,hu,,0
 11614,Night,M.,1970-08-06,,,,0
 11616,Williams,Olivia,1968-07-26,,en,,44.398
@@ -1091,7 +1091,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 15857,Booth,James,1927-12-19,2005-08-11,en,,0
 15858,Hunter,Tim,1947-06-15,,us,,0
 15868,Edel,Uli,1947-04-11,,de,,0
-15890,Foley,James,1953-12-28,,us,,0
+15890,Foley,James,1953-12-28,2025-05-06,us,,0
 15912,Gyllenhaal,Stephen,1949-10-04,,us,,0
 16028,Marshall,William,1924-08-19,2003-06-11,us,,13.712
 16108,Meriwether,Lee,1935-05-27,,us,,31.809
@@ -1926,7 +1926,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 53793,Hitchens,Dolores,,,,,0
 53815,Keir,Andrew,1926-04-03,1997-10-05,cs,,7.549
 53839,Mann,Hummie,,,ca,,0
-53861,Seidelman,Susan,1952-12-11,,,,0
+53861,Seidelman,Susan,1952-12-11,,us,,0
 53908,Bregović,Goran,1950-03-02,,,,0
 54040,Lee,John,1956-12-15,,us,,0
 54222,Salomé,Jean-Paul,1960-09-14,,fr,,0
@@ -1998,7 +1998,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 56860,Reiff,Ethan,,,,,0
 56861,Leung Ka-Fai,Tony,1958-02-01,,hk,,26.385
 56872,Glimcher,Arne,1938-03-12,,us,,0
-56876,Me Lai,Me,1952-01-01,,mm,,4.501
+56876,Me Lai,Me,1951-11-03,,mm,,4.501
 56890,McDowell,Malcolm,1943-06-13,,en,,21.171
 56891,Talalay,Rachel,1958-07-16,,us,,0
 56911,Mayfield,Les,1959-11-30,,us,,0
@@ -2080,7 +2080,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 58703,Linn,Michael,1952-07-27,1995-03-23,us,,0
 58712,Miner,Steve,1951-06-18,,us,,0
 58728,Konchalovsky,Andreï,1937-08-20,,ru,,4.817
-58837,Frost,Mark,1953-11-25,,,,0
+58837,Frost,Mark,1953-11-25,,us,,0
 58838,Brambilla,Marco,1960-01-01,,it,,0
 58864,Jankel,Chaz,,,,,0
 58867,McDonald,Gregory,,,,,0
@@ -2117,7 +2117,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 62038,Carabatsos,James,,,,,0
 62043,Gottlieb,Michael,1945-04-12,2014-05-23,,,0
 62053,Foster,David,1949-11-01,,ca,,0
-62055,Zweibel,Alan,1950-05-20,,,,0
+62055,Zweibel,Alan,1950-05-20,,us,,0
 62272,Bassinson,Kevin,,,,,0
 62414,Biao,Yuen,1957-07-26,,hk,,12.574
 62419,Fung,Stanley,1945-06-01,2025-10-31,cn,,7.662
@@ -2308,7 +2308,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 69900,Goldberg,Barry,,,,,0
 69958,Contandin,Fernand,1903-05-08,1971-02-26,fr,Fernandel,12.613
 69980,Smeaton,Bruce,1938-03-05,,au,,0
-70008,Damski,Mel,1946-07-21,,,,0
+70008,Damski,Mel,1946-07-21,,us,,0
 70055,Gold,Jack,1930-06-28,2015-08-09,en,,0
 70056,Van,Peter,,,,,0
 70062,Riedel,Georg,1934-01-08,2024-02-25,,,0
@@ -2328,7 +2328,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 70381,Rubini,Michel,1942-12-03,,,,0
 70427,Chopel,Farid,1952-12-04,2008-04-20,fr,,3.418
 70449,Wyndham,John,1903-07-10,1969-03-11,en,,0
-70558,Jones,Mark,1953-01-17,,us,,0
+70558,Jones,Mark,1953-01-17,2026-01-16,us,,0
 70574,Voris,Cyrus,,,,,0
 70616,Potterton,Gerald,1931-03-08,,en,,0
 70645,Garfield,Brian,1939-04-24,2018-12-29,us,,0
@@ -2546,8 +2546,8 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 103772,Griffe,Maurice,,,,,0
 104908,A.,Lloyd,1948-09-06,,,,0
 106296,Le,Serge,,,,,0
-107274,Rich,Richard,1951-06-15,,,,0
-107275,Scott,Orson,1951-08-24,,,,0
+107274,Rich,Richard,1951-06-15,,us,,0
+107275,Scott,Orson,1951-08-24,,us,,0
 107441,Wallace,Pamela,,,,,0
 108217,Rees,Jerry,,,,,0
 108867,Reed,Lady,,,,,11.896
@@ -2621,7 +2621,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 133271,Borderie,Bernard,1924-06-10,1978-05-28,fr,,0
 133351,Joe,Jeremy,,,,,0
 134704,Ma,Wu,1942-09-22,2014-02-04,cn,,7.729
-136761,Baye,Nathalie,1948-07-06,,fr,,8.309
+136761,Baye,Nathalie,1948-07-06,2026-04-17,fr,,8.309
 136911,Sole,Alfred,1943-07-02,2022-02-15,us,,0
 136989,Chapman,Leigh,1939-03-29,2014-11-04,us,,0
 137388,Aghion,Gabriel,1955-12-30,,,,0

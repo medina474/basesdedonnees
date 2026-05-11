@@ -126,6 +126,10 @@ create table country
   phonecode smallint
 );
 
+-- pour la pagination
+create index idx_country_country_code
+  on country(country, code);
+
 create temporary table pays_import
 (
   code2 text,

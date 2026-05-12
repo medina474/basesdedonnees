@@ -799,6 +799,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 10268,Aznavour,Charles,1924-05-22,2018-10-01,fr,,8.72
 10293,Sagan,Carl,1924-11-09,1996-12-20,us,,0
 10297,McConaughey,Matthew,1969-11-04,,us,,67.811
+10341,Ekland,Britt,1942-10-06,,,,0.9125
 10343,Villechaize,Hervé,1943-04-23,1993-09-04,fr,,18.646
 10364,Robbins,David,1955-01-29,,us,,0
 10367,Waters,John,1946-04-22,,us,,0
@@ -1414,6 +1415,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 24891,Cornillac,Clovis,1968-08-16,,fr,,8.694
 24893,Dubosc,Franck,1963-11-07,,fr,,7.636
 24895,Garcia,José,1966-03-17,,fr,,15.365
+24906,Fréchet,Leila,,,,,1.3201
 24914,Franklin,Serge,1942-12-05,,fr,,0
 24929,Kenworthy,Michael,,,us,,0.6
 24954,Ferguson,Jay,1947-05-10,,us,,0
@@ -2523,6 +2525,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 100369,Eyres,John,1947-05-01,,,,0
 100388,Foner,Naomi,1946-03-15,,us,,0
 100398,Margolis,Seth,,,,,0
+100437,Ramirez,Lucia,,,,,0
 100590,Proffitt,Nicholas,,,,,0
 101327,Turner,Elizabeth,,,,,5.029
 101330,MacColl,Catriona,1954-10-03,,en,,10.767
@@ -2605,6 +2608,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 126354,Reed,Tracy,1942-09-21,2012-05-02,en,,11.448
 126476,Jardin,Alexandre,1965-04-14,,fr,,0
 126585,Clair,Philippe,1930-09-14,2020-11-28,fr,,0
+126590,Derval,Daniel,,,,,0.0574
 127507,Powell,Tristram,,,,,0
 127720,Yu-mi,Jeong,1983-01-18,,kr,정유미,13.157
 128483,Redon,Jean,,,,,0
@@ -2647,6 +2651,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 146376,Farré,Jean-Paul,1948-03-03,,fr,,5.708
 146481,Munz,Michel,1961-10-09,,,,0
 146484,Bitton,Gérard,1961-10-09,,fr,,0
+146638,Hamet,Luq,1963-04-01,,,,0.1184
 147042,Ngijol,Thomas,1978-10-30,,fr,,11.746
 147043,Perrin,Francis,1947-10-10,,fr,,7.04
 148082,Guitry,Sacha,1885-02-20,1957-07-24,,,0
@@ -2768,6 +2773,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 557090,Gauthier,Claude,1939-01-31,,ca,,0
 558640,Nichols,Ted,,,,,0
 558641,Paich,Marty,1925-01-23,1985-08-12,,,0
+558728,Steinbach,Ingeborg,,,,,0.0952
 562919,Portis,Charles,1933-12-28,,us,,0
 563074,Whittaker,Michael,,,,,0
 563703,Cork,John,,,us,,0
@@ -2916,6 +2922,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 1203245,Lledo,Anthony,1972-01-11,,,,0
 1204668,Lalanne,Alain,,,fr,Alain Musy,2.086
 1204937,Polnareff,Michel,1944-07-03,,fr,,0
+1207580,Dutron,Olivia,1955-09-08,,,,0.082
 1208192,Golon,Serge,,,,,0
 1208226,Bensi,Danny,,,,,0
 1209778,Graham,Bikiya,,,,,0
@@ -3112,6 +3119,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 2820382,Harris,Frank,,,,,0
 2866500,Raffy,Serge,,,,,0
 2866566,Celma,Jules,1948-01-01,,fr,,0
+2924013,Reynaud-Fourton,Éric,1963-08-20,,,,0.0286
 3040029,Gangnet,Julien,,,fr,,1.286
 3040030,Ayadi,Khalid,,,fr,,0.694
 3057138,Delilez,Manuel,,,,,0

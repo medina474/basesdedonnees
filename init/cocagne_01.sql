@@ -37,6 +37,8 @@ create extension if not exists postgis;
 -- Extension qui fournit des opérateurs B-tree compatibles avec les index complexes GiST
 create extension if not exists btree_gist schema extensions;
 
+create extension if not exists pg_trgm;
+
 create extension if not exists anon schema extensions;
 -- Importe un jeu de données par defaut (iban, nom, ville, etc.).dans les tables du schéma anon.
 -- Ces valeurs seront ensuite utilisées lors du processus de pseudonymisation des données.
@@ -60,7 +62,7 @@ create table "user"
 
 -- https://bcrypt-generator.com/
 insert into "user" (email, roles, password) values
-  ('e.medina@neotech.fr', '["ROLE_ADMIN"]', '$2a$12$IzweTp0p8j7HeIz8oyEMrOXWIZMsjx.fwPDlQNSkI5nnp9dVBENhe');
+  ('compta@jdc-thaon.fr', '["ROLE_ADMIN"]', '$2a$12$2WyHN8vzTce8e854zFcTd.sKgNJtJXTmvW/JqV2aBt3sY3DsLUS.S');
 
 -- Données générales
 -- --------------------------------------------------------------------------------
@@ -474,6 +476,13 @@ create table adherent
 grant usage on sequence public.adherent_id_seq to cocagne;
 
 comment on column adherent.depot_id is 'Dépôt préféré.';
+
+--create index idx_adherent_lower
+--on adherent (lower(adherent));
+
+create index idx_adherent_search
+on adherent
+using gin ((lower(adherent)) gin_trgm_ops);
 
 create or replace view stats.adherents with (security_invoker=on) as
 select count(a.*) as nb_adherents

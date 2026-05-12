@@ -18,6 +18,8 @@ create extension postgis schema extensions;
 
 create extension fuzzystrmatch schema extensions;
 
+set role cinema;
+
 -- Données générales
 -- --------------------------------------------------------------------------------
 
@@ -43,28 +45,6 @@ create unique index pays_pk
 alter table pays
   add primary key using index pays_pk;
 
-create temporary table pays_import
-(
-  code2 text,
-  code3 text,
-  code_num text,
-  pays text,
-  tncc smallint,
-  drapeau_unicode text,
-  forme_longue text,
-  independant boolean,
-  communautaire boolean,
-  sepa boolean,
-  telephone smallint
-);
-
-copy pays_import
-from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
-
-insert into pays
-select lower(code2), pays, drapeau_unicode
-from pays_import;
-
 --
 
 create table langues (
@@ -84,9 +64,6 @@ create unique index langues_pk
 
 alter table langues
   add primary key using index langues_pk;
-
-copy langues
-from '/tmp/cinema/003-langues.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
 
 
 /*
@@ -894,6 +871,57 @@ as $function$
 	where coordonnees OPERATOR(&&) ST_SetSRID(ST_MakeBox2D(ST_Point(min_long, min_lat), ST_Point(max_long, max_lat)), 4326)
 $function$;
 
+--
+
+
+-- grant select on all tables in schema public to role_web;
+
+-- https://www.graphile.org/postgraphile/security/
+
+-- PostgREST
+
+grant usage on schema public to guest;
+grant usage on schema extensions to guest;
+
+grant select on all tables in schema public
+to guest;
+
+-- Extensions installées
+select extname, extversion
+  from pg_extension;
+
+-- ----------
+-- https://stackoverflow.com/questions/12618232/copy-a-few-of-the-columns-of-a-csv-file-into-a-table
+
+set role postgres;
+
+create temporary table pays_import
+(
+  code2 text,
+  code3 text,
+  code_num text,
+  pays text,
+  tncc smallint,
+  drapeau_unicode text,
+  forme_longue text,
+  independant boolean,
+  communautaire boolean,
+  sepa boolean,
+  telephone smallint
+);
+
+copy pays_import
+from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
+
+insert into pays
+select lower(code2), pays, drapeau_unicode
+from pays_import;
+
+drop table pays_import;
+
+copy langues
+from '/tmp/cinema/003-langues.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+
 create temporary table etablissement_tmp
 (
   regionCNC smallint,
@@ -947,8 +975,6 @@ insert into etablissements (etablissement_id, nom, voie, ville, ecrans, fauteuil
   from etablissement_tmp;
 
 drop table etablissement_tmp;
-
---
 
 copy genres
 from '/tmp/cinema/041-genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
@@ -1012,7 +1038,6 @@ FROM slogan_tmp AS t
 WHERE f.film_id = t.film_id;
 
 
-
 do $$
 begin
   for counter in 1..1000 loop
@@ -1024,22 +1049,6 @@ begin
 end;
 $$;
 
--- https://stackoverflow.com/questions/12618232/copy-a-few-of-the-columns-of-a-csv-file-into-a-table
-
 refresh materialized view acteurs;
 
--- grant select on all tables in schema public to role_web;
-
--- https://www.graphile.org/postgraphile/security/
-
--- PostgREST
-
-grant usage on schema public to guest;
-grant usage on schema extensions to guest;
-
-grant select on all tables in schema public
-to guest;
-
--- Extensions installées
-select extname, extversion
-  from pg_extension;
+notify pgrst, 'reload schema';

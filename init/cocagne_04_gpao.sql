@@ -1,4 +1,5 @@
 \c cocagne;
+set role cocagne;
 
 create view gpao_produits as
 select  produit_id, produit, sum(qte)

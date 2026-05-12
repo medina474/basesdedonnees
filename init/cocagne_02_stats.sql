@@ -1,4 +1,5 @@
 \c cocagne;
+set role cocagne;
 
 -- Adhérents
 

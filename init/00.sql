@@ -19,6 +19,19 @@ create role guest nologin;
 -- L'utilisateur postgrest peut se connecter en tant que ...
 grant guest to postgrest;
 
+-- Autres rôles pour postgREST
+
+create role adherent nologin;
+create role salarie nologin;
+create role livreur nologin;
+create role comptable nologin;
+
+-- L'utilisateur postgrest peut se connecter en tant que ...
+grant adherent to postgrest;
+grant salarie to postgrest;
+grant livreur to postgrest;
+grant comptable to postgrest;
+
 -- Anonymizer
 
 -- Active le masquage statique fourni par l'extension anon (PostgreSQL Anonymizer)

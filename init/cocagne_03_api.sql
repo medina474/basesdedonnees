@@ -1,17 +1,5 @@
 \c cocagne
 
--- Rôles pour postgREST
-create role adherent nologin;
-create role salarie nologin;
-create role livreur nologin;
-create role comptable nologin;
-
--- L'utilisateur postgrest peut se connecter en tant que ...
-grant adherent to postgrest;
-grant salarie to postgrest;
-grant livreur to postgrest;
-grant comptable to postgrest;
-
 -- Schéma
 create schema api authorization pg_database_owner;
 
@@ -21,6 +9,8 @@ grant usage on schema extensions to guest;
 
 grant usage on schema api to livreur;
 grant usage on schema extensions to livreur;
+
+set role cocagne;
 
 -- --------------------------------------------------------------------------------
 
@@ -317,6 +307,8 @@ grant select on api.tournees
 to guest;
 
 -- --------------------------------------------------------------------------------
+
+set role postgres;
 
 security label for anon
   on role guest is 'masked';

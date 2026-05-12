@@ -55,6 +55,7 @@ drop database if exists adventureworks with (force);
 create database adventureworks owner adventureworks;
 
 \c adventureworks;
+set role adventureworks;
 
 -- Support to auto-generate UUIDs (aka GUIDs)
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";

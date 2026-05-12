@@ -5,6 +5,7 @@ drop database if exists musique with (force);
 create database musique owner musique;
 
 \c musique;
+set role musique;
 
 -- --------
 
@@ -22,9 +23,6 @@ create temporary table artist_temp
   logo text,
   id uuid
 );
-
-copy artist_temp
-from '/tmp/musique/artist.csv' (format csv, header, encoding 'UTF8');
 
 insert into artist (id, name)
 select id, name from artist_temp;
@@ -112,3 +110,9 @@ revoke all on schema public from PUBLIC;
 
 grant usage on schema public to musique;
 grant select, insert, update, delete on all tables in schema public to musique;
+
+-- ----------
+
+--set role postgres;
+
+\copy artist_temp from '/tmp/musique/artist.csv' (format csv, header, encoding 'UTF8');

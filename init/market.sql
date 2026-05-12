@@ -6,9 +6,9 @@ drop database if exists market with (force);
 create database market owner market;
 
 \c market;
+set role market;
 
 create extension if not exists ltree;
-
 
 create table adherent (
   id int primary key,
@@ -55,8 +55,10 @@ alter table ligne
   add column total decimal
   generated always as (prix_unitaire * quantite) stored;
 
-copy adherent FROM '/tmp/market/adherent.csv' (FORMAT CSV, header, ENCODING 'UTF8');
-copy famille FROM '/tmp/market/famille.csv' (FORMAT CSV, header, ENCODING 'UTF8');
-copy article FROM '/tmp/market/article.csv' (FORMAT CSV, header, ENCODING 'UTF8');
-copy ticket FROM '/tmp/market/ticket.csv' (FORMAT CSV, header, ENCODING 'UTF8');
-copy ligne FROM '/tmp/market/ligne.csv' (FORMAT CSV, header, ENCODING 'UTF8');
+--set role postgres;
+
+\copy adherent from '/tmp/market/adherent.csv' (FORMAT CSV, header, ENCODING 'UTF8');
+\copy famille from '/tmp/market/famille.csv' (FORMAT CSV, header, ENCODING 'UTF8');
+\copy article from '/tmp/market/article.csv' (FORMAT CSV, header, ENCODING 'UTF8');
+\copy ticket from '/tmp/market/ticket.csv' (FORMAT CSV, header, ENCODING 'UTF8');
+\copy ligne from '/tmp/market/ligne.csv' (FORMAT CSV, header, ENCODING 'UTF8');

@@ -1670,7 +1670,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 71055,L'Africain,L'africain,1983,1983-10-22,101,,{fr}
 71373,Black Rainbow,,1989,1989-12-05,103,,{gb}
 71630,Le Ruffian,Le Ruffian,1983,1983-01-12,105,,"{ca,fr}"
-72243,On n'est pas sorti de l'auberge,On n'est pas sorti de l'auberge,,1982-09-08,,,
+72243,On n'est pas sorti de l'auberge,On n'est pas sorti de l'auberge,1982,1982-09-08,100,,{fr}
 72449,Opération clandestine,The Carey Treatment,1972,1972-03-29,101,,{us}
 72664,Les Morfalous,,1984,1984-03-28,106,,{fr}
 72833,On peut toujours rêver,On peut toujours rêver,1991,1991-02-16,90,,{fr}
@@ -1768,7 +1768,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 150839,Commando Leopard,Kommando Leopard,1985,1985-10-24,103,,"{it,de,ch}"
 151992,Secret Places,Secret Places,1984,1984-05-11,98,,{gb}
 152018,Naïs,Naïs,1945,1945-11-17,117,,{fr}
-156273,"Belles, blondes et bronzées","Belles, blondes et bronzées",,1981-09-23,,,
+156273,"Belles, blondes et bronzées","Belles, blondes et bronzées",1981,1981-09-23,84,,"{de,fr,es}"
 157350,Divergente,Divergent,2014,2014-03-14,140,283579,{us}
 159704,La Princesse rebelle,Fantaghirò,1991,1991-12-22,110,173738,{it}
 160211,Citizen Steve,,1987,1987-01-01,24,,{us}
@@ -1795,12 +1795,12 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 203833,La voleuse de livres,The Book Thief,2013,2013-11-08,131,,"{de,us}"
 214884,Betrayal of the Dove,,1993,1993-06-02,93,,{us}
 216791,Deadly Heroes,,1993,1993-10-01,105,,{us}
-217807,On se calme et on boit frais à Saint-Tropez,On se calme et on boit frais à Saint-Tropez,,1987-01-28,,,
+217807,On se calme et on boit frais à Saint-Tropez,On se calme et on boit frais à Saint-Tropez,1987,1987-01-28,84,1245618,{fr}
 219841,"Chasseurs de loups, chasseurs d'or",Warrior Spirit,1994,1994-01-07,94,,{}
-220474,Deux Enfoirés à Saint-Tropez,Deux Enfoirés à Saint-Tropez,,1986-03-11,,,
+220474,Deux Enfoirés à Saint-Tropez,Deux Enfoirés à Saint-Tropez,1986,1986-03-11,87,1245618,{fr}
 222054,Les Aventures du Jeune Indiana Jones : L'Attaque des Hommes Faucons,The Adventures of Young Indiana Jones: Attack of the Hawkmen,1995,1995-10-08,96,,{us}
-222268,Les Branchés à Saint-Tropez,Les Branchés à Saint-Tropez,,1983-09-27,,,
-222270,Mieux vaut être riche et bien portant que fauché et mal foutu,Mieux vaut être riche et bien portant que fauché et mal foutu,,1980-10-29,,,
+222268,Les Branchés à Saint-Tropez,Les Branchés à Saint-Tropez,1983,1983-09-27,85,1245618,{fr}
+222270,Mieux vaut être riche et bien portant que fauché et mal foutu,Mieux vaut être riche et bien portant que fauché et mal foutu,1980,1980-10-29,90,1241873,"{de,fr,es}"
 227468,Mon curé chez les Thaïlandaises,Mon curé chez les Thaïlandaises,1983,1983-07-13,95,,{fr}
 242248,Un été d'enfer,Un été d'enfer,1984,1984-04-17,104,,{fr}
 243101,Le Permis de conduire,Le Permis de conduire,1974,1974-04-30,90,,"{fr,it}"

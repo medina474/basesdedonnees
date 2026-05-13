@@ -6,7 +6,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 28,Apocalypse Now,,1979,1979-08-15,153,,{us}
 33,Impitoyable,Unforgiven,1992,1992-08-07,130,,{us}
 63,L'Armée des 12 singes,Twelve Monkeys,1995,1995-12-29,130,,{us}
-75,Mars Attacks!,Mars Attacks!,1996,1996-12-13,106,,{us}
+75,Mars Attacks!,,1996,1996-12-13,106,,{us}
 78,Blade Runner,,1982,1982-09-15,117,422837,"{us,hk,gb}"
 79,Hero,英雄,2002,2002-07-22,98,,"{cn,hk,au}"
 85,Les aventuriers de l'arche perdue,Raiders of the Lost Ark,1981,1981-09-01,115,84,{us}
@@ -34,13 +34,13 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 150,48 heures,48 Hrs.,1983,1983-04-27,96,93295,{us}
 162,Edward aux mains d'argent,Edward Scissorhands,1990,1990-12-07,105,,{us}
 165,Retour vers le futur II,Back to the Future Part II,1989,1989-11-22,108,264,{us}
-166,La boum,,1980,1980-12-17,110,41649,{fr}
+166,La boum,La Boum,1980,1980-12-17,110,41649,{fr}
 169,Predator 2,,1990,1990-11-21,108,399,{us}
 170,28 jours plus tard,28 Days Later,2002,2002-10-31,112,1565,{gb}
 171,La Boum 2,,1982,1982-12-08,108,41649,{fr}
 174,Star Trek VI : Terre inconnue,Star Trek VI: The Undiscovered Country,1991,1991-12-06,110,151,{us}
-175,Le Grand Bleu,Le Grand Bleu,1988,1988-05-10,168,,{fr}
-180,Minority Report,Minority Report,2002,2002-06-20,145,,{us}
+175,Le Grand Bleu,,1988,1988-05-10,168,,{fr}
+180,Minority Report,,2002,2002-06-20,145,,{us}
 192,Le Nom de la rose,The Name of the Rose,1986,1986-09-24,131,,"{fr,de,it}"
 193,Star Trek : Générations,Star Trek: Generations,1994,1994-11-18,115,115570,{us}
 196,Retour vers le futur III,Back to the Future Part III,1990,1990-05-25,118,264,{us}
@@ -50,7 +50,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 227,Outsiders,The Outsiders,1983,1983-03-25,91,,{us}
 232,Rusty James,Rumble Fish,1983,1983-10-09,94,,{us}
 233,Les Seigneurs,The Wanderers,1979,1979-07-13,117,,{us}
-235,Stand by Me,Stand by Me,1986,1986-08-08,85,,{us}
+235,Stand by Me,,1986,1986-08-08,85,,{us}
 238,Le Parrain,The Godfather,1972,1972-03-14,175,230,{us}
 240,"Le Parrain, 2e partie",The Godfather Part II,1974,1974-12-20,202,230,{us}
 242,"Le Parrain, 3e partie",The Godfather Part III,1990,1990-12-25,160,230,{us}
@@ -59,7 +59,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 253,Vivre et laisser mourir,Live and Let Die,1973,1973-06-27,122,645,"{gb,us}"
 268,Batman,,1989,1989-06-21,126,120794,{us}
 274,Le silence des agneaux,The Silence of the Lambs,1991,1991-04-10,118,9743,{us}
-277,Underworld,Underworld,2003,2003-09-19,115,2326,"{de,hu,gb,us}"
+277,Underworld,,2003,2003-09-19,115,2326,"{de,hu,gb,us}"
 278,Les Évadés,The Shawshank Redemption,1994,1994-09-23,140,,{us}
 279,Amadeus,,1984,1984-10-31,180,,"{fr,us}"
 280,Terminator 2 : Le Jugement dernier,Terminator 2: Judgment Day,1991,1991-07-03,127,528,"{fr,us}"
@@ -78,13 +78,13 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 378,Arizona Junior,Raising Arizona,1987,1987-03-01,94,,{us}
 379,Miller's Crossing,,1990,1990-09-21,122,,{us}
 380,Rain Man,,1988,1988-12-12,133,,{us}
-387,Le Bateau,Das Boot,,,149,,{de}
-391,Pour une poignée de dollars,,1966,1966-03-15,95,,"{de,es,it}"
+387,Le Bateau,Das Boot,1981,1981-09-17,149,,{de}
+391,Pour une poignée de dollars,Per un pugno di dollari,1966,1966-03-15,95,,"{de,es,it}"
 402,Basic Instinct,,1992,1992-05-08,130,86336,"{us,fr}"
 403,Miss Daisy et son chauffeur,Driving Miss Daisy,1989,1989-12-13,99,,{us}
 414,Batman Forever,,1995,1995-06-16,121,120794,{us}
 424,La Liste de Schindler,Schindler's List,1993,1993-12-15,195,,{us}
-429,"Le Bon, la Brute et le Truand",,1968,1968-08-03,161,,"{us,it,es,de}"
+429,"Le Bon, la Brute et le Truand","Il buono, il brutto, il cattivo",1968,1968-08-03,161,,"{us,it,es,de}"
 451,Leaving Las Vegas,,1995,1995-10-27,111,,"{fr,gb,us}"
 462,"Erin Brockovich, seule contre tous",Erin Brockovich,2000,2000-03-17,131,,{us}
 466,Klute,,1971,1971-06-23,114,,{us}
@@ -105,7 +105,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 535,Flashdance,,1983,1983-09-14,95,,{us}
 551,L'Aventure du Poséidon,The Poseidon Adventure,1973,1973-03-29,112,372257,{us}
 562,Piège de cristal,Die Hard,1988,1988-07-15,132,1570,{us}
-568,Apollo 13,Apollo 13,1995,1995-06-30,140,,{us}
+568,Apollo 13,,1995,1995-06-30,140,,{us}
 571,Les Oiseaux,The Birds,1963,1963-03-28,120,690952,{us}
 576,La Horde sauvage,The Wild Bunch,1969,1969-06-19,145,,{us}
 577,Prête à tout,To Die For,1995,1995-09-22,102,,"{gb,us}"
@@ -113,7 +113,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 579,"Les Dents de la mer, 2e partie",Jaws 2,1978,1978-06-16,116,2366,{us}
 580,Les Dents de la mer 4 : La Revanche,Jaws: The Revenge,1987,1987-07-17,89,2366,{us}
 581,Danse avec les loups,Dances with Wolves,1990,1990-03-30,233,,"{gb,us}"
-590,The Hours,The Hours,2002,2002-12-27,114,,"{gb,us}"
+590,The Hours,,2002,2002-12-27,114,,"{gb,us}"
 591,Da Vinci Code,The Da Vinci Code,2006,2006-05-17,149,115776,{us}
 592,Conversation secrète,The Conversation,1974,1974-04-07,113,,{us}
 595,Du silence et des ombres,To Kill a Mockingbird,1962,1962-12-20,129,,{us}
@@ -145,9 +145,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 651,M*A*S*H,,1970,1970-02-18,116,,{us}
 652,Troie,Troy,2004,2004-05-13,196,,"{us,mt,gb}"
 657,Bons baisers de Russie,From Russia with Love,1963,1963-10-10,115,645,"{gb,us}"
-658,Goldfinger,Goldfinger,1964,1964-09-20,105,645,"{gb,us}"
+658,Goldfinger,,1964,1964-09-20,105,645,"{gb,us}"
 660,Opération Tonnerre,Thunderball,1965,1965-12-11,120,645,{gb}
-664,Twister,Twister,1996,1996-05-10,113,1062948,{us}
+664,Twister,,1996,1996-05-10,113,1062948,{us}
 667,On ne vit que deux fois,You Only Live Twice,1967,1967-06-13,117,645,"{jp,gb,us}"
 671,Harry Potter à l'école des sorciers,Harry Potter and the Philosopher's Stone,2001,2001-11-16,153,1241,"{gb,us}"
 672,Harry Potter et la Chambre des secrets,Harry Potter and the Chamber of Secrets,2002,2002-11-13,161,1241,"{gb,us}"
@@ -158,16 +158,16 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 680,Pulp Fiction,,1994,1994-09-10,154,,{us}
 681,Les diamants sont éternels,Diamonds Are Forever,1971,1971-12-14,120,645,"{gb,us}"
 682,L'Homme au pistolet d'or,The Man with the Golden Gun,1974,1974-12-01,125,645,"{gb,us}"
-686,Contact,Contact,1997,1997-07-11,153,,{us}
+686,Contact,,1997,1997-07-11,153,,{us}
 687,La Dernière Marche,Dead Man Walking,1995,1995-12-29,122,,"{us,gb}"
 688,Sur la route de Madison,The Bridges of Madison County,1995,1995-06-02,135,,{us}
 691,L'Espion qui m'aimait,The Spy Who Loved Me,1977,1977-07-07,126,645,"{gb,us}"
 694,Shining,The Shining,1980,1980-05-23,119,530064,"{gb,us}"
 695,Short Cuts,,1993,1993-09-05,188,,{us}
 696,Manhattan,,1979,1979-04-25,96,,{us}
-698,Moonraker,Moonraker,1979,1979-06-26,130,645,"{fr,gb,us}"
+698,Moonraker,,1979,1979-06-26,130,645,"{fr,gb,us}"
 699,Rien que pour vos yeux,For Your Eyes Only,1981,1981-06-24,128,645,"{gb,us}"
-700,Octopussy,Octopussy,1983,1983-06-05,131,645,{gb}
+700,Octopussy,,1983,1983-06-05,131,645,{gb}
 707,Dangereusement vôtre,A View to a Kill,1985,1985-05-24,131,645,"{gb,us}"
 712,Quatre mariages et un enterrement,Four Weddings and a Funeral,1994,1994-03-09,117,,"{gb,us}"
 744,Top Gun,,1986,1986-09-17,109,531330,{us}
@@ -182,7 +182,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 769,Les Affranchis,GoodFellas,1990,1990-09-12,141,,{us}
 771,"Maman, j'ai raté l'avion !",Home Alone,1990,1990-11-16,103,9888,{us}
 772,"Maman, j’ai encore raté l’avion !",Home Alone 2: Lost in New York,1992,1992-11-19,119,9888,{us}
-773,Little Miss Sunshine,Little Miss Sunshine,2006,2006-07-26,102,,{us}
+773,Little Miss Sunshine,,2006,2006-07-26,102,,{us}
 782,Bienvenue à Gattaca,Gattaca,1997,1997-09-07,106,,{us}
 786,Presque Célèbre,Almost Famous,2000,2000-09-15,161,,{us}
 788,Madame Doubtfire,Mrs. Doubtfire,1993,1993-11-24,125,,{us}
@@ -193,7 +193,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 807,Seven,Se7en,1995,1995-09-22,130,,{us}
 813,Y a-t-il un pilote dans l'avion ?,Airplane!,1980,1980-07-02,88,91663,{us}
 814,Le Loup-Garou de Londres,An American Werewolf in London,1981,1981-08-21,97,9380,"{gb,us}"
-819,Sleepers,Sleepers,1996,1996-10-18,147,,{us}
+819,Sleepers,,1996,1996-10-18,147,,{us}
 820,JFK,,1991,1991-12-20,189,,"{fr,us}"
 826,Le Pont de la rivière Kwaï,The Bridge on the River Kwai,1957,1957-10-11,160,,{gb}
 829,Chinatown,,1974,1974-06-20,130,359005,{us}
@@ -232,7 +232,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 931,Ne vous retournez pas,Don't Look Now,1973,1973-01-18,112,,"{it,gb}"
 935,Dr Folamour,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,1964-01-29,93,,"{gb,us}"
 936,La Panthère Rose,The Pink Panther,1963,1963-12-18,115,937,"{xc,gb,us}"
-938,Et pour quelques dollars de plus,,1966,1966-09-30,130,,"{de,it,es}"
+938,Et pour quelques dollars de plus,Per qualche dollaro in più,1966,1966-09-30,130,,"{de,it,es}"
 941,L'Arme fatale,Lethal Weapon,1987,1987-03-06,109,945,{us}
 942,L'Arme fatale 2,Lethal Weapon 2,1989,1989-07-07,114,945,{us}
 948,"Halloween, la nuit des masques",Halloween,1979,1979-03-14,91,91361,{us}
@@ -248,7 +248,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 994,Les Chiens de paille,Straw Dogs,1971,1971-11-25,118,,"{us,gb}"
 1051,French Connection,The French Connection,1971,1971-10-09,104,155474,{us}
 1052,Blow-Up,,1966,1966-12-18,110,,"{gb,us,it}"
-1073,Arlington Road,Arlington Road,1999,1999-03-19,117,,{us}
+1073,Arlington Road,,1999,1999-03-19,117,,{us}
 1089,Point Break : Extrême limite,Point Break,1991,1991-01-31,120,,"{jp,us}"
 1091,The Thing,,1982,1982-11-03,109,479888,{us}
 1093,Ascenseur pour l'échafaud,,1958,1958-01-29,88,,{fr}
@@ -292,7 +292,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 1648,L'Excellente aventure de Bill et Ted,Bill & Ted's Excellent Adventure,1989,1989-02-17,90,91746,{us}
 1654,Les Douze salopards,The Dirty Dozen,1967,1967-06-15,145,124492,"{gb,us}"
 1662,Les Anges de la nuit,State of Grace,1990,1990-09-14,135,,{us}
-1669,À la poursuite d'Octobre Rouge,,,,135,192492,{us}
+1669,À la poursuite d'Octobre Rouge,The Hunt for Red October,1990,1990-03-02,135,192492,{us}
 1687,Les Évadés de la planète des singes,Escape from the Planet of the Apes,1971,1971-05-20,97,1709,{us}
 1694,Re-Animator,,1986,1986-03-12,95,98036,{us}
 1700,Misery,,1990,1990-11-30,107,,{us}
@@ -307,9 +307,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 1825,Over the Top - Le bras de fer,Over the Top,1987,1987-04-08,93,,{us}
 1829,L'Histoire d'Adèle H.,,1975,1975-10-08,98,,{fr}
 1863,Les Fleurs du soleil,I girasoli,1970,1970-03-14,109,,"{fr,it}"
-1870,Fantomas se déchaîne,,1965,1965-08-12,94,103001,"{fr,it}"
-1871,Fantomas,,1964,1964-04-11,94,103001,"{fr,it}"
-1875,Fantomas contre Scotland Yard,,1967,1967-03-16,101,103001,"{fr,it}"
+1870,Fantomas se déchaîne,Fantômas se déchaîne,1965,1965-08-12,94,103001,"{fr,it}"
+1871,Fantomas,Fantômas,1964,1964-04-11,94,103001,"{fr,it}"
+1875,Fantomas contre Scotland Yard,Fantômas contre Scotland Yard,1967,1967-03-16,101,103001,"{fr,it}"
 1880,L'Aube rouge,Red Dawn,1984,1984-08-10,114,,{us}
 1883,Malcolm X,,1992,1992-11-18,202,,"{jp,us}"
 1884,L'Aventure des Ewoks : La Caravane du courage,The Ewok Adventure,1984,1984-11-25,96,133830,{us}
@@ -319,20 +319,20 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 1923,Twin Peaks: Fire Walk with Me,,1992,1992-06-03,135,,"{fr,us}"
 1924,Superman,,1978,1978-12-14,143,8537,"{ch,gb,us}"
 1945,Nell,,1994,1994-12-23,112,,{us}
-1949,Zodiac,Zodiac,2007,2007-03-02,163,,{us}
+1949,Zodiac,,2007,2007-03-02,163,,{us}
 1955,Elephant Man,The Elephant Man,1980,1980-10-09,124,,{us}
 2005,Sister Act,,1992,1992-05-28,100,103573,{us}
 2007,Lorenzo,Lorenzo's Oil,1992,1992-12-30,127,,"{au,us}"
 2019,Chasse à l'homme,Hard Target,1993,1993-04-27,96,412680,{us}
-2038,Aces: Iron Eagle III,,1992,1992-07-22,99,123251,"{gb,us}"
+2038,Aces: Iron Eagle III,Iron Eagle III,1992,1992-07-22,99,123251,"{gb,us}"
 2039,Éclair de lune,Moonstruck,1987,1987-12-16,101,,{us}
 2071,Troubles,Shattered,1991,1991-10-11,98,,{us}
 2075,L'Honneur des Prizzi,Prizzi's Honor,1985,1985-06-14,124,,{us}
 2087,Guet-apens,The Getaway,1994,1994-02-11,115,,{us}
 2108,Breakfast Club,The Breakfast Club,1985,1985-02-15,97,,{us}
-2116,Out of Time,Out of Time,2003,2003-10-03,105,,{us}
+2116,Out of Time,,2003,2003-10-03,105,,{us}
 2119,Jours de Tonnerre,Days of Thunder,1990,1990-06-27,107,,{us}
-2124,Color of Night,Color of Night,1994,1994-08-19,122,,{us}
+2124,Color of Night,,1994,1994-08-19,122,,{us}
 2139,Cleopatra Jones and the Casino of Gold,,1975,1975-07-11,94,452675,"{hk,us}"
 2144,Divine mais dangereuse,One Night at McCool's,2001,2001-04-19,93,,{us}
 2148,Cotton Club,The Cotton Club,1984,1984-12-14,127,,{us}
@@ -377,9 +377,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 2625,Mister Jones,Mr. Jones,1993,1993-10-08,114,,{us}
 2636,L'Expert,The Specialist,1994,1994-10-07,110,,"{pe,us}"
 2640,Fatal Games,Heathers,1989,1989-03-31,103,,{us}
-2649,The Game,The Game,1997,1997-09-12,129,,{us}
+2649,The Game,,1997,1997-09-12,129,,{us}
 2655,Apparences,What Lies Beneath,2000,2000-07-21,125,,{us}
-2666,Dark City,Dark City,1998,1998-02-27,95,,"{au,us}"
+2666,Dark City,,1998,1998-02-27,95,,"{au,us}"
 2668,"Sleepy hollow, la légende du cavalier sans tête",Sleepy Hollow,1999,1999-11-19,105,,"{de,us}"
 2669,Le Bounty,The Bounty,1984,1984-05-04,130,,"{us,gb}"
 2731,Indochine,,1992,1992-04-15,159,,{fr}
@@ -408,7 +408,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 3480,Le Vieux fusil,Le vieux fusil,1975,1975-08-22,102,,"{fr,de}"
 3512,Piège à grande vitesse,Under Siege 2: Dark Territory,1995,1995-07-13,100,112399,{us}
 3525,Working Girl,,1988,1988-12-20,115,,{us}
-3536,U-571,,,,116,,"{fr,it,us}"
+3536,U-571,,2000,2000-04-20,116,,"{fr,it,us}"
 3580,L'Échange,Changeling,2008,2008-10-24,142,,{us}
 3586,Prêt-à-porter,Prêt-à-Porter,1994,1994-12-23,133,,{us}
 3591,Un million d'années avant J.C.,One Million Years B.C.,1966,1966-11-24,100,,{gb}
@@ -418,7 +418,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 3980,Critters,,1986,1986-09-10,86,10893,"{gb,us}"
 4011,Beetlejuice,,1988,1988-03-30,98,945475,{us}
 4032,My Girl,,1992,1992-06-24,102,85960,{us}
-4034,L'Homme de Rio,L'Homme de Rio,1964,1964-02-05,120,,"{br,fr,it}"
+4034,L'Homme de Rio,,1964,1964-02-05,120,,"{br,fr,it}"
 4043,La Loi du désir,La ley del deseo,1987,1987-02-07,100,,{es}
 4104,Benny & Joon,,1993,1993-04-16,98,,{us}
 4105,Black Rain,,1989,1989-09-22,125,,{us}
@@ -429,48 +429,48 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 4203,Femmes au bord de la crise de nerfs,Mujeres al borde de un ataque de nervios,1988,1988-03-25,88,,{es}
 4228,La Révolution française,,1989,1989-05-10,324,,"{gb,fr,it,de,ca}"
 4235,Le Clan des Siciliens,,1969,1969-12-05,120,,"{fr,it}"
-4271,La vie est un long fleuve tranquille,La vie est un long fleuve tranquille,1988,1988-02-03,90,,{fr}
-4274,Fort Saganne,Fort Saganne,1984,1984-05-11,173,,{fr}
+4271,La vie est un long fleuve tranquille,,1988,1988-02-03,90,,{fr}
+4274,Fort Saganne,,1984,1984-05-11,173,,{fr}
 4327,Charlie et ses drôles de dames,Charlie's Angels,2000,2000-11-02,98,86029,{us}
 4437,2010 : L'année du premier contact,2010,1984,1984-12-06,116,4438,{us}
 4476,Légendes d'automne,Legends of the Fall,1994,1994-12-16,133,,{us}
 4477,Ennemis rapprochés,The Devil's Own,1997,1997-03-13,111,,{us}
 4478,Proposition Indécente,Indecent Proposal,1993,1993-04-07,112,,{us}
-4480,Jean de Florette,Jean de Florette,1986,1986-08-27,120,39460,{fr}
+4480,Jean de Florette,,1986,1986-08-27,120,39460,{fr}
 4481,Manon des Sources,Manon des sources,1986,1986-11-19,120,39460,{fr}
 4482,Gazon maudit,,1995,1995-01-18,105,,{fr}
 4483,Le Retour de Martin Guerre,,1982,1982-05-14,107,,{fr}
-4484,La Cage aux folles,La Cage aux folles,1978,1978-10-25,103,239968,"{fr,it}"
+4484,La Cage aux folles,,1978,1978-10-25,103,239968,"{fr,it}"
 4485,Diva,,1981,1981-03-11,117,,{fr}
 4488,Vendredi 13,Friday the 13th,1980,1980-05-09,95,9735,{us}
 4546,Le Comte de Monte-Cristo,The Count of Monte-Cristo,1975,1975-10-31,119,,"{it,gb}"
-4547,Panic Room,Panic Room,2002,2002-03-29,112,,{us}
+4547,Panic Room,,2002,2002-03-29,112,,{us}
 4580,Je t'aime moi non plus,,1976,1976-03-10,90,,{fr}
 4584,Raison et Sentiments,Sense and Sensibility,1995,1995-12-13,136,,"{gb,us}"
 4587,Les Deux Sirènes,Mermaids,1990,1990-12-14,105,,{us}
 4680,Deux hommes dans la ville,,1973,1973-10-24,100,,"{fr,it}"
 4683,Une belle fille comme moi,,1972,1972-09-13,98,,{fr}
-4722,Body Snatchers,Body Snatchers,1993,1993-06-09,87,,{us}
+4722,Body Snatchers,,1993,1993-06-09,87,,{us}
 4727,Le Gendarme de Saint-Tropez,,1964,1964-09-09,99,10517,{fr}
 4728,Le Gendarme à New-York,,1965,1965-10-28,95,10517,{fr}
 4729,Le Gendarme se marie,,1968,1968-10-30,92,10517,{fr}
-4730,OSS 117 prend des vacances,OSS 117 prend des vacances,1970,1970-02-04,92,183680,"{br,fr,it}"
+4730,OSS 117 prend des vacances,,1970,1970-02-04,92,183680,"{br,fr,it}"
 4788,La Poursuite implacable,Revolver,1973,1973-09-27,105,,"{fr,de,it}"
 4823,Sang chaud pour meurtre de sang froid,Final Analysis,1992,1992-02-07,120,,{us}
 4909,Chacal,The Day of the Jackal,1973,1973-05-15,140,,"{fr,gb}"
 4918,Le Quatrième protocole,The Fourth Protocol,1987,1987-02-24,119,,{gb}
-4929,Pendez-les haut et court,,1968,1968-11-20,114,,{us}
+4929,Pendez-les haut et court,Hang 'em High,1968,1968-11-20,114,,{us}
 4946,La Piscine,,1969,1969-01-31,122,,"{fr,it}"
-4983,"Run, Simon, Run","Run, Simon, Run",1970,1970-12-01,74,,{us}
+4983,"Run, Simon, Run",,1970,1970-12-01,74,,{us}
 5121,Sugarland Express,The Sugarland Express,1974,1974-04-05,108,,{us}
 5143,Hannah et ses sœurs,Hannah and Her Sisters,1986,1986-02-07,105,,{us}
-5144,Marquise,Marquise,1997,1997-08-20,120,,"{ch,es,fr,it}"
+5144,Marquise,,1997,1997-08-20,120,,"{ch,es,fr,it}"
 5203,L'Orchidée sauvage,Wild Orchid,1989,1989-12-22,105,5202,{us}
 5228,Stay Hungry,,1976,1976-04-23,98,,{us}
 5503,Le Fugitif,The Fugitive,1993,1993-08-06,130,721111,{us}
 5548,RoboCop,,1988,1988-01-20,102,5547,{us}
 5549,RoboCop 2,,1990,1990-06-22,117,5547,{us}
-5602,Dupont Lajoie,Dupont Lajoie,1975,1975-02-26,100,,{fr}
+5602,Dupont Lajoie,,1975,1975-02-26,100,,{fr}
 5902,Un pont trop loin,A Bridge Too Far,1977,1977-06-15,176,,"{gb,us}"
 5919,La Tour infernale,The Towering Inferno,1975,1975-03-05,165,,{us}
 5923,La Canonnière du Yang-Tse,The Sand Pebbles,1966,1966-12-20,183,,{us}
@@ -488,14 +488,14 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 6114,Dracula,Bram Stoker's Dracula,1992,1992-11-13,130,,{us}
 6217,La Féline,Cat People,1982,1982-04-02,118,,{us}
 6279,Sister Act : Acte 2,Sister Act 2: Back in the Habit,1993,1993-12-09,107,103573,"{sk,us}"
-6312,Le Pacte des loups,Le Pacte des loups,2001,2001-01-31,151,,{fr}
-6320,Police,Police,1985,1985-09-04,108,,{fr}
+6312,Le Pacte des loups,,2001,2001-01-31,151,,{fr}
+6320,Police,,1985,1985-09-04,108,,{fr}
 6341,Tonnerre de feu,Blue Thunder,1983,1983-08-17,110,,{us}
 6399,"Salut l'ami, adieu le trésor",Chi trova un amico trova un tesoro,1981,1981-12-09,99,,{it}
-6404,Nosferatu - Fantôme de la nuit,,,,107,,"{de,fr}"
-6444,Tatie Danielle,Tatie Danielle,1990,1990-04-04,110,,{fr}
+6404,Nosferatu - Fantôme de la nuit,Nosferatu - Phantom der Nacht,1979,1979-01-17,107,,"{de,fr}"
+6444,Tatie Danielle,,1990,1990-04-04,110,,{fr}
 6471,Un vrai schnock,The Jerk,1979,1979-12-14,94,983340,{us}
-6474,Navajo Joe,Navajo Joe,1966,1966-11-25,93,,"{es,it}"
+6474,Navajo Joe,,1966,1966-11-25,93,,"{es,it}"
 6476,C'est arrivé entre midi et trois heures,From Noon Till Three,1976,1976-08-13,99,,{us}
 6488,Arachnophobie,Arachnophobia,1990,1990-07-20,105,,{us}
 6520,Lancelot : Le Premier Chevalier,First Knight,1995,1995-07-07,129,,{us}
@@ -506,17 +506,17 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 6917,The Gate : La Fissure,The Gate,1987,1987-04-21,85,340623,"{ca,us}"
 6950,Alerte !,Outbreak,1995,1995-03-10,128,,{us}
 6964,Tout peut arriver,Something's Gotta Give,2003,2003-12-12,128,,{us}
-6977,No Country for Old Men,No Country for Old Men,2007,2007-06-13,122,,{us}
+6977,No Country for Old Men,,2007,2007-06-13,122,,{us}
 6978,Les Aventures de Jack Burton dans les griffes du mandarin,Big Trouble in Little China,1986,1986-09-03,99,,{us}
 7007,Soleil levant,Rising Sun,1993,1993-07-30,128,,{us}
 7091,Embrasse-moi vampire,Vampire's Kiss,1988,1988-09-17,103,,{us}
 7219,L'Enfer des Zombies,Zombi 2,1979,1979-08-25,91,133923,{it}
 7227,Les Naufragés du 747,Airport '77,1977,1977-03-11,113,33938,{us}
 7234,Le Crépuscule des Magiciens,Wizards of the Lost Kingdom,1985,1985-10-01,82,544508,"{ar,us}"
-7326,Juno,Juno,2007,2007-12-05,91,,{us}
+7326,Juno,,2007,2007-12-05,91,,{us}
 7340,Carrie au bal du diable,Carrie,1976,1976-11-03,98,257053,{us}
 7452,"Le Cuisinier, le voleur, sa femme et son amant","The Cook, the Thief, His Wife & Her Lover",1989,1989-10-13,124,,"{fr,nl,gb}"
-7459,Speed Racer,Speed Racer,2008,2008-05-07,129,,"{de,gb,us}"
+7459,Speed Racer,,2008,2008-05-07,129,,"{de,gb,us}"
 7520,Cocktail,,1988,1988-07-29,104,,{us}
 8005,Sacré Robin des bois,Robin Hood: Men in Tights,1993,1993-07-28,104,,"{fr,us}"
 8007,En territoire ennemi,Behind Enemy Lines,2001,2001-11-30,106,98513,{us}
@@ -547,7 +547,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 8512,Le Diable en robe bleue,Devil in a Blue Dress,1995,1995-09-15,97,,{us}
 8536,Superman II,,1980,1980-12-04,127,8537,"{gb,us,ca}"
 8592,Dick Tracy,,1990,1990-04-05,101,,{us}
-8665,K-19,,,,128,,"{ca,de,gb,us}"
+8665,K-19,K-19: The Widowmaker,2002,2002-07-19,128,,"{ca,de,gb,us}"
 8690,La Secte des cannibales,Mangiati vivi!,1980,1980-03-19,92,,{it}
 8692,Pulsions cannibales,Apocalypse Domani,1980,1980-08-04,91,,"{it,es,us,ca}"
 8736,Dikkenek,,2006,2006-06-21,84,,"{be,fr}"
@@ -563,7 +563,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 8856,Karaté Kid 2,The Karate Kid Part II,1986,1986-06-18,113,8580,"{us,cn}"
 8867,Punisher,The Punisher,1989,1989-10-05,89,,"{au,us,hk}"
 8872,Wayne's World,,1992,1992-02-14,90,8979,{us}
-8963,USS Alabama,,,,115,,{us}
+8963,USS Alabama,Crimson Tide,1995,1995-05-12,115,,{us}
 8984,Harcèlement,Disclosure,1994,1994-12-09,123,,{us}
 8986,La Surprise,Milk Money,1994,1994-08-31,110,,{us}
 8987,La Rivière sauvage,The River Wild,1994,1994-09-30,107,,{us}
@@ -584,14 +584,14 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 9089,Week-end en Famille,Home for the Holidays,1995,1995-11-02,105,,{us}
 9090,Extravagances,"To Wong Foo, Thanks for Everything! Julie Newmar",1995,1995-09-07,109,,{us}
 9102,Planète hurlante,Screamers,1995,1995-09-08,108,122017,"{ca,jp,us}"
-9208,Broken Arrow,Broken Arrow,1996,1996-02-09,108,,{us}
+9208,Broken Arrow,,1996,1996-02-09,108,,{us}
 9263,Souvenirs d'un été,Now and Then,1995,1995-10-20,100,,{us}
 9264,Fleur de poison,Poison Ivy,1992,1992-05-08,100,48188,{us}
 9271,Programmé pour tuer,Virtuosity,1995,1995-08-04,101,,{us}
 9272,Le Bon Fils,The Good Son,1993,1993-09-24,87,,{us}
 9273,Ace Ventura en Afrique,Ace Ventura: When Nature Calls,1995,1995-11-10,91,3167,{us}
 9277,L'Arnaque,The Sting,1973,1973-12-25,129,330605,{us}
-9278,Freejack,Freejack,1992,1992-01-17,110,,{us}
+9278,Freejack,,1992,1992-01-17,110,,{us}
 9281,Witness,,1985,1985-02-08,112,,"{us,nl}"
 9292,"Hudson Hawk, Gentleman et Cambrioleur",Hudson Hawk,1991,1991-05-23,100,,{us}
 9312,Mortal Kombat,,1995,1995-08-18,102,9818,{us}
@@ -601,7 +601,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 9326,À la poursuite du diamant vert,Romancing the Stone,1984,1984-07-04,106,89264,"{mx,us}"
 9331,Danger immédiat,Clear and Present Danger,1994,1994-08-03,136,192492,"{us,mx}"
 9340,Les Goonies,The Goonies,1985,1985-12-04,114,,{us}
-9343,Fitzcarraldo,Fitzcarraldo,1982,1982-01-01,157,,"{de,pe}"
+9343,Fitzcarraldo,,1982,1982-01-01,157,,"{de,pe}"
 9348,La Mutante,Species,1995,1995-07-07,108,9887,{us}
 9349,Unité spéciale,Universal Soldier,1992,1992-07-10,95,10713,{us}
 9350,Cliffhanger : Traque au sommet,Cliffhanger,1993,1993-05-28,113,1120657,"{fr,it,jp,us}"
@@ -611,13 +611,13 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 9359,Maverick,,1994,1994-05-20,121,,{us}
 9361,Le Dernier des Mohicans,The Last of the Mohicans,1992,1992-08-26,111,,{us}
 9362,Tremors,,1990,1990-01-19,96,91799,{us}
-9366,Donnie Brasco,Donnie Brasco,1997,1997-02-27,125,,{us}
+9366,Donnie Brasco,,1997,1997-02-27,125,,{us}
 9374,La mort vous va si bien,Death Becomes Her,1992,1992-07-30,99,,{us}
 9377,La Folle Journée de Ferris Bueller,Ferris Bueller's Day Off,1986,1986-06-11,103,,{us}
 9378,13 fantômes,Thir13en Ghosts,2001,2001-10-26,91,,"{us,ca}"
 9382,Avec ou sans hommes,Boys on the Side,1995,1995-02-03,115,,"{fr,us}"
 9387,Conan le barbare,Conan the Barbarian,1982,1982-04-07,129,43055,"{us,mx}"
-9390,Jerry Maguire,Jerry Maguire,1996,1996-12-13,138,,{us}
+9390,Jerry Maguire,,1996,1996-12-13,138,,{us}
 9394,On l'appelle Trinita,Lo chiamavano Trinità...,1971,1971-07-21,114,583555,{it}
 9395,Nico,Above the Law,1988,1988-08-16,99,,"{us,hk}"
 9396,Crocodile Dundee II,,1988,1988-05-19,110,9332,"{au,us}"
@@ -660,7 +660,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 9587,Les Quatre Filles du docteur March,Little Women,1994,1994-12-21,115,,"{us,ca}"
 9588,Monsieur Quigley l'Australien,Quigley Down Under,1990,1990-10-17,119,,"{us,au}"
 9589,"Moi, Christiane F., 13 ans, droguée, prostituée…",Christiane F. - Wir Kinder vom Bahnhof Zoo,1981,1981-04-02,131,,{de}
-9591,That Thing You Do!,That Thing You Do!,1996,1996-10-04,107,,{us}
+9591,That Thing You Do!,,1996,1996-10-04,107,,{us}
 9593,Last Action Hero,,1993,1993-06-18,130,,{us}
 9594,Double Impact,,1991,1991-07-31,100,,{us}
 9595,Hot Shots !,Hot Shots!,1991,1991-07-31,90,52988,{us}
@@ -687,11 +687,11 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 9710,Allan Quatermain et la cité de l'or perdu,Allan Quatermain and the Lost City of Gold,1987,1987-01-30,95,135502,"{us,il}"
 9717,Randonnée pour un tueur,Shoot to Kill,1988,1988-02-12,109,,{us}
 9739,Demolition Man,,1993,1993-10-08,115,,{us}
-9740,Hannibal,Hannibal,2001,2001-02-08,125,9743,"{gb,us}"
+9740,Hannibal,,2001,2001-02-08,125,9743,"{gb,us}"
 9741,Incassable,Unbreakable,2000,2000-11-22,106,,{us}
 9748,Mort à l'arrivée,D.O.A.,1988,1988-03-18,96,,{us}
 9749,Fletch aux trousses,Fletch,1985,1985-05-31,98,104833,{us}
-9754,Firewall,Firewall,2006,2006-02-08,105,,"{us,au}"
+9754,Firewall,,2006,2006-02-08,105,,"{us,au}"
 9768,Cry-Baby,,1990,1990-04-06,85,,{us}
 9800,Philadelphie,Philadelphia,1993,1993-12-22,125,,{us}
 9804,Waterworld,,1995,1995-07-28,136,,{us}
@@ -708,7 +708,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 9941,Le Clochard de Beverly Hills,Down and Out in Beverly Hills,1986,1986-01-31,103,,{us}
 9942,Les Indians,Major League,1989,1989-02-16,107,97771,{us}
 9944,L'Affaire Pélican,The Pelican Brief,1993,1993-09-17,141,,{us}
-9952,Rescue Dawn,Rescue Dawn,2006,2006-09-09,126,,"{lu,us}"
+9952,Rescue Dawn,,2006,2006-09-09,126,,"{lu,us}"
 9967,Retour vers l'enfer,Uncommon Valor,1983,1983-12-16,100,,{us}
 9972,Haute sécurité,Lock Up,1989,1989-08-30,108,,{us}
 10003,Le Saint,The Saint,1997,1997-04-03,116,,{us}
@@ -717,7 +717,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10017,Turbo Interceptor,The Wraith,1986,1986-10-01,93,,"{us,ca}"
 10019,Mannequin,,1987,1987-02-13,88,124951,{us}
 10021,Le Secret de mon succès,The Secret of My Success,1987,1987-04-10,111,,{us}
-10023,Dragnet,Dragnet,1987,1987-06-23,101,,{us}
+10023,Dragnet,,1987,1987-06-23,101,,{us}
 10057,Les Trois Mousquetaires,The Three Musketeers,1993,1993-11-11,101,,"{us,at}"
 10061,Los Angeles 2013,Escape from L.A.,1996,1996-08-09,100,115838,{us}
 10065,Amityville,The Amityville Horror,2005,2005-04-14,90,397842,{us}
@@ -743,20 +743,20 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10168,Premiers pas dans la mafia,The Freshman,1990,1990-07-20,103,,{us}
 10169,Men at work,Men at Work,1990,1990-08-24,95,,{us}
 10173,Désigné pour mourir,Marked for Death,1990,1990-10-05,85,,{us}
-10186,The Rocker,The Rocker,2008,2008-08-20,102,,{us}
+10186,The Rocker,,2008,2008-08-20,102,,{us}
 10206,"Buffy, tueuse de vampires",Buffy the Vampire Slayer,1992,1992-07-24,86,,{us}
 10219,La neige tombait sur les cèdres,Snow Falling on Cedars,1999,1999-12-22,127,,{us}
 10222,Kickboxer,,1989,1989-04-20,96,105322,{us}
-10246,Porky's,Porky's,1981,1981-11-13,94,109592,"{ca,us}"
+10246,Porky's,,1981,1981-11-13,94,109592,"{ca,us}"
 10249,Les aventures de Rocketeer,The Rocketeer,1991,1991-06-21,108,869156,{us}
-10260,Les Ripoux,Les Ripoux,1984,1984-09-19,107,238448,{fr}
+10260,Les Ripoux,,1984,1984-09-19,107,238448,{fr}
 10264,Hamlet,,1990,1990-12-19,135,,"{fr,gb,us}"
 10295,Les super flics de Miami,Miami Supercops,1985,1985-12-12,92,,"{it,us}"
 10303,Le diamant du Nil,The Jewel of the Nile,1986,1986-04-02,102,89264,{us}
 10306,Poltergeist III,,1988,1988-06-10,98,10453,{us}
 10326,Forever Young,,1992,1992-12-16,98,,{us}
 10328,Cocoon,,1985,1985-06-21,117,86307,{us}
-10329,Congo,Congo,1995,1995-06-09,108,,{us}
+10329,Congo,,1995,1995-06-09,108,,{us}
 10331,La Nuit des morts-vivants,Night of the Living Dead,1968,1968-10-04,96,261590,{us}
 10333,Le Prince des marées,The Prince of Tides,1991,1991-12-25,132,,{us}
 10337,Bugsy,,1991,1991-12-10,134,,{us}
@@ -771,9 +771,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10403,The Player,,1992,1992-04-03,124,,{us}
 10406,California Man,Encino Man,1992,1992-05-22,88,,{us}
 10407,Fais comme chez toi !,Housesitter,1992,1992-06-12,102,,{us}
-10410,Hoffa,Hoffa,1992,1992-12-25,140,,{us}
+10410,Hoffa,,1992,1992-12-25,140,,{us}
 10424,Jennifer 8,Jennifer Eight,1992,1992-11-06,124,,{us}
-10428,Hackers,"",1995,1995-09-14,102,,{us}
+10428,Hackers,,1995,1995-09-14,102,,{us}
 10435,Chaplin,,1992,1992-12-17,143,,"{fr,it,jp,gb,us}"
 10439,Hocus Pocus : Les trois sorcières,Hocus Pocus,1994,1994-01-26,96,751156,{us}
 10443,État second,Fearless,1993,1993-10-15,122,,{us}
@@ -792,7 +792,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10518,Marathon Man,,1976,1976-10-08,125,,{us}
 10536,L'or se barre,The Italian Job,1969,1969-06-02,100,,{gb}
 10537,The Doors,,1991,1991-03-01,138,,{us}
-10543,Fear,Fear,1996,1996-04-12,95,,{us}
+10543,Fear,,1996,1996-04-12,95,,{us}
 10551,Family business,Family Business,1989,1989-12-06,110,,{us}
 10552,Cat's Eye,,1985,1985-04-12,95,,"{nl,us}"
 10553,Remo sans arme et dangereux,Remo Williams: The Adventure Begins,1985,1985-10-11,112,,{us}
@@ -812,7 +812,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10658,Howard… une nouvelle race de héros,Howard the Duck,1986,1986-08-01,111,,{us}
 10660,Milliardaire malgré lui,It Could Happen to You,1994,1994-07-29,101,,{us}
 10673,Wall Street,,1987,1987-12-10,122,52783,{us}
-10675,Frantic,Frantic,1988,1988-02-19,119,,"{us,fr}"
+10675,Frantic,,1988,1988-02-19,119,,"{us,fr}"
 10699,Héros malgré lui,Hero,1992,1992-10-02,119,,{us}
 10708,École paternelle,Daddy Day Care,2003,2003-05-09,92,228887,{us}
 10714,Le Livre de la Jungle,The Jungle Book,1994,1994-12-23,115,,{us}
@@ -821,7 +821,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10729,Hold-up à New York,Quick Change,1990,1990-07-13,89,,{us}
 10730,King Kong,,1976,1976-09-08,136,135498,"{it,us}"
 10731,Le Client,The Client,1994,1994-07-20,116,,{us}
-10732,La Fille de d'Artagnan,La Fille de d'Artagnan,1994,1994-08-24,129,,{fr}
+10732,La Fille de d'Artagnan,,1994,1994-08-24,129,,{fr}
 10734,L'Évadé d'Alcatraz,Escape from Alcatraz,1979,1979-06-22,113,,{us}
 10750,L'école des héros,Toy Soldiers,1991,1991-04-24,107,,{us}
 10753,Police Story 2,警察故事續集,1988,1988-08-13,101,269098,{hk}
@@ -834,10 +834,10 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10780,Un couple à la mer,Overboard,1987,1987-12-16,112,,{us}
 10786,La Rose et la Flèche,Robin and Marian,1976,1976-03-11,106,,{us}
 10792,Coup de tête,,1979,1979-02-14,85,,{fr}
-10798,Les Chevaliers du ciel,Les Chevaliers du ciel,2005,2005-10-15,102,,"{be,fr,de}"
+10798,Les Chevaliers du ciel,,2005,2005-10-15,102,,"{be,fr,de}"
 10802,Showgirls,,1995,1995-09-22,131,247294,"{fr,us}"
 10803,L’Âge de Cristal,Logan's Run,1976,1976-06-23,118,,{us}
-10806,In & Out,In & Out,1997,1997-09-10,85,,{us}
+10806,In & Out,,1997,1997-09-10,85,,{us}
 10823,Les Démons du maïs,Children of the Corn,1984,1984-03-09,93,115225,{us}
 10843,After Hours,,1985,1985-08-16,98,,{us}
 10849,La Rose pourpre du Caire,The Purple Rose of Cairo,1985,1985-03-01,82,,{us}
@@ -858,7 +858,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 10974,Mister Dynamite,龍兄虎弟,1986,1986-08-16,94,146136,{hk}
 10998,Liaison fatale,Fatal Attraction,1987,1987-09-18,119,,{us}
 10999,Commando,,1985,1985-10-03,88,1149208,{us}
-11000,The Birdcage,The Birdcage,1996,1996-03-08,119,,{us}
+11000,The Birdcage,,1996,1996-03-08,119,,{us}
 11002,"Greystoke, la légende de Tarzan","Greystoke: The Legend of Tarzan, Lord of the Apes",1984,1984-03-30,135,,"{gb,us}"
 11006,Cours après moi shérif,Smokey and the Bandit,1977,1977-05-26,96,87220,{us}
 11008,Major Payne,,1995,1995-03-24,97,,{us}
@@ -892,7 +892,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11158,"Chérie, j'ai agrandi le bébé","Honey, I Blew Up the Kid",1992,1992-07-16,89,72119,{us}
 11160,Pied-Plat sur le Nil,Piedone d'Egitto,1980,1980-03-01,108,10964,{it}
 11177,Mask,,1985,1985-03-08,120,,{us}
-11183,Les bronzés,,1978,1978-11-22,92,52835,{fr}
+11183,Les bronzés,Les Bronzés,1978,1978-11-22,92,52835,{fr}
 11186,"Chucky, la poupée de sang",Child's Play 2,1990,1990-11-09,83,10455,{us}
 11191,Mystic Pizza,,1988,1988-10-13,104,,{us}
 11205,Soif de Justice,快餐車,1984,1984-08-17,108,,{hk}
@@ -914,7 +914,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11310,L'Or de Curly,City Slickers II: The Legend of Curly's Gold,1994,1994-06-10,116,150156,{us}
 11317,"My Girl 2 - Copain, copine",My Girl 2,1994,1994-02-11,99,85960,{us}
 11318,La folie du roi George,The Madness of King George,1994,1994-12-28,107,,{gb}
-11324,Shutter Island,Shutter Island,2010,2010-02-14,138,,{us}
+11324,Shutter Island,,2010,2010-02-14,138,,{us}
 11327,Midnight Express,,1978,1978-08-31,120,,"{gb,us}"
 11336,Dead Zone,The Dead Zone,1983,1983-10-21,103,,"{ca,us}"
 11338,Série noire pour une nuit blanche,Into the Night,1985,1985-02-22,114,,{us}
@@ -947,16 +947,16 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11507,Body Double,,1984,1984-10-25,114,,{us}
 11509,Silverado,,1985,1985-07-10,133,,{us}
 11510,Y a-t-il un exorciste pour sauver le monde ?,Repossessed,1990,1990-09-14,80,,{us}
-11519,1941,,,,118,,{us}
+11519,1941,,1979,1979-12-14,118,,{us}
 11521,Le Petit Homme,Little Man Tate,1991,1991-09-06,99,,{us}
 11522,Rose Bonbon,Pretty in Pink,1986,1986-02-28,92,,{us}
 11524,Le Solitaire,Thief,1981,1981-03-27,124,,{us}
-11527,Excalibur,Excalibur,1981,1981-04-10,135,,"{gb,us}"
+11527,Excalibur,,1981,1981-04-10,135,,"{gb,us}"
 11528,Le Gang des Champions,The Sandlot,1993,1993-04-07,101,87214,{us}
 11530,La Zizanie,,1978,1978-03-16,90,,{fr}
 11532,La Forêt d'émeraude,The Emerald Forest,1985,1985-06-22,113,,"{gb,us}"
 11533,Jason et les Argonautes,Jason and the Argonauts,1963,1963-06-19,104,,{us}
-11539,Don Camillo,Don Camillo,1984,1984-02-08,126,,{it}
+11539,Don Camillo,,1984,1984-02-08,126,,{it}
 11541,L'Année de tous les dangers,The Year of Living Dangerously,1982,1982-12-17,115,,"{au,us}"
 11546,Police Academy : Mission à Moscou,Police Academy: Mission to Moscow,1994,1994-06-09,83,9338,{us}
 11548,Miracle sur la 8ème rue,*batteries not included,1987,1987-12-18,106,,{us}
@@ -966,7 +966,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11566,Président d’un Jour,Dave,1993,1993-05-07,125,,{us}
 11573,L'infaillible inspecteur Clouseau,Inspector Clouseau,1968,1968-07-19,96,937,{gb}
 11577,Pat Garrett et Billy le Kid,Pat Garrett & Billy the Kid,1973,1973-05-23,122,,{us}
-11578,Le Retour de Don Camillo,Le Retour de Don Camillo,1953,1953-06-05,105,11582,"{fr,it}"
+11578,Le Retour de Don Camillo,,1953,1953-06-05,105,11582,"{fr,it}"
 11579,La Grande Bagarre de Don Camillo,Don Camillo e l'onorevole Peppone,1955,1955-09-29,97,11582,{it}
 11580,Don Camillo monseigneur,Don Camillo monsignore... ma non troppo,1961,1961-10-07,115,11582,{it}
 11583,La Grande Attaque du train d'or,The First Great Train Robbery,1978,1978-12-14,110,,{gb}
@@ -983,15 +983,15 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11623,La Grande menace,The Medusa Touch,1978,1978-11-22,105,,"{fr,gb}"
 11626,Fifi Brindacier en balade,På rymmen med Pippi Långstrump,1970,1970-11-14,94,11875,"{de,se}"
 11630,Tels pères telle fille,3 Men and a Little Lady,1990,1990-11-21,104,107688,{us}
-11634,Fucking Åmål,Fucking Åmål,1998,1998-10-23,89,,"{dk,se}"
+11634,Fucking Åmål,,1998,1998-10-23,89,,"{dk,se}"
 11644,Blow Out,,1981,1981-07-24,107,,{us}
 11649,Les Maîtres de l'Univers,Masters of the Universe,1987,1987-08-07,110,,{us}
 11654,Les Prédateurs,The Hunger,1983,1983-04-29,100,,{us}
-11657,Le Cercle rouge,Le Cercle rouge,1970,1970-10-19,140,,"{fr,it}"
+11657,Le Cercle rouge,,1970,1970-10-19,140,,"{fr,it}"
 11667,Street Fighter : L'Ultime combat,Street Fighter,1994,1994-12-23,102,,"{au,jp,th,us}"
 11673,Cyrano de Bergerac,,1990,1990-03-28,137,,{fr}
 11681,Les 2 Missionnaires,Porgi l'altra guancia,1974,1974-12-21,98,,"{fr,it}"
-11684,La Cage aux folles II,La Cage aux folles II,1980,1980-12-10,101,239968,"{fr,it}"
+11684,La Cage aux folles II,,1980,1980-12-10,101,239968,"{fr,it}"
 11687,Les Visiteurs,,1993,1993-01-27,105,52888,{fr}
 11689,Deux Super-flics,I due superpiedi quasi piatti,1977,1977-04-01,108,,{it}
 11690,"Bloodsport, tous les coups sont permis",Bloodsport,1988,1988-02-26,92,36694,{us}
@@ -1009,7 +1009,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11827,Métal Hurlant,Heavy Metal,1981,1981-08-07,86,141086,{ca}
 11829,On continue à l'appeler Trinita,Continuavano a chiamarlo Trinità,1972,1972-03-15,109,583555,{it}
 11837,La folle escapade,Watership Down,1978,1978-10-14,88,,{gb}
-11842,Soleil Rouge,Soleil Rouge,1971,1971-09-15,114,,"{fr,it,es}"
+11842,Soleil Rouge,,1971,1971-09-15,114,,"{fr,it,es}"
 11843,Le Retour de la Panthère rose,The Return of the Pink Panther,1975,1975-05-21,113,937,"{gb,us}"
 11850,L'Invasion des profanateurs,Invasion of the Body Snatchers,1978,1978-12-20,115,,{us}
 11851,"Presidio : Base militaire, San Francisco",The Presidio,1988,1988-06-10,95,,{us}
@@ -1025,7 +1025,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11874,Les 4 de l'Ave Maria,I quattro dell'Ave Maria,1968,1968-10-02,131,266731,{it}
 11879,Aux frontières de l'aube,Near Dark,1987,1987-10-02,94,,{us}
 11890,L'embrouille est dans le sac,Oscar,1991,1991-04-26,110,,{us}
-11893,Runaway Train,Runaway Train,1985,1985-11-15,110,,{us}
+11893,Runaway Train,,1985,1985-11-15,110,,{us}
 11896,Balance maman hors du train,Throw Momma from the Train,1988,1988-06-22,88,,{us}
 11899,Les Muppets à Manhattan,The Muppets Take Manhattan,1984,1984-06-27,94,,{us}
 11901,L'Homme des hautes plaines,High Plains Drifter,1973,1973-04-19,102,,{us}
@@ -1042,7 +1042,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11955,Aigle de fer II,Iron Eagle II,1989,1989-02-15,105,123251,"{ca,il}"
 11963,Les Trois Jours du Condor,Three Days of the Condor,1975,1975-08-01,117,,{us}
 11966,Appelez-moi Johnny 5,Short Circuit 2,1988,1988-07-06,110,86347,{us}
-11967,Young Guns,Young Guns,1988,1988-02-17,102,9329,{us}
+11967,Young Guns,,1988,1988-02-17,102,9329,{us}
 11969,Tombstone,,1994,1994-02-16,130,,{us}
 11971,Beaucoup de bruit pour rien,Much Ado About Nothing,1993,1993-05-07,110,,"{gb,us}"
 11972,Le Petit Monde de Don Camillo,Don Camillo,1952,1952-03-28,107,11582,"{fr,it}"
@@ -1050,7 +1050,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 11976,Legend,,1985,1985-08-28,100,,"{us,gb}"
 11977,Le golf en folie,Caddyshack,1980,1980-07-25,118,104847,{us}
 11979,La Reine des damnés,Queen of the Damned,2002,2002-02-10,101,217704,"{au,us}"
-11980,The Prophecy,"",1995,1995-08-05,98,9068,{us}
+11980,The Prophecy,,1995,1995-08-05,98,9068,{us}
 11982,"Allô maman, c'est Noël",Look Who's Talking Now!,1993,1993-11-05,98,9521,{us}
 12088,Fortress,,1993,1993-03-17,88,86341,"{au,us}"
 12089,Le Grand Blond avec une chaussure noire,,1972,1972-12-06,90,105764,{fr}
@@ -1060,7 +1060,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 12104,Pink Floyd : The Wall,Pink Floyd: The Wall,1982,1982-07-14,95,,"{gb,us}"
 12106,Mort ou Vif,The Quick and the Dead,1995,1995-02-09,105,,"{jp,us}"
 12110,"Dracula, mort et heureux de l’être",Dracula: Dead and Loving It,1995,1995-12-22,88,,"{fr,us}"
-12111,Les Spécialistes,Les Spécialistes,1985,1985-03-13,92,,{fr}
+12111,Les Spécialistes,,1985,1985-03-13,92,,{fr}
 12120,J'ai épousé une extra-terrestre,My Stepmother Is an Alien,1988,1988-12-09,103,,{us}
 12122,Le Village des damnés,Village of the Damned,1995,1995-04-28,98,,{us}
 12127,Fifi Brindacier chez les pirates,Pippi Långstrump på de sju haven,1970,1970-01-24,95,11875,"{de,se}"
@@ -1069,7 +1069,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 12151,Y a-t-il quelqu'un pour tuer ma femme ?,Ruthless People,1986,1986-12-10,93,,{us}
 12154,Trois Hommes et un bébé,3 Men and a Baby,1987,1987-11-27,102,107688,{us}
 12157,Green Card,,1990,1990-12-23,108,,"{fr,au,us}"
-12158,Un vampire à Brooklyn,,,,96,,{us}
+12158,Un vampire à Brooklyn,Vampire in Brooklyn,1995,1995-10-26,96,,{us}
 12159,Au-delà de nos rêves,What Dreams May Come,1998,1998-10-02,106,,{us}
 12160,Wyatt Earp,,1994,1994-06-24,190,,{us}
 12185,Le ciel peut attendre,Heaven Can Wait,1978,1978-06-28,100,,{us}
@@ -1111,7 +1111,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 12775,La Chair et le Sang,Flesh + Blood,1985,1985-08-30,126,,"{nl,es,us}"
 12778,Les Héritiers Affamés,Greedy,1994,1994-03-04,113,,{us}
 12919,L'Amour ne s'achète pas,Can't Buy Me Love,1987,1987-08-14,94,,{us}
-13043,Camping,Camping,2006,2006-04-26,95,52097,{fr}
+13043,Camping,,2006,2006-04-26,95,52097,{fr}
 13064,Airborne,,1993,1993-09-17,91,,{us}
 13105,Mr. Mom - Profession père au foyer,Mr. Mom,1983,1983-07-22,91,,{us}
 13154,Dans les griffes du dragon rouge,Showdown in Little Tokyo,1991,1991-08-23,79,,{us}
@@ -1128,7 +1128,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 13671,The Music Man,,1962,1962-06-19,151,,{us}
 13681,Les Saisons du cœur,Places in the Heart,1984,1984-09-11,111,,{us}
 13704,Plein pot,License to Drive,1988,1988-07-06,88,,{us}
-13727,Disco,Disco,2008,2008-04-02,103,,{fr}
+13727,Disco,,2008,2008-04-02,103,,{fr}
 13766,Cap sur les étoiles,SpaceCamp,1986,1986-06-06,107,,{us}
 13776,Diner,,1982,1982-04-02,110,,{us}
 13783,Héros ou Salopards,Breaker Morant,1980,1980-06-11,107,,{au}
@@ -1139,7 +1139,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 14140,La Coccinelle à Monte-Carlo,Herbie Goes to Monte Carlo,1977,1977-06-24,104,12087,{us}
 14207,Les Aventures de Flynn Carson : Le Mystère de la lance sacrée,The Librarian: Quest for the Spear,2004,2004-07-12,106,85890,{us}
 14208,Les Aventures de Flynn Carson : Le Trésor du roi Salomon,The Librarian: Return to King Solomon's Mines,2006,2006-09-09,95,85890,{us}
-14257,La Folie des Grandeurs,,1971,1971-08-12,109,,"{fr,es,it,de}"
+14257,La Folie des Grandeurs,La Folie des grandeurs,1971,1971-08-12,109,,"{fr,es,it,de}"
 14347,C'est la faute à Rio,Blame It on Rio,1984,1984-02-17,99,,{us}
 14362,Justice sauvage,Out for Justice,1991,1991-04-12,91,,{us}
 14367,Nuit de folie,Adventures in Babysitting,1987,1987-07-01,102,,{us}
@@ -1153,7 +1153,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 14612,La Course au trésor,Candleshoe,1977,1977-12-16,100,,"{us,gb}"
 14621,L'Incroyable Défi,Lean On Me,1989,1989-03-03,109,,{us}
 14628,Autant en emporte Fletch,Fletch Lives,1989,1989-03-17,95,104833,{us}
-14645,Le père Noël est une ordure !,,1982,1982-08-25,90,,{fr}
+14645,Le père Noël est une ordure !,Le père Noël est une ordure,1982,1982-08-25,90,,{fr}
 14728,Les Aventures de Flynn Carson : Le Secret de la coupe maudite,The Librarian: The Curse of the Judas Chalice,2008,2008-10-25,95,85890,{us}
 14742,Les Croque-morts en folie,Night Shift,1982,1982-07-30,106,,{us}
 14746,Les rues de feu,Streets of Fire,1984,1984-06-01,93,1105385,{us}
@@ -1164,14 +1164,14 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 15120,Cours après moi Shérif 3,Smokey and the Bandit Part 3,1983,1983-08-12,85,87220,{us}
 15138,Little Monsters,,1989,1989-08-25,102,,{us}
 15144,16 Bougies pour Sam,Sixteen Candles,1984,1984-05-04,93,,{us}
-15152,"OSS 117 : Le Caire, nid d'espions","OSS 117 : Le Caire, nid d'espions",2006,2006-04-19,99,91588,{fr}
+15152,"OSS 117 : Le Caire, nid d'espions",,2006,2006-04-19,99,91588,{fr}
 15196,Cluedo,Clue,1985,1985-12-13,94,,{us}
 15301,"La Quatrième Dimension, le film",Twilight Zone: The Movie,1983,1983-06-24,101,,{us}
 15379,Portés disparus,Missing in Action,1985,1985-06-12,101,46512,{us}
 15383,L'Armée des ombres,,1969,1969-09-10,140,,"{fr,it}"
 15392,Crossroads,,1986,1986-03-14,99,,{us}
 15417,"Doux, dur et dingue",Every Which Way but Loose,1978,1978-12-16,110,168182,{us}
-15588,OSS 117 : Rio ne répond plus,OSS 117 : Rio ne répond plus,2009,2009-04-15,100,91588,{fr}
+15588,OSS 117 : Rio ne répond plus,,2009,2009-04-15,100,91588,{fr}
 15592,Au fil de la vie,Beaches,1988,1988-12-21,123,,{us}
 15596,A fond la fac,Back to School,1986,1986-06-13,96,,{us}
 15613,Visiteurs Extraterrestres,Fire in the Sky,1993,1993-03-12,109,,{us}
@@ -1184,7 +1184,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 15983,Invasion U.S.A.,,1986,1986-01-08,107,,{us}
 16082,Soleil de nuit,White Nights,1985,1985-11-22,136,,{us}
 16084,"Un vendredi dingue, dingue, dingue",Freaky Friday,1976,1976-12-17,95,,{us}
-16113,Delta Force,,1986,1986-04-16,125,126166,"{il,us}"
+16113,Delta Force,The Delta Force,1986,1986-04-16,125,126166,"{il,us}"
 16121,Au-delà de la gloire,The Big Red One,1980,1980-01-22,115,,{us}
 16153,Alice n'est plus ici,Alice Doesn't Live Here Anymore,1974,1974-12-09,112,,{us}
 16235,Amityville II : Le Possédé,Amityville II: The Possession,1982,1982-09-24,104,397842,"{mx,us}"
@@ -1203,9 +1203,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 16814,Les fous de la pub,Crazy People,1990,1990-04-13,90,,{us}
 16820,"F/X2, effets très spéciaux",F/X2,1991,1991-04-16,108,171439,{us}
 16858,Que le spectacle commence !,All That Jazz,1979,1979-12-16,123,,{us}
-16938,Black Christmas,Black Christmas,1974,1974-10-11,98,,{ca}
+16938,Black Christmas,,1974,1974-10-11,98,,{ca}
 17006,I'm Gonna Git You Sucka,,1988,1988-11-10,88,,{us}
-17102,"Dracula, prince des ténèbres",,,,90,123724,{gb}
+17102,"Dracula, prince des ténèbres",Dracula: Prince of Darkness,1966,1966-01-09,90,123724,{gb}
 17169,Ça va cogner…,Any Which Way You Can,1980,1980-12-17,110,168182,{us}
 17258,Le dragueur,The Pick-up Artist,1987,1987-09-18,81,,{us}
 17277,La Chute de l'Empire romain,The Fall of the Roman Empire,1964,1964-03-24,187,,{us}
@@ -1222,9 +1222,9 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 17692,Les dents de la mer 3,Jaws 3-D,1983,1983-12-21,98,2366,{us}
 17796,La Cité des monstres,Freaked,1993,1993-09-11,86,,{us}
 17819,Son Alibi,Her Alibi,1989,1989-02-03,94,,{us}
-18009,Leprechaun 2,Leprechaun 2,1994,1994-04-08,85,19285,{us}
+18009,Leprechaun 2,,1994,1994-04-08,85,19285,{us}
 18011,Leprechaun 5 - La malédiction,Leprechaun in the Hood,2000,2000-03-28,90,19285,{us}
-18097,Fantasia chez les ploucs,Fantasia chez les ploucs,1971,1971-01-15,100,,"{fr,it}"
+18097,Fantasia chez les ploucs,,1971,1971-01-15,100,,"{fr,it}"
 18133,The Program,,1993,1993-09-24,113,,{us}
 18169,À propos d'hier soir,About Last Night...,1986,1986-07-02,113,,{us}
 18172,L'Esprit d'équipe,All the Right Moves,1983,1983-10-21,91,,{us}
@@ -1233,15 +1233,15 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 18209,Fantasmes,Bedazzled,1967,1967-10-30,103,,{gb}
 18214,Black Eagle : L'arme absolue,Black Eagle,1988,1988-05-01,93,,{us}
 18282,"Un été fou, fou, fou",One Crazy Summer,1986,1986-08-08,93,,{us}
-18298,Les Rois mages,Les Rois mages,2001,2001-12-12,90,,{fr}
+18298,Les Rois mages,,2001,2001-12-12,90,,{fr}
 18331,Docteur Jerry et Mister Love,The Nutty Professor,1963,1963-06-04,107,,{us}
 18387,Graffiti party,Big Wednesday,1978,1978-05-26,120,,{us}
 18391,Hold-up en jupons,Easy Money,1983,1983-08-19,95,,{us}
 18395,Exit to Eden,,1994,1994-10-14,113,,{us}
 18406,Les anges du mal,Chained Heat,1983,1983-05-27,95,643572,"{de,us}"
 18410,Projet X,Project X,1987,1987-04-17,107,,{us}
-18419,3 zéros,3 zéros,2002,2002-04-24,97,,"{cn,fr}"
-18457,Le Boulet,Le Boulet,2002,2002-04-10,107,,"{fr,gb}"
+18419,3 zéros,,2002,2002-04-24,97,,"{cn,fr}"
+18457,Le Boulet,,2002,2002-04-10,107,,"{fr,gb}"
 18477,La colline a des yeux 2,The Hills Have Eyes Part 2,1985,1985-08-02,86,267922,"{gb,us}"
 18502,The Stuff,,1985,1985-06-14,87,,{us}
 18628,Alexandre le Bienheureux,Alexandre le bienheureux,1968,1968-02-09,100,,{fr}
@@ -1251,7 +1251,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 19086,Delta Force 2,Delta Force 2: The Colombian Connection,1990,1990-08-24,117,126166,{us}
 19114,Un amour infini,Endless Love,1981,1981-07-17,116,,{us}
 19123,La Chèvre,,1981,1981-12-09,90,,"{fr,mx}"
-19174,Dolemite,Dolemite,1975,1975-04-26,90,405256,{us}
+19174,Dolemite,,1975,1975-04-26,90,405256,{us}
 19185,La Nuit des morts-vivants,Night of the Living Dead,1990,1990-10-19,92,,{us}
 19204,L'Au-Delà,...E tu vivrai nel terrore! L'aldilà,1981,1981-04-29,87,923500,{it}
 19286,Leprechaun 3 : À Las Vegas,Leprechaun 3,1995,1995-07-04,93,19285,{us}
@@ -1277,7 +1277,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 20815,La Servante écarlate,The Handmaid's Tale,1990,1990-02-15,109,,"{de,us}"
 20858,8 millions de façons de mourir,8 Million Ways to Die,1986,1986-04-25,115,,{us}
 21219,Les Indomptés,Mobsters,1991,1991-07-26,104,,{us}
-21241,Cannonball,Cannonball,1976,1976-07-06,93,,"{us,hk}"
+21241,Cannonball,,1976,1976-07-06,93,,"{us,hk}"
 21309,Le Fleuve de la mort,River's Edge,1986,1986-08-27,99,,{us}
 21332,À toute vitesse,Quicksilver,1986,1986-02-14,105,,{us}
 21352,"André, mon meilleur copain !",Andre,1994,1994-08-17,94,,{us}
@@ -1292,23 +1292,23 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 21779,"Matt Helm, agent très spécial",The Silencers,1966,1966-02-18,102,157890,{us}
 21799,Apprenti Tueur,Cutting Class,1989,1989-07-01,91,,{us}
 21873,Veux-tu être mon garde du corps?,My Bodyguard,1980,1980-07-11,96,,{us}
-21874,Looker,Looker,1981,1981-10-30,93,,{us}
-21949,Trouble Man,Trouble Man,1972,1972-11-01,99,,{us}
+21874,Looker,,1981,1981-10-30,93,,{us}
+21949,Trouble Man,,1972,1972-11-01,99,,{us}
 22021,"Coffy, la panthère noire de Harlem",Coffy,1973,1973-06-13,90,,{us}
 22029,"Black Cesar, le parrain de Harlem",Black Caesar,1973,1973-02-07,94,534652,{us}
-22048,Foxy Brown,Foxy Brown,1974,1974-04-05,91,,{us}
+22048,Foxy Brown,,1974,1974-04-05,91,,{us}
 22160,Contre toute attente,Against All Odds,1984,1984-03-02,128,,{us}
-22183,Angélique et le Roy,Angélique et le Roy,1966,1966-01-31,100,91813,"{fr,it,de}"
+22183,Angélique et le Roy,,1966,1966-01-31,100,91813,"{fr,it,de}"
 22240,Ripoux contre ripoux,Ripoux contre Ripoux,1990,1990-02-07,105,238448,{fr}
 22311,Une poignée de salopards,Quel maledetto treno blindato,1978,1978-02-08,98,,{it}
 22317,Jack l'Éclair,Lightning Jack,1994,1994-03-11,98,,"{au,us}"
-22501,Les maîtres du temps,Les maîtres du temps,1982,1982-03-24,78,,"{fr,de,hu,ch,gb}"
-22578,Dédales,Dédales,2003,2003-09-09,100,,"{be,fr}"
+22501,Les maîtres du temps,,1982,1982-03-24,78,,"{fr,de,hu,ch,gb}"
+22578,Dédales,,2003,2003-09-09,100,,"{be,fr}"
 22650,Mélodie en sous-sol,,1963,1963-03-19,117,,"{fr,it}"
 22826,Le Monstre,Il mostro,1994,1994-10-22,111,,"{it,fr}"
-22832,Ninja Assassin,Ninja Assassin,2009,2009-09-29,99,,"{fr,de,us}"
+22832,Ninja Assassin,,2009,2009-09-29,99,,"{fr,de,us}"
 23330,Un nommé Cable Hogue,The Ballad of Cable Hogue,1970,1970-03-18,116,,{us}
-23483,Kick-Ass,Kick-Ass,2010,2010-03-22,117,179892,"{gb,us}"
+23483,Kick-Ass,,2010,2010-03-22,117,179892,"{gb,us}"
 23587,Vigilante,,1982,1982-05-18,90,,{us}
 23761,Communion Sanglante (Alice Douce Alice),"Alice, Sweet Alice",1976,1976-11-13,107,,{us}
 23942,Paradise,,1982,1982-03-12,100,,{ca}
@@ -1318,7 +1318,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 24100,Le Petit Vampire,The Little Vampire,2000,2000-10-27,95,,"{de,nl,us}"
 24229,À bout portant,The Killers,1964,1964-07-07,93,,{us}
 24248,Barabbas,,1961,1961-12-23,145,,"{us,it}"
-24260,Inspecteur La Bavure,Inspecteur La Bavure,1980,1980-12-03,100,,{fr}
+24260,Inspecteur La Bavure,,1980,1980-12-03,100,,{fr}
 24274,Réincarnations,Dead & Buried,1981,1981-05-29,94,,{us}
 24341,Dolls Les Poupées,Dolls,1986,1986-10-27,77,,"{it,us}"
 24583,Péril en la demeure,,1985,1985-02-13,100,,{fr}
@@ -1326,7 +1326,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 24742,Une amie qui vous veut du bien,Secret Admirer,1985,1985-06-14,90,,{us}
 24750,C'était demain,Time After Time,1979,1979-09-28,112,,{us}
 24795,Angels : Une Équipe aux Anges,Angels in the Outfield,1994,1994-07-15,102,508334,{us}
-24803,Julie & Julia,Julie & Julia,2009,2009-08-06,123,,{us}
+24803,Julie & Julia,,2009,2009-08-06,123,,{us}
 24808,La Foire des ténèbres,Something Wicked This Way Comes,1983,1983-04-29,95,,{us}
 24825,La Fureur du Juste,The Octagon,1980,1980-08-14,104,,{us}
 24831,Piranhas,Piranha,1978,1978-08-03,94,212279,{us}
@@ -1351,7 +1351,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 25943,Un Ange... ou presque,Almost an Angel,1990,1990-12-21,95,,{us}
 26127,Au dessus de la loi,Joshua Tree,1993,1993-04-08,106,,{us}
 26156,Hiding Out,,1987,1987-11-06,98,,{us}
-26178,Razorback,Razorback,1984,1984-04-19,95,,{au}
+26178,Razorback,,1984,1984-04-19,95,,{au}
 26185,Un silencieux au bout du canon,McQ,1974,1974-01-04,111,,{us}
 26196,Dynamite Jones,Cleopatra Jones,1973,1973-07-13,89,452675,{us}
 26263,Le justicier braque les dealers,Death Wish 4: The Crackdown,1987,1987-06-11,99,14377,{us}
@@ -1366,10 +1366,10 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 26672,Le voleur et le cordonnier,The Thief and the Cobbler,1993,1993-09-23,72,,"{ca,gb,us}"
 26789,Sans pitié,No Mercy,1986,1986-12-19,108,,{us}
 26978,Le Guerrier de l'espace : Aventures en zone interdite,Spacehunter: Adventures in the Forbidden Zone,1983,1983-05-20,90,,{us}
-27085,Le 6e Continent,,,,90,211753,"{gb,us}"
+27085,Le 6e Continent,The Land That Time Forgot,1974,1974-08-13,90,211753,"{gb,us}"
 27214,Amityville III : Le démon,Amityville 3-D,1983,1983-11-18,93,397842,{us}
 27352,Portés disparus 3,Braddock: Missing in Action III,1988,1988-01-22,101,46512,{us}
-27381,Innocent Blood,"",1992,1992-09-25,112,,{us}
+27381,Innocent Blood,,1992,1992-09-25,112,,{us}
 27418,Un flic à Chicago,Next of Kin,1989,1989-10-20,108,,{us}
 27430,Touchez pas au grisbi,,1954,1954-03-17,94,,"{fr,it}"
 27578,Expendables : Unité spéciale,The Expendables,2010,2010-08-03,105,126125,"{bg,us}"
@@ -1384,7 +1384,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 28043,Les Trois visages de la peur,I tre volti della paura,1963,1963-08-17,95,,"{fr,it}"
 28145,On achève bien les chevaux,"They Shoot Horses, Don't They?",1969,1969-12-10,129,,{us}
 28176,Tucker : l'homme et son rêve,Tucker: The Man and His Dream,1988,1988-08-12,111,,{us}
-28190,L'Auberge rouge,L'Auberge rouge,1951,1951-10-19,98,,{fr}
+28190,L'Auberge rouge,,1951,1951-10-19,98,,{fr}
 28313,Losing Isaiah : Les chemins de l'amour,Losing Isaiah,1995,1995-03-17,106,,{us}
 28368,Jardins de pierre,Gardens of Stone,1987,1987-05-05,111,,{us}
 28370,Date With an Angel,,1987,1987-11-20,105,,{us}
@@ -1410,8 +1410,8 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 30943,Aussi profond que l'océan,The Deep End of the Ocean,1999,1999-03-12,108,,{us}
 31052,Voyageur malgré lui,The Accidental Tourist,1988,1988-12-23,121,,{us}
 31121,Shampoo,,1975,1975-02-11,110,,{us}
-31264,Ator l'invincibile 2,Ator l'invincibile 2,1982,1982-12-13,92,48194,{it}
-31270,Les Barbouzes,Les Barbouzes,1964,1964-12-10,105,,"{fr,it}"
+31264,Ator l'invincibile 2,,1982,1982-12-13,92,48194,{it}
+31270,Les Barbouzes,,1964,1964-12-10,105,,"{fr,it}"
 31283,Un Colt Pour 3 Salopards,Hannie Caulder,1971,1971-11-08,82,,{gb}
 31357,Où sont les hommes ?,Waiting to Exhale,1995,1995-12-22,123,,{us}
 31417,Les Yeux sans visage,,1960,1960-01-11,88,,"{fr,it}"
@@ -1424,15 +1424,15 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 31633,La Chanteuse et le milliardaire,The Marrying Man,1991,1991-04-05,117,,{us}
 31638,Le Dernier Secret du Poséidon,Beyond the Poseidon Adventure,1979,1979-05-18,114,372257,{us}
 31646,Piranha 2 - Les Tueurs volants,Piranha II: The Spawning,1982,1982-08-14,84,212279,"{it,nl,us}"
-31701,Cop,Cop,1988,1988-02-05,110,,{us}
-31789,Pédale douce,Pédale douce,1996,1996-03-27,100,,{fr}
+31701,Cop,,1988,1988-02-05,110,,{us}
+31789,Pédale douce,,1996,1996-03-27,100,,{fr}
 31939,Another Country : Histoire d'une trahison,Another Country,1984,1984-06-01,87,,{gb}
 31947,King Kong II,King Kong Lives,1986,1986-12-16,105,135498,{us}
 31962,Une lueur dans la nuit,Shining Through,1992,1992-01-31,127,,"{gb,us}"
 32037,Le Pont de Cassandra,The Cassandra Crossing,1977,1977-06-15,129,,"{de,it,gb,us}"
 32059,Calendrier meurtrier,The January Man,1989,1989-01-13,97,,{us}
 32060,Les Mémoires de Brighton Beach,Brighton Beach Memoirs,1986,1986-12-26,108,979674,{us}
-32100,The Human Tornado,The Human Tornado,1976,1976-10-02,96,405256,{us}
+32100,The Human Tornado,,1976,1976-10-02,96,405256,{us}
 32261,Scandal,,1989,1989-03-03,115,,{gb}
 32489,Millie,Thoroughly Modern Millie,1967,1967-03-22,138,,{us}
 32940,Homicides Incontrôlés,The Terminal Man,1974,1974-06-19,107,,{us}
@@ -1441,24 +1441,24 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 33278,L'Amie mortelle,Deadly Friend,1986,1986-10-10,91,,{us}
 33337,Tendre poulet,Tendre Poulet,1978,1978-01-18,105,159742,{fr}
 33357,Cosa Nostra,The Valachi Papers,1972,1972-01-06,125,,"{fr,it}"
-33360,Ne nous fâchons pas,Ne nous fâchons pas,1966,1966-04-20,100,,{fr}
-33521,Dracula,,,,109,,"{us,gb}"
-33701,Les bronzés font du ski,,1979,1979-11-22,83,52835,{fr}
-34059,Cent Mille Dollars au soleil,Cent Mille Dollars au soleil,1964,1964-04-17,130,,"{fr,it}"
+33360,Ne nous fâchons pas,,1966,1966-04-20,100,,{fr}
+33521,Dracula,,1979,1979-07-20,109,,"{us,gb}"
+33701,Les bronzés font du ski,Les Bronzés font du ski,1979,1979-11-22,83,52835,{fr}
+34059,Cent Mille Dollars au soleil,,1964,1964-04-17,130,,"{fr,it}"
 34093,Rendez-vous,,1985,1985-05-15,82,,{fr}
 34145,Classe tous risques,,1960,1960-03-23,108,,"{fr,it}"
-34193,Magic,Magic,1978,1978-11-08,107,,{us}
+34193,Magic,,1978,1978-11-08,107,,{us}
 34584,L'Histoire sans fin,Die unendliche Geschichte,1984,1984-04-06,95,91430,"{de,us}"
 34636,L'Histoire sans fin II :  Un nouveau chapitre,The NeverEnding Story II: The Next Chapter,1990,1990-10-25,90,91430,"{de,us}"
 34723,Les Aventures de Huckleberry Finn,The Adventures of Huck Finn,1993,1993-04-02,107,,{us}
 34814,Zombi 3,,1988,1988-06-01,95,133923,{it}
 35119,Un cri dans la nuit,Evil Angels,1988,1988-11-03,120,,"{au,us}"
 35371,Skate Gang,Thrashin',1986,1986-08-29,89,,{us}
-35552,Les Aventures extraordinaires d'Adèle Blanc-Sec,Les Aventures extraordinaires d'Adèle Blanc-Sec,2010,2010-04-09,107,,{fr}
+35552,Les Aventures extraordinaires d'Adèle Blanc-Sec,,2010,2010-04-09,107,,{fr}
 35588,Géronimo,Geronimo: An American Legend,1993,1993-12-10,110,,{us}
 35645,Le Secret de Bear Mountain,Gold Diggers: The Secret of Bear Mountain,1995,1995-11-03,90,,{us}
-35797,Coup de torchon,Coup de torchon,1981,1981-11-04,128,,{fr}
-35831,"Belphégor, le fantôme du Louvre","Belphégor, le fantôme du Louvre",2001,2001-04-03,97,,{fr}
+35797,Coup de torchon,,1981,1981-11-04,128,,{fr}
+35831,"Belphégor, le fantôme du Louvre",,2001,2001-04-03,97,,{fr}
 36324,Pouic-Pouic,,1963,1963-11-20,86,,{fr}
 36349,Sans issue,Black Moon Rising,1986,1986-01-10,100,,{us}
 36351,Light Sleeper,,1992,1992-08-21,103,,{us}
@@ -1468,13 +1468,13 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 36599,Le Bal de L'horreur,Prom Night,1980,1980-07-18,93,123255,{ca}
 36670,Jamais plus jamais,Never Say Never Again,1983,1983-10-07,135,645,"{gb,us}"
 36685,The Rocky Horror Picture Show,,1975,1975-08-14,100,694606,"{gb,us}"
-36859,Bells of Innocence,Bells of Innocence,2003,2003-01-01,110,,{}
+36859,Bells of Innocence,,2003,2003-01-01,110,,{}
 36914,Mon père c'est moi,Like Father Like Son,1987,1987-10-02,93,,{us}
 36955,True Lies,,1994,1994-07-15,140,,{us}
 37094,Chute libre,Falling Down,1993,1993-02-26,113,,{us}
 37136,Y a-t-il un flic pour sauver la reine ?,The Naked Gun: From the Files of Police Squad!,1988,1988-12-02,86,37139,{us}
 37137,Y a-t-il un flic pour sauver le président ?,The Naked Gun 2½: The Smell of Fear,1991,1991-06-28,91,37139,{us}
-37165,The Truman Show,The Truman Show,1998,1998-06-04,102,,{us}
+37165,The Truman Show,,1998,1998-06-04,102,,{us}
 37233,La Firme,The Firm,1993,1993-06-30,154,,{us}
 37247,Le Lauréat,The Graduate,1967,1967-12-21,106,,{us}
 37264,Franc Parler,Straight Talk,1992,1992-04-03,91,,{us}
@@ -1482,14 +1482,14 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 37308,Les 100 Fusils,100 Rifles,1969,1969-03-26,100,,{us}
 37335,Les Uns et les Autres,Les uns et les autres,1981,1981-05-27,184,,{fr}
 37454,Maigret tend un piège,,1958,1958-01-29,119,512168,"{fr,it}"
-37652,Didier,Didier,1997,1997-01-28,105,,{fr}
-37653,Les Trois Frères,Les Trois Frères,1995,1995-12-13,104,283733,{fr}
+37652,Didier,,1997,1997-01-28,105,,{fr}
+37653,Les Trois Frères,,1995,1995-12-13,104,283733,{fr}
 37749,À la recherche de Mr. Goodbar,Looking for Mr. Goodbar,1977,1977-10-19,135,930413,{us}
 37753,Jeux d'adultes,Consenting Adults,1992,1992-10-16,99,,{us}
 37991,Don Camillo en Russie,Il compagno Don Camillo,1965,1965-09-18,111,11582,"{fr,it}"
 38080,Le Juge et l'Assassin,,1976,1976-03-10,128,,{fr}
 38152,Du sang dans la poussière,The Spikes Gang,1974,1974-04-11,96,,{us}
-38268,惑星大戦争,惑星大戦争,1977,1977-12-17,91,491769,{jp}
+38268,惑星大戦争,,1977,1977-12-17,91,491769,{jp}
 38557,La Rivière,The River,1984,1984-12-01,122,,{us}
 38558,Blue-Jean Cop,Shakedown,1988,1988-05-06,112,,{us}
 38602,Le petit Lord Fauntleroy,Little Lord Fauntleroy,1980,1980-12-01,103,,{gb}
@@ -1500,13 +1500,13 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 39222,Le Baiser du vampire,The Kiss of the Vampire,1963,1963-09-11,89,,{gb}
 39263,La Momie sanglante,Blood from the Mummy's Tomb,1971,1971-06-16,94,138965,{gb}
 39382,Ivanhoe,,1982,1982-02-23,137,,{gb}
-39385,La Vérité si je mens !,La Vérité si je mens !,1997,1997-04-01,100,115840,{fr}
+39385,La Vérité si je mens !,,1997,1997-04-01,100,115840,{fr}
 39973,La Montagne du dieu cannibale,La montagna del dio cannibale,1978,1978-07-12,99,,{it}
-39978,Le Jumeau,Le Jumeau,1984,1984-10-10,108,,{fr}
+39978,Le Jumeau,,1984,1984-10-10,108,,{fr}
 40047,Le Roman d'Elvis,Elvis,1979,1979-02-10,150,,{us}
 40054,Je suis timide mais je me soigne,Je suis timide... mais je me soigne,1978,1978-08-23,88,,{fr}
 40055,Le Grand Pardon,,1982,1982-01-27,130,547875,{fr}
-40057,Le Grand Pardon II,Le Grand Pardon II,1992,1992-12-09,127,547875,{fr}
+40057,Le Grand Pardon II,,1992,1992-12-09,127,547875,{fr}
 40075,Ator l'invincible,Ator l'invincibile,1982,1982-10-07,98,48194,{it}
 40213,L'Auberge du dragon,新龍門客棧,1992,1992-08-22,103,,{hk}
 40411,Hold-up,,1985,1985-10-23,114,,"{ca,fr}"
@@ -1520,7 +1520,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 41003,La Fièvre d'Aimer,White Palace,1990,1990-10-19,103,,{us}
 41263,La loi du campus,The Brotherhood of Justice,1986,1986-05-18,97,,{us}
 41402,Laisse-moi entrer,Let Me In,2010,2010-10-01,116,,"{gb,us}"
-41470,Tais-toi quand tu parles,Tais-toi quand tu parles,1981,1981-09-02,85,,"{fr,it}"
+41470,Tais-toi quand tu parles,,1981,1981-09-02,85,,"{fr,it}"
 41589,La mère idéale,Trading Mom,1994,1994-03-04,82,,{us}
 41857,Bandolero!,,1968,1968-06-01,106,,{us}
 41946,Le Retour des Mousquetaires,The Return of the Musketeers,1989,1989-04-12,102,87631,"{fr,es,gb}"
@@ -1532,28 +1532,28 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 42264,Smile,,1975,1975-07-09,113,,{us}
 42287,Il était une fois en Chine 5 : Dr Wong et les Pirates,黃飛鴻之五龍城殲霸,1994,1994-11-17,101,10457,{hk}
 42394,Pinot simple flic,,1984,1984-06-06,85,,{fr}
-42466,Scream Blacula Scream,Scream Blacula Scream,1973,1973-06-27,96,201930,{us}
-42473,Tom Sawyer,Tom Sawyer,1973,1973-03-15,103,1188146,{us}
+42466,Scream Blacula Scream,,1973,1973-06-27,96,201930,{us}
+42473,Tom Sawyer,,1973,1973-03-15,103,1188146,{us}
 42703,La Route de l'ouest,The Way West,1967,1967-05-24,122,,{us}
 42744,Le Knack... et comment l'avoir,The Knack... and How to Get It,1965,1965-05-01,85,,{gb}
 42791,Les jeux de l'amour et de la guerre,The Americanization of Emily,1964,1964-10-27,115,,{us}
 42801,"Hier, aujourd'hui et demain","Ieri, oggi, domani",1963,1963-12-21,118,,"{fr,it}"
-42818,Marius,Marius,1931,1931-10-09,130,156152,{fr}
-43146,Fanny,Fanny,1932,1932-10-27,125,156152,{fr}
-43153,Regain,Regain,1937,1937-10-28,120,,{fr}
-43844,La Femme du boulanger,La Femme du boulanger,1938,1938-09-07,130,,{fr}
-43873,César,César,1936,1936-01-01,135,156152,{fr}
-43900,Angèle,Angèle,1934,1934-10-26,150,,{fr}
+42818,Marius,,1931,1931-10-09,130,156152,{fr}
+43146,Fanny,,1932,1932-10-27,125,156152,{fr}
+43153,Regain,,1937,1937-10-28,120,,{fr}
+43844,La Femme du boulanger,,1938,1938-09-07,130,,{fr}
+43873,César,,1936,1936-01-01,135,156152,{fr}
+43900,Angèle,,1934,1934-10-26,150,,{fr}
 44326,Extremities,,1986,1986-08-22,89,,{us}
-44446,Angélique et le Sultan,Angélique et le Sultan,1968,1968-03-13,93,91813,"{fr,it,de}"
-44448,Indomptable Angélique,Indomptable Angélique,1967,1967-01-01,85,91813,"{fr,de,it}"
-44450,"Angélique, marquise des anges","Angélique, marquise des anges",1964,1964-12-08,112,91813,"{fr,it,de}"
-44453,Merveilleuse Angélique,Merveilleuse Angélique,1965,1965-07-07,105,91813,"{fr,it,de}"
-44617,Arlette,Arlette,1997,1997-04-16,100,,{fr}
-44706,Le Pari,Le Pari,1997,1997-10-15,97,,{fr}
+44446,Angélique et le Sultan,,1968,1968-03-13,93,91813,"{fr,it,de}"
+44448,Indomptable Angélique,,1967,1967-01-01,85,91813,"{fr,de,it}"
+44450,"Angélique, marquise des anges",,1964,1964-12-08,112,91813,"{fr,it,de}"
+44453,Merveilleuse Angélique,,1965,1965-07-07,105,91813,"{fr,it,de}"
+44617,Arlette,,1997,1997-04-16,100,,{fr}
+44706,Le Pari,,1997,1997-10-15,97,,{fr}
 44772,No Small Affair,,1984,1984-11-09,102,,{us}
 44826,Hugo Cabret,Hugo,2011,2011-11-22,126,,"{fr,gb,us}"
-45134,Plus beau que moi tu meurs,Plus beau que moi tu meurs,1982,1982-11-10,105,,{fr}
+45134,Plus beau que moi tu meurs,,1982,1982-11-10,105,,{fr}
 45225,Un Scenario en or,The Big Picture,1989,1989-09-15,100,,{us}
 46443,"Django, prépare ton cercueil !",Preparati la bara!,1968,1968-01-27,92,,{it}
 46655,Le Petit Baigneur,,1968,1968-03-22,96,,"{fr,it}"
@@ -1562,8 +1562,8 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 47045,Touche pas à ma fille,She's Out of Control,1989,1989-04-14,94,,{us}
 47504,Little Odessa,,1994,1994-10-28,94,,{us}
 47942,Le Jour de la fin du monde,When Time Ran Out...,1980,1980-03-28,121,,{us}
-47943,"Harry, un ami qui vous veut du bien","Harry, un ami qui vous veut du bien",2000,2000-08-15,117,,{fr}
-48377,Le Déménagement,Le Déménagement,1997,1997-02-02,90,,{fr}
+47943,"Harry, un ami qui vous veut du bien",,2000,2000-08-15,117,,{fr}
+48377,Le Déménagement,,1997,1997-02-02,90,,{fr}
 48457,Platoon Leader,,1988,1988-10-01,97,,{us}
 48769,Papy fait de la résistance,,1983,1983-10-26,106,,{fr}
 49051,Le Hobbit : Un voyage inattendu,The Hobbit: An Unexpected Journey,2012,2012-12-12,169,121938,"{nz,us}"
@@ -1573,79 +1573,79 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 49849,Cowboys & Envahisseurs,Cowboys & Aliens,2011,2011-07-29,118,,"{in,us}"
 50012,King Lear,,1987,1987-09-15,90,,{us}
 50114,Tyson,,1995,1995-04-29,110,,{us}
-50211,Scout toujours…,Scout toujours…,1985,1985-11-27,98,,{fr}
+50211,Scout toujours…,,1985,1985-11-27,98,,{fr}
 50435,Bilitis,,1977,1977-03-16,95,,{fr}
 50627,The King of Marvin Gardens,,1972,1972-10-12,103,,{us}
 50796,Chouans !,Chouans!,1988,1988-03-23,143,,{fr}
 51191,Les Anges gardiens,,1995,1995-10-11,107,,{fr}
-51196,La Vengeance d'une blonde,La Vengeance d'une blonde,1994,1994-01-26,95,,{fr}
+51196,La Vengeance d'une blonde,,1994,1994-01-26,95,,{fr}
 51257,Les Frères Pétard,Les frères Pétard,1986,1986-10-15,90,,{fr}
 51763,La Liberté Au Bout Du Chemin,The Long Walk Home,1990,1990-12-21,94,,{us}
 51857,Cría cuervos,,1976,1976-06-03,105,,{es}
-51861,Jet Set,Jet Set,2000,2000-06-14,101,666934,"{es,fr}"
+51861,Jet Set,,2000,2000-06-14,101,666934,"{es,fr}"
 51925,Les Sous-doués en vacances,Les Sous-Doués En Vacances,1982,1982-03-10,95,215293,{fr}
 51980,Germinal,,1993,1993-09-29,160,,"{be,fr,it}"
 51992,And Soon the Darkness,,1970,1970-09-10,99,,"{fr,gb}"
 52315,Chained Heat - Enchaînées,Chained Heat 2,1993,1993-08-25,99,643572,"{ca,cz}"
 52316,Il était une fois en Chine 4 : La Danse du dragon,黃飛鴻之四王者之風,1993,1993-06-10,104,10457,{hk}
-52557,Banzaï,Banzaï,1983,1983-03-23,102,,{fr}
+52557,Banzaï,,1983,1983-03-23,102,,{fr}
 52657,American Warrior II: Le Chasseur,Avenging Force,1986,1986-12-31,100,,{us}
 52744,Falling in Love,,1984,1984-11-21,111,,{us}
 52868,House IV,,1992,1992-01-21,94,102782,{us}
-52877,"C'est pas moi, c'est lui","C'est pas moi, c'est lui",1980,1980-01-23,105,,{fr}
-52998,El Dorado,El Dorado,1988,1988-04-20,149,,"{fr,it,es}"
-53009,Ils sont fous ces sorciers,Ils sont fous ces sorciers,1978,1978-06-28,92,,{fr}
+52877,"C'est pas moi, c'est lui",,1980,1980-01-23,105,,{fr}
+52998,El Dorado,,1988,1988-04-20,149,,"{fr,it,es}"
+53009,Ils sont fous ces sorciers,,1978,1978-06-28,92,,{fr}
 53179,Le Maître d'école,,1981,1981-10-28,95,,{fr}
-53357,Descente aux enfers,Descente aux enfers,1986,1986-11-06,85,,{fr}
+53357,Descente aux enfers,,1986,1986-11-06,85,,{fr}
 54160,Les Évadés de l'espace,宇宙からのメッセージ,1978,1978-04-29,105,,{jp}
-54471,Le Jaguar,Le Jaguar,1996,1996-10-09,100,,{fr}
+54471,Le Jaguar,,1996,1996-10-09,100,,{fr}
 55377,Amityville IV : La Maison du diable,Amityville: The Evil Escapes,1989,1989-05-12,95,397842,{us}
 55976,Marche à l'ombre,,1984,1984-10-17,90,,{fr}
 56520,Tandem,,1987,1987-06-17,91,,{fr}
 56583,Le Saint de Manhattan,The Saint of Fort Washington,1993,1993-11-03,108,,{us}
-56589,La 7ème Compagnie au clair de lune,La 7ème Compagnie au clair de lune,1977,1977-12-07,78,93287,{fr}
+56589,La 7ème Compagnie au clair de lune,,1977,1977-12-07,78,93287,{fr}
 57158,Le Hobbit : La Désolation de Smaug,The Hobbit: The Desolation of Smaug,2013,2013-12-11,161,121938,"{nz,us}"
-57308,P.R.O.F.S.,P.R.O.F.S.,1985,1985-09-18,95,,{fr}
-57944,Profil Bas,Profil Bas,1993,1993-12-08,109,,{fr}
+57308,P.R.O.F.S.,,1985,1985-09-18,95,,{fr}
+57944,Profil Bas,,1993,1993-12-08,109,,{fr}
 58545,La Plus Belle Soirée de ma vie,La più bella serata della mia vita,1972,1972-12-22,125,,"{fr,it}"
 58694,Adieu poulet,,1975,1975-12-10,91,,{fr}
-58734,Shaolin Dolemite,Shaolin Dolemite,1999,1999-01-01,104,405256,"{tw,us}"
-58736,La Vache et le Prisonnier,La Vache et le Prisonnier,1959,1959-12-16,119,,"{fr,it}"
+58734,Shaolin Dolemite,,1999,1999-01-01,104,405256,"{tw,us}"
+58736,La Vache et le Prisonnier,,1959,1959-12-16,119,,"{fr,it}"
 59059,Le Passage,,1986,1986-12-03,80,,{fr}
-59161,Le téléphone sonne toujours deux fois,Le téléphone sonne toujours deux fois,1985,1985-01-23,90,,{fr}
-59237,Des pissenlits par la racine,Des pissenlits par la racine,1964,1964-05-06,95,,"{fr,it}"
-59434,Le cave se rebiffe,Le cave se rebiffe,1961,1961-09-27,98,,"{fr,it}"
-59455,Pour 100 briques t'as plus rien !,Pour 100 briques t'as plus rien !,1982,1982-05-12,82,,{fr}
+59161,Le téléphone sonne toujours deux fois,,1985,1985-01-23,90,,{fr}
+59237,Des pissenlits par la racine,,1964,1964-05-06,95,,"{fr,it}"
+59434,Le cave se rebiffe,,1961,1961-09-27,98,,"{fr,it}"
+59455,Pour 100 briques t'as plus rien !,,1982,1982-05-12,82,,{fr}
 60041,Sur la route de Nairobi,White Mischief,1987,1987-11-10,107,,{gb}
 60175,Les Sous-doués,Les sous-doués,1980,1980-04-30,88,215293,{fr}
-60670,Les Rivières pourpres,Les Rivières pourpres,2000,2000-09-27,105,3963,{fr}
-60744,Tout doit disparaître,Tout doit disparaître,1997,1997-01-22,100,,{fr}
+60670,Les Rivières pourpres,,2000,2000-09-27,105,3963,{fr}
+60744,Tout doit disparaître,,1997,1997-01-22,100,,{fr}
 60797,Le Grand Chemin,,1987,1987-03-25,103,,{fr}
 61225,Gentleman Babe,The Babe,1992,1992-04-17,115,,{us}
 61226,L'Incorrigible,,1975,1975-10-15,95,,{fr}
-61243,On a volé la cuisse de Jupiter,On a volé la cuisse de Jupiter,1980,1980-02-06,102,159742,{fr}
-61405,Quasimodo d'el Paris,Quasimodo d'el Paris,1999,1999-03-24,110,,{fr}
+61243,On a volé la cuisse de Jupiter,,1980,1980-02-06,102,159742,{fr}
+61405,Quasimodo d'el Paris,,1999,1999-03-24,110,,{fr}
 61685,Marie-poupée,,1976,1976-08-25,120,,{fr}
 61755,Les Guerriers du Bronx,1990: I guerrieri del Bronx,1982,1982-08-22,92,324371,{it}
 61791,La Planète des singes : Les Origines,Rise of the Planet of the Apes,2011,2011-08-03,120,173710,"{gb,us}"
-61991,L'Effrontée,L'Effrontée,1985,1985-12-11,96,,{fr}
-62087,La Maison assassinée,La Maison assassinée,1988,1988-02-01,110,,{fr}
-62134,Paparazzi,Paparazzi,1998,1998-04-29,109,,{fr}
+61991,L'Effrontée,,1985,1985-12-11,96,,{fr}
+62087,La Maison assassinée,,1988,1988-02-01,110,,{fr}
+62134,Paparazzi,,1998,1998-04-29,109,,{fr}
 62204,La Guerre du feu,,1981,1981-12-16,96,,"{ca,fr,us}"
 62611,The Cool Surface,,1994,1994-04-05,88,,{us}
-62822,L'Extraterrestre,L'Extraterrestre,1999,1999-10-13,93,,{fr}
-63150,Neuf mois,Neuf mois,1994,1994-02-02,109,,{fr}
-63231,Laisse béton,Laisse béton,1984,1984-03-14,88,,"{dz,fr}"
+62822,L'Extraterrestre,,1999,1999-10-13,93,,{fr}
+63150,Neuf mois,,1994,1994-02-02,109,,{fr}
+63231,Laisse béton,,1984,1984-03-14,88,,"{dz,fr}"
 63481,Calmos,,1976,1976-02-11,97,,{fr}
-63657,Black Mic Mac,Black Mic Mac,1986,1986-04-23,93,,{fr}
-64080,Association de malfaiteurs,"",1987,1987-02-11,103,,{fr}
-64239,Kamikaze,Kamikaze,1986,1986-12-10,90,,{fr}
-64340,Un amour de sorcière,Un amour de sorcière,1997,1997-03-19,102,,{fr}
-64686,47 Ronin,47 Ronin,2013,2013-12-06,119,732461,"{jp,us,gb}"
+63657,Black Mic Mac,,1986,1986-04-23,93,,{fr}
+64080,Association de malfaiteurs,,1987,1987-02-11,103,,{fr}
+64239,Kamikaze,,1986,1986-12-10,90,,{fr}
+64340,Un amour de sorcière,,1997,1997-03-19,102,,{fr}
+64686,47 Ronin,,2013,2013-12-06,119,732461,"{jp,us,gb}"
 65449,Le Fils de Gascogne,,1995,1995-02-18,106,,{fr}
-65703,Manon des sources,Manon des sources,1952,1952-12-16,123,1222571,{fr}
-66540,Ali Baba et les Quarante Voleurs,Ali Baba et les Quarante Voleurs,1954,1954-12-24,92,,{fr}
-66635,L'Union sacrée,L'Union sacrée,1989,1989-03-15,122,,{fr}
+65703,Manon des sources,,1952,1952-12-16,123,1222571,{fr}
+66540,Ali Baba et les Quarante Voleurs,,1954,1954-12-24,92,,{fr}
+66635,L'Union sacrée,,1989,1989-03-15,122,,{fr}
 67221,Atomic Cyborg,Vendetta dal futuro,1986,1986-03-26,94,,{it}
 67342,Mr Vampire,殭屍先生,1985,1985-11-07,96,1274215,{hk}
 67343,Le retour de Mr Vampire,殭屍家族,1986,1986-08-15,89,1274215,{hk}
@@ -1655,99 +1655,99 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 67540,Si Versailles m'était conté...,Si Versailles m'était conté,1954,1954-02-10,165,,"{fr,it}"
 67657,Armaguedon,,1977,1977-03-16,95,,"{fr,it}"
 67717,Hard Bounty,,1995,1995-06-01,88,,{}
-67753,Le Schpountz,Le Schpountz,1938,1938-04-15,160,,{fr}
+67753,Le Schpountz,,1938,1938-04-15,160,,{fr}
 67754,Les vécés étaient fermés de l’intérieur,Les vécés étaient fermés de l'intérieur,1976,1976-01-07,74,,{fr}
-67757,Le Boulanger de Valorgue,Le Boulanger de Valorgue,1953,1953-02-27,103,,"{fr,it}"
+67757,Le Boulanger de Valorgue,,1953,1953-02-27,103,,"{fr,it}"
 68864,L'Agression,,1975,1975-04-16,101,,"{fr,it}"
-68946,La Smala,La Smala,1984,1984-08-29,90,,{fr}
+68946,La Smala,,1984,1984-08-29,90,,{fr}
 69044,"Viens chez moi, j’habite chez une copine",,1981,1981-01-25,85,,{fr}
 69056,Breathing Fire,,1991,1991-09-25,84,,{us}
 70160,Hunger Games,The Hunger Games,2012,2012-03-12,142,131635,{us}
-70440,Crésus,Crésus,1960,1960-09-21,100,,{fr}
+70440,Crésus,,1960,1960-09-21,100,,{fr}
 70530,Histoire de fantômes chinois,倩女幽魂,2011,2011-04-21,100,,"{hk,cn}"
 70555,Le Tombeau hindou,Das indische Grabmal,1959,1959-03-05,102,378025,"{fr,de,it}"
-70981,Prometheus,Prometheus,2012,2012-05-30,124,135416,"{gb,us}"
+70981,Prometheus,,2012,2012-05-30,124,135416,"{gb,us}"
 71055,L'Africain,L'africain,1983,1983-10-22,101,,{fr}
 71373,Black Rainbow,,1989,1989-12-05,103,,{gb}
-71630,Le Ruffian,Le Ruffian,1983,1983-01-12,105,,"{ca,fr}"
-72243,On n'est pas sorti de l'auberge,On n'est pas sorti de l'auberge,1982,1982-09-08,100,,{fr}
+71630,Le Ruffian,,1983,1983-01-12,105,,"{ca,fr}"
+72243,On n'est pas sorti de l'auberge,,1982,1982-09-08,100,,{fr}
 72449,Opération clandestine,The Carey Treatment,1972,1972-03-29,101,,{us}
 72664,Les Morfalous,,1984,1984-03-28,106,,{fr}
-72833,On peut toujours rêver,On peut toujours rêver,1991,1991-02-16,90,,{fr}
-73057,Quatre garçons pleins d'avenir,Quatre garçons pleins d'avenir,1997,1997-08-06,90,,{fr}
-73283,Transfer,Transfer,2010,2010-09-23,91,,{de}
+72833,On peut toujours rêver,,1991,1991-02-16,90,,{fr}
+73057,Quatre garçons pleins d'avenir,,1997,1997-08-06,90,,{fr}
+73283,Transfer,,2010,2010-09-23,91,,{de}
 74080,Le Grand Embouteillage,L'ingorgo,1979,1979-01-12,107,,"{fr,de,it,es}"
 74747,La Malédiction Céleste,The Curse,1987,1987-09-11,92,744915,"{it,us}"
-74765,Le Grand Chef,Le Grand Chef,1959,1959-03-20,89,,"{fr,it}"
+74765,Le Grand Chef,,1959,1959-03-20,89,,"{fr,it}"
 74767,Les Grandes gueules,,1965,1965-10-22,125,,"{fr,it}"
-74878,La Métamorphose des cloportes,La Métamorphose des cloportes,1965,1965-10-01,95,,"{fr,it}"
+74878,La Métamorphose des cloportes,,1965,1965-10-01,95,,"{fr,it}"
 76128,La Vie dissolue de Gérard Floque,,1987,1987-01-14,85,,{fr}
 76163,Expendables 2 : Unité spéciale,The Expendables 2,2012,2012-08-08,102,126125,"{bg,us}"
-76198,La Gifle,La Gifle,1974,1974-10-23,100,,"{it,fr}"
-76203,12 Years a Slave,12 Years a Slave,2013,2013-10-18,134,,"{us,gb}"
-76217,Rue barbare,Rue barbare,1984,1984-01-04,107,,{fr}
-76454,Pétrole ! Pétrole !,Pétrole ! Pétrole !,1981,1981-01-01,83,,{fr}
-76597,K,K,1997,1997-08-27,135,,{fr}
-77673,La Vengeance du serpent à plumes,La Vengeance du serpent à plumes,1984,1984-11-28,104,,{fr}
-77729,Lévy et Goliath,Lévy et Goliath,1987,1987-01-27,105,,{fr}
-78032,Pour Sacha,Pour Sacha,1991,1991-04-10,114,,{fr}
-78159,La Cage aux folles III - « Elles » se marient,La Cage aux folles III - « Elles » se marient,1985,1985-11-20,87,239968,"{fr,it}"
-78264,L'Ordinateur des pompes funèbres,L'Ordinateur des pompes funèbres,1976,1976-04-07,75,,"{fr,it}"
-78409,Circulez y a rien à voir !,,1983,1983-04-20,90,,{fr}
+76198,La Gifle,,1974,1974-10-23,100,,"{it,fr}"
+76203,12 Years a Slave,,2013,2013-10-18,134,,"{us,gb}"
+76217,Rue barbare,,1984,1984-01-04,107,,{fr}
+76454,Pétrole ! Pétrole !,,1981,1981-01-01,83,,{fr}
+76597,K,,1997,1997-08-27,135,,{fr}
+77673,La Vengeance du serpent à plumes,,1984,1984-11-28,104,,{fr}
+77729,Lévy et Goliath,,1987,1987-01-27,105,,{fr}
+78032,Pour Sacha,,1991,1991-04-10,114,,{fr}
+78159,La Cage aux folles III - « Elles » se marient,,1985,1985-11-20,87,239968,"{fr,it}"
+78264,L'Ordinateur des pompes funèbres,,1976,1976-04-07,75,,"{fr,it}"
+78409,Circulez y a rien à voir !,Circulez y a rien à voir!,1983,1983-04-20,90,,{fr}
 78830,Ma femme s'appelle reviens,,1982,1982-01-27,85,,{fr}
-79245,Deuxième vie,Deuxième vie,2000,2000-10-25,100,,{fr}
+79245,Deuxième vie,,2000,2000-10-25,100,,{fr}
 79756,Signes extérieurs de richesse,,1983,1983-11-09,92,,{fr}
 80274,La Stratégie Ender,Ender's Game,2013,2013-10-24,114,,{us}
-80543,Sois belle et tais-toi,Sois belle et tais-toi,1958,1958-05-07,110,,{fr}
-80559,Delta Force Commando II: Priority Red One,Delta Force Commando II: Priority Red One,1990,1990-11-17,100,1054183,{it}
-81024,Les hommes préfèrent les grosses,Les hommes préfèrent les grosses,1981,1981-08-19,86,,{fr}
-81122,Twist Again à Moscou,,1986,1986-10-22,89,,{fr}
+80543,Sois belle et tais-toi,,1958,1958-05-07,110,,{fr}
+80559,Delta Force Commando II: Priority Red One,,1990,1990-11-17,100,1054183,{it}
+81024,Les hommes préfèrent les grosses,,1981,1981-08-19,86,,{fr}
+81122,Twist Again à Moscou,Twist again à Moscou,1986,1986-10-22,89,,{fr}
 82175,L'Hôtel de la plage,,1978,1978-01-11,90,,{fr}
 83105,La Race des Champions,The Boy in Blue,1986,1986-01-17,100,,{ca}
 83223,Les rats de Manhattan,Rats - Notte di terrore,1984,1984-12-05,97,,{it}
 83356,Orgie satanique,Devils of Darkness,1965,1965-05-01,88,,{gb}
-83542,Cloud Atlas,Cloud Atlas,2012,2012-10-26,172,,"{de,us}"
-84009,Le Clone,Le Clone,1998,1998-06-17,90,,{}
-84017,Le Facteur de Saint-Tropez,Le Facteur de Saint-Tropez,1985,1985-07-31,90,,{fr}
+83542,Cloud Atlas,,2012,2012-10-26,172,,"{de,us}"
+84009,Le Clone,,1998,1998-06-17,90,,{}
+84017,Le Facteur de Saint-Tropez,,1985,1985-07-31,90,,{fr}
 84630,Héros d'Apocalypse,L'ultimo cacciatore,1980,1980-08-09,96,783802,{it}
-84644,Le Cousin,Le Cousin,1997,1997-12-10,112,,{fr}
-84875,La Fille du puisatier,La Fille du puisatier,1940,1940-12-20,171,,{fr}
+84644,Le Cousin,,1997,1997-12-10,112,,{fr}
+84875,La Fille du puisatier,,1940,1940-12-20,171,,{fr}
 85483,La Chose,Something Evil,1972,1972-01-21,73,,{us}
 86194,L'enfer des mandingos,Drum,1976,1976-07-30,110,535270,{us}
-86404,La Balance,La Balance,1982,1982-11-10,102,,{fr}
+86404,La Balance,,1982,1982-11-10,102,,{fr}
 87119,La leggenda del rubino malese,,1985,1985-08-01,95,,{it}
 87337,Delta Force Commando,,1988,1988-04-09,89,1054183,{us}
 87736,Black Cobra,Cobra nero,1987,1987-12-18,85,463165,"{us,it}"
-87774,Bucktown,Bucktown,1975,1975-07-02,94,,{us}
+87774,Bucktown,,1975,1975-07-02,94,,{us}
 87777,The Black Cobra 2,,1989,1989-12-16,94,463165,"{it,us}"
 87779,Black Cobra 3,The Black Cobra 3 (Manila Connection),1990,1990-01-06,92,463165,{it}
 89921,Vivre pour survivre,,1984,1984-07-05,98,,"{fr,tr,gb}"
 90736,Invasion Earth: The Aliens Are Here,,1988,1988-08-22,82,,{}
-91131,Les Sœurs Soleil,Les Sœurs Soleil,1997,1997-04-02,0,,{fr}
-91136,Mon curé chez les nudistes,Mon curé chez les nudistes,1982,1982-07-28,83,,{fr}
+91131,Les Sœurs Soleil,,1997,1997-04-02,0,,{fr}
+91136,Mon curé chez les nudistes,,1982,1982-07-28,83,,{fr}
 92371,Shadowchaser,Project: Shadowchaser,1992,1992-07-02,97,721992,"{ca,us}"
-93289,Mais où est donc passée la 7ème compagnie ?,Mais où est donc passée la 7ème compagnie ?,1973,1973-05-24,91,93287,{fr}
-96492,La légion saute sur Kolwezi,La légion saute sur Kolwezi,1980,1980-01-09,96,,{fr}
+93289,Mais où est donc passée la 7ème compagnie ?,,1973,1973-05-24,91,93287,{fr}
+96492,La légion saute sur Kolwezi,,1980,1980-01-09,96,,{fr}
 97105,Amblin',,1968,1968-12-18,26,,{us}
-100075,Les 2 papas et la maman,Les 2 papas et la maman,1996,1996-04-24,85,,{fr}
+100075,Les 2 papas et la maman,,1996,1996-04-24,85,,{fr}
 101299,Hunger Games : L'Embrasement,The Hunger Games: Catching Fire,2013,2013-11-15,146,131635,{us}
-103029,Hercule et Sherlock,Hercule et Sherlock,1996,1996-12-04,95,,{fr}
-104499,Moi y'en a vouloir des sous,Moi y'en a vouloir des sous,1973,1973-02-01,110,,{fr}
+103029,Hercule et Sherlock,,1996,1996-12-04,95,,{fr}
+104499,Moi y'en a vouloir des sous,,1973,1973-02-01,110,,{fr}
 105596,Les Trois Mousquetaires (1ère époque) Les Ferrets de la Reine,,1961,1961-10-04,102,105597,"{fr,it}"
 106517,Jail House Eros,監獄不設防,1989,1989-12-07,84,,{}
 106968,The Road Killers,,1994,1994-05-07,89,,{us}
 108807,True Grit : A Further Adventure,True Grit: A Further Adventure,1978,1978-05-19,93,584320,{us}
 110415,Snowpiercer : Le Transperceneige,Snowpiercer,2013,2013-08-01,126,,"{cz,kr}"
-111005,Tenue correcte exigée,Tenue correcte exigée,1997,1997-03-21,93,,{fr}
-111475,Atout cœur à Tokyo pour OSS 117,Atout cœur à Tokyo pour OSS 117,1966,1966-10-28,101,183680,"{fr,it}"
-111480,Furia à Bahia pour OSS 117,Furia à Bahia pour OSS 117,1965,1965-07-02,103,183680,"{fr,it}"
-114646,Les Ringards,Les Ringards,1978,1978-09-27,95,,{}
-115082,Banco à Bangkok pour OSS 117,Banco à Bangkok pour OSS 117,1964,1964-06-12,118,183680,"{fr,it}"
+111005,Tenue correcte exigée,,1997,1997-03-21,93,,{fr}
+111475,Atout cœur à Tokyo pour OSS 117,,1966,1966-10-28,101,183680,"{fr,it}"
+111480,Furia à Bahia pour OSS 117,,1965,1965-07-02,103,183680,"{fr,it}"
+114646,Les Ringards,,1978,1978-09-27,95,,{}
+115082,Banco à Bangkok pour OSS 117,,1964,1964-06-12,118,183680,"{fr,it}"
 116215,Royce,,1994,1994-08-31,98,,"{gb,us}"
 119450,La Planète des singes : L'Affrontement,Dawn of the Planet of the Apes,2014,2014-07-08,131,173710,"{gb,us}"
-120467,The Grand Budapest Hotel,The Grand Budapest Hotel,2014,2014-02-26,100,,"{de,us}"
+120467,The Grand Budapest Hotel,,2014,2014-02-26,100,,"{de,us}"
 120910,Les Keufs,Les keufs,1987,1987-12-16,93,,{fr}
-121208,Galia,Galia,1966,1966-01-26,105,,"{fr,it}"
+121208,Galia,,1966,1966-01-26,105,,"{fr,it}"
 122832,Mission vers l'enfer,Tornado,1983,1983-01-01,93,,{it}
 122917,Le Hobbit : La Bataille des cinq armées,The Hobbit: The Battle of the Five Armies,2014,2014-12-10,144,121938,"{nz,us}"
 126889,Alien : Covenant,Alien: Covenant,2017,2017-05-09,122,135416,"{gb,us}"
@@ -1759,71 +1759,71 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 132363,Le Majordome,The Butler,2013,2013-08-16,132,,{us}
 132369,Invasion extra-terrestre,The Arrival,1991,1991-01-01,103,,{us}
 133805,"Carrie, la vengeance",Carrie,2013,2013-10-16,100,,{us}
-134240,Le Léopard,Le Léopard,1984,1984-03-14,96,,{fr}
+134240,Le Léopard,,1984,1984-03-14,96,,{fr}
 138103,Expendables 3,The Expendables 3,2014,2014-08-07,126,126125,"{bg,fr,us}"
-138659,Les Braqueuses,Les Braqueuses,1994,1994-06-22,90,,{fr}
-139874,Elles n'oublient jamais,Elles n'oublient jamais,1994,1994-04-13,107,,{fr}
-148077,Lieksa!,Lieksa!,2007,2007-09-14,95,,{fi}
-150736,Recto/Verso,Recto/Verso,1999,1999-06-16,85,,{fr}
+138659,Les Braqueuses,,1994,1994-06-22,90,,{fr}
+139874,Elles n'oublient jamais,,1994,1994-04-13,107,,{fr}
+148077,Lieksa!,,2007,2007-09-14,95,,{fi}
+150736,Recto/Verso,,1999,1999-06-16,85,,{fr}
 150839,Commando Leopard,Kommando Leopard,1985,1985-10-24,103,,"{it,de,ch}"
-151992,Secret Places,Secret Places,1984,1984-05-11,98,,{gb}
-152018,Naïs,Naïs,1945,1945-11-17,117,,{fr}
-156273,"Belles, blondes et bronzées","Belles, blondes et bronzées",1981,1981-09-23,84,,"{de,fr,es}"
+151992,Secret Places,,1984,1984-05-11,98,,{gb}
+152018,Naïs,,1945,1945-11-17,117,,{fr}
+156273,"Belles, blondes et bronzées",,1981,1981-09-23,84,,"{de,fr,es}"
 157350,Divergente,Divergent,2014,2014-03-14,140,283579,{us}
 159704,La Princesse rebelle,Fantaghirò,1991,1991-12-22,110,173738,{it}
 160211,Citizen Steve,,1987,1987-01-01,24,,{us}
 160879,Zorn,,1994,1994-08-19,166,,"{fi,se,no}"
 161371,Par où t'es rentré ? On t'a pas vu sortir,Par où t'es rentré? On t'a pas vu sortir,1984,1984-11-18,90,,{}
-163879,OSS 117 se déchaîne,OSS 117 se déchaîne,1963,1963-06-18,110,183680,"{fr,it}"
-164126,Le Zèbre,Le Zèbre,1992,1992-06-16,95,,{fr}
+163879,OSS 117 se déchaîne,,1963,1963-06-18,110,183680,"{fr,it}"
+164126,Le Zèbre,,1992,1992-06-16,95,,{fr}
 169009,Bridge to Terabithia,,1985,1985-02-04,60,,{ca}
 169946,Pas de roses pour OSS 117,Niente rose per OSS 117,1968,1968-07-27,105,183680,"{fr,it}"
 170592,Vampire Bride,花嫁吸血魔,1960,1960-08-27,80,,{jp}
-172825,La Vouivre,La Vouivre,1989,1989-01-11,102,,{fr}
+172825,La Vouivre,,1989,1989-01-11,102,,{fr}
 173727,La sorcière noire,Fantaghirò 2,1992,1992-12-20,200,173738,{it}
 173731,La Reine des ténèbres,Fantaghirò 3,1993,1993-12-20,200,173738,{it}
 173736,L'Empereur du mal,Fantaghirò 4,1994,1994-12-19,200,173738,{it}
 173737,Le Retour de Fantagaro,Fantaghirò 5,1996,1996-12-20,200,173738,{it}
-178297,Tête à claques,Tête à claques,1982,1982-02-17,92,,{}
+178297,Tête à claques,,1982,1982-02-17,92,,{}
 179538,Les Sorcières de Zugarramurdi,Las brujas de Zugarramurdi,2013,2013-09-20,112,,"{es,fr}"
-181886,Enemy,Enemy,2014,2014-03-14,91,,"{ca,fr,es}"
-187856,Le Fou du labo 4,Le Fou du labo 4,1967,1967-11-29,90,,{fr}
-188987,Le caïd,Le caïd,1960,1960-05-31,92,,{fr}
-190417,Polar,Polar,1984,1984-03-21,97,,{fr}
-197537,La Machine,La Machine,1994,1994-05-28,96,,"{fr,de}"
+181886,Enemy,,2014,2014-03-14,91,,"{ca,fr,es}"
+187856,Le Fou du labo 4,,1967,1967-11-29,90,,{fr}
+188987,Le caïd,,1960,1960-05-31,92,,{fr}
+190417,Polar,,1984,1984-03-21,97,,{fr}
+197537,La Machine,,1994,1994-05-28,96,,"{fr,de}"
 200450,Rain Without Thunder,,1993,1993-02-05,85,,{}
 203833,La voleuse de livres,The Book Thief,2013,2013-11-08,131,,"{de,us}"
 214884,Betrayal of the Dove,,1993,1993-06-02,93,,{us}
 216791,Deadly Heroes,,1993,1993-10-01,105,,{us}
-217807,On se calme et on boit frais à Saint-Tropez,On se calme et on boit frais à Saint-Tropez,1987,1987-01-28,84,1245618,{fr}
+217807,On se calme et on boit frais à Saint-Tropez,,1987,1987-01-28,84,1245618,{fr}
 219841,"Chasseurs de loups, chasseurs d'or",Warrior Spirit,1994,1994-01-07,94,,{}
-220474,Deux Enfoirés à Saint-Tropez,Deux Enfoirés à Saint-Tropez,1986,1986-03-11,87,1245618,{fr}
+220474,Deux Enfoirés à Saint-Tropez,,1986,1986-03-11,87,1245618,{fr}
 222054,Les Aventures du Jeune Indiana Jones : L'Attaque des Hommes Faucons,The Adventures of Young Indiana Jones: Attack of the Hawkmen,1995,1995-10-08,96,,{us}
-222268,Les Branchés à Saint-Tropez,Les Branchés à Saint-Tropez,1983,1983-09-27,85,1245618,{fr}
-222270,Mieux vaut être riche et bien portant que fauché et mal foutu,Mieux vaut être riche et bien portant que fauché et mal foutu,1980,1980-10-29,90,1241873,"{de,fr,es}"
-227468,Mon curé chez les Thaïlandaises,Mon curé chez les Thaïlandaises,1983,1983-07-13,95,,{fr}
-242248,Un été d'enfer,Un été d'enfer,1984,1984-04-17,104,,{fr}
-243101,Le Permis de conduire,Le Permis de conduire,1974,1974-04-30,90,,"{fr,it}"
-248390,Le Crocodile du Botswanga,Le Crocodile du Botswanga,2014,2014-02-19,90,,{fr}
+222268,Les Branchés à Saint-Tropez,,1983,1983-09-27,85,1245618,{fr}
+222270,Mieux vaut être riche et bien portant que fauché et mal foutu,,1980,1980-10-29,90,1241873,"{de,fr,es}"
+227468,Mon curé chez les Thaïlandaises,,1983,1983-07-13,95,,{fr}
+242248,Un été d'enfer,,1984,1984-04-17,104,,{fr}
+243101,Le Permis de conduire,,1974,1974-04-30,90,,"{fr,it}"
+248390,Le Crocodile du Botswanga,,2014,2014-02-19,90,,{fr}
 250634,Les Longs Manteaux,,1986,1986-02-19,106,,"{fr,ar}"
-255473,Ronde de nuit,Ronde de nuit,1984,1984-01-11,95,,{}
+255473,Ronde de nuit,,1984,1984-01-11,95,,{}
 259530,Entre la mer et l'eau douce,,1967,1967-08-12,85,,{ca}
 262500,Divergente 2 : L'Insurrection,Insurgent,2015,2015-03-18,119,283579,"{ca,us}"
 262504,Divergente 3 : Au-delà du mur,Allegiant,2016,2016-03-09,121,283579,{us}
 263341,Tigre et Dragon 2,"Crouching Tiger, Hidden Dragon: Sword of Destiny",2016,2016-02-18,100,290973,{cn}
-270447,Les Fauves,Les Fauves,1984,1984-04-18,90,,{fr}
+270447,Les Fauves,,1984,1984-04-18,90,,{fr}
 271559,Devarim,Zihron Devarim,1995,1995-01-01,113,,"{fr,il,it}"
 281338,La Planète des singes : Suprématie,War for the Planet of the Apes,2017,2017-07-11,142,173710,{us}
 283366,Miss Peregrine et les enfants particuliers,Miss Peregrine's Home for Peculiar Children,2016,2016-09-27,127,,"{be,gb,us}"
 299054,Expendables 4,Expend4bles,2023,2023-09-15,103,126125,"{bg,fr,us}"
 299687,La 5ème Vague,The 5th Wave,2016,2016-01-14,113,,{us}
-301054,Retenez-moi... ou je fais un malheur !,Retenez-moi... ou je fais un malheur !,1984,1984-10-31,90,,{fr}
-302750,The Dolemite Explosion,The Dolemite Explosion,2002,2002-05-17,76,405256,{us}
+301054,Retenez-moi... ou je fais un malheur !,,1984,1984-10-31,90,,{fr}
+302750,The Dolemite Explosion,,2002,2002-05-17,76,405256,{us}
 304322,"Debout les crabes, la mer monte !",,1983,1983-08-17,90,,{}
-315837,Ghost in the Shell,Ghost in the Shell,2017,2017-03-29,107,,"{cn,hk,in,us}"
-323373,Deathgasm,Deathgasm,2015,2015-08-28,86,1375932,{nz}
-335984,Blade Runner 2049,Blade Runner 2049,2017,2017-10-04,164,422837,"{ca,gb,us}"
-338703,Charité biz'ness,Charité biz'ness,1998,1998-08-26,85,,{fr}
+315837,Ghost in the Shell,,2017,2017-03-29,107,,"{cn,hk,in,us}"
+323373,Deathgasm,,2015,2015-08-28,86,1375932,{nz}
+335984,Blade Runner 2049,,2017,2017-10-04,164,422837,"{ca,gb,us}"
+338703,Charité biz'ness,,1998,1998-08-26,85,,{fr}
 338730,Le Psychopathe,Mind Games,1989,1989-03-03,93,,{us}
 345666,Sam Raimi Early Shorts,,1985,1985-01-01,157,,{us}
 346672,Underworld : Blood Wars,Underworld: Blood Wars,2016,2016-11-24,93,2326,{us}
@@ -1833,34 +1833,34 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 385871,Passenger,パッセンジャー　過ぎ去りし日々,1987,1987-10-03,131,,{jp}
 396535,Dernier train pour Busan,부산행,2016,2016-07-20,118,619537,{kr}
 399579,Alita : Battle Angel,Alita: Battle Angel,2019,2019-01-31,122,,{us}
-401306,On a retrouvé la 7ème compagnie,On a retrouvé la 7ème compagnie,1975,1975-12-10,80,93287,{fr}
+401306,On a retrouvé la 7ème compagnie,,1975,1975-12-10,80,93287,{fr}
 401544,La course à la mort de l'an 2050,Death Race 2050,2017,2017-01-17,89,434533,{us}
-406298,Dans la forêt,Dans la forêt,2016,2016-10-05,103,,"{fr,se}"
-419430,Get Out,Get Out,2017,2017-02-24,104,,{us}
-427809,L'émir préfère les blondes,L'émir préfère les blondes,1983,1983-05-01,90,,{fr}
+406298,Dans la forêt,,2016,2016-10-05,103,,"{fr,se}"
+419430,Get Out,,2017,2017-02-24,104,,{us}
+427809,L'émir préfère les blondes,,1983,1983-05-01,90,,{fr}
 427910,Navy Seals : Les Meilleurs,Navy Seals,1990,1990-07-20,108,,{us}
-435126,Perfectos desconocidos,Perfectos desconocidos,2017,2017-12-01,99,,"{it,es}"
+435126,Perfectos desconocidos,,2017,2017-12-01,99,,"{it,es}"
 438631,Dune : Première partie,Dune,2021,2021-09-15,155,726871,{us}
-452604,The Canadian Conspiracy,"",1985,1985-01-01,70,,{}
-466420,Killers of the Flower Moon,Killers of the Flower Moon,2023,2023-10-18,206,,{us}
+452604,The Canadian Conspiracy,,1985,1985-01-01,70,,{}
+466420,Killers of the Flower Moon,,2023,2023-10-18,206,,{us}
 467660,Paranoïa,Unsane,2018,2018-02-21,97,,{us}
-471506,Greta,Greta,2019,2019-02-28,98,,"{hk,ie,kr,us}"
-483404,Fantôme sur l'oreiller,Fantôme sur l'oreiller,1989,1989-12-30,90,,{}
+471506,Greta,,2019,2019-02-28,98,,"{hk,ie,kr,us}"
+483404,Fantôme sur l'oreiller,,1989,1989-12-30,90,,{}
 517839,Border,Gräns,2018,2018-09-27,108,,"{dk,se}"
-571940,Bingo!,Bingo!,1998,1998-06-24,87,,{fr}
-577242,Kaamelott - Premier volet,Kaamelott - Premier volet,2021,2021-07-21,120,1076903,{fr}
-604563,OSS 117 : Alerte rouge en Afrique noire,OSS 117 : Alerte rouge en Afrique noire,2021,2021-08-04,116,91588,{fr}
+571940,Bingo!,,1998,1998-06-24,87,,{fr}
+577242,Kaamelott - Premier volet,,2021,2021-07-21,120,1076903,{fr}
+604563,OSS 117 : Alerte rouge en Afrique noire,,2021,2021-08-04,116,91588,{fr}
 653346,La Planète des singes : Le Nouveau Royaume,Kingdom of the Planet of the Apes,2024,2024-05-08,145,173710,{us}
 657343,The Evil Inside Me,,1993,1993-01-01,90,,{us}
-675327,Shadow in the Cloud,Shadow in the Cloud,2020,2020-12-31,83,,"{nz,us}"
+675327,Shadow in the Cloud,,2020,2020-12-31,83,,"{nz,us}"
 693134,Dune : Deuxième partie,Dune: Part Two,2024,2024-02-27,165,726871,{us}
 792307,Pauvres créatures,Poor Things,2023,2023-12-07,141,,"{ie,gb,us}"
-945961,Alien: Romulus,Alien: Romulus,2024,2024-08-14,119,1434946,{us}
+945961,Alien: Romulus,,2024,2024-08-14,119,1434946,{us}
 958940,The Case of the Topanga Pearl,,1976,1976-01-01,6,,{}
-1034751,Vampiras: The Brides,Vampiras: The Brides,2024,2024-02-07,90,,"{es,us}"
-1076897,Kaamelott - Deuxième volet (première partie),Kaamelott - Deuxième volet (première partie),2025,2025-12-10,139,1076903,{fr}
-1076902,Kaamelott - Deuxième volet (deuxième partie),Kaamelott - Deuxième volet (deuxième partie),2026,2026-04-11,0,1076903,{fr}
+1034751,Vampiras: The Brides,,2024,2024-02-07,90,,"{es,us}"
+1076897,Kaamelott - Deuxième volet (première partie),,2025,2025-12-10,139,1076903,{fr}
+1076902,Kaamelott - Deuxième volet (deuxième partie),,2026,2026-04-11,0,1076903,{fr}
 1112679,The Making of 'They Live',,1988,1988-01-01,9,,{us}
-1126692,Ni chaînes ni maîtres,Ni chaînes ni maîtres,2024,2024-09-18,97,,{fr}
+1126692,Ni chaînes ni maîtres,,2024,2024-09-18,97,,{fr}
 1170608,Dune : Troisième partie,Dune: Part Three,2026,2026-12-16,0,726871,{us}
-1177529,Deathgasm 2: Goremageddon,Deathgasm 2: Goremageddon,2025,2025-09-21,102,1375932,"{nz,ca}"
+1177529,Deathgasm 2: Goremageddon,,2025,2025-09-21,102,1375932,"{nz,ca}"

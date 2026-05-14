@@ -478,8 +478,11 @@ grant usage on sequence public.adherent_id_seq to cocagne;
 
 comment on column adherent.depot_id is 'Dépôt préféré.';
 
---create index idx_adherent_lower
---on adherent (lower(adherent));
+-- ----------
+-- Adhérents : colonne pour la recherche textuelle
+
+alter table adherent
+add column _adherent text;
 
 create or replace function norm(text)
 returns text
@@ -489,9 +492,26 @@ as $$
   select unaccent(lower($1))
 $$;
 
+create or replace function adherent_search_text_trigger()
+returns trigger
+language plpgsql
+as $$
+begin
+  new._adherent := norm(new.adherent);
+  return new;
+end;
+$$;
+
+create trigger trg_adherent_search_text
+before insert or update of adherent
+on adherent
+for each row
+execute function adherent_search_text_trigger();
+
 create index idx_adherent_search
 on adherent
-using gin (norm(adherent)) gin_trgm_ops);
+using gin (_adherent gin_trgm_ops);
+-- ----------
 
 create or replace view stats.adherents with (security_invoker=on) as
 select count(a.*) as nb_adherents

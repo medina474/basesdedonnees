@@ -39,6 +39,7 @@ create extension if not exists btree_gist schema extensions;
 
 create extension if not exists pg_trgm;
 create extension if not exists unaccent;
+create extension if not exists citext;
 
 create extension if not exists anon schema extensions;
 -- Importe un jeu de données par defaut (iban, nom, ville, etc.).dans les tables du schéma anon.
@@ -50,6 +51,14 @@ create schema if not exists stats authorization pg_database_owner;
 create schema if not exists tests authorization pg_database_owner;
 
 set role cocagne;
+
+create or replace function norm(text)
+returns text
+language sql
+stable
+as $$
+  select unaccent(lower($1))
+$$;
 
 create table "user"
 (
@@ -118,10 +127,10 @@ insert into tncc values
 create table country
 (
   code text primary key,
-  country text not null,
+  country citext not null,
   tncc_id smallint references tncc,
   flag text,
-  long text,
+  long citext,
   intracommunity boolean not null default false,
   sepa boolean not null default false,
   phonecode smallint
@@ -130,6 +139,33 @@ create table country
 -- pour la pagination
 create index idx_country_country_code
   on country(country, code);
+
+-- ----------
+-- Adhérents : colonne pour la recherche textuelle
+
+alter table country
+add column _country text;
+
+create or replace function country_search_text_trigger()
+returns trigger
+language plpgsql
+as $$
+begin
+  new._country := concat(norm(new.country), ' ', norm(new.long));
+  return new;
+end;
+$$;
+
+create trigger trg_country_search_text
+before insert or update of country
+on country
+for each row
+execute function country_search_text_trigger();
+
+create index idx_country_search
+on country
+using gin (_country gin_trgm_ops);
+-- ----------
 
 -- Régions
 
@@ -483,14 +519,6 @@ comment on column adherent.depot_id is 'Dépôt préféré.';
 
 alter table adherent
 add column _adherent text;
-
-create or replace function norm(text)
-returns text
-language sql
-immutable
-as $$
-  select unaccent(lower($1))
-$$;
 
 create or replace function adherent_search_text_trigger()
 returns trigger

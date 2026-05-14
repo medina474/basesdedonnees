@@ -16,7 +16,8 @@ create schema extensions authorization pg_database_owner;
 
 create extension postgis schema extensions;
 
-create extension fuzzystrmatch schema extensions;
+create extension if not exists fuzzystrmatch schema extensions;
+create extension if not exists unaccent;
 
 set role cinema;
 

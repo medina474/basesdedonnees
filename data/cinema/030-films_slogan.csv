@@ -7,6 +7,7 @@ film_id,slogan
 63,L’avenir appartient à l’histoire.
 75,Sympa ta planète… on la prend !
 78,L’homme en a fait son égal… maintenant c’est son problème.
+79,La force d'un homme unira un empire.
 85,Indiana Jones - le nouveau héros des créateurs des DENTS DE LA MER et de la GUERRE DES ETOILES.
 87,"Depuis « Les Aventuriers de l’arche perdue », l’aventure a un nom : Indiana Jones."
 88,On laisse pas bébé dans un coin
@@ -16,6 +17,7 @@ film_id,slogan
 97,"Un monde à l'intérieur de l'ordinateur où l'homme n'a jamais été, jusqu'à maintenant."
 101,"Si vous voulez un travail bien fait, faites appel à un professionnel."
 103,"Il est un homme oublié, solitaire et désespéré de prouver qu'il est vivant."
+104,"Elle a 20 minutes pour trouver 100.000 Marks, et sauver l'homme de sa vie"
 105,"Jamais à temps à l’école, jamais à temps à la maison, un jour il se retrouve complètement hors du temps…"
 106,"Il est le chasseur, Schwarzenegger est sa proie !"
 111,Il voulait vivre le rêve américain. Jusqu'au bout.
@@ -23,8 +25,11 @@ film_id,slogan
 115,Ils l’ont pris pour un bon à rien… Ils auraient dû se méfier !
 117,Al Capone : Il dirige Chicago avec un pouvoir absolu. Personne ne peut le toucher. Personne ne peut l’arrêter.
 120,Le périple de Frodon commence…
+121,L'aventure continue…
+122,L'aventure s'achève.
 123,Fantasy...beyond your imagination
 137,"Prisonnier du temps, il revit tous les jours le même jour, jusqu'au plus beau jour de sa vie."
+146,L’histoire intemporelle de deux guerriers qui ne se rendent jamais.
 150,Un flic. Un taulard. Pas de pitié.
 162,Il ne connaît que l’innocence. Elle ne voit que la beauté.
 165,Le retour n'était que le début.
@@ -57,6 +62,7 @@ film_id,slogan
 280,C'est rien de personnel.
 281,Nouvel An 1999. Tout est possible. Rien n'est interdit.
 287,"Une femme, un homme et leur sport favori …"
+296,Les machines se soulèveront.
 306,C'est l'enquête de sa vie !
 311,"Enfants, ils se sont dit qu'ils mourraient l'un pour l'autre. Adultes, ils l'ont fait."
 319,Qui a dit que le romantisme était mort ?
@@ -81,7 +87,9 @@ film_id,slogan
 468,"Où que vous soyez, passez une bonne journée."
 475,Ils sont jeunes … ils s'aiment … ils vivent dangereusement …
 476,"Sooner or later, someone will pay the price."
+482,La mafia voulait récupérer Harlem. Ils ont eu Shaft... face à eux.
 483,A wild and crazy love story.
+497,Il ne croyait pas aux miracles. Jusqu’à l’arrivée de ce prisonnier.
 500,Qui les a balancé ?
 505,"They changed his looks, his life and his future... but they couldn't change his past ."
 509,La plus grande des stars peut-elle tomber amoureuse de monsieur Tout-le-monde ?
@@ -100,6 +108,8 @@ film_id,slogan
 579,La terrible menace rôde encore… et frappe !
 580,Du plus profond la terreur refait surface.
 581,Le lieutenant John Dunbar est sur ​​le point de découvrir la frontière… avec lui-même.
+590,Trois femmes à la recherche du bonheur.
+591,"Chercher la vérité, chercher les codes."
 592,Harry Caul est le meilleur pour s'introduire dans votre vie privée.
 595,L'histoire d'un père qui doit exposer ses enfants aux passions outrées d'une petite ville… et ne peut les protéger que par son amour.
 599,Elle a acheté un jeune homme pour satisfaire ses désirs de femme mature
@@ -130,6 +140,7 @@ film_id,slogan
 657,James Bond 007 est de retour !
 658,James Bond de nouveau en action !
 660,Le devoir l'appelle encore.
+664,Le côté sombre de la nature.
 667,"Bienvenue au Japon, Monsieur Bond."
 671,Un voyage au‐delà de votre imagination.
 672,Quelque chose de maléfique est de retour à Poudlard !
@@ -154,13 +165,18 @@ film_id,slogan
 744,"Là-haut avec les meilleurs, parmi les meilleurs."
 745,"Voir, Gouter, Entendre, Toucher, Sentir… Trembler."
 746,Il restera à jamais comme... Le Dernier Empereur
+752,Liberté ! Toujours !
+754,Pour le neutraliser il doit devenir celui qu’il traque.
 760,THE WILD... THE HILARIOUS... THE SCREWBALL... THE RIOTOUS
 761," Moi, je nourris des millions de personnes. Et demain, je nourrirais peut-être la terre entière ! Simplement, naturellement. "" (Jacques Tricatel)"
 764,L’expérience ultime de la terreur
 767,De sombres secrets dévoilés
 769,Trente ans passés dans la Mafia
+771,"Pour Noël, ses parents et la famille sont partis à Paris, ils ont oublié un détail à la maison... leur fils, Kevin !"
 772,Devinez qui va se retrouver tout seul à New York pour Noël ?
+773,Une famille au bord de la crise de nerfs.
 782,"Un seul critère de sélection, la perfection génétique."
+786,Les tribulations d'une groupie.
 788,Jamais un père n'avait été aussi proche de ses enfants !
 790,Derrière la brume… l'horreur !
 792,L’innocence est la première victime de la guerre.
@@ -168,6 +184,7 @@ film_id,slogan
 805,Ce n'est pas ce que vous croyez…
 807,Sept péchés capitaux. Sept façon de mourir.
 813,"Dieu merci, ce n'est qu'un film !"
+814,Attention à la lune.
 819,Quatre amis font une erreur qui peut changer leur vie pour toujours.
 820,Il est prêt à risquer tout ce qu'il a de plus cher pour ce qu'il a de plus sacré...  La vérité.
 826,Soyez heureux dans votre travail...
@@ -188,6 +205,8 @@ film_id,slogan
 861,"They stole his mind, now he wants it back."
 865,Il court contre la mort…
 867,"Vous aimez être voyeur, n'est-ce pas ?"
+869,Vous serez désolé d'être né humain.
+871,"Quelque part dans l'Univers, il doit y avoir mieux que l'Homme !"
 873,C'est la vie. C'est l'amour. Il s'agit de nous.
 874,...a motion picture for all times!
 879,Et si Peter Pan avait grandi ?
@@ -203,6 +222,7 @@ film_id,slogan
 928,"Souvenez-vous, on vous avait prévenus ! Mais vous n'avez pas écouté..."
 931,Faites passer l'avertissement.
 935,Comment j'ai appris à ne plus m'en faire et à aimer la bombe.
+936,Elle vous en fera voir de toutes les couleurs
 938,L'homme sans nom est de retour.
 941,"Deux flics, Glover a une arme, Gibson est une arme."
 942,Retour d'un duo de choc !
@@ -214,6 +234,7 @@ film_id,slogan
 968,Tout peut arriver pendant les canicules de l'été.
 987,Ils feraient n'importe quoi pour une histoire… et le feraient.
 988,Il est parfois trop tard pour dire la vérité.
+990,Ils l'appelaient Fast Eddie. C'était un gagnant. C'était un perdant. C'était un arnaqueur.
 991,"Power, space, time and a visitor."
 994,Sometimes a man is forced to defend his honor.
 1051,Il n'y a pas de règles ni de limites pour Popeye !
@@ -245,12 +266,16 @@ film_id,slogan
 1572,Il y a des jours comme ça…
 1573,Et on dit que la foudre ne tombe jamais deux fois au même endroit ! ?
 1578,Vous ne nous avez jamais laissé tomber.
+1584,We don’t need no education
+1592,"En matière de justice, l'important n'est pas d'avoir tort ou raison. C'est de gagner. À tout prix."
 1598,Le passé revient les hanter.
 1607,"Seul contre la mafia, il veut sauver son fils."
 1621,"Comment, pour un dollar, jouer le mendiant à la hausse et le PDG à la baisse?"
 1632,1964. Quand l'Amérique était en guerre contre elle-même.
 1634,L'histoire d'une amitié extraordinaire
 1637,Passez à la vitesse maxi.
+1639,"Plus les enjeux sont importants, plus la course est rapide."
+1642,"Pas de permis de conduire, pas de cartes de crédit, pas de passeport, pas d'accès à ses comptes bancaires dans un pays étranger ... Elle se fait voler son identité."
 1648,L'histoire est sur le point d'être réécrite par deux gars qui ne savent pas épeler.
 1654,Entraînez-les ! Excitez-les ! Armez-les ! … Puis lâchez-les sur les Nazis !
 1662,… where crime is a family affair.
@@ -289,6 +314,7 @@ film_id,slogan
 2108,Une seule rencontre suffit pour changer leur vie.
 2116,Comment résoudre un crime quand tout vous accuse ?
 2119,On ne peut pas aller plus vite que le tonnerre.
+2124,Cinq suspects. Deux amants. Un tueur.
 2148,C'était l'ère du jazz. C'était une ère d'élégance et de violence. L'action était le jeu. Les enjeux étaient la vie et la mort.
 2153,"Pour briser le chauffeur, le flic était prêt à enfreindre la loi."
 2161,Vivez une aventure hors du commun... à l'intérieur du corps humain.
@@ -301,6 +327,7 @@ film_id,slogan
 2321,C'est sa famille... Qu'elle le veuille ou non.
 2322,"Un fugitif, un cambrioleur, un délinquant, un espion, un génie du piratage et un professeur de piano…"
 2323,"Si vous croyez à l'impossible, l'incroyable peut se réaliser."
+2362,Un monde où rien ne peut aller de travers
 2453,Quand les choses deviennent difficiles... les durs prennent la loi en main
 2457,"""Paris est tout petit pour ceux qui s'aiment comme nous d'un aussi si grand amour"" (Garance)"
 2459,Ils sont inséparables pour le meilleur et pour le pire !
@@ -323,12 +350,14 @@ film_id,slogan
 2640,"Best friends, social trends, and occasional murder."
 2649,Prenez-vous au jeu !
 2655,"Un couple uni, une maison de rêve, une vie sans histoire..."
+2666,Un monde où la nuit ne finit jamais.
 2668,Des têtes vont tomber.
 2669,"200 ans après, enfin la vérité."
 2756,Quand la lumière disparaît… l'aventure commence.
 2758,Le cercle de la famille s’agrandit. Pour le pire et pour le pire.
 2768,He's the highest paid lover in Beverly Hills. He leaves women feeling more alive than they've ever felt before. Except one.
 2788,Une vision de la réalité de la génération X
+2898,"Courage, voici Melvin."
 2907,Délirant. Décapant. Décoiffant.
 2924,Un souffle d'oxygène et il vous explose à la figure.
 2926,...Un pour tous et tous pour le plaisir !
@@ -346,12 +375,14 @@ film_id,slogan
 3512,Un train pris en otage. Deux villes américaines menacées de destruction nucléaire. Un seul homme peut barrer la voie.
 3525,Quand les femmes s'en mêlent.
 3536,Retenez votre souffle !
+3580,"Pour retrouver son fils, elle a fait ce que personne n'a osé."
 3591,Voyagez à travers le temps et l'espace jusqu'aux confins des débuts de l'homme... découvrez un monde sauvage dont la seule loi était la luxure !
 3604,Il nous sauvera tous !
 3870,"Du berceau à la tombe, victimes de l'histoire et du changement !"
 3980,The battle began in another galaxy. It's about to end in the Brown's backyard.
 4011,Comptez sur lui pour vous empoisonner la mort
 4032,"Quand votre père est croque-mort, que votre mère est au paradis et que votre grand-mère a un problème... il est bon d'avoir un ami qui vous comprend. Même si c'est un garçon."
+4034,Regardez ce qu'on appelle une semaine tranquille à Rio !
 4043,"An Outrageously Funny Tale of Lust, Passion and Jealousy!"
 4104,Une romance au bord de la réalité.
 4105,"Un flic américain au Japon. Leur pays, leurs lois, leur jeu, ses règles."
@@ -359,6 +390,8 @@ film_id,slogan
 4193,"Bonnes vacances, chez Hercule Poirot !…"
 4203,A comedy about someone you know.
 4235,Derrière chaque arme se trouve «Le Clan des Siciliens»!
+4271,Ces deux familles n'auraient jamais du se rencontrer !
+4327,Ça va chauffer !
 4437,La plus grande aventure jamais tentée : découvrir si la vie existe au-delà des étoiles...
 4476,"Après la chute de l'Innocence, la légende commence."
 4477,"Quand deux amis sont confrontés à l'impitoyable vérité , commence une lutte à mort."
@@ -384,11 +417,13 @@ film_id,slogan
 5549,Il est de retour pour protéger les innocents.
 5902,Out of the sky comes the screen's most incredible spectacle of men and war!
 5919,Le plus grand building au monde est en feu. Vous êtes au 135e étage. Aucun moyen de descendre. Aucun moyen de sortir.
+5923,"L'histoire héroïque des hommes de l'USS San Pablo, qui a dérangé le dragon endormi de la Chine sauvage pendant que le reste du monde retenait son souffle."
 5924,Papillon retrace le destin véridique de Henri Charrière
 5925,Mettez une clôture devant ces hommes… et ils l'escaladeront !
 5968,He's head over heels and headed straight for trouble!
 5971,Escaped convicts disguised as priests. It'll take a miracle to get away with this one.
 6028,"Mirror, mirror on the wall, who is the murderer among them all?"
+6037,"Lorsque les plus grands détectives du monde dînent ensemble, ils découvre..."
 6068,"Après une semaine au paradis, ils auront besoin de vacances."
 6069,Trois belles femmes. Un diable chanceux.
 6075,On n'échappe pas à son passé.
@@ -398,13 +433,18 @@ film_id,slogan
 6341,Il est là…
 6399,Jamais une chasse au trésor n’aura été aussi amusante !
 6404,Nosferatu...he who is doomed to wander alone in darkness. Nosferatu...he who is condemned to destroy even those whom he loves. Nosferatu...a tale of seduction in the dark night of the soul.
+6444,Vous ne la connaissez pas encore mais elle vous déteste déjà.
 6471,A rags to riches to rags story.
 6474,La vengeance de Navajo cingle ... brûle ... ravage l'écran!
 6488,"Huit pattes, deux crochets et un très mauvais caractère."
 6520,Son courage et sa loyauté étaient légendaires. L'amour sera sa plus grande épreuve.
+6538,Basé sur une histoire vraie. Vous pensez qu'on pourrait inventer tout ça ?
 6620,...the chauffeur's daughter who learned her stuff in Paris
 6644,C'est le grand avec les deux grands !
+6917,Il existe une porte derrière laquelle les démons attendent... Quelqu'un l'a ouverte
 6950,Cet animal est porteur d'un virus mortel... le plus grand fléau de l'histoire s'annonce.
+6964,Le plus veinard des enfoirés qui s'attend à tout... Sauf à elle
+6977,Aucune chance d'en sortir indemne.
 6978,Certaines personnes choisissent les pires endroits pour commencer un combat !
 7007,"Un choc entre l'Est et l'Ouest. Une bataille entre la tradition et le pouvoir. Les affaires, c'est la guerre."
 7091,Séduction. Romance. Meurtre. Les choses que l'on fait par amour.
@@ -426,14 +466,18 @@ film_id,slogan
 8130,Une vie si scandaleuse qu'il faut deux femmes pour l'assumer !
 8217,A younger man and a bolder woman
 8337,You see them on the street. You watch them on TV. You think they're people just like you. You're wrong. Dead wrong.
+8358,"À l’autre bout de la terre, son voyage commence."
 8367,"Parfois, la seule façon de faire respecter la justice... est d'enfreindre la loi."
+8398,Ne prenez jamais des inconnus.
 8428,TALK HARD. STEAL THE AIR.
 8446,Every year brings a great movie. Every decade a great movie musical!
 8467,"Ce que le premier n'a pas, l'autre en manque"
+8469,Nous pouvons faire tout ce que nous voulons. Nous sommes étudiants !
 8491,"Bernie may be dead, but he's still the life of the party!"
 8536,L’aventure continue…
 8592,Leur terrain. Leur jeu. Leurs règles. Ils ne comptaient pas sur SA loi...
 8665,Fate has found its hero.
+8690,Aucune chance de survie
 8736,"Prononcer ""DIQUENÈQUE"""
 8764,Ne le dites à personne.
 8810,Un seul homme peut faire la différence.
@@ -451,7 +495,10 @@ film_id,slogan
 8987,Les vacances sont finies !
 9037,C'est sympa
 9040,Un policier incorruptible… est un danger pour les autres policiers.
+9048,La bataille finale entre Dieu et le mal.
+9050,La saga ultime des fantômes continue...
 9051,A temptingly tasteful comedy for adults who can count.
+9056,"Vous connaissez peut-être le nom, mais le jeu a changé."
 9061,"Sauver un innocent ou libérer un tueur, il n'a pas droit à l'erreur."
 9064,Time to play.
 9079,Elle lui a donné le plus important : une raison de vivre
@@ -459,6 +506,7 @@ film_id,slogan
 9087,Pourquoi l'homme le plus puissant du monde ne peut-il pas avoir ce qu'il veut le plus ?
 9089,Tout le monde n'a pas la chance d'être orphelin
 9090,La nouvelle Drag Queen attitude.
+9102,"En 2078, le danger peut avoir tous les visages."
 9208,Préparez-vous à être soufflés.
 9264,"Ce que veut Ivy, Ivy l'obtient."
 9271,"Il a été conçu par SID 6.7, la terrifiante machine à tuer."
@@ -501,12 +549,14 @@ film_id,slogan
 9479,Son plus beau rêve sera votre pire cauchemar.
 9481,Une seule façon de voir. Une seule façon de penser. Une seule façon d'agir. Ne faire qu'un avant la prochaine victime.
 9482,Il est la loi.
+9489,Ils se détestent dans la vie... Ils s'aiment sur Internet.
 9491,Être une femme  n'empêche pas de passer à l'action
 9493,Seule leur mère peut les différencier.
 9494,"Non seulement il parle, mais en plus il dit ce qu'il pense."
 9495,Parfois un corbeau ramène l'âme pour qu'elle rétablisse le bien.
 9507,C'EST LE FUTUR. Les machines sont programmées pour se retourner contre nous. Quelqu'un doit arrêter le fou qui a tout déclenché.
 9531,Superman contre le roi du crime informatisé !
+9533,"Pour comprendre le mal, il faut retourner à ses origines."
 9538,"10 seconde, la douleur commence. 15 secondes, vous ne pouvez plus respirer. 20 secondes, vous explosez."
 9542,The terror starts the moment he stops.
 9545,Un tir. Un tué. Aucune exception
@@ -544,6 +594,8 @@ film_id,slogan
 9710,Le retour d'Allan Quatermain
 9717,It's about staying alive.
 9739,"Dans le futur, il n'y a pas de place pour les deux."
+9740,Le silence est rompu…
+9741,Êtes-vous prêt à entendre la vérité ?
 9748,"Someone poisoned Dexter Cornell. He's got to find out who. He's got to find out why. He's got to find out now. In 24 hours, he'll be Dead On Arrival."
 9749,Le seul type qui change d'identité plus souvent que de chemise.
 9754,Rien n'est plus dangereux qu'un homme qui n'a rien à perdre.
@@ -558,18 +610,24 @@ film_id,slogan
 9876,"Elle a fait la lessive, nettoyé les vitres et frotté le parquet. Maintenant elle va s'attaquer aux rues de Los Angeles."
 9882,Un ennemi qu'ils ne peuvent pas voir. Une nation en état de siège. Une crise qu'ils ne peuvent pas contrôler.
 9886,Les données les plus chaudes sur terre. Dans la tête la plus froide de la ville.
+9922,"2013. Dans un monde plongé dans le chaos, surgit un nouvel héros."
 9930,Sa cliente est une affaire.
 9941,See what happens when a dirty bum meets the filthy rich.
 9942,Ils n'avaient rien à perdre. ... Et ils ont tout gagné !
 9944,"Contre la CIA et le FBI, une seule femme a le courage de parler."
+9952,Une histoire vraie de survie… déclassifiée.
 9967,Sept hommes avec une chose en commun...
 9972,Que peut subir un homme... avant de se venger ?
 10003,Ne révélez jamais votre nom. Ne tournez jamais le dos. N'abandonnez jamais votre cœur.
 10013,"Ce soir elle retourne dans le temps avec une chance de changer son destin. Si c’était à refaire, le referiez-vous ?"
 10014,L'homme de vos rêves est de retour
+10017,L'arme ultime venue du futur
 10019,"Quand elle prend vie, tout peut arriver!"
 10021,There's no such thing as an overnight success. Brantley Foster took two weeks.
+10023,"""Juste les faits."""
 10057,Un pour tous et tous pour un !
+10061,Personne n'a jamais pu s'échapper vivant de Los Angeles. Jusqu'à présent…
+10065,Ce qui est arrivé au cours des ces 28 jours n'a jamais été expliqué.
 10068,Le plaisir n'a pas de limite
 10072,"Aux USA, 7 millions de spectateurs n'en dorment plus la nuit !"
 10083,"Crime de passion, ou trahison ?"
@@ -588,9 +646,11 @@ film_id,slogan
 10153,Il connaît vos pensées. Il connaît vos secrets. Il connaît vos peurs.
 10157,Nettoyer le quartier le plus mal famé du monde quand on est les plus mauvais policiers de la terre : où est le problème ?
 10160,Freddy delivers.
+10163,Dieu l'a rendu simple. La science a fait de lui un dieu.
 10168,"He was on his way to the Dean's List, but he wound up on the hit list."
 10169,Two garbagemen who know when something smells funny!
 10173,"C'est un très bon flic, il est de très mauvaise humeur."
+10186,Le seul espoir du groupe est un cas désespéré !
 10206,Elle sait reconnaître un gogo quand elle en voit un.
 10222,Un sport ancien devient un jeu mortel.
 10249,Un homme ordinaire devient un héros extraordinaire.
@@ -598,11 +658,14 @@ film_id,slogan
 10306,Devinez qui est de retour en ville...
 10326,"Le temps n'attend personne, mais le véritable amour attend pour toujours."
 10328,"Si vous aviez une chance de rajeunir, la laisseriez-vous passer ?"
+10331,"Si cela ne vous fait pas peur, c'est que vous êtes déjà mort!"
 10333,"Une histoire sur les souvenirs qui nous hantent, et la vérité qui nous libère"
 10337,Le charme était le déguisement.
+10341,le road movie ultime . . .
 10344,Écoutez... Vous l'entendez ?... Ça se rapproche... De plus en plus...
 10372,An adventure on a world beyond the stars.
 10377,"Vérité, Justice et la façon Gambini."
+10393,Lancer la balle. Attraper la fille. Rester simple
 10396,Un cocktail explosif.
 10403,Tout ce que vous avez entendu est vrai !
 10406,Quand l'âge de pierre rencontre l'âge du rock.
@@ -619,6 +682,7 @@ film_id,slogan
 10518,Les tentatives dangereuses d'un homme pour blanchir le nom de son père.
 10536,"Introducing the plans for a new business venture: ""The Italian Job."""
 10537,"L'histoire ultime du sexe, de la drogue et du rock 'n' roll"
+10543,Ensemble pour la vie. Sinon...
 10551,Rien de tel qu'un bon braquage pour réunir une famille !
 10552,Follow the newest cat-and-creature game as played through.
 10553,Un héros qui n'existe pas doit sauver l'Amérique d'un ennemi dont on ignorait l'existence.
@@ -627,6 +691,8 @@ film_id,slogan
 10604,"La vie, l'amour, le plaisir... Zorba !"
 10608,Votez d’abord. Posez des questions plus tard.
 10617,On n'a jamais eu autant besoin d'un héros
+10618,"En période de chaos, tant à l’intérieur qu’à l’extérieur du pays, un seul héros apparaît pour calmer la tourmente."
+10619,Un héros au dessus de tous les autres.
 10648,Un homme doit connaître ses limites.
 10651,L'inspecteur Harry vient d'apprendre un nouveau jeu.
 10655,Même pays. Même Dieu. Mais des rêves différents
@@ -636,21 +702,26 @@ film_id,slogan
 10673,Chaque rêve a son prix.
 10699,"Dans la vie chacun a droit à son heure de gloire, même Bernie Laplante."
 10714,"Un enfant abandonné, élevé dans la jungle, traqué par les hommes, capturé par amour, né pour l'aventure"
+10722,Ils vont sauver le monde... et vous le saurez à temps.
 10724,"…La plus dévastatrice des machines à tuer jamais construites… Son ""job"", la voler !"
 10729,Le vol de banque a été facile... Sortir de New York a été un cauchemar.
 10730,L'événement cinématographique original le plus passionnant de tous les temps
 10731,"Parler, c'est risquer de se faire tuer."
 10734,Personne ne s'est jamais échappé d'Alcatraz… et personne ne le fera jamais!
 10750,"Ils collectionnaient les zéros. En un jour, ils sont devenus des héros."
+10753,Le super flic frappe à nouveau
 10766,The first time was only a warning.
 10768,The power of evil is no longer in the hands of a child.
+10771,Il ne supporte pas les ennuis... Il les porte sur lui.
 10774,Television will never be the same.
 10776,A singing plant. A daring hero. A sweet girl. A demented dentist. It's the most outrageous musical comedy in years.
 10780,De l'opulence... aux haillons... à l'amour.
+10786,L'amour est la plus grande aventure de toutes.
 10798,"À plus de 30 000 pieds d’altitude, les valeurs sont les seules choses qui comptent."
 10802,Au‐delà de vos rêves les plus fous. Au‐delà de vos fantasmes les plus fous.
 10803,"La seule chose qu'on ne peut pas avoir dans le monde de Logan, c'est son 30e anniversaire. Sauf si on s'enfuit."
 10806,Une comédie renversante.
+10823,Quand les enfants sèment la terreur !
 10843,Quelle nuit de galère
 10849,She's finally met the man of her dreams. He's not real but you can't have everything.
 10859,It's a tough job but somebody's got to do it!
@@ -658,14 +729,17 @@ film_id,slogan
 10868,Etre une victime a été son seul crime.
 10890,L'histoire d'un homme qui voulait assurer la sécurité du monde pour la démocratie... et rencontrer des filles.
 10897,"Plus on est de fous, plus on rigole."
+10911,Une guerre ne se gagne qu'au prix de bien de sacrifices.
 10915,En selle ... Dans le sac ... Dans le sable
 10925,They're Back From The Grave and Ready To Party!
 10935,What one loves about life are the things that fade.
 10937,Some people never go crazy. What truly horrible lives they must lead.
 10945,C'est dangereusement drôle.
 10957,Taram parviendra‐t‐il à sauver son cochon et le monde de Prydain ?
+10974,Jackie Chan dans sa plus grande aventure !
 10998,"On the other side of drinks, dinner and a one-night stand, lies a terrifying love story."
 10999,"Peu importe, où, quand et comment, quelqu’un doit payer."
+11000,Qu'est-ce qui peut empêcher un mariage ? Les parents. Un dîner. Et une boîte appelée...
 11006,Un total manque de respect pour la loi !
 11008,Bienvenue à la maison de Payne.
 11009,Laissez-vous gagner par…
@@ -680,11 +754,13 @@ film_id,slogan
 11060,Ce flic a une arme redoutable: Vos secrets les plus intimes.
 11067,Ils sont de rerour sur le terrain ... Il va y avoir du sport !
 11074,Ils n’auraient pas dû le jeter à l’eau s’ils ne voulaient pas qu’il fasse de vague.
+11077,"Attila le Hun. Ivan le Terrible. Al Capone. Ils ont tous été là, un jour"
 11082,It was foretold there will be seven signs. The seventh sign will be a woman. Her hope is all we have left.
 11087,... est la main qui domine le monde.
 11092,Certaines personnes tueraient par amour.
 11120,Il est allé trop loin.
 11133,La lutte de la famille Freeling avec les esprits recommence...
+11134,"Il n'y a jamais de flic quand on en a besoin, mais quand ce flic est là, on n'a besoin que d'un seul."
 11153,"Comme chaque été, toute la famille part pour un petit voyage. Mais cette année, ils sont allés trop loin."
 11157,The story of the greatest evil ever known to man... His ex-wife.
 11158,FOUS RIRES garantis !
@@ -717,6 +793,7 @@ film_id,slogan
 11379,Des êtres d'une autre dimension ont envahi votre monde.
 11381,"Si au début vous ne réussissez pas, baissez vos standards."
 11393,Il a vécu pour un rêve qui ne mourrait pas.
+11400,Après ça découverte cela va tout changer
 11411,Le face à face.
 11415,"Ding dong, tu es mort."
 11422,Un bataille décisive de la guerre. Le moment décisif d'une nation.
@@ -729,15 +806,20 @@ film_id,slogan
 11484,"Dans un avenir pas trop lointain, les guerres n'existeront plus. Mais il y aura ... le jeu"
 11495,Charlie détient en elle la puissance d'une arme nucléaire...
 11498,Combien de fois peut-on mourir par amour ?
+11499,400 millions de personnes attendaient la vérité.
 11507,Vous n'en croirez pas vos yeux.
 11509,Four strangers become friends. Four friends become heroes. On the road to Silverado.
 11510,Le diable est de retour… mais il n'a encore jamais eu affaire à un exorciste comme lui !
 11519,La folie gagne Hollywood
 11522,Blane est un gars plutôt cool. Andie est jolie en rose. Et Ducky est assez fou.
+11527,"Une épée… forgée par un Dieu, ferment de l'Avenir, force vive d'un Roi."
 11541,Un amour pris dans le feu de la révolution.
 11546,"La Guerre froide était terminée, ces mecs‐là vont la réchauffer."
+11548,"Cinq personnes ordinaires avaient besoin d'un miracle. Puis une nuit, Faye Riley a laissé la fenêtre ouverte."
 11557,"L'amitié est éphémère, ne l'échangez contre rien au monde"
 11564,Classe de 1984. Est-ce l'avenir?
+11578,Attention Don Camillo revient et retrouve Peppone
+11579,Les ennemis inséparables... Encore plus ennemis !
 11583,Jamais si peu d'entre eux n'en ont pris autant.
 11584,"Roxanne dreamed of a handsome, intelligent, romantic man. C.D. Bales is two out of three—but looks aren't everything."
 11589,Ils ont entrepris de braquer une banque... et ont failli gagner une guerre à la place !
@@ -769,6 +851,7 @@ film_id,slogan
 11824,Il a toujours voulu être spécial... Mais il ne s'attendait pas à ça !
 11827,Un pas au-delà de la science-fiction
 11829,Trinita est de retour en selle et continue à se balader.
+11842,Du lointain Japon aux plaines de l'Ouest...
 11850,Watch out! They get you while you're sleeping!
 11851,Il n'a pas voulu partager l'enquête sur le meurtre. Il n'y a pas moyen qu'il partage sa fille.
 11853,C’était une période dangereuse pour être une femme. Et un bon moment pour avoir des amis.
@@ -784,7 +867,9 @@ film_id,slogan
 11890,Une comédie aux proportions criminelles.
 11893,Un train fou dans un désert glacé : Le prix de leur liberté !!!
 11896,Owen a demandé à son ami Larry une petite faveur.
+11901,Ils ne connaissaient pas son visage. Ils ne connaissaient pas son nom . Mais jamais ils n'oublieront le jour où il a débarqué en ville.
 11904,"Before a lifetime of adventure, they lived the adventure of a lifetime."
+11916,L'homme le plus meurtrier du monde… s'attaque à une armée entière avec deux canons et une poignée de dynamite !
 11943,"Ses montagnes. Son calme. Ses grandes chasses. Sa jeune épouse. Avec tout cela, tout aurait dû être différent."
 11948,"Java, 1942— A clash of cultures, a test of the human spirit."
 11950,Le pop-corn est dans le hall. Les noix sont à l’écran.
@@ -792,9 +877,11 @@ film_id,slogan
 11966,"Johnny, notre attachant robot continue ses trépidantes aventures..."
 11967,Six raisons pour lesquelles l'Ouest était si ​​sauvage.
 11969,La justice arrive.
+11972,L'histoire de deux hommes qui se détestent
 11974,Un petit chef-d'oeuvre de noirceur signée Joe Dante.
 11976,There may never be another dawn.
 11977,Là où les vantards affrontent les nullards
+11979,La mère de tous les vampires.
 11982,"Maintenant, après les bébés, les chiens ont pris la parole et font les guignols !"
 12088,On ne s'échappe pas de la forteresse
 12089,Mais qui est-il ?
@@ -811,13 +898,16 @@ film_id,slogan
 12154,"Ils changent ses couches, elle change leur vie."
 12157,"L'histoire de deux personnes qui se sont mariées, se sont rencontrées puis sont tombées amoureuses."
 12158,A comic tale of horror and seduction.
+12159,"Après la vie, il y a plus. La fin n'est que le début."
 12160,L'histoire épique de l'amour et de l'aventure dans un pays sans loi.
 12208,Casino Royale is too much for one James Bond!
 12235,"Lorsqu'une affaire de meurtre est aussi choquante, à qui faites-vous confiance ... vos émotions ou les preuves?"
 12236,La comédie parfaitement illégale qui dépasse les bornes !
+12245,Trouver une vérité unique et absolue est impossible.
 12262,Les plus chanceux meurent en premier
 12309,Une tradition masculine que chaque femme devrait connaître.
 12310,Qu'est-ce qui pourrait être mieux que Les Trois Mousquetaires ?
+12395,"Deux flics après le même tueur. Ensemble, ils doivent découvrir la vérité."
 12437,Toute guerre a une origine...
 12444,La menace est partout
 12445,L’affrontement final.
@@ -836,6 +926,7 @@ film_id,slogan
 12665,Une rencontre extraordinaire avec un autre être humain.
 12710,"Mixed up at birth, two sets of twins finally meet their match."
 12715,Une paire de chasseurs de fortune en quête d'aventures profite de l'aventure !
+12717,Retour en enfance en Provence
 12721,Pas de retraite. Pas de capitulation.
 12764,Pourquoi ?
 12775,Trahi par le pouvoir. Corrompu par l'amour. Lié par l'honneur.
@@ -861,6 +952,7 @@ film_id,slogan
 13818,Sex. Love. Marriage. Some people don't know when to quit.
 13939,Devant la carence de la police... Il fera sa loi... À sa façon
 14040,Two brothers challenge the road. And life itself.
+14208,Nouveau Continent. Nouvelle aventure. Toujours aucune idée.
 14257,"Il est l'or Monseigneur, l'or de se réveiller…"""
 14347,Elle est la fille la plus sexy de Rio ! Elle est aussi la fille de son meilleur ami !
 14362,Le métier de policier est un sale boulot... Mais il faut bien qu'on nous débarrasse des ordures.
@@ -874,6 +966,7 @@ film_id,slogan
 14621,Eastside High was out of control...until Joe Clark took it back.
 14628,When there's more trouble than one man can handle...there's more than one man for the job.
 14645,« Y'a un monsieur très mal poli qui voulait enculer Thérèse ! »
+14728,Le héros le plus improbable du monde est de retour pour sa plus grande aventure.
 14742,"Ever since two enterprising young men turned the City Morgue into a swinging business, people have been dying to get in."
 14746,Tonight is what it means to be young.
 14807,Who lit the fuse that tore Harold's world apart?
@@ -883,11 +976,14 @@ film_id,slogan
 15120,Smokey's Back! And The Bandit is at it again!
 15138,Some friends can be REAL MONSTERS. And some monsters can be REAL FRIENDS.
 15144,Les histoires pas ordinaires d'une fille ordinaire ...
+15152,J’aime me battre !
 15196,"Sept suspects, six armes, cinq cadavres et trois dénouements."
 15301,Vous voyagez dans un espace fantastique dont les seules frontières sont celles de l'imaginaire.
 15379,La guerre n'est pas terminée tant que le dernier homme n'est pas rentré.
 15383,Trahison. Fidélité. Collaboration. Résistance.
 15392,Le chemin de la gloire
+15417,Tous les coups sont permis !
+15588,Attention il revient…
 15592,Some Friendships Last Forever
 15596,"He enrolled in college for the pursuit of finer things...like co-eds, shapely professors, fun and rock and roll."
 15613,"Enlèvement extraterrestre. 5 novembre 1975. White Mountains, nord-est de l'Arizona. Basé sur une vraie histoire."
@@ -947,11 +1043,13 @@ film_id,slogan
 18395,"Pour résoudre cette affaire, ces deux flics devront flasher plus que leurs badges."
 18410,"Pour le sauver, il s'attaque à l'US Air Force !"
 18419,Tous Les Coups Sont Permis!
+18477,Ils ont encore faim...
 18835,Vous ne croirez pas ce qui se passe dans...
 18988,L'attraction de sièges réservés la plus importante de l'année !
 19086,L'unité de combat américaine est de retour en action
 19114,Elle a 15 ans. Il a 17 ans. L'amour que tous les parents redoutent.
 19123,"La malchance, ça existe."
+19185,Il y a un destin pire que la mort.
 19286,Les jeux sont faits : la vie ou la mort !
 19287,Un petit pas pour l'homme... Un grand pas de terreur.
 19345,Elle séduit... Elle tue.
@@ -967,6 +1065,7 @@ film_id,slogan
 20481,Venez rencontrer les morts de la nuit.
 20681,Cry 'Havoc!' and let slip...
 20701,Préparez-vous pour quelques histoires sordides !
+20721,Rien de plus dangereux qu'un flic en colère !
 20815,A haunting tale of sexuality in a country gone wrong.
 20858,Leur deuxième chance dans la vie pourrait bien être leur dernière !
 21219,Ils n'ont pas reçu d'ordres... Ils ont pris la relève.
@@ -974,15 +1073,21 @@ film_id,slogan
 21332,Kevin Bacon is Jack Casey. He traded in his three-piece suit for a ten-speed and the streets.
 21380,When the Creeping Dead Devour the Living Flesh!
 21484,Inhuman ecstasy fulfilled.
+21519,Une aventure passionnante sur l'ancienne côte de Chine.
+21521,Ce A est pour l'action !
 21629,Two jailbirds who just want out of the cage.
+21733,Un flic de choc
 21799,No one said surviving high school would be easy.
 21873,Terrorized in the Toilets? Chased after school? Shaken down for lunch money? GET A BODYGUARD
 21874,Si les regards pouvaient tuer...
+22021,Personne ne dort quand ils jouent avec Coffy !
 22029,Je vous salue le parrain César de Harlem!
 22160,"Parfois, l'amour est le jeu le plus dangereux."
 22183,Ravissante Angélique. Audacieuse Angélique. Merveilleuse Angélique.
 22311,"If you're a kraut, he'll take you out!"
+22578,Il n'y a qu'un seul moyen de tuer les montres : les accepter.
 22650,Don't tell the ending...nobody'll ever believe you!
+22832,"Ne craignez pas l'arme, mais la main qui la brandit."
 23330,Cable Hogue says … “Do unto others … as you would have others do unto you.”
 23483,Pas de pouvoir ? Pas de problème !
 23587,Vous n'êtes plus en sécurité ...
@@ -992,10 +1097,12 @@ film_id,slogan
 24229,Il y a plus d'une façon de tuer un homme !
 24248,L'homme de violence à la place duquel Jésus Christ est mort
 24274,Cela vous coupera le souffle. Tout court.
+24341,Elles veulent jouer avec vous
 24679,Un regard sur la vie du brillant saxophoniste Charlie Bird Parker
 24742,"Elle en pince pour vous, mais vous ne le savez pas…"
 24750,Imagine! A scientific genius named H. G. Wells stalks a criminal genius named Jack the Ripper across time itself in the most ingenious thriller of our time.
 24795,Tu dois croire !
+24808,Que donneriez-vous à un homme qui pourrait réaliser vos rêves les plus profonds?
 24825,"Dans un monde de choix, pour un homme il n'y a pas de choix. . . il doit affronter L'OCTOGONE"
 24873,"Il est de retour à New York, apportant la justice dans les rues..."
 24929,Just when you thought it was safe to be dead.
@@ -1009,6 +1116,7 @@ film_id,slogan
 25566,"C'était la meilleure des époques, c'était la pire des époques, c'était Ragtime"
 25678,The ultimate American fighting machine is back!
 25682,"Maintenant, son ennemi le plus mortel ... est le temps."
+25748,"Pour ces enfants, les adultes sont des ennemis. Qu'il faut haïr. Qu'il faut combattre. Qu'il faut tuer."
 26178,Tuez-la ou elle vous tuera...
 26185,"Le flic, personne ne peut arrêter. Même les flics."
 26263,"Cette fois, c'est la guerre !"
@@ -1025,6 +1133,8 @@ film_id,slogan
 27352,Il se bat pour tous ceux qui ne peuvent pas se défendre.
 27381,"Elle avait le visage d'un ange, le corps d'une déesse et les yeux... d'une vampire"
 27418,Un flic de Chicago des collines du Kentucky. Chasser l'assassin de son frère. À la recherche de la justice à la campagne.
+27578,Choisissez votre arme.
+27793,C'est un tout nouveau début dans l'aventure qui ne finit jamais.
 27958,Al Pacino is Cruising for a killer.
 27983,The Bride had 8 Boys and Girls. The Groom had 10 Boys and Girls. Their wedding night set new attendance records.
 28145,People are the ultimate spectacle.
@@ -1040,6 +1150,7 @@ film_id,slogan
 29154,"At a tough school, someone had to take a stand...and someone did. Together, one teacher and one class proved to America they could..."
 29355,Her dream was to coach high school football. Her nightmare was Central High.
 29805,La haute mer n'a jamais été aussi terrifiante !
+30421,Histoires de fantômes chinois
 30943,"Elle a su retrouver son fils, saura-t-elle retrouver sa famille ?"
 31052,"Jamais il n'aurait imaginé changer sa façon de vivre, de penser, de travailler."
 31121,Your hairdresser does it better.
@@ -1050,6 +1161,7 @@ film_id,slogan
 31606,He's one man racing against time to stop the most explosive conspiracy in history.
 31608,They rob banks. She steals hearts.
 31633,"Sur le point d'épouser la femme parfaite, il rencontre celle de ses rêves..."
+31638,L'aventure du Poséidon n'était pas terminée...
 31646,Tout a commencé comme des vacances
 31939,Convention outraged. A class abandoned. A country betrayed.
 31962,"Berlin 1940, il devra lui livrer son secret, elle devra lui confier sa vie"
@@ -1057,16 +1169,20 @@ film_id,slogan
 32059,Catching a serial killer takes a seriously twisted cop.
 32261,Ce serait un scandale de ne pas le voir
 32489,Julie as you love her... in the happiest motion picture hit of the year!
+33217,Un jour je serai célèbre. Mais pour l'instant je suis en 6ème…
 33258,"Plus de fun, plus de musique !"
 33278,Il n'y a personne vivant qui jouera avec la fille d'à côté.
 33357,L'Affaire Valachi.
+33360,"Entre personnes de bonne compagnie, on s'entend toujours !"
 33521,"Throughout history he has filled the hearts of men with terror, and the hearts of women with desire."
 33701,"La neige, elle est top molle ..."
 34145,Actions de Gangster Rudes
 34584,Au-delà du monde réel... Le royaume de l'imaginaire.
+34636,Commencez une toute nouvelle aventure alors qu'un jeune garçon retourne dans un monde merveilleux sur les ailes de son imagination.
 35119,A family torn apart. A public filled with outrage. A woman accused of murder.
 35371,It's not a kid's game anymore.
 35552,Un visage de beauté. Un esprit d'aventure.
+35588,Un guerrier. Un leader. Une légende.
 36324,Un film qui vous essoufle… De rire !
 36349,Meet Sam Quint... Stealing from him is the biggest mistake you can make.
 36351,C'était un homme bon dans une entreprise mortelle. Elle était sa seule issue.
@@ -1088,17 +1204,24 @@ film_id,slogan
 37652,"Ce qu'il y a de meilleur dans l'homme, c'est le chien"
 37749,This is the face of Theresa Dunn. Teacher of deaf children by day...good time girl by night.
 37753,Tu ne convoiteras point la femme de ton voisin.
+37991,Un grand retour
 38557,He might be able to hold back the river. But could he hold back the greed of man?
 38558,"Quoi que vous fassiez, n'appelez pas les flics..."
 38985,"Les seuls salaires qui valent la peine d'être courus, de mourir, de tuer, sont les salaires de la peur."
 39074,A violent crime. A secret affair. A single witness.
+39222,Choquant ! - Horrifiant ! -Macabres !
+39263,Une main coupée fait signe d'une tombe ouverte!
 39385,Le film champion du monde !
+39973,Leur culte était la mort... Leur soif de sang !
 40047,Le roi vit !
+40213,"Dans le désert, seuls les forts survivent."
+40729,Le cauchemar reprend
 40814,It's a Lovely Life.
 40820,Dying is easy. Comedy is hard.
 40973,Everything you heard about Myra Breckinridge is true.
 41003,"Il a 27 ans, elle en a 43. Il est cadre, elle est serveuse. Tout devrait les séparer."
 41263,Ils étaient les meilleurs enfants du quartier ... jusqu'à ce qu'ils décident qu'il était temps de se battre.
+41470,Aldo Maccione super classe
 41857,Une traque sans pitié au milieu du désert
 41966,A Plastic Nightmare
 42010,"12,000 babies will be born in the United States today. Two will already have fallen in love."
@@ -1111,6 +1234,7 @@ film_id,slogan
 44450,Il n'y a pas une femme au monde qui est rêvé d'être Angélique. Il n'y a pas un homme au monde qui est rêvé d'Angélique.
 44453,Qui est l'enjeu de ce duel à mort ?
 44706,"Ils l'avaient dit, malheureusement ils l'ont fait"
+44826,Découvrez la clé du mystère.
 45225,"Pour réaliser un film, tous les moyens ne sont pas forçément bons."
 46878,Monsters by the millions - and they're all for real!
 46959,When the World of Childhood Encounters That of Horror
@@ -1119,6 +1243,7 @@ film_id,slogan
 47943,Vous avez un problème ? Harry a la solution.
 48457,La guerre est un enfer. Ceci était pire...
 48769,Le film qui a coûté plus cher que le débarquement !
+49051,La plus grande aventure vient de commencer.
 49687,"You have never seen it before! A New torrent of emotions! A New Triumph of Film-Making from Embassy Pictures who brought you ""Divorce Italian Style"" and ""Yesterday, Today and Tomorrow"" now brings you..."
 49849,"Premier contact, dernier combat."
 50012,"un casting à vous couper le souffle, à vous de le découvrir …"
@@ -1127,35 +1252,43 @@ film_id,slogan
 50796,Les royalistes contre les républicains...
 51763,L'histoire d'une incroyable amitié.
 51857,Regards d'une enfance
+51861,"Leur restaurant est au bord de la faillite, et il reste une solution : faire venir la classe sociale la mieux placée."
 51980,D'après le célébre roman d'Emile Zola.
 52557,"""C'est la dysenterie. Ça s'attrape facilement là-bas, plus  que les contraventions à Paris, c'est pour dire…"""
 52744,Frank et Molly vivaient séparément un amour sans histoire. Ils vont vivre ensemble une histoire d'amour.
 56520,"Quand l'un des deux tombe, ce sont les deux qui se cassent la gueule."
 56589,"Le fleuve, c'est la goutte d'eau !"
+57158,"Au-delà des ténèbres, au-delà de la désolation, se cache le plus grand des dangers."
 57308,Le pire est au programme
 59455,"""Pendant 107 ans, sais pas mais pendant 15 ou 20 ans peut-être !"""
 60175,Comment réussir ses examens sans rien faire !
+60670,Le mal atteint de nouveaux sommets.
 60797,Le bonheur est dans le pré... Cours-y vite !
 61225,"Il est gros, il est grossier, mais c'est lui le champion."
 61685,Au début c'était un jeu...
 61755,Les premiers à mourir étaient les plus chanceux !
+61791,La révolution commence
 62134,"« D.R. », photographe"
 62204,A Science Fantasy Adventure
 62822,Perdu sur Terre... Le monde entier est à ses trousses... Et eux c'est qui alors ?
 63150,Vous n'avez jamais vu les hommes comme ça !
 63481,"Ces dames avaient une ""meilleure idée ...""."
+64686,47 rōnin défient l'éternité.
 67540,"L'histoire du château de Versailles, de l'époque de Louis XIV jusqu'à nos jours."
 67754,La plus formidable enquête policière de tous les temps !
 70160,Nous serons tous spectateurs.
+70981,La recherche de nos origines pourrait mener à notre fin.
 71373,Elle vient d'être témoin d'un meurtre qui n'a pas encore eu lieu.
 72449,Enquête sur un crime sans assassin
 72833,"Rêver, rêver, rêver,... On peut toujours !"
 73057,Attention ceci n'est pas un Boyz'Band !
+76163,De retour pour la guerre.
 76203,La véritable histoire extraordinaire de Solomon Northup.
 78159,« Elles » se marient
 80274,La bataille pour le futur va commencer.
 81122,Une bouffée de délire au pays des Soviets
 83223,Mutants of a nuclear disaster
+83542,Tout est connecté
 87337,Things Explode. A Lot.
 87736,There's muscle in his venom and fire in his heart!
 87779,"On this mission, he's not a cop... he's a one man Delta Force!"
@@ -1164,21 +1297,55 @@ film_id,slogan
 100075,Le plus grand service qu'un ami puisse vous rendre.
 101299,N’oublie pas qui est l’ennemi.
 110415,2031. Nouvelle ère glaciaire. Le dernier refuge de l'humanité est un train.
+111475,Elle peut faire faire n'importe quoi à un homme - et elle adore ça !
+111480,"Ses ordres : ""Tuer ou être tué !"""
+115082,Beaucoup d'hommes sont venus découvrir les secrets de l'Extrême-Orient. Aucun homme n'a vécu assez longtemps y parvenir !
+119450,Une dernière chance pour la paix
 120467,Une affaire de meurtre pour le concierge.
+122917,L’ultime voyage en Terre du Milieu.
+126889,Courez !
 128971,Pray you have nine lives
 131631,Son courage changera le monde.
 131634,Le feu brûlera à jamais.
+132363,Au service de 7 présidents il a traversé 30 ans d'histoire.
 132369,From the darkest corner in the universe comes a new dimension in fear.
 133805,Vous n'oublierez jamais son nom.
+138103,"Nouvelle équipe, nouvelle attitude, nouvelle mission."
 138659,Le bonheur ça se mérite !
+156273,Aventures de drageurs à Agadir
 157350,"Cinq destins, un seul choix."
 161371,Par où t'es rentré ? On t'a pas vu sortir
+163879,Le plus Bath des agents secrets
+188987,Comedy ; Crime
+203833,Courage au-delà des mots.
+222268,Les dessous de Ramatuelle
+262500,Affrontez la réalité.
+262504,Échappez à votre monde.
+263341,La vengeance revient du passé.
+281338,Pour l'humanité. Pour l'espoir. Pour la planète.
 283366,Restez particulier
+299054,Le vieux sang rencontre le sang neuf.
+299687,Nous contre-attaquons.
 315837,Quoi de plus triste qu'une marionnette sans manipulateur.
 335984,La clé de l’avenir est enfin découverte.
 346672,Protéger la lignée.
+375262,Leur folle lutte pour le pouvoir commence.
 396535,"Pour rester en vie, montez à bord."
 399579,Derrière l'ange se cache une guerrière
 401306,"Ce qu'il faut maintenant, c’est pas rattraper les Allemands qui sont devant ... sans se laisser rattraper par les Allemands qui sont derrière"
+419430,Ce n'est pas parce que vous êtes invité que vous êtes le bienvenu.
 427910,"Nés pour risquer, entraînés pour gagner, ce sont les Navy Seals."
+438631,"Au-delà de la peur, le destin attend."
+466420,L'avidité est un animal qui a soif de sang.
+471506,Elle veut être votre amie
 517839,Sentir quelque chose de beau.
+577242,Il revient pas pour trier les lentilles.
+604563,Le monde a changé. Sauf lui.
+653346,Nul ne peut arrêter le règne.
+675327,Chaque mission a ses démons.
+693134,Longue vie à la Rébellion !
+792307,Elle ne ressemble à rien de ce que vous avez jamais vu.
+945961,"Ils rêvaient d'une nouvelle vie, ils l'ont trouvée."
+1076897,Qui part à l'aventure ?
+1126692,La liberté à tout prix.
+1170608,La conclusion épique.

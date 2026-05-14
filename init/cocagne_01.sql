@@ -38,6 +38,7 @@ create extension if not exists postgis;
 create extension if not exists btree_gist schema extensions;
 
 create extension if not exists pg_trgm;
+create extension if not exists unaccent;
 
 create extension if not exists anon schema extensions;
 -- Importe un jeu de données par defaut (iban, nom, ville, etc.).dans les tables du schéma anon.
@@ -480,9 +481,17 @@ comment on column adherent.depot_id is 'Dépôt préféré.';
 --create index idx_adherent_lower
 --on adherent (lower(adherent));
 
+create or replace function norm(text)
+returns text
+language sql
+immutable
+as $$
+  select unaccent(lower($1))
+$$;
+
 create index idx_adherent_search
 on adherent
-using gin ((lower(adherent)) gin_trgm_ops);
+using gin (norm(adherent)) gin_trgm_ops);
 
 create or replace view stats.adherents with (security_invoker=on) as
 select count(a.*) as nb_adherents

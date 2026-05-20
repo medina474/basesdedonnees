@@ -9283,6 +9283,12 @@ film_id,personne_id,role,alias,ordre
 71630,35585,réalisateur,,99
 71630,35585,scénariste,,99
 71630,35585,roman,,99
+72243,11192,acteur,"Monsieur Courdu, le mari jaloux",5
+72243,13689,acteur,Le garagiste,7
+72243,24798,acteur,Geneviève,2
+72243,28254,acteur,Geneviève,1
+72243,37457,acteur,Felix,0
+72243,1207580,acteur,"Nicole, la femme de la chambre",4
 72449,1927,réalisateur,,99
 72449,4782,roman,,99
 72449,20904,acteur,David Tao,7
@@ -9814,6 +9820,9 @@ film_id,personne_id,role,alias,ordre
 152018,69958,acteur,Toine,0
 152018,543929,acteur,Micoulin,4
 152018,1004561,réalisateur,,99
+156273,13689,acteur,Gus,6
+156273,126590,acteur,Norbert,5
+156273,1207580,acteur,Miss,8
 157350,17329,réalisateur,,99
 157350,56827,musique,,99
 157350,94185,acteur,"Beatrice ""Tris"" Prior",0
@@ -9935,6 +9944,10 @@ film_id,personne_id,role,alias,ordre
 214884,1643846,musique,,99
 216791,33008,acteur,Fisherman,0
 216791,33008,réalisateur,,99
+217807,24906,acteur,Juliette Nadaud,3
+217807,126590,acteur,Chouchou,8
+217807,146638,acteur,Patrice,2
+217807,1545081,acteur,Alexandra,1
 219841,24426,roman,,99
 219841,24547,réalisateur,,99
 219841,1204668,acteur,Wabi,1
@@ -9944,6 +9957,12 @@ film_id,personne_id,role,alias,ordre
 222054,49285,musique,,99
 222054,80110,scénariste,,99
 222054,158858,scénariste,,99
+222268,13689,acteur,Ticky,4
+222268,1207580,acteur,Laura,0
+222270,25256,acteur,Mercedes,1
+222270,126590,acteur,Julien,6
+222270,558728,acteur,Carole,3
+222270,1207580,acteur,"",7
 227468,18779,acteur,Le curé Maximin,0
 227468,20236,réalisateur,,99
 227468,20236,scénariste,,99
@@ -10217,6 +10236,7 @@ film_id,personne_id,role,alias,ordre
 1076897,1243291,acteur,Lancelot du Lac,3
 1076897,1243293,acteur,Perceval de Galles,1
 1076897,1316265,acteur,Dame Séli,7
+1076902,46280,acteur,Dagonet,7
 1076902,47826,acteur,Arthur Pendragon,0
 1076902,145231,acteur,Leodagan,6
 1076902,204034,acteur,Guenièvre,2
@@ -10231,4 +10251,5 @@ film_id,personne_id,role,alias,ordre
 1126692,1196376,acteur,Massamba,0
 1126692,1348474,acteur,Madame La Victoire,2
 1126692,4061411,acteur,Mati,1
+1170608,4812,acteur,Farok,5
 1170608,11288,acteur,Scytale,5

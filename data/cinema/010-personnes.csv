@@ -28,7 +28,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 131,Gyllenhaal,Jake,1980-12-19,,us,,85.809
 138,Tarantino,Quentin,1963-03-27,,us,,0
 140,Liu,Lucy,1968-12-02,,us,,58.63
-147,Madsen,Michael,1957-09-25,,us,,41.772
+147,Madsen,Michael,1957-09-25,2025-07-03,us,,41.772
 153,Newman,Thomas,1955-10-20,,us,,0
 154,Murch,Walter,1943-07-12,,us,,0
 190,Eastwood,Clint,1930-05-31,,us,,81.059
@@ -249,7 +249,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 2038,Harris,Naomie,1976-09-06,,en,,9.7
 2042,Hopkins,Stephen,1958-11-01,,,,0
 2047,Glover,Danny,1946-07-22,,us,,22.906
-2051,Conchita Alonso,María,1957-06-29,,cu,,17.979
+2051,Conchita Alonso,María,1955-06-29,,cu,,17.979
 2053,Paxton,William,1955-05-17,2017-02-25,us,Bill Paxton,36.195
 2087,Fleischer,Richard,1916-12-08,2006-03-25,us,,4.826
 2090,Douglas,Kirk,1916-12-09,2020-02-05,us,,32.629
@@ -799,7 +799,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 10268,Aznavour,Charles,1924-05-22,2018-10-01,fr,,8.72
 10293,Sagan,Carl,1924-11-09,1996-12-20,us,,0
 10297,McConaughey,Matthew,1969-11-04,,us,,67.811
-10341,Ekland,Britt,1942-10-06,,,,0.9125
+10341,Ekland,Britt,1942-10-06,,se,,0.9125
 10343,Villechaize,Hervé,1943-04-23,1993-09-04,fr,,18.646
 10364,Robbins,David,1955-01-29,,us,,0
 10367,Waters,John,1946-04-22,,us,,0
@@ -899,7 +899,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 11614,Night,M.,1970-08-06,,,,0
 11616,Williams,Olivia,1968-07-26,,en,,44.398
 11626,Vidal,Gore,1925-10-03,2012-07-31,us,,0
-11641,Spiegel,Scott,1957-12-24,,us,,0
+11641,Spiegel,Scott,1957-12-24,2025-08-20,us,,0
 11649,Crowe,Cameron,1957-07-13,,us,,0
 11656,Wilson,Nancy,1954-03-16,,us,,0
 11676,Pellington,Mark,1962-03-17,,us,,0
@@ -2150,7 +2150,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 64205,Arcady,Alexandre,1947-03-17,,,,0
 64221,Monahan,Dan,1955-07-20,,us,,12.044
 64508,J.,Sidney,1933-02-25,,ca,,0
-64534,Mergault,Isabelle,1958-05-11,,fr,,5.113
+64534,Mergault,Isabelle,1958-05-11,2026-03-20,fr,,5.113
 64681,DiSalle,Mark,,,,,0
 64683,Hertzog,Paul,,,,,0
 64746,Lorey,Dean,1967-11-17,,us,,0
@@ -2423,7 +2423,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 78475,Gélinas,Isabelle,1963-10-13,,ca,,0.84
 78514,Hugh,David,1934-02-19,2008-09-18,en,,0
 78523,Kanievska,Marek,1952-11-30,,en,,0
-78729,Lane,Nathan,1956-02-03,,,,13.694
+78729,Lane,Nathan,1956-02-03,,us,,13.694
 78875,Koo,Louis,1970-10-21,,hk,,23.287
 79072,Durand,Kevin,1974-01-14,,ca,,38.375
 79726,Hancock,John D.,1939-02-12,,us,,0
@@ -2464,7 +2464,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 87386,Jimenez,Neal,,,,,0
 87463,Page,Jimmy,1944-01-09,,en,,0
 87521,DaCosta,Morton,1914-03-07,1989-01-29,us,,0
-87565,Steve,Savage,1958-04-29,,,,0
+87565,Steve,Savage,1958-04-29,,us,,0
 87590,Greenwalt,David,1949-10-16,,,,0
 87667,Zola,Émile,1840-04-02,1902-09-28,fr,,0
 87684,Romoli,Gianni,1949-07-18,,it,,0
@@ -2651,7 +2651,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 146376,Farré,Jean-Paul,1948-03-03,,fr,,5.708
 146481,Munz,Michel,1961-10-09,,,,0
 146484,Bitton,Gérard,1961-10-09,,fr,,0
-146638,Hamet,Luq,1963-04-01,,,,0.1184
+146638,Hamet,Luq,1963-04-01,,fr,,0.1184
 147042,Ngijol,Thomas,1978-10-30,,fr,,11.746
 147043,Perrin,Francis,1947-10-10,,fr,,7.04
 148082,Guitry,Sacha,1885-02-20,1957-07-24,,,0
@@ -2917,12 +2917,12 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 1192468,Tagbo,Claudia,1973-06-14,,cv,,10.838
 1193568,Latham,Aaron,,,,,0
 1196376,Mbaye,Ibrahima,1974-08-09,,sn,,4.812
-1200057,Amano,Masamichi,1957-01-26,,,,0
+1200057,Amano,Masamichi,1957-01-26,,jp,,0
 1201828,Quasimodo,Salvatore,,,,,0
 1203245,Lledo,Anthony,1972-01-11,,,,0
 1204668,Lalanne,Alain,,,fr,Alain Musy,2.086
 1204937,Polnareff,Michel,1944-07-03,,fr,,0
-1207580,Dutron,Olivia,1955-09-08,,,,0.082
+1207580,Dutron,Olivia,1955-09-08,,fr,,0.082
 1208192,Golon,Serge,,,,,0
 1208226,Bensi,Danny,,,,,0
 1209778,Graham,Bikiya,,,,,0

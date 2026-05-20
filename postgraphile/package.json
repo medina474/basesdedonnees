@@ -1,0 +1,8 @@
+{
+  "name": "postgraphile-docker",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "postgraphile": "^5.0.0"
+  }
+}

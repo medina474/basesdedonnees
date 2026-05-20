@@ -2,7 +2,7 @@ name: pg
 
 services:
   postgresql:
-    image: cocagne/pgsql:2026-03
+    image: cocagne/pgsql:2026-05
     environment:
       POSTGRES_INITDB_ARGS: --locale-provider=icu --icu-locale=fr-FR
       POSTGRES_USER: ${POSTGRES_USER:-postgres}

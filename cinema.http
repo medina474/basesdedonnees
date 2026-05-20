@@ -1,0 +1,9 @@
+### Acteurs
+GET http://localhost:8001/acteurs
+
+### Roles
+GET https://api.neotech.fr/equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
+
+### Film
+https://api.neotech.fr/films?film_id=eq.11
+

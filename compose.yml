@@ -48,6 +48,18 @@ services:
       PGRST_JWT_SECRET: ${PGRST_JWT_SECRET}
       PGRST_JWT_CACHE_MAX_LIFETIME: 3600
       PGRST_SERVER_PORT: 8001
+
+  postgraphile:
+    build:
+      context: ./postgraphile
+    ports:
+      - 5678:5678
+    networks:
+      - pgsql_net
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+      GRAPHILE_ENV: development
+
 networks:
   pgsql_net:
     external: true

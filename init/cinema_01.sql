@@ -658,26 +658,7 @@ alter table quizzes
 alter table quizzes
   add primary key (quiz_id);
 
-CREATE VIEW personnes_sans_role
- AS
- SELECT p.personne_id,
-   p.prenom,
-   p.nom,
-   count(e.personne_id) AS nb
-   FROM personnes p
-     LEFT JOIN equipes e ON e.personne_id = p.personne_id
-  GROUP BY p.personne_id, p.prenom, p.nom
- HAVING count(e.personne_id) = 0;
 
-
-CREATE VIEW films_sans_role
- AS
- SELECT f.titre,
-   count(e.film_id) AS nb
-   FROM films f
-     LEFT JOIN equipes e ON e.film_id = f.film_id
-  GROUP BY f.titre
- HAVING count(e.film_id) = 0;
 
 create materialized view acteurs as
   select p.personne_id,
@@ -707,8 +688,9 @@ create materialized view acteurs as
   order by popularite desc
 with no data;
 
+create schema tests
 
-create view check_films_sans_equipe as
+create view tests.check_films_sans_equipe as
  select f.film_id, f.titre,
     count(e.film_id) as nb
   from films f
@@ -716,7 +698,7 @@ create view check_films_sans_equipe as
   group by f.film_id, f.titre
   having count(e.film_id) = 0;
 
-create view check_personnes_sans_role as
+create view tests.check_personnes_sans_role as
  select p.personne_id,
     p.prenom,
     p.nom,
@@ -726,8 +708,6 @@ create view check_personnes_sans_role as
   group by p.personne_id, p.prenom, p.nom
   having count(e.personne_id) = 0;
 
-create schema tests
-
 create or replace view tests.films_genres_sans_film as
   select fg.film_id,
     fg.genre_id
@@ -736,20 +716,19 @@ create or replace view tests.films_genres_sans_film as
   where f.film_id = null;
 
 
-create or replace view view_films_tmdb as  select f.titre,
+create or replace view tests.films_tmdb_missing as  select f.titre,
     f.film_id
    from (films f
      left join links l on (((f.film_id = l.id) and (l.site_id = 1))))
   where (l.id is null);
 
 
-create or replace view view_personnes_tmdb as  select p.nom,
+create or replace view tests.personnes_tmdb_missing as  select p.nom,
     p.prenom,
     p.personne_id
    from (personnes p
      left join links l on (((p.personne_id = l.id) and (l.site_id = 1))))
-  where (l.id is null);
-
+  where l.id is null;
 
 create or replace view view_nb_films as  select p.nom,
     l.identifiant,

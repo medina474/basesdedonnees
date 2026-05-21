@@ -1024,6 +1024,7 @@ film_id,personne_id,role,alias,ordre
 682,9856,roman,,99
 682,9915,réalisateur,,99
 682,10222,acteur,James Bond,0
+682,10341,acteur,Mary Goodnight,2
 682,10343,acteur,Nick Nack,4
 686,24,réalisateur,,99
 686,37,musique,,99
@@ -7917,6 +7918,7 @@ film_id,personne_id,role,alias,ordre
 32261,1327,acteur,John Profumo,3
 32261,5049,acteur,Stephen Ward,0
 32261,7189,scénariste,,99
+32261,10341,acteur,Mariella Novotny,5
 32261,12656,acteur,Christine Keeler,1
 32261,24717,musique,,99
 32261,30365,réalisateur,,99

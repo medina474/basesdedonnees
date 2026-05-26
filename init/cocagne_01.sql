@@ -612,6 +612,7 @@ create table produit
   ordre        smallint      not null,
   categorie    text,
   couleur      text,
+  texte        text,
   doublage_id  bigint,
   created_at   timestamp(0) with time zone default current_timestamp not null,
   updated_at   timestamp(0) with time zone default NULL::timestamp(0) with time zone,

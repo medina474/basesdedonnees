@@ -401,7 +401,7 @@ having sum(montant) <> 0;
 -- produit
 -- Quid de l'historique des prix ?
 
-copy produit (id,produit,prix,marge,ordre,categorie,couleur,doublage_id)
+copy produit (id,produit,prix,marge,ordre,categorie,couleur,texte,doublage_id)
 from '/tmp/cocagne/produits.csv' (format csv, header, encoding 'UTF8');
 
 select setval(pg_get_serial_sequence('produit', 'id'), max(id))

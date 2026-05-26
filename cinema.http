@@ -2,19 +2,39 @@
 GET http://localhost:8001/acteurs
 
 ### Roles
-GET http://localhost:8001/equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
+GET /equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
+Host: localhost:8001
 
 ### Film
-http://localhost:8001/films?film_id=eq.11
+/films?film_id=eq.11&select=*,votes(moyenne,votants),resumes(resume)
+Host: localhost:8001
 
 ###
-POST http://localhost:8001/rpc/films_par_acteur
+POST /rpc/films_par_acteur
+Host: localhost:8001
 Content-Type: application/json
 
 { "id": 3 }
 
 ###
-POST http://localhost:8001/rpc/etablissements_in_view
+POST https://api.neotech.fr/rpc/etablissements_in_view
 Content-Type: application/json
 
 { "min_lat": 47.5, "min_long": 6.5, "max_lat": 48.5, "max_long": 7.5 }
+
+
+###
+SELECT
+    f2.film_id,
+    f2.titre,
+    COUNT(*) AS score
+FROM films_motscles fk1
+JOIN films_motscles fk2
+    ON fk1.motcle_id = fk2.motcle_id
+JOIN films f2
+    ON f2.film_id = fk2.film_id
+WHERE fk1.film_id = 63
+  AND f2.film_id <> 63
+GROUP BY f2.film_id, f2.titre
+ORDER BY score DESC, RANDOM()
+LIMIT 10;

@@ -1,23 +1,25 @@
 ### Acteurs
-GET http://localhost:8001/acteurs
+GET /acteurs
+Host: {{$dotenv HOST}}
 
 ### Roles
 GET /equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
-Host: localhost:8001
+Host: {{$dotenv HOST}}
 
 ### Film
 /films?film_id=eq.11&select=*,votes(moyenne,votants),resumes(resume)
-Host: localhost:8001
+Host: {{$dotenv HOST}}
 
 ###
 POST /rpc/films_par_acteur
-Host: localhost:8001
+Host: {{$dotenv HOST}}
 Content-Type: application/json
 
 { "id": 3 }
 
 ###
-POST https://api.neotech.fr/rpc/etablissements_in_view
+POST /rpc/etablissements_in_view
+Host: {{$dotenv HOST}}
 Content-Type: application/json
 
 { "min_lat": 47.5, "min_long": 6.5, "max_lat": 48.5, "max_long": 7.5 }

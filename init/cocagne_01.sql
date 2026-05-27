@@ -40,6 +40,7 @@ create extension if not exists btree_gist schema extensions;
 create extension if not exists pg_trgm;
 create extension if not exists unaccent;
 create extension if not exists citext;
+create extension if not exists ltree;
 
 create extension if not exists anon schema extensions;
 -- Importe un jeu de données par defaut (iban, nom, ville, etc.).dans les tables du schéma anon.
@@ -139,6 +140,23 @@ create table country
 -- pour la pagination
 create index idx_country_country_code
   on country(country, code);
+
+create table subdivision (
+  region_code text primary key,
+  hierarchie ltree,
+  region text not null,
+  francais text,
+  administration text,
+  capitale text
+);
+
+comment on column subdivision.region_code is 'code ISO 3166-2. Codes pour la représentation des noms de pays et de leurs subdivisions – Partie 2';
+
+create index path_gist_idx
+  on subdivision using gist (hierarchie);
+
+create index path_idx
+  on subdivision using btree (hierarchie);
 
 -- ----------
 -- Adhérents : colonne pour la recherche textuelle

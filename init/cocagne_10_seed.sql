@@ -35,6 +35,16 @@ select code2, pays, tncc, drapeau_unicode, forme_longue, communautaire, sepa, te
 from pays_import
 where independant is true;
 
+copy subdivision from '/tmp/commun/regions.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/at.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/be.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/es.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/fr.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/it.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/lu.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/nl.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/us.csv' (format csv, header, delimiter ',', encoding 'utf8');
+
 --
 
 create temporary table region_temp

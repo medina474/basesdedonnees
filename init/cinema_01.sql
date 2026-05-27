@@ -161,6 +161,7 @@ create table etablissements (
   ville text,
   ecrans smallint,
   fauteuils smallint,
+  proprietaire text,
   coordonnees geometry(Point, 4326) default null::geometry,
   constraint cinema_pkey primary key (etablissement_id)
 );
@@ -864,17 +865,12 @@ $function$;
 grant usage on schema public to guest;
 grant usage on schema extensions to guest;
 
-grant select on all tables in schema public
-to guest;
-
 -- Extensions installées
 select extname, extversion
   from pg_extension;
 
 -- ----------
 -- https://stackoverflow.com/questions/12618232/copy-a-few-of-the-columns-of-a-csv-file-into-a-table
-
-set role postgres;
 
 create temporary table pays_import
 (
@@ -891,19 +887,7 @@ create temporary table pays_import
   telephone smallint
 );
 
-copy pays_import
-from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
-
-insert into pays
-select lower(code2), pays, drapeau_unicode
-from pays_import;
-
-drop table pays_import;
-
-copy langues
-from '/tmp/cinema/003-langues.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
-
-create temporary table etablissement_tmp
+create table etablissement_tmp
 (
   regionCNC smallint,
   nauto integer,
@@ -922,8 +906,8 @@ create temporary table etablissement_tmp
   fauteuils smallint,
   semaines_activité text,
   séances text,
+  entrées_2024 text,
   entrées_2023 text,
-  entrées_2022 text,
   évolution_entrées text,
   tranche_entrées text,
   propriétaire text,
@@ -944,18 +928,52 @@ create temporary table etablissement_tmp
   part_séances_films_art_et_essai text,
   pdm_films_art_et_essai text,
   latitude float,
-  longitude float,
-  extra text
+  longitude float
 );
 
-copy etablissement_tmp
-from '/tmp/cinema/cnc-données-cartographie-2023.csv' delimiter ';' csv header quote '"' encoding 'utf8';
+create table code_postal_temp (
+  code_commune_INSEE text,
+  nom_commune text,
+  code_postal text,
+  libelle text,
+  ligne5 text,
+  geopoint text,
+  latitude text,
+  longitude text
+);
 
-insert into etablissements (etablissement_id, nom, voie, ville, ecrans, fauteuils, coordonnees)
-  select nauto, nom, adresse, commune, écrans, fauteuils, st_makepoint(longitude, latitude)
+create temporary table slogan_tmp
+(
+  film_id int,
+  slogan text
+);
+
+set role postgres;
+
+copy pays_import
+from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
+
+insert into pays
+select lower(code2), pays, drapeau_unicode
+from pays_import;
+
+drop table pays_import;
+
+copy langues
+from '/tmp/cinema/003-langues.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+
+copy etablissement_tmp
+from '/tmp/cinema/cnc-données-cartographie-2024.csv' delimiter ',' csv header quote '"' encoding 'utf8';
+
+insert into etablissements (etablissement_id, nom, voie, ville, ecrans, fauteuils, proprietaire, coordonnees)
+  select nauto, nom, adresse, commune, écrans, fauteuils, propriétaire,
+    st_makepoint(longitude, latitude)
   from etablissement_tmp;
 
-drop table etablissement_tmp;
+--drop table etablissement_tmp;
+
+copy code_postal_temp
+from '/tmp/base-officielle-codes-postaux.csv' (format csv, header, encoding 'UTF8');
 
 copy genres
 from '/tmp/cinema/041-genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
@@ -1004,19 +1022,14 @@ copy films_motscles (film_id,motcle_id)
 from '/tmp/cinema/030-films_motscles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 
 -- Slogans
-create temporary table slogan_tmp
-(
-  film_id int,
-  slogan text
-);
 
 copy slogan_tmp
 from '/tmp/cinema/030-films_slogan.csv' delimiter ',' csv header quote '"' encoding 'utf8';
 
-UPDATE films AS f
-SET slogan = t.slogan
-FROM slogan_tmp AS t
-WHERE f.film_id = t.film_id;
+update films as f
+set slogan = t.slogan
+from slogan_tmp as t
+where f.film_id = t.film_id;
 
 select 'Copying data into votes';
 copy votes (film_id, votants, moyenne)
@@ -1034,5 +1047,8 @@ end;
 $$;
 
 refresh materialized view acteurs;
+
+grant select on all tables in schema public
+to guest;
 
 notify pgrst, 'reload schema';

@@ -975,6 +975,12 @@ insert into etablissements (etablissement_id, nom, voie, ville, ecrans, fauteuil
 copy code_postal_temp
 from '/tmp/base-officielle-codes-postaux.csv' (format csv, header, encoding 'UTF8');
 
+update etablissements 
+set codepostal = c.code_postal
+from code_postal_temp c
+join etablissement_tmp e on c.code_commune_insee = e.code_insee
+where e.nauto = etablissement_id;
+
 copy genres
 from '/tmp/cinema/041-genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
 

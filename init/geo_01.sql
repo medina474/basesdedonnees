@@ -1,3 +1,10 @@
+drop database if exists geo with (force);
+
+-- Crée une nouvelle base nommée geo.
+create database geo owner geo;
+
+\c geo;
+
 -- Extension spatiale qui ajoute des types géométriques, index spatiaux et fonctions géographiques.
 -- Ne pas placer l'extension dans un schéma séparé car l'ORM Doctrine ne retouve pas les fonctions
 create extension if not exists postgis;
@@ -158,12 +165,17 @@ copy subdivision FROM '/tmp/commun/dk.csv' (FORMAT CSV, header, delimiter ',', E
 copy subdivision from '/tmp/commun/es.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision FROM '/tmp/commun/fi.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision from '/tmp/commun/fr.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/gb.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/gr.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/hr.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision FROM '/tmp/commun/hu.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision from '/tmp/commun/it.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/lt.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision from '/tmp/commun/lu.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision from '/tmp/commun/nl.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision from '/tmp/commun/no.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision FROM '/tmp/commun/ch.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/pl.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/pt.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision FROM '/tmp/commun/ro.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision FROM '/tmp/commun/se.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
 copy subdivision FROM '/tmp/commun/ua.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');

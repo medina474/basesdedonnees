@@ -122,7 +122,6 @@ PE,T.AME.AML.AMS.PE,Pérou,,1,Lima
 SR,T.AME.AML.AMS.SR,Suriname,,1,Paramaribo
 UY,T.AME.AML.AMS.UY,Uruguay,,1,Montevideo
 VE,T.AME.AML.AMS.VE,Venezuela,,1,Caracas
-CA,T.AME.AMN.CA,Canada,,1,Ottawa
 KZ,T.ASI.ASC.KZ,Kazakhstan,,1,Astana
 KG,T.ASI.ASC.KG,Kirghizistan,,1,Bichkek
 TJ,T.ASI.ASC.TJ,Tadjikistan,,1,Douchanbé
@@ -175,9 +174,6 @@ MD,T.EUR.EUE.MD,Moldavie,,1,Chișinău
 RU,T.EUR.EUE.RU,Russie,,1,Moscou
 SK,T.EUR.EUE.SK,Slovaquie,,1,Bratislava
 IS,T.EUR.EUN.IS,Islande,,1,Reykjavik
-IE,T.EUR.EUN.IE,Irlande,,1,Dublin
-EE,T.EUR.EUN.BLT.EE,Estonie,,1,Tallinn
-LV,T.EUR.EUN.BLT.LV,Lettonie,,1,Riga
 SJ,T.EUR.EUN.SJ,Îles Svalbard-et-Jan Mayen,,1,
 AL,T.EUR.EUS.AL,Albanie,,1,Tirana
 AD,T.EUR.EUS.AD,Andorre,,1,Andorre-la-Vieille

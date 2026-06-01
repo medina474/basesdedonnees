@@ -14,6 +14,8 @@ create extension if not exists btree_gist;
 
 create extension if not exists ltree;
 
+set role geo;
+
 create table langue
 (
   code text primary key,
@@ -22,6 +24,7 @@ create table langue
   ltr boolean
 );
 
+/*
 insert into langue values
 ('fra', 'Français', 'Français', true),
 ('eng', 'English', 'Anglais', true),
@@ -33,8 +36,13 @@ insert into langue values
 ('swe', 'Svenska', 'Suédois', true),
 ('dan', 'Dansk', 'Danois', true),
 ('ltz','Luxembourgeois','Lëtzebuergesch', true);
-
+*/
 --
+
+create table administration (
+  id bigint primary key,
+  administration text
+);
 
 create table subdivision (
   region_code text primary key,
@@ -156,29 +164,36 @@ create table epci (
 
 --
 
+set role postgres;
+
+copy langue from '/tmp/commun/langues.csv' (format csv, header, delimiter ',', encoding 'utf8');
+
+copy administration from '/tmp/commun/administrations.csv' (format csv, header, delimiter ',', encoding 'utf8');
+
 copy subdivision from '/tmp/commun/regions.csv' (format csv, header, delimiter ',', encoding 'utf8');
 copy subdivision from '/tmp/commun/at.csv' (format csv, header, delimiter ',', encoding 'utf8');
-copy subdivision from '/tmp/commun/be.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/ch.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision FROM '/tmp/commun/de.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision FROM '/tmp/commun/dk.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/es.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision FROM '/tmp/commun/fi.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/fr.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/gb.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/gr.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/hr.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision FROM '/tmp/commun/hu.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/it.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/lt.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/lu.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/nl.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/no.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/pl.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision from '/tmp/commun/pt.csv' (format csv, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision FROM '/tmp/commun/ro.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision FROM '/tmp/commun/se.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
-copy subdivision FROM '/tmp/commun/ua.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+copy subdivision from '/tmp/commun/be.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/ch.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/de.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/dk.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/es.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/fi.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/fr.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/gb.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/gr.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/hr.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/hu.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/ie.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/it.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/lt.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/lu.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/nl.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/no.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/pl.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/pt.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/ro.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/se.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/ua.csv' (format csv, header, delimiter ',', encoding 'utf8');
 copy subdivision from '/tmp/commun/us.csv' (format csv, header, delimiter ',', encoding 'utf8');
 --
 

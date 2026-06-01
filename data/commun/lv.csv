@@ -1,0 +1,45 @@
+code,hierarchie,region,francais,administration,capitale
+LV,T.EUR.EUN.BLT.LV,Lettonie,,1,Riga
+LV-002,T.EUR.EUN.BLT.LV.LV-002,Aizkraukles novads,Aizkraukle,Commune
+LV-007,T.EUR.EUN.BLT.LV.LV-007,Alūksnes novads,Alūksne,Commune
+LV-011,T.EUR.EUN.BLT.LV.LV-011,Ādažu novads,Ādaži,Commune
+LV-015,T.EUR.EUN.BLT.LV.LV-015,Balvu novads,Balvi,Commune
+LV-016,T.EUR.EUN.BLT.LV.LV-016,Bauskas novads,Bauska,Commune
+LV-022,T.EUR.EUN.BLT.LV.LV-022,Cēsu novads,Cēsis,Commune
+LV-026,T.EUR.EUN.BLT.LV.LV-026,Dobeles novads,Dobele,Commune
+LV-033,T.EUR.EUN.BLT.LV.LV-033,Gulbenes novads,Gulbene,Commune
+LV-041,T.EUR.EUN.BLT.LV.LV-041,Jelgavas novads,Jelgava,Commune
+LV-042,T.EUR.EUN.BLT.LV.LV-042,Jēkabpils novads,Jēkabpils,Commune
+LV-047,T.EUR.EUN.BLT.LV.LV-047,Krāslavas novads,Krāslava,Commune
+LV-050,T.EUR.EUN.BLT.LV.LV-050,Kuldīgas novads,Kuldīga,Commune
+LV-052,T.EUR.EUN.BLT.LV.LV-052,Ķekavas novads,Ķekava,Commune
+LV-054,T.EUR.EUN.BLT.LV.LV-054,Limbažu novads,Limbaži,Commune
+LV-056,T.EUR.EUN.BLT.LV.LV-056,Līvānu novads,Līvāni,Commune
+LV-058,T.EUR.EUN.BLT.LV.LV-058,Ludzas novads,Ludza,Commune
+LV-059,T.EUR.EUN.BLT.LV.LV-059,Madonas novads,Madona,Commune
+LV-062,T.EUR.EUN.BLT.LV.LV-062,Mārupes novads,Mārupe,Commune
+LV-067,T.EUR.EUN.BLT.LV.LV-067,Ogres novads,Ogre,Commune
+LV-068,T.EUR.EUN.BLT.LV.LV-068,Olaines novads,Olaine,Commune
+LV-073,T.EUR.EUN.BLT.LV.LV-073,Preiļu novads,Preiļi,Commune
+LV-077,T.EUR.EUN.BLT.LV.LV-077,Rēzeknes novads,Rēzekne,Commune
+LV-080,T.EUR.EUN.BLT.LV.LV-080,Ropažu novads,Ropaži,Commune
+LV-087,T.EUR.EUN.BLT.LV.LV-087,Salaspils novads,Salaspils,Commune
+LV-088,T.EUR.EUN.BLT.LV.LV-088,Saldus novads,Saldus,Commune
+LV-089,T.EUR.EUN.BLT.LV.LV-089,Saulkrastu novads,Saulkrasti,Commune
+LV-091,T.EUR.EUN.BLT.LV.LV-091,Siguldas novads,Sigulda,Commune
+LV-094,T.EUR.EUN.BLT.LV.LV-094,Smiltenes novads,Smiltene,Commune
+LV-097,T.EUR.EUN.BLT.LV.LV-097,Talsu novads,Talsi,Commune
+LV-099,T.EUR.EUN.BLT.LV.LV-099,Tukuma novads,Tukums,Commune
+LV-101,T.EUR.EUN.BLT.LV.LV-101,Valkas novads,Valka,Commune
+LV-102,T.EUR.EUN.BLT.LV.LV-102,Varakļānu novads,Varakļāni,Commune
+LV-106,T.EUR.EUN.BLT.LV.LV-106,Ventspils novads,Ventspils,Commune
+LV-111,T.EUR.EUN.BLT.LV.LV-111,Augšdaugavas novads,Augšdaugava,Commune
+LV-112,T.EUR.EUN.BLT.LV.LV-112,Dienvidkurzemes novads,Dienvidkurzeme,Commune
+LV-113,T.EUR.EUN.BLT.LV.LV-113,Valmieras novads,Valmiera,Commune
+LV-DGV,T.EUR.EUN.BLT.LV.LV-DGV,Daugavpils,,	Ville capitale
+LV-JEL,T.EUR.EUN.BLT.LV.LV-JEL,Jelgava,,	Ville capitale
+LV-JUR,T.EUR.EUN.BLT.LV.LV-JUR,Jūrmala,,	Ville capitale
+LV-LPX,T.EUR.EUN.BLT.LV.LV-LPX,Liepāja,,	Ville capitale
+LV-REZ,T.EUR.EUN.BLT.LV.LV-REZ,Rēzekne,,	Ville capitale
+LV-RIX,T.EUR.EUN.BLT.LV.LV-RIX,Rīga,,	Ville capitale
+LV-VEN,T.EUR.EUN.BLT.LV.LV-VEN,Ventspils,,Ville capitale

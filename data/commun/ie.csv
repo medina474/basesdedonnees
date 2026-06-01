@@ -1,0 +1,32 @@
+code,hierarchie,region,francais,administration,capitale
+IE,T.EUR.EUN.IE,Éire,Irlande,1,Dublin
+IE-C,T.EUR.EUN.IE.IE-C,Connacht,Connaught,province,Galway
+IE-L,T.EUR.EUN.IE.IE-L,Laighin,Leinster,province,Dublin
+IE-M,T.EUR.EUN.IE.IE-M,An Mhumhain,Munster,province,Cork
+IE-U,T.EUR.EUN.IE.IE-U,Ulaidh,Ulster,provinces,Donegal
+IE-G,T.EUR.EUN.IE.IE-C.IE-G,Gaillimh,Galway,county,Galway
+IE-LM,T.EUR.EUN.IE.IE-C.IE-LM,Liatroim,Leitrim,county,Leitrim
+IE-MO,T.EUR.EUN.IE.IE-C.IE-MO,Maigh Eo,Mayo,county,Mayo
+IE-RN,T.EUR.EUN.IE.IE-C.IE-RN,Ros Comáin,Roscommon,county,Roscommon
+IE-SO,T.EUR.EUN.IE.IE-C.IE-SO,Sligeach,Sligo,county,Sligo
+IE-CW,T.EUR.EUN.IE.IE-L.IE-CW,Ceatharlach,Carlow,county,Carlow
+IE-D,T.EUR.EUN.IE.IE-L.IE-D,Baile Átha Cliath,Dublin,county,Dublin
+IE-KE,T.EUR.EUN.IE.IE-L.IE-KE,Cill Dara,Kildare,county,Kildare
+IE-KK,T.EUR.EUN.IE.IE-L.IE-KK,Cill Chainnigh,Kilkenny,county,Kilkenny
+IE-LS,T.EUR.EUN.IE.IE-L.IE-LS,Laois,Laois,county,Laois
+IE-LD,T.EUR.EUN.IE.IE-L.IE-LD,An Longfort,Longford,county,Longford
+IE-LH,T.EUR.EUN.IE.IE-L.IE-LH,Lú,Louth,county,Louth
+IE-MH,T.EUR.EUN.IE.IE-L.IE-MH,An Mhí,Meath,county,Meath
+IE-OY,T.EUR.EUN.IE.IE-L.IE-OY,Uíbh Fhailí,Offaly,county,Offaly
+IE-WH,T.EUR.EUN.IE.IE-L.IE-WH,An Iarmhí,Westmeath,county,Westmeath
+IE-WX,T.EUR.EUN.IE.IE-L.IE-WX,Loch Garman,Wexford,county,Wexford
+IE-WW,T.EUR.EUN.IE.IE-L.IE-WW,Cill Mhantáin,Wicklow,county,Wicklow
+IE-CE,T.EUR.EUN.IE.IE-M.IE-CE,An Clár,Clare,county,Clare
+IE-CO,T.EUR.EUN.IE.IE-M.IE-CO,Corcaigh,Cork,county,Cork
+IE-KY,T.EUR.EUN.IE.IE-M.IE-KY,Ciarraí,Kerry,county,Kerry
+IE-LK,T.EUR.EUN.IE.IE-M.IE-LK,Luimneach,Limerick,county,Limerick
+IE-TA,T.EUR.EUN.IE.IE-M.IE-TA,Tiobraid Árann,Tipperary,county,Tipperary
+IE-WD,T.EUR.EUN.IE.IE-M.IE-WD,Port Láirge,Waterford,county,Waterford
+IE-CN,T.EUR.EUN.IE.IE-U.IE-CN,An Cabhán,Cavan,county,Cavan
+IE-DL,T.EUR.EUN.IE.IE-U.IE-DL,Dún na nGall,Donegal,county,Donegal
+IE-MN,T.EUR.EUN.IE.IE-U.IE-MN,Muineachán,Monaghan,county,Monaghan

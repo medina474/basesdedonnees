@@ -7,7 +7,7 @@ GET /equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, ti
 Host: {{$dotenv HOST}}
 
 ### Film
-/films?film_id=eq.11&select=*,votes(moyenne,votants),resumes(resume)
+/films?film_id=eq.11&select=*,votes(moyenne,votants),resumes(resume),genres(*),motscles(*),equipes(role, alias, ordre, personnes(prenom, nom)),productions(societes(societe))
 Host: {{$dotenv HOST}}
 
 ###

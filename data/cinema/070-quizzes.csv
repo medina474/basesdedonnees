@@ -1,31 +1,31 @@
 quiz_id,quiz,questions
 1,'Quel est l’auteur du livre à l’origine de ce film ?','[{
-  "question": "Total Recall",
+  "question": "Quel est l’auteur du livre à l’origine de Total Recall (1990) ?",
   "reponse": "Philip K Dick",
   "autres": ["Arthur C. Clarke", "Isaac Asimov", "K. W. Jeter"]
 },
 {
-  "question": "Blade Runner",
+  "question": "Quel est l’auteur du livre à l’origine de Blade Runner (1982) ?",
   "reponse": "Philip K Dick",
   "autres": ["Ray Bradbury", "Frank Herbert", "Aldous Huxley"]
 },
 {
-  "question": "Minority Report",
+  "question": "Quel est l’auteur du livre à l’origine de Minority Report (2002) ?",
   "reponse": "Philip K Dick",
   "autres": ["George Orwell", "Michael Crichton", "Robert A. Heinlein"]
 },
 {
-  "question": "L’Agence",
+  "question": "Quel est l’auteur du livre à l’origine de L’Agence (2011) ?",
   "reponse": "Philip K Dick",
   "autres": ["Stephen King", "Dan Brown", "John Grisham"]
 },
 {
-  "question": "Confessions d’un Barjo",
+  "question": "Quel est l’auteur du livre à l’origine de Confessions d’un Barjo (1992) ?",
   "reponse": "Philip K Dick",
   "autres": ["Boris Vian", "Charles Bukowski", "Jack Kerouac"]
 },
 {
-  "question": "Planète hurlante",
+  "question": "Quel est l’auteur du livre à l’origine de Planète hurlante (1995) ?",
   "reponse": "Philip K Dick",
   "autres": ["H.G. Wells", "Ray Bradbury", "Isaac Asimov"]
 }]'
@@ -42,8 +42,8 @@ quiz_id,quiz,questions
 },
 {
   "question": "Dans Låt den rätte komma in, comment Eli communique-t-il avec Oskar ?",
-  "reponse": "par code morse",
-  "autres": ["par télépathie", "par écrit sur la fenêtre", "des mots glissés sous la porte"]
+  "reponse": "par code morse sur le mur",
+  "autres": ["par télépathie", "sur le givre de la fenêtre", "des mots glissés sous la porte"]
 },
 {
   "question": "Quelle ville envahie par des vampires est issue d’un roman de Stephen King adapté plusieurs fois à l’écran ?",
@@ -58,7 +58,7 @@ quiz_id,quiz,questions
 {
   "question": "Quelle nouvelle de vampire d’Alexis Tolstoï a été adaptée au cinéma par Adrien Beau en 2023 ?",
   "reponse": "Le Vourdalak",
-  "autres": ["Carmilla", "Aelita", "Prince Serebrenni"]
+  "autres": ["Carmilla", "Ælita", "Prince Serebrenni"]
 },
 {
   "question": "Dans Le Bal des Vampires, comment le professeur Abronsius et Alfred tentent-ils d’échapper aux vampires",
@@ -73,8 +73,249 @@ quiz_id,quiz,questions
 ]'
 3,'Sous marins','[
 {
-  "question": "",
-  "reponse": "",
-  "autres": ["", "", ""]
+  "question": "Quel acteur interprète le capitaine Frank Ramsey dans le film USS Alabama (Crimson Tide) ?",
+  "reponse": "Gene Hackman",
+  "autres": ["Harrison Ford", "Sean Connery", "Kevin Costner"]
+},
+{
+  "question": "Dans quel film Sean Connery incarne-t-il le commandant du sous-marin soviétique porteur de l'arme nucléaire ?",
+  "reponse": "À la poursuite d’Octobre Rouge",
+  "autres": ["Kursk", "K-19 : The Widowmaker", "72 mètres"]
+},
+{
+  "question": "Comment s'appelle le sous marin dans le film adapté de l'oeuvre de Jules Vernes 20 000 lieus sous les mers",
+  "reponse": "Nautilus",
+  "autres": ["Octopus", "Steam-House", "Nemo"]
+},
+{
+  "question": "Quel film met en scène un contact avec une intelligence extraterrestre vivant dans les profondeurs océaniques ?",
+  "reponse": "Abyss",
+  "autres": ["Contact", "Sphere", "Underwater"]
+},
+{
+  "question": "Quel film suit l’équipage d’un sous-marin allemand durant la Seconde Guerre mondiale dans un huis clos oppressant ?",
+  "reponse": "Das Boot",
+  "autres": ["La dernière torpille", "U-235", "U-571"]
 }
 ]'
+4,'Trésors','[
+{
+  "question": "Dans Les Goonies (1985), à quel pirate légendaire appartient le trésor recherché par les enfants ?",
+  "reponse": "Willy le Borgne",
+  "autres": ["Jack Jambe de Bois", "Capitaine Crochet", "Bill l'Édenté"]
+},
+{
+  "question": "Dans Indiana Jones et la Dernière Croisade (1989), quel trésor cherchent les Jones ?",
+  "reponse": "Le Graal",
+  "autres": ["La pierre philosophale", "Des perles en Orichalque", "Excalibur"]
+},
+{
+  "question": "En 1985, quel trésor Richard Chamberlain alias Allan Quatermain recherche-t-il",
+  "reponse": "Les mines du roi Salomon",
+  "autres": ["Le diamant du Nil", "L'or de Thulamela", "La couronne de la reine de Saba"]
+},
+{
+  "question": "Dans Le Ruffian (1983), quel trésor Aldo tente-t-il de retrouver dans le Grand Nord canadien",
+  "reponse": "Un chargement de pépites d'or",
+  "autres": ["Des lingots de platine", "Un sac contenant 10 millions de dollars", "Une améthyste au pouvoir surnaturel"]
+},
+{
+  "question": "Dans quel Western les personnages partent-ils à la recherche d’une cache d’or enterrée dans un cimetière pendant la guerre de Sécession ?",
+  "reponse": "Le Bon, la Brute et le Truand",
+  "autres": ["Le trésor du pendu", "Tombstone", "Le trésor de Pancho Villa"]
+}
+]',
+5,'Alien, la saga','[
+{
+  "question": "Quelle est la planète sur laquelle les humains découvre pour la première fois les œufs des créatures ?",
+  "reponse": "LV-426",
+  "autres": ["Oberon", "Zeta Reticuli IV", "EM 474"]
+},
+{
+  "question": "Comment s’appelle l’ordinateur de bord du vaisseau spatial dans le film Alien (1979) ?",
+  "reponse": "MU/TH/UR (Maman)",
+  "autres": ["HAL 9000", "WOPR", "Samantha"]
+},
+{
+  "question": "Quel est le nom du vaisseau spatial dans lequel se déroule le film Alien (1979) ?",
+  "reponse": "Nostromo",
+  "autres": ["Sulaco", "Enterprise", "Odysseus"]
+},
+{
+  "question": "À quelle compagnie appartient le station dans le film Aliens (1986) ?",
+  "reponse": "Weyland-Yutani",
+  "autres": ["Tyrell Corporation", "Cyberdyne Systems", "OCP Omni Comsumer Products"]
+},
+{
+  "question": "Comment s’appelle la colonie humaine installée sur la planète dans le film Aliens (1986)",
+  "reponse": "Hadley’s Hope",
+  "autres": ["New Eden", "Acheron Base", "Gateway Station"]
+},
+{
+  "question": "Dans Aliens (1986), quel est le nom du synthétique qui accompagne les Marines coloniaux ?",
+  "reponse": "Bishop",
+  "autres": ["David", "Ash", "Man-U"]
+}
+]',
+6,'Willow','[
+{
+  "question": "À quel peuple appartient Willow Ufgood ?",
+  "reponse": "Les Nelwyn",
+  "autres": ["Les Ewoks", "Les Hobbits", "Les Dryads"]
+},
+{
+  "question": "Quel mercenaire guerrier accompagne Willow dans sa quête et devient un allié majeur ?",
+  "reponse": "Madmartigan",
+  "autres": ["Mickael Kael", "Airk Thaughbaer", "Franjean"]
+},
+{
+  "question": "Quel est le nom du bébé au cœur de la prophétie que Willow doit protéger ?",
+  "reponse": "Elora Danan",
+  "autres": ["Aurora", "Lyssa", "Tir Asleen"]
+},
+{
+  "question": "Quel est le nom de la reine maléfique ?",
+  "reponse": "Bavmorda",
+  "autres": ["Sorsha", "Cherlindrea", "Fin Raziel"]
+},
+{
+  "question": "En quoi la troupe de guerriers venue pour défier la reine est elle métamorphosée ?",
+  "reponse": "En porcs",
+  "autres": ["En trolls", "En statues de pierre", "En chèvres"]
+},
+{
+  "question": "Quel philtre est administré par erreur sur Madmartigan ?",
+  "reponse": "Philtre des cœurs brisés",
+  "autres": ["Élixir lunaire", "Essence de Daïkini", "Malédiction d’amour"]
+},
+{
+  "question": "Comment les autres peuples appellent-ils les humains ?",
+  "reponse": "Daïkinis",
+  "autres": ["Elders", "Hommes", "Valorians"]
+}
+,{
+  "question": "Comment s’appelle la grande magicienne transformée en corneille ?",
+  "reponse": "Fin Raziel",
+  "autres": ["Bavmorda", "Sorsha", "Cherlindrea"]
+}
+,{
+  "question": "Comment s’appelle la fée envoyée pour annoncer la prophétie concernant l’enfant élue ?",
+  "reponse": "Cherlindrea",
+  "autres": ["Fin Raziel", "Ethna", "Bavmorda"]
+}
+,{
+  "question": "Comment s’appelle la fille de la reine ?",
+  "reponse": "Sorsha",
+  "autres": ["Elora Danan", "Cherlindrea", "Undomiel"]
+}
+,{
+  "question": "En quoi Willow transforme-t-il un troll lors de la bataille à Tir Asleen ?",
+  "reponse": "En hydre géante à deux têtes",
+  "autres": ["En cochon", "En statue de pierre", "En loup géant"]
+}
+,{
+  "question": "Quel objet magique Willow utilise-t-il en plus de sa baguette pour ses premiers actes de sorcellerie ?",
+  "reponse": "Des glands magiques",
+  "autres": ["Des runes de pierre", "Une plume enchantée", "Des os de poulets"]
+}
+]'
+7,'Les Nelwyn','[
+{
+  "question": "Quel est le nom du sorcier Nelwyn qui cherche un apprenti",
+  "reponse": "Grand Aldwin",
+  "autres": ["Meegosh", "Burglekutt", "Gandalf"]
+}
+,{
+  "question": "Comment s’appelle le préfet du village, opposé à Willow ?",
+  "reponse": "Burglekutt",
+  "autres": ["Meegosh", "Kael", "Grand Aldwin"]
+}
+,{
+  "question": "Comment s’appelle le meilleur ami de Willow dans le village Nelwyn ?",
+  "reponse": "Meegosh",
+  "autres": ["Madmartigan", "Raoul", "Franjean"]
+}
+,{
+  "question": "Quel est le nom péjoratif que donne les hommes aux Nelwyn ?",
+  "reponse": "Pec",
+  "autres": ["Plouc", "Nerd", "Nabot"]
+}
+]'
+8,'La musique classique','[
+{
+  "question": "Quelle est l'oeuvre entendue au début de 2001 l'Odyssée de l'Espace ?",
+  "reponse": "Ainsi parlait Zarathoustra de Richard Strauss",
+  "autres": ["Requiem d'Amadeus Mozart", "La marche nuptiale de Richard Wagner", "Le lac des Cygnes de Piotr Ilitch Tchaïkovski"]
+},
+,{
+  "question": "Quelle est l'oeuvre entendue lors de l'attaque des hélicoptères dans Apocalyspse Now",
+  "reponse": "La chevauchée des Walkyries de Richard Wagner",
+  "autres": ["Carmina Burana de Carl Orff", "Orphée aux Enfers de Jacques Offenbach", "La Sarabande de Georg Friedrich Haendel"]
+}
+,{
+  "question": "Orange Mécanique",
+  "reponse": "Ode à la joie de Ludwig van Beethoven",
+  "autres": ["Symphonie du Nouveau Monde d'Antonin Dvořák", "La flûte enchantée d'Amadeus Mozart", "La traviata de Giuseppe Verdi"]
+}
+,{
+  "question": "Rosemary's baby",
+  "reponse": "Lettre à Élise de Ludwig van Beethoven",
+  "autres": ["Le Carnaval des animaux de Camille Saint-Saëns", "Les 4 saisons d'Antonio Vivaldi", "Sonate n° 11 d'Amadeus Mozart"]
+}
+]'
+9,'Ils se sont mariés','[
+{
+  "question": "Steven Spielberg épouse ...",
+  "reponse": "Kate Capshaw, Indiana Jones et le temple maudit",
+  "autres": ["Karen Allen, les aventuriers de l'arche perdue", "Miranda Richardson, Empire du soleil", "Miranda Richardson, Rencontres du troisième type"]
+}
+,{
+  "question": "Joel Coen épouse ... qui participera à plusieurs de ses films",
+  "reponse": "Frances McDormand, Sang pour sang",
+  "autres": ["Holly Hunter, Arizona junior", "Marcia Gay Harden, Miller's Crossing", "Judy Davis, Barton Fink"]
+}
+,{
+  "question": "Taylor Hackford épouse ...",
+  "reponse": "Hellen Miren, Soleil de nuit",
+  "autres": ["Rachel Ward, Contre toute attente", "Debra Winger, Officier et Gentleman", "Jessica Lange, Everybody's All-American"]
+},
+,{
+  "question": "Sylvester Stallone épouse ...",
+  "reponse": "Brigitte Nielsen, Rocky IV",
+  "autres": ["Susan Blakely, Over the top", "Talia Shire, Rocky", "Anne Archer, La taverne de l'enfer"]
+}
+,{
+  "question": "Marie-Anne Chazel épouse un de ses partenaires de la troupe du Splendid",
+  "reponse": "Christian Clavier",
+  "autres": ["Thierry Lhermitte", "Bruno Moynot", "Gérard Jugnot"]
+}
+]
+10,'Cités légendaires','[
+{
+  "question": "Dans Le Seigneur des Anneaux, comment s'appelle la capitale du Gondor, célèbre pour ses sept niveaux de murailles concentriques ?",
+  "reponse": "Minas Tirith",
+  "autres": ["Edoras", "Beleriand", "Taluth"]
+},
+{
+  "question": "Dans les aventuriers de l'arche perdue, quelle est la cité antique enfouie sous le désert égyptien ?",
+  "reponse": "Tanis",
+  "autres": ["Memphis", "Pétra", "Thèbes"]
+},
+{
+  "question": "Dans Willow (1988), comment s’appelle la forteresse légendaire censée avoir autrefois abrité une grande armée ?",
+  "reponse": "Tir Asleen",
+  "autres": ["Galladoorn", "Aldwyn Keep", "Nockmaar"]
+},
+{
+  "question": "Dans Alita Battle Angel, comment s'appelle la cité flottante dans le ciel",
+  "reponse": "Zalem",
+  "autres": ["Laputa", "Coruscant", "Zion"]
+},
+{
+  "question": "Dans les chroniques de Narnia, comment s’appelle le château royal situé au bord de la mer ?",
+  "reponse": "Cair Paravel",
+  "autres": ["Fort de Beruna", "Beaversdam", "Fort de Beruna"]
+},
+]'
+
+

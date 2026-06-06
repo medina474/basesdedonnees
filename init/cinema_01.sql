@@ -648,8 +648,7 @@ create trigger trigger_vote_update
 
 create table quizzes (
   quiz_id integer not null,
-  quiz text not null,
-  questions json not null
+  quiz text not null
 );
 
 alter table quizzes
@@ -659,6 +658,12 @@ alter table quizzes
 alter table quizzes
   add primary key (quiz_id);
 
+create table question (
+  question_id integer not null,
+  question text not null,
+  reponse text not null,
+  autres json not null
+);
 
 
 create materialized view acteurs as
@@ -960,10 +965,10 @@ from pays_import;
 drop table pays_import;
 
 copy langues
-from '/tmp/cinema/003-langues.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+from '/tmp/cinema/003-langues.csv' csv header encoding 'utf8';
 
 copy etablissement_tmp
-from '/tmp/cinema/cnc-données-cartographie-2024.csv' delimiter ',' csv header quote '"' encoding 'utf8';
+from '/tmp/cinema/cnc-données-cartographie-2024.csv' csv header  encoding 'utf8';
 
 insert into etablissements (etablissement_id, nom, voie, ville, ecrans, fauteuils, proprietaire, coordonnees)
   select nauto, nom, adresse, commune, écrans, fauteuils, propriétaire,
@@ -982,55 +987,55 @@ join etablissement_tmp e on c.code_commune_insee = e.code_insee
 where e.nauto = etablissement_id;
 
 copy genres
-from '/tmp/cinema/041-genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/041-genres.csv' csv header encoding 'utf8';
 
 copy series
-from '/tmp/cinema/041-series.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/041-series.csv' csv header encoding 'utf8';
 
 
 copy films (film_id,titre,titre_original,annee,sortie,duree,serie_id, pays)
-from '/tmp/cinema/030-films.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/030-films.csv' csv header encoding 'utf8';
 
 copy films_genres (film_id, genre_id)
-from '/tmp/cinema/041-films_genres.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/041-films_genres.csv' csv header encoding 'utf8';
 
 copy personnes (personne_id, nom, prenom, naissance, deces, nationalite, artiste, popularite)
-from '/tmp/cinema/010-personnes.csv' delimiter ',' csv header quote '"' encoding 'utf8';
+from '/tmp/cinema/010-personnes.csv' csv header  encoding 'utf8';
 
 copy societes
-from '/tmp/cinema/011-societes.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/011-societes.csv' csv header encoding 'utf8';
 
-copy equipes from '/tmp/cinema/031-equipes.csv' delimiter ',' csv header quote '"' encoding 'utf8';
+copy equipes from '/tmp/cinema/031-equipes.csv' csv header  encoding 'utf8';
 
 copy productions (film_id, societe_id)
-from '/tmp/cinema/041-productions.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/041-productions.csv' csv header encoding 'utf8';
 
 copy links_films
-from '/tmp/cinema/042-links_films.csv' (format csv, header, encoding 'utf8');
+from '/tmp/cinema/042-links_films.csv' csv header encoding 'utf8';
 
 copy links_personnes
-from '/tmp/cinema/042-links_personnes.csv' (format csv, header, encoding 'utf8');
+from '/tmp/cinema/042-links_personnes.csv' csv header encoding 'utf8';
 
 copy salles (salle_id, etablissement_id, salle, sieges)
-from '/tmp/cinema/043-salles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/043-salles.csv' csv header encoding 'utf8';
 
 copy resumes (film_id, langue, resume)
-from '/tmp/cinema/044-resumes.csv' delimiter ',' csv header quote '"' escape '"' encoding 'utf8';
+from '/tmp/cinema/044-resumes.csv' csv header encoding 'utf8';
 
 copy certifications (pays_code,ordre,certification,description)
-from '/tmp/cinema/046-certifications.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/046-certifications.csv' csv header encoding 'utf8';
 
 -- Mots clés
 copy motscles (motcle_id,motcle)
-from '/tmp/cinema/030-motscles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/030-motscles.csv' csv header encoding 'utf8';
 
 copy films_motscles (film_id,motcle_id)
-from '/tmp/cinema/030-films_motscles.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/030-films_motscles.csv' csv header encoding 'utf8';
 
 -- Slogans
 
 copy slogan_tmp
-from '/tmp/cinema/030-films_slogan.csv' delimiter ',' csv header quote '"' encoding 'utf8';
+from '/tmp/cinema/030-films_slogan.csv' csv header  encoding 'utf8';
 
 update films as f
 set slogan = t.slogan
@@ -1039,7 +1044,14 @@ where f.film_id = t.film_id;
 
 select 'Copying data into votes';
 copy votes (film_id, votants, moyenne)
-from '/tmp/cinema/060-votes.csv' delimiter ',' csv header quote '"' escape '''' encoding 'utf8';
+from '/tmp/cinema/060-votes.csv' csv header encoding 'utf8';
+
+select 'Copying data into quizzes';
+copy quizzes
+from '/tmp/cinema/070-quizzes.csv' csv header encoding 'utf8';
+
+copy question
+from '/tmp/cinema/071-questions.csv' csv header quote '''' encoding 'utf8';
 
 do $$
 begin

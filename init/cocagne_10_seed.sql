@@ -312,9 +312,9 @@ copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2024.cs
 copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2025.csv' (format csv, header, encoding 'UTF8');
 copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2026.csv' (format csv, header, encoding 'UTF8');
 
-insert into preparation (id, preparation, jour) values
-  (1,'Mardi', 2),
-  (2,'Jeudi', 4);
+insert into preparation (id, preparation, jour, ordre) values
+  (1,'Mardi', 2, 0),
+  (2,'Jeudi', 4, 1);
 
 select setval(pg_get_serial_sequence('preparation', 'id'), max(id))
 from preparation;

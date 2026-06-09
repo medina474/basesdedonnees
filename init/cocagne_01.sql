@@ -490,7 +490,7 @@ create table adhesion
   montant       numeric(8, 2) not null,
   saison_id     bigint not null references saison,
   numero        text,
-  moyen_paiement_id bigint null references moyen_paiement,
+  condition_paiement_id bigint null references moyen_paiement,
   created_at    timestamp(0) with time zone default current_timestamp not null,
   constraint adhesion_unique unique (adherent_id, saison_id)
 );

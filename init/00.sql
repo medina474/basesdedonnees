@@ -49,5 +49,6 @@ create role gravity noinherit login password '9117';
 create role chinook noinherit login password '9371';
 create role geo noinherit login password '9240';
 create role aviation noinherit login password '9917';
+create role pagila noinherit login password '9281';
 
 select * from pg_user;

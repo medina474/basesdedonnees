@@ -146,7 +146,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 1101,Weathers,Carl,1948-01-14,2024-02-02,us,,23.997
 1103,Duke,Bill,1943-02-26,,us,,0
 1135,Preisner,Zbigniew,1955-05-20,,,,0
-1150,De,Brian,1940-09-11,,us,,0
+1150,De Palma,Brian,1940-09-11,,us,,0
 1152,Stone,Oliver,1946-09-15,,us,,0
 1154,Moroder,Giorgio,1940-04-26,,it,,0
 1158,Pacino,Alfredo,1940-04-25,,us,Al Pacino,51.982
@@ -912,7 +912,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 11782,Barbeau,Adrienne,1945-06-11,,us,,1.9897
 11805,Whaley,Frank,1963-07-20,,us,,32.898
 11834,Seltzer,David,1940-02-12,,us,,0
-11879,de,Choderlos,1741-10-18,1803-09-05,fr,,0
+11879,Choderlos de Laclos,Pierre,1741-10-18,1803-09-05,fr,,0
 11886,Quinn,Francesco,1963-03-22,2011-08-05,it,,15.575
 11887,Silberling,Brad,1963-09-08,,us,,0
 11956,Markowitz,Mitch,,,,,0
@@ -933,7 +933,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 12300,M.,Fred,1907-12-22,1964-09-23,us,,0
 12305,Barron,Bebe,1926-06-16,2008-04-20,us,,0
 12306,Barron,Louis,1920-04-23,1989-11-01,us,,0
-12329,De,Vittorio,1901-07-07,1974-11-13,it,,0
+12329,De Sica,Vittorio,1901-07-07,1974-11-13,it,,0
 12331,Cicognini,Alessandro,1906-01-15,1995-11-09,it,,0
 12407,Clark,Candy,1947-06-20,,us,,19.679
 12438,Balaban,Bob,1945-08-16,,us,,0
@@ -1100,7 +1100,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 16171,Cates,Phoebe Belle,1963-07-16,,us,Phoebe Cates,21.927
 16174,S.,Charles,,,,,0
 16187,Szwarc,Jeannot,1939-11-21,2025-01-14,fr,,0
-16205,De,Michael,,,,,0
+16205,De Guzman,Michael,,,,,0
 16294,Demme,Jonathan,1944-02-22,2017-04-26,us,,0
 16349,Renucci,Robin,1956-07-11,,fr,,0.8474
 16384,Bakshi,Ralph,1938-10-29,,,,0
@@ -1118,7 +1118,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 16637,DiCola,Vince,,,,,0
 16644,Lundgren,Dolph,1957-11-03,,se,,34.702
 16660,Stallone,Sage,1976-05-05,2012-07-13,us,,15.225
-16672,de,Ate,1953-01-01,,nl,,0
+16672,de Jong,Ate,1953-01-01,,nl,,0
 16745,Shavelson,Melville,1917-04-01,2007-08-08,us,,0
 16747,Rose,Jack,1911-11-04,1995-10-21,,,0
 16748,Duning,George,1908-02-25,2000-02-27,us,,0
@@ -1207,8 +1207,8 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 18779,Risch,Maurice,1943-01-25,,fr,,4.56
 18792,Lindo,Delroy,1952-11-18,,en,,17.408
 18834,Colizzi,Giuseppe,1925-06-28,1978-08-23,it,,0
-18836,De,Guido,1944-12-22,,it,,0
-18837,De,Maurizio,1947-02-22,,it,,0
+18836,De Angelis,Guido,1944-12-22,,it,,0
+18837,De Angelis,Maurizio,1947-02-22,,it,,0
 18841,Pedersoli,Carlo,1929-10-31,2016-06-27,it,Bud Spencer,24.074
 18854,Ritt,Martin,1914-03-02,1990-12-08,us,,0
 18862,Ellroy,James,1948-03-04,,us,,0
@@ -1294,7 +1294,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 20953,Manfredini,Harry,1943-08-25,,us,,0
 20959,Gosset Jr.,Louis,1936-05-27,2024-03-29,us,,43.568
 20967,Hyman,Dick,1927-03-08,,,,0
-21011,De,Frank,1911-09-20,1999-10-27,us,,0
+21011,De Vol,Frank,1911-09-20,1999-10-27,us,,0
 21053,Dahl,John,1956-12-11,,us,,0
 21063,Adlon,Pamela,1966-07-09,,us,,19.168
 21085,Proyas,Alex,1963-09-23,,,,0
@@ -1401,7 +1401,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 24657,Zeffirelli,Franco,1923-02-12,2019-06-15,it,,0
 24717,Davis,Carl,1936-10-28,2023-08-03,us,,0
 24763,Blanche,Roland,1943-12-31,1999-09-13,fr,,3.781
-24775,de,François,1939-04-03,1975-11-22,fr,,0
+24775,de Roubaix,François,1939-04-03,1975-11-22,fr,,0
 24796,Kaminka,Didier,1943-04-22,,fr,,0
 24798,Beller,Georges,1946-01-10,,fr,,3.638
 24832,Prévost,Daniel,1939-10-20,,fr,,4.285
@@ -1432,7 +1432,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 25256,Abril,Victoria,1959-07-04,,es,,1.7917
 25315,Sienkiewicz,Henryk,1846-05-05,1916-11-15,,,0
 25317,Rossi,Franco,1919-04-28,2000-06-05,it,,0
-25349,de,Honoré,1799-05-20,1850-08-18,fr,,0
+25349,de Balzac,Honoré,1799-05-20,1850-08-18,fr,,0
 25351,Portal,Michel,1935-11-25,,fr,,0
 25461,Kaji,Meiko,1947-03-24,,jp,,12.326
 25467,Fujita,Toshiya,1932-01-16,1997-08-29,,,0
@@ -1629,7 +1629,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 34603,Nuytten,Bruno,1945-08-28,,fr,,0
 34611,Zieff,Howard,1927-10-21,2009-02-22,us,,0
 34612,Chlumsky,Anna,1980-12-03,,us,,35.89
-34613,de,Philippe,1933-03-15,2004-11-26,fr,,0
+34613,de Broca,Philippe,1933-03-15,2004-11-26,fr,,0
 34616,Dumas,Roger,1932-05-09,2016-07-02,fr,,7.294
 34637,Soral,Agnès,1960-06-08,,fr,,8.265
 34682,S.,Jeremiah,1955-01-01,,ca,,0
@@ -1700,7 +1700,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 37761,Tonnerre,Jérôme,1959-01-01,,fr,,0
 37770,Autant-Lara,Claude,1901-08-05,2000-02-05,fr,,0
 37777,Krüger,Hardy,1928-04-12,2022-01-19,de,,12.335
-37789,De,Francesco,1930-01-11,2005-11-06,it,,0
+37789,De Masi,Francesco,1930-01-11,2005-11-06,it,,0
 37877,Carothers,AJ,,,,,0
 37915,Greene,David,1921-02-22,2003-04-07,,,0
 37993,Annaud,Monique,,,,,0
@@ -2235,8 +2235,8 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 67619,Green,Guy,1913-11-05,2005-09-15,en,,0
 67624,Alexander,Lloyd,,,,,0
 67632,Markle,Peter,1952-09-24,,us,,0
-67674,De,Rudy,,,,,0
-67753,L.,Mark,1946-11-26,,us,,0
+67674,De Luca,Rudy,,,,,0
+67753,Lester,Mark L.,1946-11-26,,us,,0
 67756,Austin,Michael,,,,,0
 67764,Reed,Jerry,1937-03-20,2008-09-01,us,,0
 67767,Needham,Hal,1931-03-06,2013-10-25,us,,0
@@ -2409,7 +2409,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 76200,Rowland,Bruce,,,,,0
 76418,Gillard,Stuart,1950-04-28,,ca,,0
 76792,Pinto,Freida,1984-10-18,,in,,8.197
-76942,De,Everett,1946-07-12,2014-04-02,,,0
+76942,De Roche,Everett,1946-07-12,2014-04-02,,,0
 77125,Gullón,Javier,1975-01-01,,es,,0
 77625,Becker,Josh,1958-08-17,,us,,0
 77646,Brickhill,Paul,1916-12-20,1991-04-23,au,,0
@@ -2448,7 +2448,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 83847,Grégorio,Annie,1957-04-04,,fr,,0.4035
 84021,Gross,Paul,1959-04-30,,ca,,0
 84205,Hui,Kara,1960-02-03,,hk,,15.711
-84906,De,Steve,,,,,0
+84906,De Jarnatt,Steve,,,,,0
 84981,Trenchard-Smith,Brian,,,en,,0
 84982,Spera,Rob,,,,,0
 84983,Ayromlooi,Steven,,,,,0
@@ -2978,7 +2978,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 1305806,Cansler,Larry,,,,,0
 1309374,Vander,Maurice,1929-06-11,2017-02-16,fr,,0
 1313994,Rouland,Jean-Paul,1928-05-28,,fr,,0
-1316159,de,Marius,1961-01-01,,,,0
+1316159,de Vries,Marius,1961-01-01,,,,0
 1316265,Sevilla,Joëlle,1953-02-10,,fr,,5.401
 1323936,Dreyfus,George,,,,,0
 1329731,Bijan,Alin,,,,,0
@@ -3014,7 +3014,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 1423713,Montel,Grégory,1976-09-20,,fr,,10.191
 1427791,Gleeson,Patrick,,,,,0
 1428070,Merced,Isabela,2001-07-10,,us,,50.401
-1429045,W.,John,,,,,0
+1429045,Campbell,John W.,,,,,0
 1435494,Alessandrini,Raymond,1948-01-01,,de,,0
 1444816,Macon,Peter,1982-05-18,,us,,18.092
 1448516,Johnson,Keean,1996-10-25,,us,,17.465
@@ -3106,7 +3106,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 2421672,Bloch-Lainé,Olivier,,,,,0
 2442062,Graveleau,Gilles,,,,,0.0776
 2539140,Davis,Randolph,,,,,0
-2554577,de,Marie-Christine,,,,,0
+2554577,de Montbrial,Marie-Christine,,,,,0
 2554578,Frichet,Michel,,,,,0
 2607323,Orbit,William,,,,,0
 2667314,Mathieson,Greg,,,,,0

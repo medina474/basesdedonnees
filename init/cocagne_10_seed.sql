@@ -161,17 +161,6 @@ create table import.adherent
 copy import.adherent
 from '/tmp/cocagne/adherents.csv' (format csv, header, encoding 'UTF8');
 
-update import.adherent
-set moyen_paiement_id =
-  case moyen_paiement_id
-    when 47 then 5
-    when 48 then 2
-    when 49 then 1
-    when 50 then 3
-    when 51 then 4
-  end
-where moyen_paiement_id in (47, 48, 49, 50, 51);
-
 insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville, compte_comptable, date_adhesion, date_sortie, moyen_paiement_id, created_at)
   select id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville,
       compta,
@@ -217,8 +206,8 @@ insert into cotisation (saison_id, profil_id, montant, code) values
   (2026,4,5.0,'ACOTSO');
 
 -- Chèque
-update adherent set moyen_paiement_id = 2
-where moyen_paiement_id is null and date_adhesion < '2026-12-15' and (date_sortie > '2023-01-06' or date_sortie is null);
+--update adherent set moyen_paiement_id = 2
+--where moyen_paiement_id is null and date_adhesion < '2026-12-15' and (date_sortie > '2023-01-06' or date_sortie is null);
 
 --select a.id, a.adherent, date_sortie, created_at
 --from adherent a, lateral adherer(a.id, 2023)
@@ -261,7 +250,7 @@ create table import.cotisation
 copy import.cotisation
 from '/tmp/cocagne/sage/cotisations.csv' (format csv, header, delimiter ";", encoding 'UTF8');
 
-insert into adhesion (adherent_id, date_adhesion, saison_id, moyen_paiement_id, numero, montant)
+insert into adhesion (adherent_id, date_adhesion, saison_id, condition_paiement_id, numero, montant)
 select a.id, max(i.jour), extract(year from i.jour), a.moyen_paiement_id,
   max(i.facture) as numero, sum(i.montant) as montant
 from import.cotisation i

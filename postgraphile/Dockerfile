@@ -7,7 +7,6 @@ COPY package.json ./
 RUN npm install
 
 COPY graphile.config.ts ./
-COPY plugins ./plugins
 
 EXPOSE 5678
 ENTRYPOINT ["npx", "--no-install", "postgraphile"]

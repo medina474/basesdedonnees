@@ -48,19 +48,22 @@ delete from livraison_import where abonnement_id = 27791;
 
 \pset tuples_only off
 
--- 1. Les livraisons sans tournées correspondantes
+select '1. Les livraisons sans tournées correspondantes';
+
 select i.livraison_id, abonnement_id, annee
 from livraison_import i
 left join tournee t on t.id = i.tournee_id
   where t.id is null;
 
--- 2. Les abonnements sans produits correspondants
+select '2. Les abonnements sans produits correspondants';
+
 select annee, abonnement_id, count(livraison_id)
 from livraison_import
   where produit_id is null
   group by annee, abonnement_id;
 
--- 3. Les livraisons sans points de distribution
+select '3. Les livraisons sans points de distribution';
+
 select annee, i.tournee_id, i.depot_id, count(i.livraison_id)
 from livraison_import i
   join tournee t on t.id = i.tournee_id
@@ -68,7 +71,8 @@ from livraison_import i
   where produit_id is not null and pd.tournee_id is null
   group by annee, i.tournee_id, i.depot_id;
 
--- 4. les jours de livraison qui ne sont pas dans le calendrier
+select '4. les jours de livraison qui ne sont pas dans le calendrier';
+
 select annee, t.calendrier_id, i.jour, count(i.livraison_id)
 from livraison_import i
   join tournee t on t.id = i.tournee_id
@@ -76,7 +80,8 @@ from livraison_import i
   where produit_id is not null and pl.jour is null
   group by annee, t.calendrier_id, i.jour;
 
--- 5. nombre de livraison par tournee
+select '5. nombre de livraison par tournee';
+
 select tournee.id, tournee, count(livraison_id) as nb
 from tournee
 left join livraison_import on livraison_import.tournee_id = tournee.id

@@ -7,10 +7,10 @@ create schema if not exists import authorization pg_database_owner;
 -- Données générales
 
 copy banque
-from '/tmp/cocagne/commun/banque.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/commun/banque.csv' (format csv, header);
 
 copy unite
-from '/tmp/cocagne/commun/unite.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/commun/unite.csv' (format csv, header);
 
 create temporary table pays_import
 (
@@ -28,7 +28,7 @@ create temporary table pays_import
 );
 
 copy pays_import
-from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/commun/pays.csv' (format csv, header);
 
 insert into country
 select code2, pays, tncc, drapeau_unicode, forme_longue, communautaire, sepa, telephone
@@ -119,7 +119,7 @@ insert into fermeture (saison_id, semaine) values
   (2026,53);
 
 copy ferie (saison_id, ferie, jour)
-from '/tmp/cocagne/commun/ferie.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/commun/ferie.csv' (format csv, header);
 
 -- Adhérents
 
@@ -133,10 +133,10 @@ select setval(pg_get_serial_sequence('profil', 'id'), max(id))
 from profil;
 
 copy moyen_paiement(id,moyen_paiement,actif)
-from '/tmp/cocagne/moyen_paiement.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/moyen_paiement.tsv' header;
 
 copy condition_paiement(id,moyen_paiement_id,nombre,condition_paiement)
-from '/tmp/cocagne/condition_paiement.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/condition_paiement.csv' (format csv, header);
 
 create table import.adherent
 (
@@ -159,7 +159,7 @@ create table import.adherent
 );
 
 copy import.adherent
-from '/tmp/cocagne/adherents.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/adherents.csv' (format csv, header);
 
 insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville, compte_comptable, date_adhesion, date_sortie, moyen_paiement_id, created_at)
   select id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville,
@@ -248,7 +248,7 @@ create table import.cotisation
 );
 
 copy import.cotisation
-from '/tmp/cocagne/sage/cotisations.csv' (format csv, header, delimiter ";", encoding 'UTF8');
+from '/tmp/cocagne/sage/cotisations.csv' (format csv, header, delimiter ";");
 
 insert into adhesion (adherent_id, date_adhesion, saison_id, condition_paiement_id, numero, montant)
 select a.id, max(i.jour), extract(year from i.jour), a.moyen_paiement_id,
@@ -262,13 +262,13 @@ having sum(montant) <> 0;
 -- Quid de l'historique des prix ?
 
 copy produit (id,produit,prix,marge,ordre,categorie,couleur,texte,doublage_id)
-from '/tmp/cocagne/produits.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/produits.csv' (format csv, header);
 
 select setval(pg_get_serial_sequence('produit', 'id'), max(id))
 from produit;
 
 copy panier (id,produit_id,panier,quantite,prix,domicile,actif,code)
-from '/tmp/cocagne/paniers.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/paniers.csv' (format csv, header);
 
 select setval(pg_get_serial_sequence('panier', 'id'), max(id))
 from panier;
@@ -296,10 +296,10 @@ insert into calendrier (id,saison_id,calendrier) values
 select setval(pg_get_serial_sequence('calendrier', 'id'), max(id))
 from calendrier;
 
-copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2023.csv' (format csv, header, encoding 'UTF8');
-copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2024.csv' (format csv, header, encoding 'UTF8');
-copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2025.csv' (format csv, header, encoding 'UTF8');
-copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2026.csv' (format csv, header, encoding 'UTF8');
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2023.csv' (format csv, header);
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2024.csv' (format csv, header);
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2025.csv' (format csv, header);
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2026.csv' (format csv, header);
 
 insert into preparation (id, preparation, jour, ordre) values
   (1,'Mardi', 2, 0),
@@ -366,10 +366,10 @@ select setval(pg_get_serial_sequence('tournee', 'id'), max(id))
 from tournee;
 
 copy point_distribution (tournee_id, depot_id, ordre)
-from '/tmp/cocagne/point_distribution.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/point_distribution.csv' (format csv, header);
 
 copy itineraire (tournee_id, depot_id, adherent_id, ordre)
-from '/tmp/cocagne/itineraire.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/itineraire.csv' (format csv, header);
 
 -- Abonnements
 
@@ -394,10 +394,10 @@ create table import.abonnement
   reste_prec       smallint
 );
 
-copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2023.csv' (format csv, header, ENCODING 'UTF8');
-copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2024.csv' (format csv, header, ENCODING 'UTF8');
-copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2025.csv' (format csv, header, ENCODING 'UTF8');
-copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2026.csv' (format csv, header, ENCODING 'UTF8');
+copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2023.csv' (format csv, header);
+copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2024.csv' (format csv, header);
+copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2025.csv' (format csv, header);
+copy import.abonnement from '/tmp/cocagne/abonnements/abonnements-2026.csv' (format csv, header);
 
 update import.abonnement
   set moyen_paiement_id = null
@@ -485,7 +485,7 @@ select setval(pg_get_serial_sequence('poste', 'id'), max(id))
 from poste;
 
 copy employe (id, prenom, nom, service, poste_id, actif)
-from '/tmp/cocagne/employe.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/employe.csv' (format csv, header);
 
 select setval(pg_get_serial_sequence('employe', 'id'), max(id))
 from employe;
@@ -555,7 +555,7 @@ create table import.don
 );
 
 copy import.don
-from '/tmp/cocagne/sage/dons.csv' (format csv, header, delimiter ";", encoding 'UTF8');
+from '/tmp/cocagne/sage/dons.csv' (format csv, header, delimiter ";");
 
 insert into don (adherent_id, montant, jour)
 select a.id, d.montant, d.jour from import.don d
@@ -577,7 +577,7 @@ create temporary table code_postal_temp (
 );
 
 copy code_postal_temp
-from '/tmp/base-officielle-codes-postaux.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/base-officielle-codes-postaux.csv' (format csv, header);
 
 insert into code_postal (code_insee, cp, commune, acheminement, ligne5)
 select code_commune_INSEE, code_postal,
@@ -600,7 +600,7 @@ create table import.code_postal (
 );
 
 copy import.code_postal
-from '/tmp/datanova/019HexaSmal-full.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/datanova/019HexaSmal-full.csv' (format csv, header);
 
 insert into code_postal_contour
 select code_postal, st_union(ST_SetSRID(ST_GeomFromGeoJSON(contour), 4326))
@@ -624,7 +624,7 @@ create table import.panier_commande
 );
 
 copy import.panier_commande
-from '/tmp/cocagne/access/paniers_commandes.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/paniers_commandes.csv' (format csv, header);
 
 with import as
 (
@@ -689,7 +689,7 @@ create table import.panier_composition
 );
 
 copy import.panier_composition
-from '/tmp/cocagne/access/paniers_compositions.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/paniers_compositions.csv' (format csv, header);
 
 insert into panier_composition (panier_commande_id, produit_id, qte, montant)
 select panier, code_veg, qte_panier_arrondie, prix_veg
@@ -713,7 +713,7 @@ set montant =
 -- --------------------------------------------------------------------------------
 
 copy etape
-from '/tmp/cocagne/access/etapes.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/etapes.csv' (format csv, header);
 
 create table import.action
 (
@@ -728,7 +728,7 @@ create table import.action
 );
 
 copy import.action
-from '/tmp/cocagne/access/actions.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/actions.csv' (format csv, header);
 
 insert into action
 select
@@ -767,7 +767,7 @@ create table import.fournisseur
 );
 
 copy import.fournisseur
-from '/tmp/cocagne/access/JDC _ Fournisseur BD.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Fournisseur BD.csv' (format csv, header);
 
 insert into fournisseur
 select
@@ -791,7 +791,7 @@ select
  from import.fournisseur;
 
 copy "resistance"
-from '/tmp/cocagne/resistance.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/resistance.csv' (format csv, header);
 
 
 -- Article
@@ -833,7 +833,7 @@ create table import.article
 );
 
 copy import.article
-from '/tmp/cocagne/access/JDC _ Végétal BD.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Végétal BD.csv' (format csv, header);
 
 update import.article
 set fournisseur_id = 1
@@ -916,7 +916,7 @@ from import.article
 where fournisseur_id is not null and fournisseur_id <> 1;
 
 copy "article_produit"
-from '/tmp/cocagne/access/JDC _ Végétal produit.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Végétal produit.csv' (format csv, header);
 --
 
 create table import.stock
@@ -941,7 +941,7 @@ create table import.stock
 );
 
 copy import.stock
-from '/tmp/cocagne/access/JDC _ Stock.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Stock.csv' (format csv, header);
 
 update import.stock
 set fournisseur_id = 1
@@ -976,7 +976,7 @@ create table import.mouvement
 );
 
 copy import.mouvement
-from '/tmp/cocagne/access/JDC _ Mouvement.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Mouvement.csv' (format csv, header);
 
 insert into mouvement (stock_id, jour, sens, qte)
 select id, jour,
@@ -1008,7 +1008,7 @@ create table import.plan_culture
 );
 
 copy import.plan_culture
-from '/tmp/cocagne/access/JDC _ Plan de culture.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Plan de culture.csv' (format csv, header);
 
 insert into plan_culture ( id,
   article_id,
@@ -1055,6 +1055,6 @@ select
 from import.plan_culture;
 
 copy achat
-from '/tmp/cocagne/access/JDC _ Achat.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/cocagne/access/JDC _ Achat.csv' (format csv, header);
 
 -- drop scheam import;

@@ -669,6 +669,8 @@ create table preparation
   ordre          smallint not null
 );
 
+create index ux_preparation_ordre on preparation(ordre);
+
 grant usage on sequence public.preparation_id_seq to cocagne;
 
 comment on table preparation is 'Jour de préparation des tournées';

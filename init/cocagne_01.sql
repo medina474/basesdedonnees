@@ -964,6 +964,7 @@ create table abonnement
   panier_id        bigint        references panier on delete cascade,
   date_debut       date          not null,
   nombre           smallint      not null,
+  nombre_initial   smallint      not null,
   quantite         smallint      not null default 1,
   montant          numeric(8, 2) not null,
   condition_paiement_id bigint        null references condition_paiement,

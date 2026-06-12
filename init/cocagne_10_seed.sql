@@ -465,6 +465,7 @@ select id,
   panier_id,
   date_debut,
   nombre,
+  nb_initial
   qte,
   montant,
   moyen_paiement_id,

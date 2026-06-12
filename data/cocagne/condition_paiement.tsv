@@ -2,23 +2,23 @@ id	moyen_paiement	nombre	condition_paiement
 1	1	1	Espèces comptant
 2	2	1	Chèque comptant
 3	3	1	Prélèvement
-4	1	1	annuel
-5	1	2	semestriel
-6	1	4	trimestriel
-7	1	12	mensuel
-8	2	1	annuel
-9	2	2	semestriel
-10	2	4	trimestriel
-11	2	12	mensuel
-12	3	1	annuel
-13	3	2	semestriel
-14	3	4	trimestriel
-15	3	12	mensuel
-16	4	1	annuel
-17	4	2	semestriel
-18	4	4	trimestriel
-19	4	12	mensuel
-20	5	1	annuel
-21	5	2	semestriel
-22	5	4	trimestriel
-23	5	12	mensuel
+4	1	1	Espèces pour l'année complète
+5	1	2	Espèces chaque début de semestre
+6	1	4	Espèces chaque début de trimestre
+7	1	12	Espèces chaque mois
+8	2	1	Chèque pour l'année complète
+9	2	2	Chèque chaque début de semestre
+10	2	4	Chèque début de trimestre
+11	2	12	Chèque chaque mois
+12	3	1	Prélèvement automatique annuel
+13	3	2	Prélèvement automatique semestriel
+14	3	4	Prélèvement automatique trimestriel
+15	3	12	Prélèvement automatique mensuel
+16	4	1	Virement annuel
+17	4	2	Virement semestriel
+18	4	4	Virement trimestriel
+19	4	12	Virement mensuel
+20	5	1	Carte bancaire pour l'année complète
+21	5	2	Carte bancaire chaque début de semestre
+22	5	4	Carte bancaire chaque début de trimestre
+23	5	12	Carte bancaire chaque mois

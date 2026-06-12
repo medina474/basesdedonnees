@@ -212,6 +212,8 @@ COPY actor (actor_id, first_name, last_name, last_update) FROM stdin;
 200	THORA	TEMPLE	2022-02-15 09:34:33+00
 \.
 
+select setval(pg_get_serial_sequence('actor', 'actor_id'), max(actor_id))
+from actor;
 
 --
 -- Data for Name: country; Type: TABLE DATA; Schema: public; Owner: postgres
@@ -47698,13 +47700,6 @@ COPY payment_p2022_07 (payment_id, customer_id, staff_id, rental_id, amount, pay
 32098	264	2	14243	2.99	2022-07-06 23:14:23.213321+01
 \.
 
-
---
--- Name: actor_actor_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
---
-
-select setval(pg_get_serial_sequence('actor', 'actor_id'), max(actor_id))
-from actor;
 
 --
 -- Name: address_address_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres

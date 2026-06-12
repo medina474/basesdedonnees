@@ -89,20 +89,20 @@ create table chronologie as
       where jour + interval '1 day' <= '2027-12-31'
   )
   select
-    extract(epoch from jour) / 86400::int as jj,
+    (extract(epoch from jour) / 86400::int)::int as jj,
     jour,
-    extract (year from jour) as annee,
-    extract (month from jour) as mois,
-    extract (day from jour) as jmois,
-    extract (week from jour) as semaine,
-    extract (dow from jour) as jsemaine,
-    extract (doy from jour) as jannee,
-    floor((extract(month from jour) - 1) / 6) + 1 as semestre,
-    floor((extract(month from jour) - 1) / 4) + 1 as quadrimestre,
-    extract(quarter from jour)::int as trimestre,
-    floor((extract(month from jour) - 1) / 2) + 1 as bimestre,
-    extract (day from jour) / extract (day from (date_trunc('month', '2025-03-16'::date) + interval '1 month' - interval '1 day'))  as frac_mois,
-    extract (doy from jour) / extract (doy from (extract (year from jour)||'-12-31')::date)  as frac_annee
+    extract(year from jour)::int as annee,
+    extract(month from jour)::smallint as mois,
+    extract(day from jour)::smallint as jmois,
+    extract(week from jour)::smallint as semaine,
+    extract(dow from jour)::smallint as jsemaine,
+    extract(doy from jour)::int as jannee,
+    (floor((extract(month from jour) - 1) / 6) + 1)::smallint as semestre,
+    (floor((extract(month from jour) - 1) / 4) + 1)::smallint as quadrimestre,
+    extract(quarter from jour)::smallint as trimestre,
+    (floor((extract(month from jour) - 1) / 2) + 1)::smallint as bimestre,
+    (extract (day from jour) / extract (day from (date_trunc('month', '2025-03-16'::date) + interval '1 month' - interval '1 day')))::real  as frac_mois,
+    (extract (doy from jour) / extract (doy from (extract (year from jour)||'-12-31')::date))::real  as frac_annee
   from calendrier;
 
 select 'Banques -------------------------------------------';
@@ -517,7 +517,7 @@ create table adhesion
   montant       numeric(8, 2) not null,
   saison_id     bigint not null references saison,
   numero        text,
-  condition_paiement_id bigint null references moyen_paiement,
+  condition_paiement_id bigint null references condition_paiement,
   created_at    timestamp(0) with time zone default current_timestamp not null,
   constraint adhesion_unique unique (adherent_id, saison_id)
 );

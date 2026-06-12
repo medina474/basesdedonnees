@@ -465,6 +465,7 @@ select id,
   panier_id,
   date_debut,
   nombre,
+  qte,
   montant,
   moyen_paiement_id,
   saison_id from import.abonnement;

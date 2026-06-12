@@ -15536,7 +15536,11 @@ COPY inventory (inventory_id, film_id, store_id, last_update) FROM stdin;
 4581	1000	2	2022-02-15 10:09:17+00
 \.
 
-copy staff (staff_id, first_name, last_name, address_id, email, store_id, active, username, password, last_update, picture) from '/tmp/pagila/stuff.tsv';
+copy staff (staff_id, first_name, last_name, address_id, email, store_id, active, username, password, last_update, picture) 
+from '/tmp/pagila/staff.tsv' header;
+
+select setval(pg_get_serial_sequence('staff', 'staff_id'), max(staff_id))
+from staff;
 
 --
 -- Data for Name: rental; Type: TABLE DATA; Schema: public; Owner: postgres
@@ -47699,8 +47703,8 @@ COPY payment_p2022_07 (payment_id, customer_id, staff_id, rental_id, amount, pay
 -- Name: actor_actor_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.actor_actor_id_seq', 200, true);
-
+select setval(pg_get_serial_sequence('actor', 'actor_id'), max(actor_id))
+from actor;
 
 --
 -- Name: address_address_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
@@ -47720,15 +47724,11 @@ SELECT pg_catalog.setval('public.category_category_id_seq', 16, true);
 -- Name: city_city_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.city_city_id_seq', 600, true);
+select setval(pg_get_serial_sequence('city', 'city_id'), max(city_id))
+from city;
 
-
---
--- Name: country_country_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
---
-
-SELECT pg_catalog.setval('public.country_country_id_seq', 109, true);
-
+select setval(pg_get_serial_sequence('country', 'country_id'), max(country_id))
+from country;
 
 --
 -- Name: customer_customer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
@@ -47741,8 +47741,8 @@ SELECT pg_catalog.setval('public.customer_customer_id_seq', 599, true);
 -- Name: film_film_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.film_film_id_seq', 1000, true);
-
+select setval(pg_get_serial_sequence('film', 'film_id'), max(film_id))
+from film;
 
 --
 -- Name: inventory_inventory_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
@@ -47770,13 +47770,6 @@ SELECT pg_catalog.setval('public.payment_payment_id_seq', 32098, true);
 --
 
 SELECT pg_catalog.setval('public.rental_rental_id_seq', 16049, true);
-
-
---
--- Name: staff_staff_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
---
-
-SELECT pg_catalog.setval('public.staff_staff_id_seq', 1500, true);
 
 
 --

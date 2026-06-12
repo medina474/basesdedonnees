@@ -1,0 +1,11 @@
+id	produit	prix	marge	ordre	categorie	couleur	texte	doublage
+1	Panier simple	14.20	40.0	0	Légumes	#d9d9d9	#000	2
+2	Panier familial	24.40	40.0	1	Légumes	#f7c7ac	#000	2
+3	Panier fruité 1	14.50	80.0	5	Fruits	#ffff00	#000	2
+4	Panier fruité 2	17.50	80.0	6	Fruits	#ffc000	#000	2
+5	Panier fruité 3	23.50	80.0	7	Fruits	#6600ff	#fff	2
+6	Oeufs x6	3.15	50.0	9	Oeufs	#ffffff	#000	2
+7	Panier fruité entreprise	25.00	80.0	8	Fruits	#d86dcd	#000	2
+8	Panier Mixte Grande Tribu	49.00	40.0	3	Mixtes	#3c7d22	#fff	2
+9	Panier Mixte Petite Tribu	29.00	40.0	2	Mixtes	#00b0f0	#000	2
+10	Panier Mixte Solo	19.00	40.0	4	Mixtes	#c00000	#fff	2

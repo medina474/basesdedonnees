@@ -55,10 +55,10 @@ alter table ligne
   add column total decimal
   generated always as (prix_unitaire * quantite) stored;
 
---set role postgres;
+set role postgres;
 
-\copy adherent from '/tmp/market/adherent.csv' (FORMAT CSV, header, ENCODING 'UTF8');
-\copy famille from '/tmp/market/famille.csv' (FORMAT CSV, header, ENCODING 'UTF8');
-\copy article from '/tmp/market/article.csv' (FORMAT CSV, header, ENCODING 'UTF8');
-\copy ticket from '/tmp/market/ticket.csv' (FORMAT CSV, header, ENCODING 'UTF8');
-\copy ligne from '/tmp/market/ligne.csv' (FORMAT CSV, header, ENCODING 'UTF8');
+copy adherent from '/tmp/market/adherent.tsv' header;
+copy famille from '/tmp/market/famille.csv' csv header;
+copy article from '/tmp/market/article.csv' csv header;
+copy ticket from '/tmp/market/ticket.tsv' header;
+copy ligne from '/tmp/market/ligne.csv' csv header;

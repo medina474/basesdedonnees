@@ -78,6 +78,34 @@ insert into "user" (email, roles, password) values
 -- Données générales
 -- --------------------------------------------------------------------------------
 
+-- Chronologie
+create table chronologie as
+  with recursive calendrier as (
+    select
+      '2023-01-01 00:00:00'::timestamp as jour
+    union all
+    select
+      jour + interval '1 day'
+    from calendrier
+      where jour + interval '1 day' <= '2027-12-31'
+  )
+  select
+    extract(epoch from jour) / 86400::int as jj,
+    jour,
+    extract (year from jour) as annee,
+    extract (month from jour) as mois,
+    extract (day from jour) as jmois,
+    extract (week from jour) as semaine,
+    extract (dow from jour) as jsemaine,
+    extract (doy from jour) as jannee,
+    floor((extract(month from jour) - 1) / 6) + 1 as semestre,
+    floor((extract(month from jour) - 1) / 4) + 1 as quadrimestre,
+    extract(quarter from jour)::int as trimestre,
+    floor((extract(month from jour) - 1) / 2) + 1 as bimestre,
+    extract (day from jour) / extract (day from (date_trunc('month', '2025-03-16'::date) + interval '1 month' - interval '1 day'))  as frac_mois,
+    extract (doy from jour) / extract (doy from (extract (year from jour)||'-12-31')::date)  as frac_annee
+  from calendrier;
+
 select 'Banques -------------------------------------------';
 
 create table banque
@@ -1514,7 +1542,7 @@ order by n.nspname;
 
 --select tablename, tableowner from pg_catalog.pg_tables where schemaname in ( 'public' );
 --
-\connect postgres;
+\c postgres;
 
 revoke all on schema public from PUBLIC;
 

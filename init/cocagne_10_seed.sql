@@ -7,7 +7,7 @@ create schema if not exists import authorization pg_database_owner;
 -- Données générales
 
 copy banque
-from '/tmp/cocagne/commun/banque.csv' (format csv, header);
+from '/tmp/cocagne/commun/banque.tsv' header;
 
 copy unite
 from '/tmp/cocagne/commun/unite.csv' (format csv, header);
@@ -119,15 +119,16 @@ insert into fermeture (saison_id, semaine) values
   (2026,53);
 
 copy ferie (saison_id, ferie, jour)
-from '/tmp/cocagne/commun/ferie.csv' (format csv, header);
+from '/tmp/cocagne/commun/ferie.tsv' header;
 
 -- Adhérents
 
-insert into profil (id, profil) values
-  (1, 'adhérent'),
-  (2, 'non adhérent'),
-  (3, 'professionnel'),
-  (4, 'salarié');
+copy profil (id, profil) from stdin;
+1	adhérent
+2	non adhérent
+3	professionnel
+4	salarié
+\.
 
 select setval(pg_get_serial_sequence('profil', 'id'), max(id))
 from profil;
@@ -136,7 +137,7 @@ copy moyen_paiement(id,moyen_paiement,actif)
 from '/tmp/cocagne/moyen_paiement.tsv' header;
 
 copy condition_paiement(id,moyen_paiement_id,nombre,condition_paiement)
-from '/tmp/cocagne/condition_paiement.csv' (format csv, header);
+from '/tmp/cocagne/condition_paiement.tsv' header;
 
 create table import.adherent
 (
@@ -175,35 +176,36 @@ from adherent;
 
 --
 
-insert into cotisation (saison_id, profil_id, montant, code) values
-  (2020,1,30.0,'ACOT'),
-  (2020,2,0.0,null),
-  (2020,3,30.0,'ACOTPRO'),
-  (2020,4,30.0,'ACOTSO'),
-  (2021,1,30.0,'ACOT'),
-  (2021,2,0.0,null),
-  (2021,3,30.0,'ACOTPRO'),
-  (2021,4,30.0,'ACOTSO'),
-  (2022,1,30.0,'ACOT'),
-  (2022,2,0.0,null),
-  (2022,3,30.0,'ACOTPRO'),
-  (2022,4,30.0,'ACOTSO'),
-  (2023,1,30.0,'ACOT'),
-  (2023,2,0.0,null),
-  (2023,3,30.0,'ACOTPRO'),
-  (2023,4,30.0,'ACOTSO'),
-  (2024,1,5.0,'ACOT'),
-  (2024,2,0.0,null),
-  (2024,3,5.0,'ACOTPRO'),
-  (2024,4,5.0,'ACOTSO'),
-  (2025,1,5.0,'ACOT'),
-  (2025,2,0.0,null),
-  (2025,3,5.0,'ACOTPRO'),
-  (2025,4,5.0,'ACOTSO'),
-  (2026,1,5.0,'ACOT'),
-  (2026,2,0.0,null),
-  (2026,3,5.0,'ACOTPRO'),
-  (2026,4,5.0,'ACOTSO');
+copy cotisation (saison_id, profil_id, montant, code) from stdin;
+2020	1	30.0	ACOT
+2020	2	0.0	
+2020	3	30.0	ACOTPRO
+2020	4	30.0	ACOTSO
+2021	1	30.0	ACOT
+2021	2	0.0	
+2021	3	30.0	ACOTPRO
+2021	4	30.0	ACOTSO
+2022	1	30.0	ACOT
+2022	2	0.0	
+2022	3	30.0	ACOTPRO
+2022	4	30.0	ACOTSO
+2023	1	30.0	ACOT
+2023	2	0.0	
+2023	3	30.0	ACOTPRO
+2023	4	30.0	ACOTSO
+2024	1	5.0	ACOT
+2024	2	0.0	
+2024	3	5.0	ACOTPRO
+2024	4	5.0	ACOTSO
+2025	1	5.0	ACOT
+2025	2	0.0	
+2025	3	5.0	ACOTPRO
+2025	4	5.0	ACOTSO
+2026	1	5.0	ACOT
+2026	2	0.0	
+2026	3	5.0	ACOTPRO
+2026	4	5.0	ACOTSO
+\.
 
 -- Chèque
 --update adherent set moyen_paiement_id = 2
@@ -262,13 +264,13 @@ having sum(montant) <> 0;
 -- Quid de l'historique des prix ?
 
 copy produit (id,produit,prix,marge,ordre,categorie,couleur,texte,doublage_id)
-from '/tmp/cocagne/produits.csv' (format csv, header);
+from '/tmp/cocagne/produits.tsv' header;
 
 select setval(pg_get_serial_sequence('produit', 'id'), max(id))
 from produit;
 
 copy panier (id,produit_id,panier,quantite,prix,domicile,actif,code)
-from '/tmp/cocagne/paniers.csv' (format csv, header);
+from '/tmp/cocagne/paniers.tsv' header;
 
 select setval(pg_get_serial_sequence('panier', 'id'), max(id))
 from panier;
@@ -296,10 +298,10 @@ insert into calendrier (id,saison_id,calendrier) values
 select setval(pg_get_serial_sequence('calendrier', 'id'), max(id))
 from calendrier;
 
-copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2023.csv' (format csv, header);
-copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2024.csv' (format csv, header);
-copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2025.csv' (format csv, header);
-copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2026.csv' (format csv, header);
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2023.tsv' header;
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2024.tsv' header;
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2025.tsv' header;
+copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2026.tsv' header;
 
 insert into preparation (id, preparation, jour, ordre) values
   (1,'Mardi', 2, 0),

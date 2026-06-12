@@ -1,4 +1,4 @@
-staff_id, first_name, last_name, address_id, email, store_id, active, username, password, last_update, picture
+staff_id	first_name	last_name	address_id	email	store_id	active	username	password	last_update	picture
 0	Tisha	DuBuque	28	schneider9987@rosenbaumreichert.com	23	t	sina.corkery	8cb2237d0679ca88db6464eac60da96345513964	2022-05-16 15:13:11.79328+00	\N
 1	Warner	Hudson	45	hartmann1448@ratkehaley.com	25	t	fay.kub	8cb2237d0679ca88db6464eac60da96345513964	2022-05-16 15:13:11.79328+00	\N
 2	Lavone	O'Reilly	6	mclaughlin3045@kleinwisokyandswaniawski.com	33	t	gaston.wuckert	8cb2237d0679ca88db6464eac60da96345513964	2022-05-16 15:13:11.79328+00	\N

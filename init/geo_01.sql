@@ -326,6 +326,76 @@ select distinct academie_code, academie_nom from commune_temp order by academie_
 insert into canton
 select distinct canton_code, canton_code from commune_temp order by canton_code;
 
+
+--
+create table pays
+(
+  code2 text primary key,
+  code3 text not null,
+  pays text not null,
+  drapeau_unicode text,
+  forme_longue text,
+  nom_eng text,
+  nom_spa text,
+  communautaire boolean,
+  sepa boolean
+);
+
+comment on column pays.code2
+  is 'code ISO 3166-1 alpha 2';
+
+comment on column pays.code3
+  is 'code ISO 3166-1 alpha 3';
+
+alter table pays
+  add check (code2 ~ '^[A-Z]{2}$');
+
+alter table pays
+  add check (code3 ~ '^[A-Z]{3}$');
+
+create temporary table pays_import
+(
+  code2 text,
+  code3 text,
+  code_num text,
+  pays text,
+  tncc smallint,
+  drapeau_unicode text,
+  forme_longue text,
+  independant boolean,
+  communautaire boolean,
+  sepa boolean,
+  telephone smallint
+);
+
+\copy pays_import from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
+
+insert into pays (code2, code3, pays, drapeau_unicode, forme_longue, communautaire, sepa)
+select code2, code3, pays, drapeau_unicode, forme_longue, communautaire, sepa
+from pays_import
+where independant is true;
+
+
+-- Noms des pays en anglais et espagnol
+
+create temporary table pays_tmp (
+  nom text,
+  code_num text,
+  code3 text
+);
+
+\copy pays_tmp FROM '/tmp/geo/pays_es.txt' (FORMAT CSV, delimiter E'\t', ENCODING 'UTF8');
+
+update pays set nom_spa = (select t.nom from pays_tmp t where pays.code3 = t.code3);
+
+truncate table pays_tmp;
+
+\copy pays_tmp FROM '/tmp/geo/pays_en.txt' (FORMAT CSV, delimiter E'\t', ENCODING 'UTF8');
+
+update pays set nom_eng = (select t.nom from pays_tmp t where pays.code3 = t.code3);
+update pays set nom_eng = 'Taiwan' where code2 = 'TW';
+
+drop table pays_tmp;
 --
 
 create table villes (
@@ -360,7 +430,7 @@ join pays on pays.code2 = upper(villes_tmp.iso2);
 
 update villes
   set admin_name = r.region_code
-  from  regions r
+  from  subdivision r
   where hierarchie ~ ('*.'||villes.pays_code||'.*')::lquery
     and region = villes.admin_name;
 

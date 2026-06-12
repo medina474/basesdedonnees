@@ -1,0 +1,24 @@
+id	moyen_paiement	nombre	condition_paiement
+1	1	1	Espèces comptant
+2	2	1	Chèque comptant
+3	3	1	Prélèvement
+4	1	1	annuel
+5	1	2	semestriel
+6	1	4	trimestriel
+7	1	12	mensuel
+8	2	1	annuel
+9	2	2	semestriel
+10	2	4	trimestriel
+11	2	12	mensuel
+12	3	1	annuel
+13	3	2	semestriel
+14	3	4	trimestriel
+15	3	12	mensuel
+16	4	1	annuel
+17	4	2	semestriel
+18	4	4	trimestriel
+19	4	12	mensuel
+20	5	1	annuel
+21	5	2	semestriel
+22	5	4	trimestriel
+23	5	12	mensuel

@@ -14,6 +14,9 @@ begin
   return next has_table( 'depot' );
   return next has_table( 'panier' );
   return next has_table( 'produit' );
+  return next has_table( 'abonnement' );
+  return next has_table( 'adhesion' );
+  return next has_table( 'cotisation' );
 end;
 $function$;
 

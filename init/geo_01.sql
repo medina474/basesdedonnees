@@ -3,7 +3,9 @@ drop database if exists geo with (force);
 -- Crée une nouvelle base nommée geo.
 create database geo owner geo;
 
+
 \c geo;
+
 
 -- Extension spatiale qui ajoute des types géométriques, index spatiaux et fonctions géographiques.
 -- Ne pas placer l'extension dans un schéma séparé car l'ORM Doctrine ne retouve pas les fonctions
@@ -13,6 +15,7 @@ create extension if not exists postgis;
 create extension if not exists btree_gist;
 
 create extension if not exists ltree;
+create extension if not exists citext;
 
 set role geo;
 
@@ -332,9 +335,9 @@ create table pays
 (
   code2 text primary key,
   code3 text not null,
-  pays text not null,
+  pays citext not null,
   drapeau_unicode text,
-  forme_longue text,
+  forme_longue citext,
   nom_eng text,
   nom_spa text,
   communautaire boolean,

@@ -39,7 +39,6 @@ create extension if not exists btree_gist;
 
 create extension if not exists pg_trgm;
 create extension if not exists unaccent;
-create extension if not exists citext;
 create extension if not exists ltree;
 
 create extension if not exists anon schema extensions;
@@ -156,10 +155,10 @@ insert into tncc values
 create table country
 (
   code text primary key,
-  country citext not null,
+  country text not null,
   tncc_id smallint references tncc,
   flag text,
-  long citext,
+  long text,
   intracommunity boolean not null default false,
   sepa boolean not null default false,
   phonecode smallint

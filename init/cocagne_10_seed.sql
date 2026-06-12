@@ -465,11 +465,13 @@ select id,
   panier_id,
   date_debut,
   nombre,
-  nb_initial
+  nb_initial,
   qte,
   montant,
   moyen_paiement_id,
-  saison_id from import.abonnement;
+  saison_id,
+  piece
+  from import.abonnement;
 
 --
 

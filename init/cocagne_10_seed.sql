@@ -161,10 +161,10 @@ create table import.adherent
 );
 
 copy import.adherent
-from '/tmp/cocagne/adherents.tsv' header;
+from '/tmp/cocagne/adherents.tsv' header null '';
 
 insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, complement, code_postal, ville, compte_comptable, date_adhesion, date_sortie, moyen_paiement_id, created_at)
-  select id, adherent, profil_id, depot_id, email, telephone, adresse, coplement, code_postal, ville,
+  select id, adherent, profil_id, depot_id, email, telephone, adresse, complement, code_postal, ville,
       compta,
       case when date_adhesion is null then created_at::date else date_adhesion end,
       date_sortie,
@@ -776,7 +776,7 @@ create table import.fournisseur
 copy import.fournisseur
 from '/tmp/cocagne/access/JDC _ Fournisseur BD.csv' (format csv, header);
 
-insert into fournisseur
+insert into fournisseur (id, fournisseur, contact, adresse, code_postal, ville, email, telephone, type_article, categorie, telephone_contact, reference, commentaire, siren, tva, iban, compta)
 select
   id,
   fournisseur,

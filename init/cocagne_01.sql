@@ -448,6 +448,7 @@ create table adherent
   date_sortie   date,
   user_id       bigint,
   adresse       text,
+  complement    text,
   code_postal   text,
   ville         text,
   localisation  geometry(point, 4326) default null::geometry,

@@ -151,6 +151,7 @@ create table import.adherent
   created_at    timestamp without time zone,
   date_sortie   date,
   adresse       text,
+  complement    text,
   code_postal   text,
   ville         text,
   date_adhesion date,
@@ -160,10 +161,10 @@ create table import.adherent
 );
 
 copy import.adherent
-from '/tmp/cocagne/adherents.csv' (format csv, header);
+from '/tmp/cocagne/adherents.tsv' header;
 
-insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville, compte_comptable, date_adhesion, date_sortie, moyen_paiement_id, created_at)
-  select id, adherent, profil_id, depot_id, email, telephone, adresse, code_postal, ville,
+insert into adherent (id, adherent, profil_id, depot_id, email, telephone, adresse, complement, code_postal, ville, compte_comptable, date_adhesion, date_sortie, moyen_paiement_id, created_at)
+  select id, adherent, profil_id, depot_id, email, telephone, adresse, coplement, code_postal, ville,
       compta,
       case when date_adhesion is null then created_at::date else date_adhesion end,
       date_sortie,

@@ -78,7 +78,7 @@ insert into "user" (email, roles, password) values
 -- Symfony
 -- --------------------------------------------------------------------------------
 
-CREATE TABLE doctrine_migration_versions (
+create table doctrine_migration_versions (
 	"version" varchar(191) primary key,
 	executed_at timestamp(0) default null::timestamp without time zone null,
 	execution_time int4 null

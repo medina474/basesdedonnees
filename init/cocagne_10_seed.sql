@@ -369,7 +369,7 @@ select setval(pg_get_serial_sequence('tournee', 'id'), max(id))
 from tournee;
 
 copy point_distribution (tournee_id, depot_id, ordre)
-from '/tmp/cocagne/point_distribution.csv' (format csv, header);
+from '/tmp/cocagne/point_distribution.tsv' header;
 
 copy itineraire (tournee_id, depot_id, adherent_id, ordre)
 from '/tmp/cocagne/itineraire.csv' (format csv, header);

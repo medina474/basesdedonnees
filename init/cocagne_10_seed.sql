@@ -776,7 +776,7 @@ create table import.fournisseur
 copy import.fournisseur
 from '/tmp/cocagne/access/JDC _ Fournisseur BD.csv' (format csv, header);
 
-insert into fournisseur (id, fournisseur, contact, adresse, code_postal, ville, email, telephone, type_article, categorie, telephone_contact, reference, commentaire, siren, tva, iban, compta)
+insert into fournisseur (id, fournisseur, contact, adresse, code_postal, ville, email, telephone, type_article, categorie, telephone_contact, reference, commentaire, ape, tva, iban, compta)
 select
   id,
   fournisseur,

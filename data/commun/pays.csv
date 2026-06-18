@@ -66,13 +66,13 @@ FR,FRA,250,France,3,🇫🇷,République française,1,1,1,33
 GA,GAB,266,Gabon,2,🇬🇦,République gabonaise,1,0,0,241
 GM,GMB,270,Gambie,3,🇬🇲,,1,0,0,220
 GE,GEO,268,Géorgie,3,🇬🇪,,1,0,0,995
-GH,GHA,288,Ghana,2,🇬🇭,,1,0,0,233
+GH,GHA,288,Ghana,2,🇬🇭,République du Ghana,1,0,0,233
 GR,GRC,300,Grèce,3,🇬🇷,République hellénique,1,1,1,30
 GD,GRD,308,Grenade,3,🇬🇩,,1,0,0,1473
-GT,GTM,320,Guatémala,2,🇬🇹,,1,0,0,502
-GN,GIN,324,Guinée,3,🇬🇳,,1,0,0,224
-GQ,GNQ,226,Guinée équatoriale,3,🇬🇶,,1,0,0,240
-GW,GNB,624,Guinée-Bissau,3,🇬🇼,,1,0,0,245
+GT,GTM,320,Guatémala,2,🇬🇹,République du Guatemala,1,0,0,502
+GN,GIN,324,Guinée,3,🇬🇳,République de Guinée,1,0,0,224
+GQ,GNQ,226,Guinée équatoriale,3,🇬🇶,République de Guinée équatoriale,1,0,0,240
+GW,GNB,624,Guinée-Bissau,3,🇬🇼,République de Guinée-Bissau,1,0,0,245
 GY,GUY,328,Guyana,2,🇬🇾,République coopérative du Guyana,1,0,0,592
 HT,HTI,332,Haïti,1,🇭🇹,République d'Haïti,1,0,0,509
 HN,HND,340,Honduras,5,🇭🇳,,1,0,0,504
@@ -165,9 +165,9 @@ SL,SLE,694,Sierra Leone,3,🇸🇱,République de Sierra Leone,1,0,0,232
 SG,SGP,702,Singapour,0,🇸🇬,République de Singapour,1,0,0,65
 SK,SVK,703,Slovaquie,3,🇸🇰,République slovaque,1,1,1,421
 SI,SVN,705,Slovénie,3,🇸🇮,République de Slovénie,1,1,1,386
-SO,SOM,706,Somalie,3,🇸🇴,,1,0,0,252
-SD,SDN,729,Soudan,2,🇸🇩,,1,0,0,249
-SS,SSD,728,Soudan du Sud,2,🇸🇸,,1,0,0,211
+SO,SOM,706,Somalie,3,🇸🇴,République fédérale de Somalie,1,0,0,252
+SD,SDN,729,Soudan,2,🇸🇩,République du Soudan,1,0,0,249
+SS,SSD,728,Soudan du Sud,2,🇸🇸,République du Soudan du Sud,1,0,0,211
 LK,LKA,144,Sri Lanka,2,🇱🇰,République socialiste démocratique du Sri Lanka,1,0,0,94
 SE,SWE,752,Suède,3,🇸🇪,Royaume de Suède,1,1,1,46
 CH,CHE,756,Suisse,3,🇨🇭,Confédération helvétique,1,0,1,41
@@ -181,8 +181,8 @@ CZ,CZE,203,Tchéquie,3,🇨🇿,République tchèque,1,1,1,420
 TH,THA,764,Thaïlande,3,🇹🇭,Royaume de Thaïlande,1,0,0,66
 TL,TLS,626,Timor oriental,2,🇹🇱,,1,0,0,670
 TG,TGO,768,Togo,2,🇹🇬,République togolaise,1,0,0,228
-TO,TON,776,Tonga,2,🇹🇴,,1,0,0,676
-TT,TTO,780,Trinité-et-Tobago,0,🇹🇹,,1,0,0,1868
+TO,TON,776,Tonga,2,🇹🇴,Royaume des Tonga,1,0,0,676
+TT,TTO,780,Trinité-et-Tobago,0,🇹🇹,République de Trinité-et-Tobago,1,0,0,1868
 TN,TUN,788,Tunisie,3,🇹🇳,République tunisienne,1,0,0,216
 TM,TKM,795,Turkménistan,2,🇹🇲,,1,0,0,993
 TR,TUR,792,Türkiye,3,🇹🇷,République de Turquie,1,0,0,90

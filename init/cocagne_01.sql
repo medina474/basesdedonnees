@@ -1317,7 +1317,7 @@ create table action
   ordre         int,
   etape_id      bigint references etape,
   actif         boolean not null default true,
-  utilise       boolean  not null default true,
+  utilise       boolean not null default true,
   categorie_id  bigint,
   sens          smallint not null
 );

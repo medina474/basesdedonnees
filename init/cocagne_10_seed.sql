@@ -817,9 +817,6 @@ from fournisseur;
 copy "resistance"
 from '/tmp/cocagne/resistance.csv' (format csv, header);
 
-select setval(pg_get_serial_sequence('resistance', 'id'), max(id))
-from resistance;
-
 -- Article
 
 create table import.article
@@ -993,6 +990,9 @@ select id,
   caracteristique
 from import.stock;
 
+select setval(pg_get_serial_sequence('stock', 'id'), max(id))
+from stock;
+
 create table import.mouvement
 (
   id          bigint,
@@ -1079,6 +1079,9 @@ select
   conversion,
   updated_at
 from import.plan_culture;
+
+select setval(pg_get_serial_sequence('plan_culture', 'id'), max(id))
+from plan_culture;
 
 copy achat
 from '/tmp/cocagne/access/JDC _ Achat.csv' (format csv, header);

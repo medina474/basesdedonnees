@@ -474,6 +474,8 @@ select id,
   piece
   from import.abonnement;
 
+select setval(pg_get_serial_sequence('abonnement', 'id'), max(id))
+from abonnement;
 --
 
 insert into poste (id, poste) values
@@ -568,6 +570,9 @@ insert into don (adherent_id, montant, jour)
 select a.id, d.montant, d.jour from import.don d
 join adherent a on a.compte_comptable = d.compta order by jour asc;
 
+select setval(pg_get_serial_sequence('don', 'id'), max(id))
+from don;
+
 -- Code Postal
 
 select 'Codes postaux ---------------------';
@@ -621,13 +626,13 @@ select 'Paniers ---------------------';
 
 create table import.panier_commande
 (
- id bigint,
- jour date,
- semaine smallint,
- jour_semaine text,
- type_panier text,
- prix numeric(8,2),
- qte numeric(8,2)
+  id bigint,
+  jour date,
+  semaine smallint,
+  jour_semaine text,
+  type_panier text,
+  prix numeric(8,2),
+  qte numeric(8,2)
 );
 
 copy import.panier_commande
@@ -716,6 +721,9 @@ set montant =
   where p.panier_commande_id = c.id
 );
 
+select setval(pg_get_serial_sequence('panier_composition', 'id'), max(id))
+from panier_composition;
+
 -- GPAO
 -- --------------------------------------------------------------------------------
 
@@ -734,6 +742,9 @@ create table import.action
   sens          smallint
 );
 
+select setval(pg_get_serial_sequence('etape', 'id'), max(id))
+from etape;
+
 copy import.action
 from '/tmp/cocagne/access/actions.csv' (format csv, header);
 
@@ -749,9 +760,12 @@ select
   case when sens = 1 then 1 when sens = 2 then -1 else 0 end as s
 from import.action;
 
+select setval(pg_get_serial_sequence('action', 'id'), max(id))
+from action;
+
 create table import.fournisseur
 (
-  id bigint,
+  id             bigint,
   fournisseur    text not null,
   libelle_court  text,
   contact        text,
@@ -797,9 +811,14 @@ select
   compta
  from import.fournisseur;
 
+select setval(pg_get_serial_sequence('fournisseur', 'id'), max(id))
+from fournisseur;
+
 copy "resistance"
 from '/tmp/cocagne/resistance.csv' (format csv, header);
 
+select setval(pg_get_serial_sequence('resistance', 'id'), max(id))
+from resistance;
 
 -- Article
 

@@ -10,7 +10,7 @@ copy banque
 from '/tmp/cocagne/commun/banque.tsv' header;
 
 copy unite
-from '/tmp/cocagne/commun/unite.csv' (format csv, header);
+from '/tmp/cocagne/commun/unites.tsv' header;
 
 create temporary table pays_import
 (

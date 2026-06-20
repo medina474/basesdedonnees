@@ -253,6 +253,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 2053,Paxton,William,1955-05-17,2017-02-25,us,Bill Paxton,36.195
 2087,Fleischer,Richard,1916-12-08,2006-03-25,us,,4.826
 2090,Douglas,Kirk,1916-12-09,2020-02-05,us,,32.629
+2091,Mason,James,1909-05-15,1984-07-27,,,1.4797
 2120,Eidelman,Cliff,1964-12-05,,us,,0
 2130,Elwes,Cary,1962-10-26,,en,,43.616
 2133,Meyer,Dina,1968-12-22,,us,,34.912
@@ -1009,6 +1010,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 13689,Holgado,Ticky,1944-06-24,2004-01-22,fr,,4.614
 13693,Ortega,Chick,1961-03-10,,fr,,0.2143
 13779,Millar,Stuart,1929-04-25,2006-08-22,,,0
+13843,Emilfork,Daniel,1924-04-07,2006-10-17,,,0.4439
 13848,Chaplin,Charlie,1889-04-16,1977-12-25,en,,0
 13859,Rosenberg,Stuart,1927-08-11,2007-03-15,us,,0
 13922,Green,Seth,1974-02-08,,us,,73.657

@@ -1307,6 +1307,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 22240,Ripoux contre ripoux,,1990,1990-02-07,105,238448,{fr}
 22311,Une poignée de salopards,Quel maledetto treno blindato,1978,1978-02-08,98,,{it}
 22317,Jack l'Éclair,Lightning Jack,1994,1994-03-11,98,,"{au,us}"
+22396,"China 9, Liberty 37","Amore, piombo e furore",1978,1978-08-04,105,,"{it,es}"
 22501,Les maîtres du temps,,1982,1982-03-24,78,,"{fr,de,hu,ch,gb}"
 22578,Dédales,,2003,2003-09-09,100,,"{be,fr}"
 22650,Mélodie en sous-sol,,1963,1963-03-19,117,,"{fr,it}"
@@ -1370,6 +1371,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 26626,Une virée d'enfer,Glory Daze,1995,1995-10-01,113,,{us}
 26672,Le voleur et le cordonnier,The Thief and the Cobbler,1993,1993-09-23,72,,"{ca,gb,us}"
 26789,Sans pitié,No Mercy,1986,1986-12-19,108,,{us}
+26905,Boss Nigger,Boss Nigger,1975,1975-08-17,92,201932,{us}
 26978,Le Guerrier de l'espace : Aventures en zone interdite,Spacehunter: Adventures in the Forbidden Zone,1983,1983-05-20,90,,{us}
 27085,Le 6e Continent,The Land That Time Forgot,1974,1974-08-13,90,211753,"{gb,us}"
 27214,Amityville III : Le démon,Amityville 3-D,1983,1983-11-18,93,397842,{us}
@@ -1580,6 +1582,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 50012,King Lear,,1987,1987-09-15,90,,{us}
 50114,Tyson,,1995,1995-04-29,110,,{us}
 50211,Scout toujours…,,1985,1985-11-27,98,,{fr}
+50213,Une époque formidable,Une époque formidable,1991,1991-06-19,96,,{fr}
 50435,Bilitis,,1977,1977-03-16,95,,{fr}
 50627,The King of Marvin Gardens,,1972,1972-10-12,103,,{us}
 50796,Chouans !,Chouans!,1988,1988-03-23,143,,{fr}
@@ -1606,6 +1609,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 53179,Le Maître d'école,,1981,1981-10-28,95,,{fr}
 53357,Descente aux enfers,,1986,1986-11-06,85,,{fr}
 54160,Les Évadés de l'espace,宇宙からのメッセージ,1978,1978-04-29,105,,{jp}
+54164,"Et maintenant, on l'appelle El Magnifico",E poi lo chiamarono il magnifico,1972,1972-09-28,125,,"{fr,it}"
 54471,Le Jaguar,,1996,1996-10-09,100,,{fr}
 55377,Amityville IV : La Maison du diable,Amityville: The Evil Escapes,1989,1989-05-12,95,397842,{us}
 55976,Marche à l'ombre,,1984,1984-10-17,90,,{fr}
@@ -1743,6 +1747,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 97105,Amblin',,1968,1968-12-18,26,,{us}
 98025,A nous les lycéennes,La liceale,1975,1975-10-31,82,1634019,{it}
 100075,Les 2 papas et la maman,,1996,1996-04-24,85,,{fr}
+100203,Cherry Hill High,Cherry Hill High,1977,1977-04-01,87,,{us}
 101299,Hunger Games : L'Embrasement,The Hunger Games: Catching Fire,2013,2013-11-15,146,131635,{us}
 103029,Hercule et Sherlock,,1996,1996-12-04,95,,{fr}
 104334,Piège pour un tueur,Si può essere più bastardi dell'ispettore Cliff?,1973,1973-03-05,94,,{it}
@@ -1854,6 +1859,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 302750,The Dolemite Explosion,,2002,2002-05-17,76,405256,{us}
 304322,"Debout les crabes, la mer monte !",,1983,1983-08-17,90,,{}
 315837,Ghost in the Shell,,2017,2017-03-29,107,,"{cn,hk,in,us}"
+319037,On est venu là pour s'éclater,On est venu là pour s'éclater,1979,1979-09-26,95,1241873,"{fr,de}"
 323373,Deathgasm,,2015,2015-08-28,86,1375932,{nz}
 335984,Blade Runner 2049,,2017,2017-10-04,164,422837,"{ca,gb,us}"
 338703,Charité biz'ness,,1998,1998-08-26,85,,{fr}
@@ -1861,6 +1867,7 @@ film_id,titre,titre_original,annee,sortie,duree,serie_id,pays
 345666,Sam Raimi Early Shorts,,1985,1985-01-01,157,,{us}
 346672,Underworld : Blood Wars,Underworld: Blood Wars,2016,2016-11-24,93,2326,{us}
 356206,"Sauve-toi, Lola",,1986,1986-09-03,105,,"{ca,fr}"
+366140,Un dimanche de flics,Un dimanche de flics,1983,1983-10-31,95,,{}
 368161,Strong Medicine,,1986,1986-01-01,0,,{}
 375262,La Favorite,The Favourite,2018,2018-11-23,120,,"{ie,gb,us}"
 385871,Passenger,パッセンジャー　過ぎ去りし日々,1987,1987-10-03,131,,{jp}

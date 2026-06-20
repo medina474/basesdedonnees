@@ -693,6 +693,7 @@ film_id,personne_id,role,alias,ordre
 576,7767,réalisateur,,99
 576,7769,musique,,99
 576,8252,acteur,Pike Bishop,0
+576,8255,acteur,Lyle Gorch,4
 577,224,acteur,Man at Lake,0
 577,531,musique,,99
 577,2227,acteur,Suzanne Stone,0
@@ -2964,6 +2965,7 @@ film_id,personne_id,role,alias,ordre
 6320,16988,réalisateur,,99
 6320,44556,acteur,Lambert,2
 6341,6355,acteur,Officer Frank Murphy,0
+6341,8255,acteur,Braddock,1
 6341,12407,acteur,Kate,2
 6341,12840,réalisateur,,99
 6341,12845,musique,,99
@@ -4406,6 +4408,7 @@ film_id,personne_id,role,alias,ordre
 10337,8246,réalisateur,,99
 10341,2201,acteur,Henry Farber,3
 10341,4783,acteur,Eugene Fitzpatrick,2
+10341,13693,acteur,Chico Remy,7
 10341,30641,acteur,Raymond Monnet,9
 10344,7036,acteur,Martin Brundle,0
 10344,64875,réalisateur,,99
@@ -4883,6 +4886,7 @@ film_id,personne_id,role,alias,ordre
 10890,2053,acteur,Soldier,19
 10890,6065,acteur,Extra at Graduation Ceremony,0
 10890,7182,musique,,99
+10890,8255,acteur,Sgt. Hulka,2
 10890,8858,réalisateur,,99
 10897,589,acteur,Miss Crabtree,0
 10897,1063,acteur,Ms. Roberts,0
@@ -5448,6 +5452,7 @@ film_id,personne_id,role,alias,ordre
 11519,491,musique,,99
 11519,707,acteur,Sgt. Frank Tree,0
 11519,2295,acteur,Reese,67
+11519,8255,acteur,Col. 'Madman' Maddox,8
 11519,21561,acteur,Capt. Loomis Birkhead,6
 11521,1038,acteur,Dede Tate,0
 11521,1038,réalisateur,,99
@@ -5733,6 +5738,7 @@ film_id,personne_id,role,alias,ordre
 11829,18837,musique,,99
 11829,18841,acteur,Bambino,1
 11829,56033,réalisateur,,99
+11829,70625,acteur,Perla,2
 11837,5049,voix,Hazel,0
 11837,70663,réalisateur,,99
 11837,70665,roman,,99
@@ -7279,6 +7285,9 @@ film_id,personne_id,role,alias,ordre
 22317,18254,réalisateur,,99
 22317,57147,acteur,Lightning Jack Kane,0
 22317,57147,scénariste,,99
+22396,7767,acteur,Wilbur Olsen,3
+22396,8255,acteur,Matthew Sebanek,1
+22396,14464,acteur,Catherine Sebanek,2
 22578,2192,acteur,Brennac,0
 22578,24547,réalisateur,,99
 22650,15135,acteur,Francis Verlot,1
@@ -7601,6 +7610,8 @@ film_id,personne_id,role,alias,ordre
 26789,14888,acteur,Lt. Hall,7
 26789,62038,scénariste,,99
 26789,73496,réalisateur,,99
+26905,9811,acteur,Boss Nigger,0
+26905,109086,acteur,Amos,1
 26978,7182,musique,,99
 26978,8874,acteur,Washington,2
 26978,11086,acteur,OverDog,4
@@ -8493,6 +8504,7 @@ film_id,personne_id,role,alias,ordre
 42466,16028,acteur,Blacula / Prince Mamuwalde,0
 42473,491,musique,,99
 42473,1038,acteur,Becky Thatcher,4
+42473,8255,acteur,Muff Potter,2
 42473,9108,réalisateur,,99
 42473,72225,roman,,99
 42703,2090,acteur,Sen. William J. Tadlock,0
@@ -8736,6 +8748,13 @@ film_id,personne_id,role,alias,ordre
 50211,35900,acteur,Georges,1
 50211,341815,scénariste,,99
 50211,1149023,scénariste,,99
+50213,1977,acteur,'Toubib',1
+50213,13689,acteur,'Crayon',3
+50213,13693,acteur,'Mimosa',5
+50213,21171,acteur,Michel Berthier,0
+50213,24763,acteur,'Copi',4
+50213,25256,acteur,Juliette Berthier,2
+50213,54675,acteur,Interviewer,8
 50435,1973,acteur,Lucas,2
 50435,19607,musique,,99
 50435,20938,roman,,99
@@ -8865,6 +8884,8 @@ film_id,personne_id,role,alias,ordre
 53357,19267,roman,,99
 53357,32069,réalisateur,,99
 54160,9195,acteur,Shiro Hongo,9
+54164,15140,acteur,Sir Thomas Fitzpatrick Phillip Moore,0
+54164,70625,acteur,Candida Olsen,2
 54471,1003,acteur,Jean Campana,0
 54471,1965,musique,,99
 54471,11160,acteur,Kumare,5
@@ -9577,6 +9598,7 @@ film_id,personne_id,role,alias,ordre
 85483,1905246,musique,,99
 86194,2230,acteur,Regine,1
 86194,5050,acteur,Blase,4
+86194,8255,acteur,Hammond Maxwell,0
 86404,24487,acteur,Tintin,5
 86404,32688,acteur,"",9
 86404,35896,acteur,Mathias Palouzi,2
@@ -9692,6 +9714,7 @@ film_id,personne_id,role,alias,ordre
 106968,45645,réalisateur,,99
 107181,98488,acteur,Olga,1
 107184,131637,acteur,Kriminal,0
+108807,8255,acteur,Reuben J. 'Rooster' Cogburn,0
 108807,16108,acteur,Annie Sumner,2
 108807,21376,acteur,Joshua Sumner,3
 108807,35525,réalisateur,,99
@@ -9873,6 +9896,7 @@ film_id,personne_id,role,alias,ordre
 152018,543929,acteur,Micoulin,4
 152018,1004561,réalisateur,,99
 156273,13689,acteur,Gus,6
+156273,104093,acteur,Maryse,2
 156273,126590,acteur,Norbert,5
 156273,1207580,acteur,Miss,8
 157350,17329,réalisateur,,99
@@ -10124,6 +10148,9 @@ film_id,personne_id,role,alias,ordre
 315837,1245,acteur,Major Motoko Kusanagi (Mira Killian),0
 315837,3317,acteur,Chief Daisuke Aramaki,1
 315837,228134,réalisateur,,99
+319037,65635,acteur,Remy,9
+319037,126590,acteur,Gaby,8
+319037,1207580,acteur,Eve Gomez,3
 335984,3,acteur,Rick Deckard,1
 335984,32,acteur,Lieutenant Joshi,6
 335984,947,musique,,99
@@ -10163,6 +10190,7 @@ film_id,personne_id,role,alias,ordre
 356206,545669,scénariste,,99
 356206,1179688,musique,,99
 356206,3442587,roman,,99
+366140,24421,acteur,A. Rupert,1
 368161,1734,acteur,Jessica Weitz,6
 368161,4783,acteur,Vince Lord,4
 368161,10209,acteur,Amy,0

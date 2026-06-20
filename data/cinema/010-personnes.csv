@@ -665,6 +665,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 7908,Oz,Frank,1944-05-25,,en,,0
 8246,Levinson,Barry,1942-04-06,,us,,0
 8252,Holden,William,1918-04-17,1981-11-12,us,,32.133
+8255,Oates,Warren,1928-07-05,1982-04-03,us,,1.5367
 8271,Knopfler,Mark,1949-08-12,,cs,,0
 8293,Cotillard,Marion,1975-09-30,,fr,,42.845
 8296,Gans,Christophe,1960-03-11,,fr,,0
@@ -1006,6 +1007,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 13680,Caro,Marc,1956-04-02,,fr,,0
 13687,Dreyfus,Jean-Claude,1946-02-18,,fr,,4.842
 13689,Holgado,Ticky,1944-06-24,2004-01-22,fr,,4.614
+13693,Ortega,Chick,1961-03-10,,fr,,0.2143
 13779,Millar,Stuart,1929-04-25,2006-08-22,,,0
 13848,Chaplin,Charlie,1889-04-16,1977-12-25,en,,0
 13859,Rosenberg,Stuart,1927-08-11,2007-03-15,us,,0
@@ -1911,7 +1913,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 52171,Schiffer,Michael,,,,,0
 52194,Randel,Tony,1956-05-29,,us,,0
 52268,Schmoeller,David,1947-12-08,,us,,0
-52358,Yakin,Boaz,1966-06-20,,,,0
+52358,Yakin,Boaz,1966-06-20,,us,,0
 52371,Cardone,J.S.,1946-10-19,,us,,0
 52379,Jones,Tim,1971-01-01,,us,,0
 52405,Hoffman,Michael,1956-11-30,,us,,0
@@ -2341,6 +2343,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 70558,Jones,Mark,1953-01-17,2026-01-16,us,,0
 70574,Voris,Cyrus,,,,,0
 70616,Potterton,Gerald,1931-03-08,,en,,0
+70625,Somer,Yanti,1948-02-29,,,,0.7676
 70645,Garfield,Brian,1939-04-24,2018-12-29,us,,0
 70663,Rosen,Martin,,,,,0
 70665,Adams,Richard,,,,,0
@@ -2560,6 +2563,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 103393,Becker,Jacques,1906-09-15,1960-02-21,fr,,0
 103712,Rodgers,Mark,,,,,0
 103772,Griffe,Maurice,,,,,0
+104093,Aguilar,Silvia,1958-08-01,,es,,0.1832
 104908,A.,Lloyd,1948-09-06,,,,0
 106296,Le,Serge,,,,,0
 107233,Parenti,Mauro,,,,,0.1793

@@ -1709,6 +1709,7 @@ motcle_id,motcle
 5893,mama's boy
 5900,missouri
 5901,texas ranger
+5902,escort service
 5903,alzheimer's disease
 5905,father
 5906,sex addiction
@@ -2425,6 +2426,7 @@ motcle_id,motcle
 10856,bag of money
 10857,debt collector
 10864,human sacrifice
+10871,maverick
 10873,school
 10877,dead body
 10878,invasion of privacy
@@ -2651,6 +2653,7 @@ motcle_id,motcle
 12375,transhumanism
 12377,zombie
 12380,tournament
+12389,dirty tricks
 12391,boat chase
 12392,best friend
 12393,golden gate bridge
@@ -2894,6 +2897,7 @@ motcle_id,motcle
 15252,magical object
 15256,cyberspace
 15263,park ranger
+15267,james bond spoof
 15271,interrogation
 15272,gestapo
 15274,nervous breakdown
@@ -3387,6 +3391,7 @@ motcle_id,motcle
 157096,homoeroticism
 157136,lynching
 157144,stockings
+157155,explorer
 157166,beretta
 157171,nonlinear timeline
 157186,swashbuckler
@@ -3492,6 +3497,7 @@ motcle_id,motcle
 158553,pyre
 158558,disabled
 158620,russian revolution (1917)
+158639,missing parent
 158651,realism
 158679,pta
 158713,bdsm
@@ -3595,6 +3601,7 @@ motcle_id,motcle
 160292,religious conflict
 160296,religious differences
 160313,forensic
+160324,django
 160330,astronomy
 160350,evil prince
 160362,screwball
@@ -3690,6 +3697,7 @@ motcle_id,motcle
 161712,hook for a hand
 161714,disbelief
 161728,urban decay
+161814,psycho killer
 161840,obstacle course
 161849,projectionist
 161868,child's point of view
@@ -3950,6 +3958,7 @@ motcle_id,motcle
 167466,mushroom cloud
 167467,jackhammer
 167541,buddy comedy
+167542,carjacking
 167556,bowling team
 167560,hair loss
 167580,kingpin
@@ -4369,6 +4378,7 @@ motcle_id,motcle
 180197,cardiomyopathy
 180204,wounded soldier
 180206,taxidermist
+180213,waterhole
 180256,syphilis
 180257,arizona territory
 180307,driving
@@ -4565,6 +4575,7 @@ motcle_id,motcle
 188344,riviera
 188456,lost ring
 188512,prison camp
+188561,deformed man
 188647,silent film star
 188665,botched robbery
 188684,fiddler
@@ -4669,6 +4680,7 @@ motcle_id,motcle
 191045,revenge killing
 191063,national lampoon's
 191110,army base
+191132,space exploration
 191138,stock car
 191144,female mercenary
 191166,punch in face
@@ -4737,6 +4749,7 @@ motcle_id,motcle
 193269,shore patrol
 193275,devil's island
 193282,dark secret
+193285,spy spoof
 193309,police shootout
 193316,prostitution ring
 193400,teen drama
@@ -4805,6 +4818,7 @@ motcle_id,motcle
 196549,children home alone
 196581,lost child
 196584,water pump
+196631,teasing
 196664,high school dance
 196682,rich man
 196705,hospitalization
@@ -4960,6 +4974,7 @@ motcle_id,motcle
 207108,uncover truth
 207110,mysterious character
 207159,escaped killer
+207190,drug syndicate
 207240,murder trial
 207257,renaissance painting
 207268,neo-noir
@@ -5093,6 +5108,7 @@ motcle_id,motcle
 209799,whistleblower
 209817,political thriller
 209849,american mafia
+209893,jungle girl
 209907,candlestick
 209941,death of best friend
 210162,grim
@@ -5113,6 +5129,7 @@ motcle_id,motcle
 210608,1990s
 211000,animal testing
 211062,ethics
+211121,exhibitionist
 211135,intertwined lives
 211144,snake man
 211197,mysterious death
@@ -5708,6 +5725,7 @@ motcle_id,motcle
 247133,railroad company
 247336,disco music
 247567,literature teacher
+247603,hardboiled detective
 247691,lunar eclipse
 247832,roman legion
 247861,black monday
@@ -5830,6 +5848,7 @@ motcle_id,motcle
 257736,pontius pilatus
 257737,first emperor of rome
 257783,2010s
+257873,poliziottesco
 257972,famous actor
 258137,jacqueline kennedy
 258197,animal human friendship
@@ -6335,6 +6354,7 @@ motcle_id,motcle
 329390,mother and daughter love same man
 329412,french naval officer
 329716,feel-good
+329744,italian police
 332708,winged creatures
 332709,hobbits
 332710,trolls
@@ -6342,6 +6362,7 @@ motcle_id,motcle
 332714,spirits
 332715,army of the dead
 333918,magic cop
+335395,shot to death
 343236,space sci-fi
 343884,outlaws
 364682,areia

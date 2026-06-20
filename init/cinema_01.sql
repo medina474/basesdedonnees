@@ -943,7 +943,7 @@ create temporary table slogan_tmp
 set role postgres;
 
 copy pays_import
-from '/tmp/commun/pays.csv' (format csv, header, encoding 'UTF8');
+from '/tmp/commun/pays.csv' csv header;
 
 insert into pays
 select lower(code2), pays, drapeau_unicode
@@ -952,7 +952,7 @@ from pays_import;
 drop table pays_import;
 
 copy langues
-from '/tmp/cinema/003-langues.csv' csv header encoding 'utf8';
+from '/tmp/cinema/003-langues.csv' csv header;
 
 copy etablissement_tmp
 from '/tmp/cinema/cnc-données-cartographie-2024.csv' csv header  encoding 'utf8';

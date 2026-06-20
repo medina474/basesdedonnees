@@ -410,6 +410,8 @@ create table villes (
   coordonnees geometry(Point, 4326) default null::geometry
 );
 
+set role postgres;
+
 create temporary table villes_tmp (
   city text,
   city_ascii text,
@@ -424,7 +426,8 @@ create temporary table villes_tmp (
   id text
 );
 
-copy villes_tmp from '/tmp/geo/worldcities.csv' csv header;
+copy villes_tmp 
+from '/tmp/geo/worldcities.csv' csv header;
 
 insert into villes (nom, pays_code, admin_name, capital, population, coordonnees)
 select city, upper(iso2), admin_name, capital, population, st_makepoint(lng, lat)

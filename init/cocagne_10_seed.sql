@@ -304,66 +304,74 @@ copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2024.ts
 copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2025.tsv' header;
 copy planning (calendrier_id, jour) from '/tmp/cocagne/planning/planning-2026.tsv' header;
 
-insert into preparation (id, preparation, jour, ordre) values
-  (1,'Mardi', 2, 0),
-  (2,'Jeudi', 4, 1);
+copy preparation (id, preparation, jour, ordre, saison_id) from stdin;
+1	Mardi	2	0	2023
+2	Jeudi	4	1	2023
+3	Mardi	2	0	2024
+4	Jeudi	4	1	2024
+5	Mardi	2	0	2025
+6	Jeudi	4	1	2025
+7	Mardi	2	0	2026
+8	Jeudi	4	1	2026
+\.
 
 select setval(pg_get_serial_sequence('preparation', 'id'), max(id))
 from preparation;
 
--- Charme passe du calendrier du vendredi au jeudi, booleen est il pertinent ?
+-- Charmes passe du calendrier du vendredi au jeudi, booleen est il pertinent ?
 -- Quid de l'historique si on change de calendrier ?
 -- Désynchronisation du jour et de la tournée
 -- Comment réaffecter les adhérents ?
 
-insert into tournee values
-  (1,'Mardi (Épinal)',1,1,1,'yellow', true),
-  (2,'?',1,1,1,'yellow', true),
-  (3,'Mercredi matin',1,2,3,'red', true),
-  (4,'Mercredi après-midi',1,2,4,'pink', true),
-  (5,'Mercredi (Jardins)',1,2,6,'purple', true),
-  (6,'Salariés',2,3,8,'indigo', true),
-  (7,'Vendredi (Épinal)',2,4,9,'azure', true),
-  (8,'Vendredi (Jardins)',2,4,12,'lime', true),
-  (9,'Charmes',2,4,7,'green', true),
-  (10,'Gérardmer',2,4,10,'maroon', true),
-  (11,'Mercredi (Ent.)',1,2,5,'gray-700', true),
-  (12,'Vendredi (Ent.)',2,4,11,'khaki', false),
-  (13,'Mardi (Épinal)',1,5,1,'yellow', true),
-  (15,'Mercredi matin',1,6,3,'red', true),
-  (16,'Mercredi après-midi',1,6,4,'pink', true),
-  (17,'Mercredi (Jardins)',1,6,6,'purple', true),
-  (18,'Salariés',2,7,8,'indigo', true),
-  (19,'Vendredi (Épinal)',2,8,9,'azure', true),
-  (20,'Vendredi (Jardins)',2,8,12,'lime', true),
-  (21,'Charmes',2,7,7,'green', true),
-  (22,'Gérardmer',2,8,10,'maroon', true),
-  (23,'Mercredi (Ent.)',1,6,5,'gray-700', true),
-  (24,'Vendredi (Ent.)',2,8,11,'khaki', false),
-  (25,'Mardi (Épinal)',1,9,1,'yellow', true),
-  (26,'Mardi (Jardins)',1,9,2,'orange', true),
-  (27,'Mercredi matin',1,10,3,'red', true),
-  (28,'Mercredi après-midi',1,10,4,'pink', true),
-  (29,'Mercredi (Jardins)',1,10,6,'purple', true),
-  (30,'Salariés',2,11,8,'indigo', true),
-  (31,'Vendredi (Épinal)',2,12,9,'azure', true),
-  (32,'Vendredi (Jardins)',2,12,12,'lime', true),
-  (33,'Charmes',2,11,7,'green', true),
-  (34,'Gérardmer',2,12,10,'maroon', true),
-  (35,'Entreprises',1,10,5,'gray-700', true),
-  (36,'Mercredi (Ent.)',1,2,5,'gray-700', false),
-  (37,'Mardi (Épinal)',1,13,1,'yellow', true),
-  (38,'Mardi (Jardins)',1,13,2,'orange', true),
-  (39,'Mercredi matin',1,14,3,'red', true),
-  (40,'Mercredi après-midi',1,14,4,'pink', true),
-  (41,'Mercredi (Jardins)',1,14,6,'purple', true),
-  (42,'Salariés',2,15,8,'indigo', true),
-  (43,'Vendredi (Épinal)',2,16,9,'azure', true),
-  (44,'Vendredi (Jardins)',2,16,12,'lime', true),
-  (45,'Charmes',2,15,7,'green', true),
-  (46,'Gérardmer',2,16,10,'maroon', true),
-  (47,'Entreprises',1,14,5,'gray-700', true),
-  (48,'Vendredi (Ent.)',2,4,11,'khaki', false);
+copy tournee from stdin;
+1	Mardi (Épinal)	1	1	1	yellow
+2	?	1	1	1	yellow
+3	Mercredi matin	1	2	3	red
+4	Mercredi après-midi	1	2	4	pink
+5	Mercredi (Jardins)	1	2	6	purple
+6	Salariés	2	3	8	indigo
+7	Vendredi (Épinal)	2	4	9	azure
+8	Vendredi (Jardins)	2	4	12	lime
+9	Charmes	2	4	7	green
+10	Gérardmer	2	4	10	maroon
+11	Mercredi (Ent.)	1	2	5	gray-700
+12	Vendredi (Ent.)	2	4	11	khaki
+13	Mardi (Épinal)	3	5	1	yellow
+15	Mercredi matin	3	6	3	red
+16	Mercredi après-midi	3	6	4	pink
+17	Mercredi (Jardins)	3	6	6	purple
+18	Salariés	4	7	8	indigo
+19	Vendredi (Épinal)	4	8	9	azure
+20	Vendredi (Jardins)	4	8	12	lime
+21	Charmes	4	7	7	green
+22	Gérardmer	4	8	10	maroon
+23	Mercredi (Ent.)	3	6	5	gray-700
+24	Vendredi (Ent.)	4	8	11	khaki
+25	Mardi (Épinal)	5	9	1	yellow
+26	Mardi (Jardins)	5	9	2	orange
+27	Mercredi matin	5	10	3	red
+28	Mercredi après-midi	5	10	4	pink
+29	Mercredi (Jardins)	5	10	6	purple
+30	Salariés	6	11	8	indigo
+31	Vendredi (Épinal)	6	12	9	azure
+32	Vendredi (Jardins)	6	12	12	lime
+33	Charmes	6	11	7	green
+34	Gérardmer	6	12	10	maroon
+35	Entreprises	5	10	5	gray-700
+36	Mercredi (Ent.)	5	10	5	gray-700
+37	Mardi (Épinal)	7	13	1	yellow
+38	Mardi (Jardins)	7	13	2	orange
+39	Mercredi matin	7	14	3	red
+40	Mercredi après-midi	7	14	4	pink
+41	Mercredi (Jardins)	7	14	6	purple
+42	Salariés	8	15	8	indigo
+43	Vendredi (Épinal)	8	16	9	azure
+44	Vendredi (Jardins)	8	16	12	lime
+45	Charmes	8	15	7	green
+46	Gérardmer	8	16	10	maroon
+47	Entreprises	7	14	5	gray-700
+48	Vendredi (Ent.)	8	16	11	khaki
+\.
 
 select setval(pg_get_serial_sequence('tournee', 'id'), max(id))
 from tournee;
@@ -814,8 +822,8 @@ select
 select setval(pg_get_serial_sequence('fournisseur', 'id'), max(id))
 from fournisseur;
 
-copy "resistance"
-from '/tmp/cocagne/resistance.csv' (format csv, header);
+copy resistance
+from '/tmp/cocagne/resistance.csv' csv header;
 
 -- Article
 

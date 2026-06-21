@@ -28,8 +28,10 @@ film_id,slogan
 121,L'aventure continue…
 122,L'aventure s'achève.
 123,Fantasy...beyond your imagination
+129,Un tunnel qui emmènera cette petite fille vers un monde mystérieux.
 137,"Prisonnier du temps, il revit tous les jours le même jour, jusqu'au plus beau jour de sa vie."
 146,L’histoire intemporelle de deux guerriers qui ne se rendent jamais.
+149,La fin du monde n'est que le début.
 150,Un flic. Un taulard. Pas de pitié.
 162,Il ne connaît que l’innocence. Elle ne voit que la beauté.
 165,Le retour n'était que le début.
@@ -307,6 +309,7 @@ film_id,slogan
 1949,Une série de meurtres terrorise la Californie. Un seul homme les revendique.
 1955,Je ne suis pas un animal ! Je suis un être humain ! Je suis un homme !
 2005,Whoopi en bonne sœur ? C'est la meilleure !
+2011,Survivre à la révolution et à la guerre n'est que le début de la bataille
 2019,Ne chasse pas ce que tu ne peux pas tuer.
 2038,Quatre héros du passé se battent pour protéger l'avenir.
 2039,La vie. La famille. L'amour.
@@ -407,7 +410,9 @@ film_id,slogan
 4788,La dernière bataille entre le crime et la loi dans toutes les grandes villes du monde.
 4909,"Sans nom, sans visage… se déplaçant sans relâche vers la mort."
 4929,La pendaison était le meilleur spectacle en ville. Mais ils ont fait deux erreurs. Ils ont pendu le mauvais homme et n'ont pas terminé le travail.
+4935,Ils y vivaient tous les deux.
 4946,Le premier est sorti… le dernier est mort !
+4977,Entre réalité et imaginaire.
 5121,"Désormais, l'aventure est sur les routes."
 5143,Une histoire entre deux actions de Thanksgiving
 5203,An adventure of the senses.
@@ -518,6 +523,7 @@ film_id,slogan
 9312,Rien en ce monde ne vous y a préparé
 9315,Panique en plein vol…
 9319,Le but… survivre!
+9323,Qui êtes-vous ? Qui s'est glissé dans mon corps mécanique et parle à mon âme ?
 9326,On ne court pas dans la jungle en talons hauts.
 9331,La vérité a besoin d'un soldat
 9340,Prêtez serment et rejoignez l'aventure.
@@ -679,6 +685,7 @@ film_id,slogan
 10489,"Maintenant, il y a un nouveau nom pour la terreur ..."
 10493,"Ils sont seuls en mer. Quand un inconnu leur demande de l'aide, ils font l'erreur... d'accepter."
 10495,"Ce fut d’abord de maître à élève. Puis de père à fils. Maintenant, c’est d’homme à homme."
+10515,Qui est vraiment Sheeta ?
 10518,Les tentatives dangereuses d'un homme pour blanchir le nom de son père.
 10536,"Introducing the plans for a new business venture: ""The Italian Job."""
 10537,"L'histoire ultime du sexe, de la drogue et du rock 'n' roll"
@@ -779,6 +786,7 @@ film_id,slogan
 11287,"Pour atteindre l'incroyable, vous devez tenter l'impossible."
 11296,Une envolée impressionnante comme vous n'en avez encore jamais vue.
 11298,Imagine ta pire peur devenir réalité.
+11299,Ils sont là pour sauver la planète. Mais pas gratuitement.
 11300,Quelque chose de différent. Quelque chose d'audacieux. Quelque chose de dangereux.
 11305,Le dernier volet d’une trilogie comprenant « Stranger Than Paradise » et « Down By Law ».
 11308,"If you experienced ""The World According To Garp"" and found it witty, delightful and totally unpredictable, then be happily surprised all over again when you join the fun and games that go on at the...Hotel New Hampshire."
@@ -831,6 +839,7 @@ film_id,slogan
 11607,Tous les extraterrestres ne viennent pas de l'espace. Retenez votre dernier souffle ... pour crier.
 11616,L'avenir de la planète est entre leurs mains... Sauvez-vous si vous le pouvez !
 11620,La splendeur et la sauvagerie de l'empire le plus grand du monde !
+11621,Un pilote de légende !
 11623,Richard Burton est l'homme avec le pouvoir de la méduse ... il a le pouvoir de créer une catastrophe.
 11644,Le meurtre a un son qui lui est propre !
 11649,Une bataille livrée dans les étoiles... Arrive maintenant sur Terre.
@@ -913,6 +922,7 @@ film_id,slogan
 12444,La menace est partout
 12445,L’affrontement final.
 12476,C'est seulement humain à l'extérieur...
+12477,"À quatre et quatorze ans, ils ont décidé de vivre."
 12500,L'art le plus meurtrier de l'Orient est maintenant entre les mains d'un Américain.
 12502,"Le 13 novembre 1974, Karen Silkwood, une employée d'une installation nucléaire, est partie à la rencontre d'un journaliste du New York Times. Elle n'y est jamais arrivée."
 12503,The first casualty of war is the truth.
@@ -933,6 +943,7 @@ film_id,slogan
 12775,Trahi par le pouvoir. Corrompu par l'amour. Lié par l'honneur.
 12778,Ils n'attendent qu'une chose : qu'il meure !
 12919,Ronald fait un investissement dans sa dernière année. Il embauche la plus jolie pom-pom girl de l'école pour être sa petite amie.
+12924,The place promised in our early days
 13043,"Pastis par temps bleu, Pastis délicieux !"
 13105,"Quand maman va travailler, papa devient fou furieux!"
 13154,Deux policiers affrontent seuls le chef des Yakusas.
@@ -979,7 +990,9 @@ film_id,slogan
 15144,Les histoires pas ordinaires d'une fille ordinaire ...
 15152,J’aime me battre !
 15196,"Sept suspects, six armes, cinq cadavres et trois dénouements."
+15227,Votre imagination est la destination finale
 15301,Vous voyagez dans un espace fantastique dont les seules frontières sont celles de l'imaginaire.
+15371,Un château isolé… Une princesse en captivité… Et le plus grand voleur de tous les temps !
 15379,La guerre n'est pas terminée tant que le dernier homme n'est pas rentré.
 15383,Trahison. Fidélité. Collaboration. Résistance.
 15392,Le chemin de la gloire
@@ -1209,6 +1222,7 @@ film_id,slogan
 37749,This is the face of Theresa Dunn. Teacher of deaf children by day...good time girl by night.
 37753,Tu ne convoiteras point la femme de ton voisin.
 37991,Un grand retour
+38142,Sur la distance entre deux amis.
 38557,He might be able to hold back the river. But could he hold back the greed of man?
 38558,"Quoi que vous fassiez, n'appelez pas les flics..."
 38985,"Les seuls salaires qui valent la peine d'être courus, de mourir, de tuer, sont les salaires de la peur."
@@ -1260,6 +1274,7 @@ film_id,slogan
 51980,D'après le célébre roman d'Emile Zola.
 52557,"""C'est la dysenterie. Ça s'attrape facilement là-bas, plus  que les contraventions à Paris, c'est pour dire…"""
 52744,Frank et Molly vivaient séparément un amour sans histoire. Ils vont vivre ensemble une histoire d'amour.
+55931,Libérez votre esprit.
 56520,"Quand l'un des deux tombe, ce sont les deux qui se cassent la gueule."
 56589,"Le fleuve, c'est la goutte d'eau !"
 57158,"Au-delà des ténèbres, au-delà de la désolation, se cache le plus grand des dangers."
@@ -1301,6 +1316,7 @@ film_id,slogan
 100075,Le plus grand service qu'un ami puisse vous rendre.
 101299,N’oublie pas qui est l’ennemi.
 110415,2031. Nouvelle ère glaciaire. Le dernier refuge de l'humanité est un train.
+110420,Il faut choisir entre la vie sauvage et la vie humaine.
 111475,Elle peut faire faire n'importe quoi à un homme - et elle adore ça !
 111480,"Ses ordres : ""Tuer ou être tué !"""
 115082,Beaucoup d'hommes sont venus découvrir les secrets de l'Extrême-Orient. Aucun homme n'a vécu assez longtemps y parvenir !
@@ -1317,12 +1333,14 @@ film_id,slogan
 133805,Vous n'oublierez jamais son nom.
 138103,"Nouvelle équipe, nouvelle attitude, nouvelle mission."
 138659,Le bonheur ça se mérite !
+149870,Les avions sont des rêves merveilleux
 151027,Elle est plus chaude que Kotter... et nous l'avons
 156273,Aventures de drageurs à Agadir
 157350,"Cinq destins, un seul choix."
 161371,Par où t'es rentré ? On t'a pas vu sortir
 163879,Le plus Bath des agents secrets
 188987,Comedy ; Crime
+198375,Perdu dans la vie. Trouvé dans l'amour.
 203833,Courage au-delà des mots.
 222268,Les dessous de Ramatuelle
 262500,Affrontez la réalité.
@@ -1336,7 +1354,9 @@ film_id,slogan
 319037,"Une île de plaisir, de soleil et de corps époustouflants !"
 335984,La clé de l’avenir est enfin découverte.
 346672,Protéger la lignée.
+372058,"C'était comme une séquence d'un rêve. Ni plus, ni moins qu'une vue absolument sublime."
 375262,Leur folle lutte pour le pouvoir commence.
+378108,"Contre la fatalité, le courage et la famille triomphent toujours."
 396535,"Pour rester en vie, montez à bord."
 399579,Derrière l'ange se cache une guerrière
 401306,"Ce qu'il faut maintenant, c’est pas rattraper les Allemands qui sont devant ... sans se laisser rattraper par les Allemands qui sont derrière"
@@ -1346,6 +1366,7 @@ film_id,slogan
 466420,L'avidité est un animal qui a soif de sang.
 471506,Elle veut être votre amie
 517839,Sentir quelque chose de beau.
+568160,Une histoire sur le secret de ce monde que seuls moi et elle connaissons.
 577242,Il revient pas pour trier les lentilles.
 604563,Le monde a changé. Sauf lui.
 653346,Nul ne peut arrêter le règne.

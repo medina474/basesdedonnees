@@ -798,8 +798,7 @@ create table tournee
   preparation_id bigint   not null references preparation,
   calendrier_id  bigint   not null references calendrier,
   ordre          smallint not null,
-  couleur        text     not null,
-  actif          boolean  not null default true
+  couleur        text     not null
 );
 
 create index ux_tournee_ordre on tournee(ordre);

@@ -1423,6 +1423,7 @@ film_id,personne_id,role,alias,ordre
 902,13680,réalisateur,,99
 902,13687,acteur,Marcello,4
 902,13689,acteur,Ex-Acrobat,10
+902,13843,acteur,Krank,3
 907,400,acteur,Tonya Gromeko,2
 907,2704,musique,,99
 907,12238,réalisateur,,99
@@ -2574,6 +2575,7 @@ film_id,personne_id,role,alias,ordre
 4192,15200,acteur,Louise Bourget,1
 4192,47562,scénariste,,99
 4192,47562,roman,,99
+4193,2091,acteur,Odell Gardener,1
 4193,9915,réalisateur,,99
 4193,10978,acteur,Daphne Castle,4
 4193,14501,acteur,Hercule Poirot,0
@@ -6088,6 +6090,7 @@ film_id,personne_id,role,alias,ordre
 12160,6065,acteur,Doc Holliday,1
 12160,8844,réalisateur,,99
 12160,11514,acteur,Allie Earp,9
+12185,2091,acteur,Mr. Jordan,2
 12185,6449,acteur,Joe Pendleton,0
 12185,6449,réalisateur,,99
 12185,7795,acteur,The Escort,6
@@ -6815,6 +6818,7 @@ film_id,personne_id,role,alias,ordre
 17258,21625,acteur,Randy Jensen,0
 17258,56381,réalisateur,,99
 17258,56381,scénariste,,99
+17277,2091,acteur,Timonides,3
 17277,4082,musique,,99
 17277,16757,acteur,Lucilla,0
 17277,40199,réalisateur,,99
@@ -8323,6 +8327,7 @@ film_id,personne_id,role,alias,ordre
 39263,39066,acteur,Corbeck,2
 39263,53815,acteur,Professor Julian Fuchs,1
 39263,95099,acteur,Margaret Fuchs / Queen Tera,0
+39382,2091,acteur,Isaac of York,1
 39382,4783,acteur,Brian de Bois-Guilbert,2
 39382,19573,scénariste,,99
 39382,94781,scénariste,,99
@@ -8707,6 +8712,7 @@ film_id,personne_id,role,alias,ordre
 49051,71580,acteur,Necromancer,33
 49398,11214,acteur,Ben-Hur Marcel / Aminemephet,0
 49398,12270,acteur,Jules César,1
+49398,13843,acteur,Tatouius,8
 49398,24381,acteur,Paulus,2
 49398,24381,réalisateur,,99
 49398,24381,scénariste,,99
@@ -9927,6 +9933,7 @@ film_id,personne_id,role,alias,ordre
 161371,25181,acteur,Nadège de Courtaboeuf,2
 161371,126585,acteur,Prosper de Courtaboeuf,1
 161371,126585,réalisateur,,99
+163879,13843,acteur,Sacha,8
 163879,91638,acteur,"Hubert Bonisseur de La Bath, alias OSS 117",0
 164126,18778,réalisateur,,99
 164126,21177,acteur,Hippolyte Pecheral,0
@@ -10048,7 +10055,9 @@ film_id,personne_id,role,alias,ordre
 227468,32094,acteur,Louise,5
 227468,46788,acteur,Monsieur Ping,6
 227468,228209,acteur,Georgette,2
+234266,2091,acteur,Alan Hamilton,2
 234266,3830,acteur,Emily Hamilton,1
+234266,13843,acteur,Mejid,4
 234266,107233,acteur,Cremona,5
 242248,3531,scénariste,,99
 242248,21177,acteur,Philippe Darland,0

@@ -4,7 +4,7 @@
 \copy (select film_id, personne_id, role, alias, ordre from equipes order by film_id, personne_id, role, alias) to 'data/cinema/031-equipes.csv' (format csv, header, encoding 'utf8');
 \copy (select film_id, titre, titre_original, annee, sortie, duree, serie_id, pays from films order by film_id) to 'data/cinema/030-films.csv' (format csv, header, encoding 'utf8');
 \copy (select film_id, slogan from films where slogan is not null order by film_id) to 'data/cinema/030-films_slogan.csv' (format csv, header, encoding 'utf8');
-\copy (select film_id, genre_id from films_genres order by film_id) to 'data/cinema/041-films_genres.csv' (format csv, header, encoding 'utf8');
+\copy (select film_id, genre_id from films_genre order by film_id) to 'data/cinema/041-films_genres.csv' (format csv, header, encoding 'utf8');
 \copy (select id, site_id, identifiant from links_personnes order by id, site_id) to 'data/cinema/042-links_personnes.csv' (format csv, header, encoding 'utf8');
 \copy (select id, site_id, identifiant from links_films order by id, site_id) to 'data/cinema/042-links_films.csv' (format csv, header, encoding 'utf8');
 \copy (select personne_id, nom, prenom, naissance, deces, nationalite, artiste, popularite from personnes order by personne_id) to 'data/cinema/010-personnes.csv' (format csv, header, encoding 'utf8');

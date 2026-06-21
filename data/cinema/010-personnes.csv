@@ -31,6 +31,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 147,Madsen,Michael,1957-09-25,2025-07-03,us,,41.772
 153,Newman,Thomas,1955-10-20,,us,,0
 154,Murch,Walter,1943-07-12,,us,,0
+185,Ōtomo,Katsuhiro,1954-04-14,,jp,,0.9935
 190,Eastwood,Clint,1930-05-31,,us,,81.059
 192,Freeman,Morgan,1937-06-01,,us,,58.228
 193,Hackman,Eugene Allen,1930-01-30,2025-02-17,us,Gene Hackman,26.747
@@ -86,6 +87,8 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 591,James,Brion,1945-02-20,1999-08-07,us,,36.715
 593,Cassidy,Joanna,1945-08-02,,us,,20.621
 607,Yimou,Zhang,1950-04-02,,cn,,0
+608,Miyazaki,Hayao,1941-01-05,,jp,,3.6324
+628,Takahata,Isao,1935-10-29,2018-04-05,jp,,1.2357
 638,Mann,Michael,1943-02-05,,us,,0
 648,Kaufman,Philip,1936-10-23,,us,,0
 650,Allen,Karen,1951-10-05,,us,,45.409
@@ -253,7 +256,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 2053,Paxton,William,1955-05-17,2017-02-25,us,Bill Paxton,36.195
 2087,Fleischer,Richard,1916-12-08,2006-03-25,us,,4.826
 2090,Douglas,Kirk,1916-12-09,2020-02-05,us,,32.629
-2091,Mason,James,1909-05-15,1984-07-27,,,1.4797
+2091,Mason,James,1909-05-15,1984-07-27,en,,1.4797
 2120,Eidelman,Cliff,1964-12-05,,us,,0
 2130,Elwes,Cary,1962-10-26,,en,,43.616
 2133,Meyer,Dina,1968-12-22,,us,,34.912
@@ -927,6 +930,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 12068,Holmes,Rupert,1947-02-24,,en,,0
 12114,Cimino,Michael,1939-02-03,2016-07-02,us,,0
 12132,Rooker,Michael,1955-04-06,,us,,59.274
+12180,Oshii,Mamoru,1951-08-08,,jp,,1.3381
 12217,Mohr,Jay,1970-08-23,,us,,5.228
 12238,Lean,David,1908-03-25,1991-04-16,en,,0
 12240,Boulle,Pierre,1912-02-20,1994-01-30,fr,,0
@@ -2136,6 +2140,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 62419,Fung,Stanley,1945-06-01,2025-10-31,cn,,7.662
 62423,Ching-Ying,Lam,1952-12-27,1997-11-08,hk,,10.872
 62433,Roques,Damien,,,,,0
+62460,Giraud,Jean,1938-05-08,2012-03-10,fr,,0.4758
 62461,Charlier,Jean-Michel,1924-10-30,1989-07-10,be,,0
 62462,Le,Matthieu,,,,,0
 62465,Coquelle,Alexandre,,,,,0
@@ -2408,6 +2413,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 73935,Pierson,Dori,,,,,0
 73936,Reid,Marc,,,,,0
 73949,Garrett,Snuff,1938-07-05,2015-12-16,us,,0
+74091,Shinkai,Makoto,1973-02-09,,jp,,2.7942
 74112,Onteniente,Fabien,1958-04-27,,fr,,0
 74113,Booz,Emanuel,1943-04-18,,fr,,0
 74114,Guillard,Philippe,1961-05-13,,fr,,0
@@ -2431,6 +2437,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 77860,Gamblin,Jacques,1957-11-16,,fr,,8.266
 77929,Morel,François,1959-06-10,,fr,,4.955
 77996,Butterfield,Asa,1997-04-01,,en,,65.819
+78014,松本零士,"",1938-01-25,2023-02-13,jp,,0.9702
 78216,Bourgoin,Louise,1981-11-28,,fr,,19.587
 78224,Tovati,Elisa,1976-03-23,,fr,,10.17
 78424,Halin,Jean-François,1961-11-20,,fr,,0
@@ -2525,6 +2532,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 96369,Saura,Carlos,1932-01-04,2023-02-10,es,,0
 96627,Téchiné,André,1943-03-13,,fr,,0
 96930,Nebout,Claire,1964-05-20,,fr,,7.736
+97288,出崎統,"",1943-11-18,2011-04-17,jp,,1.1511
 97646,Micklin,Joan,1935-05-24,2020-12-31,,,0
 97743,Jenning,Michael,,,,,0
 97912,Jones,Duane,1936-02-02,1988-07-22,us,,8.41
@@ -2636,6 +2644,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 129612,Bruner,James,,,,,0
 129692,Swaim,Bob,1943-11-02,,us,,0
 130640,Steinfeld,Hailee,1996-12-11,,us,,57.461
+131375,Wul,Stefan,,,,,0.0352
 131637,Saxson,Glenn,1942-03-05,,nl,,0.2516
 131732,Xinxin,Xiong,1962-02-25,,cn,,11.694
 132235,Bourseiller,Christophe,1957-09-27,,fr,,3.093
@@ -2872,6 +2881,7 @@ personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 1055164,Ritenour,Lee,1952-01-11,,us,,0
 1059107,Julian,Charlotte,1951-01-12,,fr,,3.922
 1061481,Styron,William,1925-06-11,2006-11-01,us,,0
+1064964,寺沢武一,"",1955-03-30,2023-09-08,,,0.4119
 1065210,Brelis,Tia,,,,,0
 1068923,Capps,Al,,,,,0
 1071189,Cloërec,René,1911-05-31,1995-12-13,fr,,0

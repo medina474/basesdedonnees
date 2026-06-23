@@ -97,6 +97,22 @@ create table messenger_messages (
 create index idx_messenger_messages 
   on messenger_messages (queue_name, available_at, delivered_at, id);
 
+--
+-- --------------------------------------------------------------------------------
+
+create table audit (
+	id bigint primary key generated always as identity,
+	created_at timestamptz default current_timestamp not null,
+	"action" varchar(50) not null,
+	user_id bigint,
+	entity varchar(50) null,
+	entity_id bigint null,
+  ip_address inet null,
+  user_agent text null,
+	message text,
+  data jsonb
+);
+
 -- Données générales
 -- --------------------------------------------------------------------------------
 
@@ -152,7 +168,7 @@ create table unite
   unite text
 );
 
-comment on table unite is 'Recommendation no. 20 – Codes for Units of Measure Used in International Trade. https://unece.org/trade/uncefact/cl-recommendations';
+comment on table unite is 'Recommendation no. 20 – Codes for Units of Measure Used in International Trade. https://unece.org/trade/uncefact/cl-recommendations - Peppol BIS Billing 3.0 @unitCode. https://docs.peppol.eu/poacc/billing/3.0/codelist/UNECERec20/';
 
 select 'Codes officiels géographiques ---------------------';
 

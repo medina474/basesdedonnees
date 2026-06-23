@@ -115,6 +115,17 @@ create table audit (
   data jsonb
 );
 
+create table job (
+  id uuid primary key default uuidv4(),
+  status text not null,
+  payload jsonb  not null,
+  result JSONB   null,
+  error_message  text null,
+  created_at     timestamp(0) with time zone default current_timestamp not null,
+  completed_at   timestamp(0) with time zone default NULL::timestamp(0) with time zone
+);
+
+
 -- Données générales
 -- --------------------------------------------------------------------------------
 

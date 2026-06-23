@@ -101,15 +101,17 @@ create index idx_messenger_messages
 -- --------------------------------------------------------------------------------
 
 create table audit (
-	id bigint primary key generated always as identity,
-	created_at timestamptz default current_timestamp not null,
-	"action" varchar(50) not null,
-	user_id bigint,
-	entity varchar(50) null,
-	entity_id bigint null,
+  id bigint primary key generated always as identity,
+  created_at timestamptz default current_timestamp not null,
+  "action" varchar(50) not null,
+  user_id bigint,
+  entity varchar(50) null,
+  entity_id bigint null,
   ip_address inet null,
   user_agent text null,
-	message text,
+  trace_id char(32),
+  span_id char(16),
+  message text,
   data jsonb
 );
 

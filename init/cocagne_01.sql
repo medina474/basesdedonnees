@@ -427,9 +427,9 @@ end;
 $$ language plpgsql;
 
 create trigger ferie_within_saison_check_trigger
-    before insert or update
-    on ferie
-    for each row
+before insert or update
+on ferie
+for each row
 execute function ferie_within_saison_check();
 
 -- Profils
@@ -654,11 +654,11 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER trg_lock_calendrier_saison
-BEFORE UPDATE OF saison_id
-ON calendrier
-FOR EACH ROW
-EXECUTE FUNCTION lock_calendrier_saison();
+create trigger trg_lock_calendrier_saison
+before update of saison_id
+on calendrier
+for each row
+execute function lock_calendrier_saison();
 
 
 -- Planning : Les jours de livraisons possible par calendrier
@@ -723,9 +723,9 @@ end;
 $$ language plpgsql;
 
 create trigger planning_jour_valid_trigger
-  before insert or update
-  on planning
-  for each row
+before insert or update
+on planning
+for each row
 execute function planning_jour_valid();
 
 --
@@ -794,11 +794,11 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER trg_lock_preparation_saison
-BEFORE UPDATE OF saison_id
-ON preparation
-FOR EACH ROW
-EXECUTE FUNCTION lock_preparation_saison();
+create trigger trg_lock_preparation_saison
+before update of saison_id
+on preparation
+for each row
+execute function lock_preparation_saison();
 
 -- Tournées
 
@@ -858,11 +858,11 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER trg_check_tournee_same_saison
-BEFORE INSERT OR UPDATE OF preparation_id, calendrier_id
-ON tournee
-FOR EACH ROW
-EXECUTE FUNCTION check_tournee_same_saison();
+create trigger trg_check_tournee_same_saison
+before insert or update of preparation_id, calendrier_id
+on tournee
+for each row
+execute function check_tournee_same_saison();
 
 -- Points de livraison
 

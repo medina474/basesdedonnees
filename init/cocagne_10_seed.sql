@@ -103,20 +103,21 @@ from saison;
 
 -- Possibilité en 2023 de commander des panier à la carte la 51e semaine. Semaine non planifiée mais ouverte.
 
-insert into fermeture (saison_id, semaine) values
-  (2020,52),
-  (2021,51),
-  (2021,52),
-  (2022,51),
-  (2022,52),
-  (2023,52),
-  (2024,1),
-  (2024,52),
-  (2025,1),
-  (2025,52),
-  (2026,1),
-  (2026,52),
-  (2026,53);
+copy fermeture (saison_id, semaine) from stdin;
+2020	52
+2021	51
+2021	52
+2022	51
+2022	52
+2023	52
+2024	1
+2024	52
+2025	1
+2025	52
+2026	1
+2026	52
+2026	53
+\.
 
 copy ferie (saison_id, ferie, jour)
 from '/tmp/cocagne/commun/ferie.tsv' header;
@@ -537,21 +538,22 @@ insert into famille values
 select setval(pg_get_serial_sequence('famille', 'id'), max(id))
 from famille;
 
-insert into categorie values
-(2,'Achat légume/épicerie'),
-(3,'Champignon'),
-(4,'Légume'),
-(5,'Transformé'),
-(6,'Plant'),
-(9,'Graine'),
-(10,'Tubercule'),
-(11,'Bulbe'),
-(12,'Racine'),
-(13,'Bouture'),
-(14,'Aromate'),
-(15,'Fruit'),
-(16,'Mycélium'),
-(17,'Fleur');
+copy categorie from stdin;
+2	Achat légume/épicerie
+3	Champignon
+4	Légume
+5	Transformé
+6	Plant
+9	Graine
+10	Tubercule
+11	Bulbe
+12	Racine
+13	Bouture
+14	Aromate
+15	Fruit
+16	Mycélium
+17	Fleur
+\.
 
 select setval(pg_get_serial_sequence('categorie', 'id'), max(id))
 from categorie;

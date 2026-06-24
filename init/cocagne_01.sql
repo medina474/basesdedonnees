@@ -129,7 +129,8 @@ create table job (
 -- Données générales
 -- --------------------------------------------------------------------------------
 
--- Chronologie
+select 'Chronologie -------------------------------------------';
+
 create table chronologie as
   with recursive calendrier as (
     select

@@ -13,3 +13,28 @@ CA-SK,T.AME.AMN.CA.CA-SK,Saskatchewan,Saskatchewan,Provinces,
 CA-NT,T.AME.AMN.CA.CA-NT,Northwest Territories,Territoires du Nord-Ouest,Territoires,
 CA-NU,T.AME.AMN.CA.CA-NU,Nunavut,Nunavut,Territoires,
 CA-YT,T.AME.AMN.CA.CA-YT,Yukon Territory,Territoire du Yukon,Territoires,
+CA-QC-01,T.AME.AMN.CA.CA-QC.01,Bas-Saint-Laurent,,Région,Rimouski
+CA-QC-02,T.AME.AMN.CA.CA-QC.02,Saguenay–Lac-Saint-Jean,,Région,Saguenay
+CA-QC-03,T.AME.AMN.CA.CA-QC.03,Capitale-Nationale,,Région,Québec
+CA-QC-04,T.AME.AMN.CA.CA-QC.04,Mauricie,,Région,Trois-Rivières
+CA-QC-05,T.AME.AMN.CA.CA-QC.05,Estrie,,Région,Sherbrooke
+CA-QC-06,T.AME.AMN.CA.CA-QC.06,Montréal,,Région,Montréal
+CA-QC-07,T.AME.AMN.CA.CA-QC.07,Outaouais,,Région,Gatineau
+CA-QC-08,T.AME.AMN.CA.CA-QC.08,Abitibi-Témiscamingue,,Région,Rouyn-Noranda
+CA-QC-09,T.AME.AMN.CA.CA-QC.09,Côte-Nord,,Région,Sept-Îles
+CA-QC-10,T.AME.AMN.CA.CA-QC.10,Nord-du-Québec,,Région,Chibougamau
+CA-QC-11,T.AME.AMN.CA.CA-QC.11,Gaspésie–Îles-de-la-Madeleine,,Région,Gaspé
+CA-QC-12,T.AME.AMN.CA.CA-QC.12,Chaudière-Appalaches,,Région,Lévis
+CA-QC-13,T.AME.AMN.CA.CA-QC.13,Laval,,Région,Laval
+CA-QC-14,T.AME.AMN.CA.CA-QC.14,Lanaudière,,Région,Terrebonne
+CA-QC-15,T.AME.AMN.CA.CA-QC.15,Laurentides,,Région,Saint-Jérôme
+CA-QC-16,T.AME.AMN.CA.CA-QC.16,Montérégie,,Région,Longueuil
+CA-QC-17,T.AME.AMN.CA.CA-QC.17,Centre-du-Québec,,Région,Drummondville
+CA-QC-01-01,T.AME.AMN.CA.CA-QC.01.01,Kamouraska,,municipalité régionale de comté,Saint-Pascal
+CA-QC-01-02,T.AME.AMN.CA.CA-QC.01.02,Rivière-du-Loup,,municipalité régionale de comté,Rivière-du-Loup
+CA-QC-01-03,T.AME.AMN.CA.CA-QC.01.03,Les Basques,,municipalité régionale de comté,Trois-Pistoles
+CA-QC-01-04,T.AME.AMN.CA.CA-QC.01.04,Témiscouata,,municipalité régionale de comté,Témiscouata-sur-le-Lac
+CA-QC-01-05,T.AME.AMN.CA.CA-QC.01.05,Rimouski-Neigette,,municipalité régionale de comté,Rimouski
+CA-QC-01-06,T.AME.AMN.CA.CA-QC.01.06,La Mitis,,municipalité régionale de comté,Mont-Joli
+CA-QC-01-07,T.AME.AMN.CA.CA-QC.01.07,La Matapédia,,municipalité régionale de comté,Amqui
+CA-QC-01-08,T.AME.AMN.CA.CA-QC.01.08,La Matanie,,municipalité régionale de comté,Matane

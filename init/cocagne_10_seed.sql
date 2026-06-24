@@ -239,6 +239,8 @@ copy cotisation (saison_id, profil_id, montant, code) from stdin;
 --update adhesion set moyen_paiement_id = null
 --  where saison_id = 2026 and numero is null and montant = 0;
 
+select 'Cotisation -------------------------------------------';
+
 create table import.cotisation
 (
   compta text,
@@ -277,7 +279,7 @@ from '/tmp/cocagne/paniers.tsv' header;
 select setval(pg_get_serial_sequence('panier', 'id'), max(id))
 from panier;
 
-select 'Tournées ---------------------';
+select 'Tournées -------------------------------------------';
 
 insert into calendrier (id,saison_id,calendrier) values
   (1,2023,'Livraisons du mardi'),
@@ -773,6 +775,8 @@ from import.action;
 select setval(pg_get_serial_sequence('action', 'id'), max(id))
 from action;
 
+select 'Fournisseurs -------------------------------------------';
+
 create table import.fournisseur
 (
   id             bigint,
@@ -827,7 +831,7 @@ from fournisseur;
 copy resistance
 from '/tmp/cocagne/resistance.csv' csv header;
 
--- Article
+select 'Articles -------------------------------------------';
 
 create table import.article
 (

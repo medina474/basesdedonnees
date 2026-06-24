@@ -158,6 +158,8 @@ create table chronologie as
     (extract (doy from jour) / extract (doy from (extract (year from jour)||'-12-31')::date))::real  as frac_annee
   from calendrier;
 
+comment on column chronologie.jj is 'Jour julien';
+
 select 'Banques -------------------------------------------';
 
 create table banque
@@ -501,7 +503,7 @@ create table adherent
 
 grant usage on sequence public.adherent_id_seq to cocagne;
 
-comment on column adherent.depot_id is 'Dépôt préféré.';
+comment on column adherent.depot_id is 'Dépôt préféré';
 
 -- ----------
 -- Adhérents : colonne pour la recherche textuelle
@@ -544,7 +546,7 @@ from adherent a
   where a.date_sortie is null;
 
 comment on view stats.adherents_actifs
-  is 'Nombre total d''adhérents actifs.';
+  is 'Nombre total d''adhérents actifs';
 
 -- Cotisation
 -- --------------------------------------------------------------------------------
@@ -586,7 +588,7 @@ join saison s on s.id = a.saison_id
 group by s.id;
 
 comment on view stats.nb_adhesions
-  is 'Total des adhésions par saisons.';
+  is 'Total des adhésions par saisons';
 
 -- Produit / Panier
 

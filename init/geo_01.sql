@@ -166,6 +166,7 @@ create table epci (
 );
 
 --
+\pset tuples_only on
 
 set role postgres;
 
@@ -173,9 +174,12 @@ copy langue from '/tmp/commun/langues.csv' (format csv, header, delimiter ',', e
 
 copy administration from '/tmp/commun/administrations.csv' (format csv, header, delimiter ',', encoding 'utf8');
 
+select 'Régions -------------------------------------------';
+
 copy subdivision from '/tmp/commun/regions.csv' (format csv, header, delimiter ',', encoding 'utf8');
 copy subdivision from '/tmp/commun/at.csv' (format csv, header, delimiter ',', encoding 'utf8');
 copy subdivision from '/tmp/commun/be.csv' (format csv, header, delimiter ',', encoding 'utf8');
+copy subdivision from '/tmp/commun/ca.csv' (format csv, header, delimiter ',', encoding 'utf8');
 copy subdivision from '/tmp/commun/ch.csv' (format csv, header, delimiter ',', encoding 'utf8');
 copy subdivision from '/tmp/commun/de.csv' (format csv, header, delimiter ',', encoding 'utf8');
 copy subdivision from '/tmp/commun/dk.csv' (format csv, header, delimiter ',', encoding 'utf8');
@@ -199,6 +203,8 @@ copy subdivision from '/tmp/commun/se.csv' (format csv, header, delimiter ',', e
 copy subdivision from '/tmp/commun/ua.csv' (format csv, header, delimiter ',', encoding 'utf8');
 copy subdivision from '/tmp/commun/us.csv' (format csv, header, delimiter ',', encoding 'utf8');
 --
+
+select 'Communes -------------------------------------------';
 
 create temporary table commune_temp (
   id integer,
@@ -400,6 +406,8 @@ update pays set nom_eng = 'Taiwan' where code2 = 'TW';
 
 drop table pays_tmp;
 --
+
+select 'Villes -------------------------------------------';
 
 create table villes (
   nom text not null,
